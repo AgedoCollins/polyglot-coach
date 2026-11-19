@@ -1,0 +1,151 @@
+# Format: English | French | Dutch | English example | French example | Dutch example
+## 0 Politics & society
+government | le gouvernement | de regering | The government announced new measures. | Le gouvernement a annoncé de nouvelles mesures. | De regering kondigde nieuwe maatregelen aan.
+election | l'élection (f.) | de verkiezing | The elections are in May. | Les élections ont lieu en mai. | De verkiezingen zijn in mei.
+to vote | voter | stemmen | Voting is compulsory in Belgium. | Le vote est obligatoire en Belgique. | Stemmen is verplicht in België.
+party (political) | le parti | de partij | Which party won? | Quel parti a gagné ? | Welke partij heeft gewonnen?
+minister | le / la ministre | de minister | The minister resigned. | Le ministre a démissionné. | De minister nam ontslag.
+parliament | le parlement | het parlement | The parliament voted the law. | Le parlement a voté la loi. | Het parlement keurde de wet goed.
+mayor | le bourgmestre / le maire | de burgemeester | The mayor opened the festival. | Le bourgmestre a ouvert le festival. | De burgemeester opende het festival.
+citizen | le citoyen / la citoyenne | de burger | Every citizen has rights. | Chaque citoyen a des droits. | Elke burger heeft rechten.
+policy | la politique (mesures) | het beleid | Housing policy must change. | La politique du logement doit changer. | Het woonbeleid moet veranderen.
+reform | la réforme | de hervorming | A pension reform. | Une réforme des pensions. | Een pensioenhervorming.
+to campaign | faire campagne | campagne voeren | They are campaigning for the climate. | Ils font campagne pour le climat. | Ze voeren campagne voor het klimaat.
+coalition | la coalition | de coalitie | The coalition is fragile. | La coalition est fragile. | De coalitie is wankel.
+majority | la majorité | de meerderheid | A large majority voted yes. | Une large majorité a voté oui. | Een grote meerderheid stemde ja.
+minority | la minorité | de minderheid | The rights of minorities. | Les droits des minorités. | De rechten van minderheden.
+inequality | l'inégalité (f.) | de ongelijkheid | Social inequality is growing. | Les inégalités sociales augmentent. | De sociale ongelijkheid groeit.
+immigration | l'immigration (f.) | de immigratie | Immigration is a hot topic. | L'immigration est un sujet brûlant. | Immigratie is een heet hangijzer.
+integration | l'intégration (f.) | de integratie / de inburgering | An integration course. | Un parcours d'intégration. | Een inburgeringstraject.
+federal | fédéral | federaal | Belgium is a federal state. | La Belgique est un État fédéral. | België is een federale staat.
+region | la région | het gewest / de regio | Flanders is a region. | La Flandre est une région. | Vlaanderen is een gewest.
+protest | la manifestation | de betoging | A protest in Brussels. | Une manifestation à Bruxelles. | Een betoging in Brussel.
+strike | la grève | de staking | The trains are on strike. | Les trains sont en grève. | De treinen staken.
+welfare state | l'État-providence (m.) | de welvaartsstaat | The welfare state protects people. | L'État-providence protège les gens. | De welvaartsstaat beschermt mensen.
+public opinion | l'opinion publique (f.) | de publieke opinie | Public opinion is divided. | L'opinion publique est divisée. | De publieke opinie is verdeeld.
+to govern | gouverner | regeren / besturen | It's hard to govern this country. | C'est difficile de gouverner ce pays. | Het is moeilijk om dit land te besturen.
+## 1 Economy & business
+economy | l'économie (f.) | de economie | The economy is slowing down. | L'économie ralentit. | De economie vertraagt.
+growth | la croissance | de groei | Economic growth of 1%. | Une croissance économique de 1 %. | Een economische groei van 1%.
+recession | la récession | de recessie | The country is in recession. | Le pays est en récession. | Het land zit in een recessie.
+market | le marché | de markt | The housing market. | Le marché immobilier. | De woningmarkt.
+supply and demand | l'offre et la demande | vraag en aanbod | Prices depend on supply and demand. | Les prix dépendent de l'offre et de la demande. | Prijzen hangen af van vraag en aanbod.
+competition | la concurrence | de concurrentie | Competition is fierce. | La concurrence est rude. | De concurrentie is hevig.
+profit | le bénéfice / le profit | de winst | The company made a profit. | L'entreprise a fait des bénéfices. | Het bedrijf maakte winst.
+loss | la perte | het verlies | A loss of 2 million. | Une perte de 2 millions. | Een verlies van 2 miljoen.
+turnover | le chiffre d'affaires | de omzet | Turnover increased by 5%. | Le chiffre d'affaires a augmenté de 5 %. | De omzet steeg met 5%.
+shareholder | l'actionnaire (m./f.) | de aandeelhouder | The shareholders are happy. | Les actionnaires sont contents. | De aandeelhouders zijn tevreden.
+share (stock) | l'action (f.) | het aandeel | Shares fell sharply. | Les actions ont fortement baissé. | De aandelen daalden sterk.
+entrepreneur | l'entrepreneur(e) | de ondernemer | She's a young entrepreneur. | C'est une jeune entrepreneuse. | Ze is een jonge ondernemer.
+start-up | la start-up / la jeune pousse | de start-up | He launched a start-up. | Il a lancé une start-up. | Hij richtte een start-up op.
+negotiation | la négociation | de onderhandeling | The negotiations failed. | Les négociations ont échoué. | De onderhandelingen zijn mislukt.
+to negotiate | négocier | onderhandelen | We need to negotiate the price. | Nous devons négocier le prix. | We moeten over de prijs onderhandelen.
+customer service | le service client | de klantendienst | Call customer service. | Appelez le service client. | Bel de klantendienst.
+supplier | le fournisseur | de leverancier | We changed supplier. | Nous avons changé de fournisseur. | We zijn van leverancier veranderd.
+unemployment | le chômage | de werkloosheid | Unemployment is falling. | Le chômage baisse. | De werkloosheid daalt.
+to export | exporter | exporteren / uitvoeren | Belgium exports chocolate. | La Belgique exporte du chocolat. | België exporteert chocolade.
+trade | le commerce | de handel | International trade. | Le commerce international. | De internationale handel.
+strategy | la stratégie | de strategie | A new marketing strategy. | Une nouvelle stratégie marketing. | Een nieuwe marketingstrategie.
+to launch | lancer | lanceren | We're launching a new product. | Nous lançons un nouveau produit. | We lanceren een nieuw product.
+bankruptcy | la faillite | het faillissement | The shop went bankrupt. | Le magasin a fait faillite. | De winkel ging failliet.
+investment | l'investissement (m.) | de investering | A big investment in the port. | Un gros investissement dans le port. | Een grote investering in de haven.
+## 2 Law & justice
+law | la loi / le droit | de wet / het recht | It's against the law. | C'est contraire à la loi. | Het is tegen de wet.
+lawyer | l'avocat(e) | de advocaat | I need a lawyer. | J'ai besoin d'un avocat. | Ik heb een advocaat nodig.
+judge | le / la juge | de rechter | The judge made a decision. | Le juge a pris une décision. | De rechter nam een beslissing.
+court | le tribunal | de rechtbank | The case goes to court. | L'affaire passe au tribunal. | De zaak komt voor de rechtbank.
+trial | le procès | het proces | The trial lasted a month. | Le procès a duré un mois. | Het proces duurde een maand.
+crime | le crime / le délit | de misdaad / het misdrijf | Crime is decreasing. | La criminalité diminue. | De criminaliteit daalt.
+criminal | le / la criminel(le) | de misdadiger | The criminal was arrested. | Le criminel a été arrêté. | De misdadiger werd opgepakt.
+victim | la victime | het slachtoffer | The victim filed a complaint. | La victime a porté plainte. | Het slachtoffer diende klacht in.
+witness | le témoin | de getuige | Were there any witnesses? | Y avait-il des témoins ? | Waren er getuigen?
+evidence | la preuve | het bewijs | There is no evidence. | Il n'y a pas de preuve. | Er is geen bewijs.
+guilty | coupable | schuldig | He was found guilty. | Il a été reconnu coupable. | Hij werd schuldig bevonden.
+innocent | innocent | onschuldig | I'm innocent! | Je suis innocent ! | Ik ben onschuldig!
+sentence | la peine / la condamnation | de straf | A sentence of five years. | Une peine de cinq ans. | Een straf van vijf jaar.
+prison | la prison | de gevangenis | He spent two years in prison. | Il a passé deux ans en prison. | Hij zat twee jaar in de gevangenis.
+to arrest | arrêter | arresteren / oppakken | The police arrested two men. | La police a arrêté deux hommes. | De politie arresteerde twee mannen.
+to sue | poursuivre en justice | een rechtszaak aanspannen | They sued the company. | Ils ont poursuivi l'entreprise en justice. | Ze spanden een rechtszaak aan tegen het bedrijf.
+right | le droit | het recht | Human rights. | Les droits de l'homme. | De mensenrechten.
+duty / obligation | le devoir / l'obligation (f.) | de plicht | It's your duty. | C'est ton devoir. | Het is je plicht.
+legal | légal | wettelijk / legaal | Is it legal? | Est-ce légal ? | Is het legaal?
+illegal | illégal | illegaal | Illegal parking. | Le stationnement illégal. | Illegaal parkeren.
+theft | le vol | de diefstal | The theft of a bike. | Le vol d'un vélo. | De diefstal van een fiets.
+fraud | la fraude | de fraude | Tax fraud. | La fraude fiscale. | Fiscale fraude.
+to appeal | faire appel | in beroep gaan | The lawyer will appeal. | L'avocat va faire appel. | De advocaat gaat in beroep.
+verdict | le verdict | het vonnis / de uitspraak | The verdict is expected tomorrow. | Le verdict est attendu demain. | Het vonnis wordt morgen verwacht.
+## 3 Science & research
+science | la science | de wetenschap | I love science. | J'adore les sciences. | Ik hou van wetenschap.
+research | la recherche | het onderzoek | Medical research. | La recherche médicale. | Medisch onderzoek.
+researcher | le chercheur / la chercheuse | de onderzoeker | She's a researcher at KU Leuven. | Elle est chercheuse à la KU Leuven. | Ze is onderzoeker aan de KU Leuven.
+study (research) | l'étude (f.) | de studie / het onderzoek | A recent study shows… | Une étude récente montre… | Een recente studie toont aan…
+experiment | l'expérience (f.) | het experiment / het proefje | The experiment failed. | L'expérience a échoué. | Het experiment is mislukt.
+hypothesis | l'hypothèse (f.) | de hypothese | Let's test this hypothesis. | Testons cette hypothèse. | Laten we deze hypothese testen.
+result | le résultat | het resultaat | The results are promising. | Les résultats sont prometteurs. | De resultaten zijn veelbelovend.
+discovery | la découverte | de ontdekking | An important discovery. | Une découverte importante. | Een belangrijke ontdekking.
+to discover | découvrir | ontdekken | Scientists discovered a new planet. | Des scientifiques ont découvert une nouvelle planète. | Wetenschappers ontdekten een nieuwe planeet.
+invention | l'invention (f.) | de uitvinding | The invention of the printing press. | L'invention de l'imprimerie. | De uitvinding van de boekdrukkunst.
+data | les données | de gegevens | We collected data. | Nous avons collecté des données. | We hebben gegevens verzameld.
+to analyse | analyser | analyseren | Analyse the results. | Analyse les résultats. | Analyseer de resultaten.
+evidence (scientific) | les preuves / les données probantes | het bewijs | There is strong evidence that… | Il existe des preuves solides que… | Er is sterk bewijs dat…
+theory | la théorie | de theorie | The theory of evolution. | La théorie de l'évolution. | De evolutietheorie.
+laboratory | le laboratoire | het laboratorium / het labo | She works in a lab. | Elle travaille dans un labo. | Ze werkt in een labo.
+vaccine | le vaccin | het vaccin | A new vaccine. | Un nouveau vaccin. | Een nieuw vaccin.
+disease | la maladie | de ziekte | A rare disease. | Une maladie rare. | Een zeldzame ziekte.
+cell | la cellule | de cel | Stem cells. | Les cellules souches. | Stamcellen.
+space | l'espace (m.) | de ruimte | Space exploration. | L'exploration spatiale. | Ruimteverkenning.
+to measure | mesurer | meten | Measure the temperature. | Mesure la température. | Meet de temperatuur.
+accurate | précis / exact | nauwkeurig | Accurate results. | Des résultats précis. | Nauwkeurige resultaten.
+to prove | prouver | bewijzen | It's hard to prove. | C'est difficile à prouver. | Het is moeilijk te bewijzen.
+breakthrough | la percée / l'avancée majeure (f.) | de doorbraak | A medical breakthrough. | Une avancée médicale majeure. | Een medische doorbraak.
+peer-reviewed | évalué par des pairs | peer-reviewed / door vakgenoten beoordeeld | A peer-reviewed article. | Un article évalué par des pairs. | Een door vakgenoten beoordeeld artikel.
+## 4 Debate & opinions
+argument | l'argument (m.) | het argument | That's a strong argument. | C'est un argument solide. | Dat is een sterk argument.
+point of view | le point de vue | het standpunt | From my point of view… | De mon point de vue… | Vanuit mijn standpunt…
+to claim | affirmer / prétendre | beweren | He claims it's true. | Il affirme que c'est vrai. | Hij beweert dat het waar is.
+to convince | convaincre | overtuigen | You've convinced me. | Tu m'as convaincu. | Je hebt me overtuigd.
+convincing | convaincant | overtuigend | A convincing speech. | Un discours convaincant. | Een overtuigende toespraak.
+to defend | défendre | verdedigen | She defends her ideas. | Elle défend ses idées. | Ze verdedigt haar ideeën.
+to criticize | critiquer | bekritiseren | Don't criticize everything. | Ne critique pas tout. | Bekritiseer niet alles.
+pros and cons | le pour et le contre | de voor- en nadelen | Let's weigh the pros and cons. | Pesons le pour et le contre. | Laten we de voor- en nadelen afwegen.
+advantage | l'avantage (m.) | het voordeel | The main advantage is the price. | Le principal avantage est le prix. | Het grootste voordeel is de prijs.
+disadvantage | l'inconvénient (m.) | het nadeel | One disadvantage is the noise. | Un inconvénient est le bruit. | Een nadeel is het lawaai.
+to admit | admettre / reconnaître | toegeven | I admit I was wrong. | J'admets que j'avais tort. | Ik geef toe dat ik ongelijk had.
+to be right | avoir raison | gelijk hebben | You're right. | Tu as raison. | Je hebt gelijk.
+to be wrong | avoir tort | ongelijk hebben | I think you're wrong. | Je pense que tu as tort. | Ik denk dat je ongelijk hebt.
+to doubt | douter | twijfelen | I doubt it. | J'en doute. | Ik twijfel eraan.
+obvious | évident | duidelijk / vanzelfsprekend | It's obvious. | C'est évident. | Het is vanzelfsprekend.
+controversial | controversé | omstreden / controversieel | A controversial issue. | Une question controversée. | Een omstreden kwestie.
+to support (an idea) | soutenir / être favorable à | steunen / voorstander zijn van | I support this idea. | Je soutiens cette idée. | Ik steun dit idee.
+to oppose | s'opposer à | zich verzetten tegen | Many people oppose the project. | Beaucoup s'opposent au projet. | Veel mensen verzetten zich tegen het project.
+compromise | le compromis | het compromis | We reached a compromise. | Nous avons trouvé un compromis. | We hebben een compromis bereikt.
+nevertheless | néanmoins | niettemin / toch | Nevertheless, I disagree. | Néanmoins, je ne suis pas d'accord. | Niettemin ben ik het niet eens.
+furthermore | de plus / en outre | bovendien | Furthermore, it's expensive. | De plus, c'est cher. | Bovendien is het duur.
+to emphasize | souligner | benadrukken | I want to emphasize this point. | Je veux souligner ce point. | Ik wil dit punt benadrukken.
+to summarize | résumer | samenvatten | To summarize… | Pour résumer… | Samengevat…
+consequence | la conséquence | het gevolg | Think about the consequences. | Pense aux conséquences. | Denk aan de gevolgen.
+## 5 Arts & literature
+novel | le roman | de roman | A historical novel. | Un roman historique. | Een historische roman.
+author / writer | l'auteur(e) / l'écrivain(e) | de auteur / de schrijver | A Belgian writer. | Un écrivain belge. | Een Belgische schrijver.
+poem | le poème | het gedicht | She wrote a poem. | Elle a écrit un poème. | Ze schreef een gedicht.
+poet | le / la poète | de dichter | A famous poet. | Un poète célèbre. | Een bekende dichter.
+character | le personnage | het personage | The main character is a detective. | Le personnage principal est un détective. | Het hoofdpersonage is een detective.
+plot | l'intrigue (f.) | de plot / de verhaallijn | The plot is complicated. | L'intrigue est compliquée. | De plot is ingewikkeld.
+chapter | le chapitre | het hoofdstuk | Read the first chapter. | Lis le premier chapitre. | Lees het eerste hoofdstuk.
+to publish | publier | publiceren / uitgeven | The book was published in 2020. | Le livre a été publié en 2020. | Het boek werd in 2020 gepubliceerd.
+painter | le peintre | de schilder | Magritte was a Belgian painter. | Magritte était un peintre belge. | Magritte was een Belgische schilder.
+masterpiece | le chef-d'œuvre | het meesterwerk | The Ghent Altarpiece is a masterpiece. | L'Agneau mystique est un chef-d'œuvre. | Het Lam Gods is een meesterwerk.
+sculpture | la sculpture | het beeldhouwwerk | A bronze sculpture. | Une sculpture en bronze. | Een bronzen beeldhouwwerk.
+artist | l'artiste (m./f.) | de kunstenaar | A talented artist. | Un artiste talentueux. | Een getalenteerde kunstenaar.
+gallery | la galerie | de galerij | An art gallery. | Une galerie d'art. | Een kunstgalerij.
+stage | la scène | het podium / de scène | The actors are on stage. | Les acteurs sont sur scène. | De acteurs staan op het podium.
+actor / actress | l'acteur / l'actrice | de acteur / de actrice | A famous actress. | Une actrice célèbre. | Een bekende actrice.
+performance | la représentation / la performance | de voorstelling | The performance starts at 8. | La représentation commence à 20 h. | De voorstelling begint om 20 uur.
+audience | le public | het publiek | The audience loved it. | Le public a adoré. | Het publiek was enthousiast.
+to inspire | inspirer | inspireren | Nature inspires artists. | La nature inspire les artistes. | De natuur inspireert kunstenaars.
+style | le style | de stijl | A unique style. | Un style unique. | Een unieke stijl.
+review (critique) | la critique | de recensie / de bespreking | The film got good reviews. | Le film a reçu de bonnes critiques. | De film kreeg goede recensies.
+metaphor | la métaphore | de metafoor | A beautiful metaphor. | Une belle métaphore. | Een mooie metafoor.
+imagination | l'imagination (f.) | de verbeelding / de fantasie | Children have a lot of imagination. | Les enfants ont beaucoup d'imagination. | Kinderen hebben veel fantasie.
+to create | créer | creëren / scheppen | Artists create new worlds. | Les artistes créent de nouveaux mondes. | Kunstenaars scheppen nieuwe werelden.
+work (of art) | l'œuvre (f.) | het werk / het kunstwerk | The complete works of Brel. | L'œuvre complète de Brel. | Het volledige werk van Brel.

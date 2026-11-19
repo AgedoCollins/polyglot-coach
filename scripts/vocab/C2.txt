@@ -1,0 +1,76 @@
+# Format: English | French | Dutch | English example | French example | Dutch example
+## 0 Rhetoric & persuasion
+rhetoric | la rhétorique | de retoriek | The power of rhetoric. | Le pouvoir de la rhétorique. | De kracht van de retoriek.
+eloquent | éloquent | welsprekend | An eloquent speaker. | Un orateur éloquent. | Een welsprekend spreker.
+compelling | convaincant / captivant | overtuigend / meeslepend | A compelling argument. | Un argument convaincant. | Een overtuigend argument.
+to persuade | persuader | overhalen / overtuigen | She persuaded the jury. | Elle a persuadé le jury. | Ze overtuigde de jury.
+audience | l'auditoire (m.) | het publiek / de toehoorders | Engage your audience. | Captivez votre auditoire. | Betrek je publiek.
+anecdote | l'anecdote (f.) | de anekdote | Start with an anecdote. | Commencez par une anecdote. | Begin met een anekdote.
+to rebut | réfuter | weerleggen | He rebutted every objection. | Il a réfuté chaque objection. | Hij weerlegde elk bezwaar.
+counterargument | le contre-argument | het tegenargument | Anticipate counterarguments. | Anticipez les contre-arguments. | Anticipeer op tegenargumenten.
+fallacy | le sophisme / l'argument fallacieux (m.) | de drogreden | That's a logical fallacy. | C'est un sophisme. | Dat is een drogreden.
+credibility | la crédibilité | de geloofwaardigheid | Build your credibility. | Construis ta crédibilité. | Bouw je geloofwaardigheid op.
+to captivate | captiver | boeien | The speech captivated everyone. | Le discours a captivé tout le monde. | De toespraak boeide iedereen.
+pause | la pause / le silence | de pauze / de stilte | A well-timed pause. | Une pause bien placée. | Een goed getimede pauze.
+tone | le ton | de toon | Watch your tone. | Fais attention à ton ton. | Let op je toon.
+to emphasize | mettre l'accent sur | benadrukken | Emphasize the key message. | Mettez l'accent sur le message clé. | Benadruk de kernboodschap.
+call to action | l'appel à l'action (m.) | de oproep tot actie | End with a call to action. | Terminez par un appel à l'action. | Eindig met een oproep tot actie.
+to resonate | trouver un écho / résonner | aanslaan / weerklank vinden | His words resonated with young people. | Ses paroles ont trouvé un écho chez les jeunes. | Zijn woorden vonden weerklank bij jongeren.
+charisma | le charisme | het charisma | A leader with charisma. | Un leader charismatique. | Een leider met charisma.
+to articulate | formuler / articuler | verwoorden / formuleren | She articulates her ideas clearly. | Elle formule clairement ses idées. | Ze verwoordt haar ideeën helder.
+cogent | pertinent / solide | steekhoudend | A cogent analysis. | Une analyse pertinente. | Een steekhoudende analyse.
+to sway | influencer / faire pencher | beïnvloeden / overhalen | The debate swayed voters. | Le débat a influencé les électeurs. | Het debat beïnvloedde de kiezers.
+ethos, pathos, logos | l'ethos, le pathos, le logos | ethos, pathos, logos | Balance ethos, pathos and logos. | Équilibrez ethos, pathos et logos. | Breng ethos, pathos en logos in evenwicht.
+to digress | faire une digression | afdwalen | Sorry, I'm digressing. | Pardon, je fais une digression. | Sorry, ik dwaal af.
+succinct | succinct / concis | beknopt | Be succinct. | Soyez concis. | Wees beknopt.
+poignant | poignant | aangrijpend | A poignant testimony. | Un témoignage poignant. | Een aangrijpende getuigenis.
+## 1 Regional words & slang
+Belgian French: septante / nonante | septante / nonante (BE) | zeventig / negentig | Seventy euros. | Septante euros. | Zeventig euro.
+Belgian French: a downpour | une drache (BE) | een stortbui | It's pouring down. | Il drache ! | Het giet!
+Belgian French: mobile phone | un GSM (BE) | een gsm | Give me your mobile number. | Donne-moi ton numéro de GSM. | Geef me je gsm-nummer.
+Belgian French: student room | un kot (BE) | een kot / een studentenkamer | He lives in a student room. | Il habite dans un kot. | Hij woont op kot.
+Belgian French: see you later today | à tantôt (BE) | tot straks | See you later! | À tantôt ! | Tot straks!
+Belgian French: to joke around | zwanzer (BE) | zwanzen / grappen maken | Stop joking around! | Arrête de zwanzer ! | Stop met zwanzen!
+Flemish: desire, fancy | avoir envie (goesting, NL-BE) | goesting | I fancy some fries. | J'ai envie de frites. | Ik heb goesting in frieten.
+Flemish: wow! | waouh ! (amai, NL-BE) | amai! | Wow, that's expensive! | Waouh, c'est cher ! | Amai, dat is duur!
+Flemish: fun, pleasant | sympa (plezant, NL-BE) | plezant | It was really fun. | C'était vraiment sympa. | Het was echt plezant.
+Flemish: annoying | embêtant (ambetant, NL-BE) | ambetant | That's annoying. | C'est embêtant. | Dat is ambetant.
+Flemish: in a bit | tout à l'heure (seffens, NL-BE) | seffens | I'll come in a bit. | Je viens tout à l'heure. | Ik kom seffens.
+Flemish: a little moment | un petit moment (efkes, NL-BE) | efkes | Wait a moment. | Attends un petit moment. | Wacht efkes.
+English slang: cool / great | génial / top | cool / zalig | That's cool! | C'est génial ! | Dat is zalig!
+English slang: to hang out | traîner / passer du temps | rondhangen / chillen | We hung out all day. | On a traîné toute la journée. | We hebben de hele dag gechild.
+English slang: to be broke | être fauché | blut zijn / platzak zijn | I'm broke this month. | Je suis fauché ce mois-ci. | Ik ben blut deze maand.
+English slang: a bloke / a guy | un mec / un gars | een kerel / een gast | He's a nice guy. | C'est un mec sympa. | Het is een toffe gast.
+English slang: knackered | crevé | kapot / doodop | I'm knackered. | Je suis crevé. | Ik ben doodop.
+French slang: le boulot | le boulot (= le travail) | de job / het werk | I'm going to work. | Je vais au boulot. | Ik ga naar mijn werk.
+French slang: la bagnole | la bagnole (= la voiture) | de kar (= de auto) | Nice car! | Belle bagnole ! | Mooie kar!
+French slang: le fric | le fric (= l'argent) | de poen / de centen | He's got loads of money. | Il a plein de fric. | Hij heeft veel poen.
+French slang: bouffer | bouffer (= manger) | bikken / eten | Let's eat! | On va bouffer ! | We gaan bikken!
+French slang: kiffer | kiffer (= aimer) | het zalig vinden | I love this song. | Je kiffe cette chanson. | Ik vind dit liedje zalig.
+Flemish: tasty / delicious | délicieux (lekker) | lekker / zalig | This is delicious! | C'est délicieux ! | Dit is zalig!
+Flemish: come on / well | allez | allez | Come on, let's go! | Allez, on y va ! | Allez, we gaan!
+## 2 Formal & literary writing
+nonetheless | néanmoins | niettemin | The plan is risky; nonetheless, we'll proceed. | Le plan est risqué ; néanmoins, nous continuerons. | Het plan is riskant; niettemin gaan we verder.
+hence | d'où / par conséquent | vandaar / bijgevolg | Hence the delay. | D'où le retard. | Vandaar de vertraging.
+thereby | ainsi / de ce fait | daardoor / zodoende | He resigned, thereby ending the crisis. | Il a démissionné, mettant ainsi fin à la crise. | Hij nam ontslag en maakte zo een einde aan de crisis.
+notwithstanding | nonobstant / malgré | ondanks / niettegenstaande | Notwithstanding the costs, we agree. | Nonobstant les coûts, nous sommes d'accord. | Niettegenstaande de kosten gaan we akkoord.
+whereby | par lequel / selon lequel | waarbij / waardoor | A system whereby everyone benefits. | Un système par lequel chacun y gagne. | Een systeem waarbij iedereen wint.
+to elucidate | élucider / éclaircir | verhelderen / toelichten | Could you elucidate this point? | Pourriez-vous éclaircir ce point ? | Kunt u dit punt toelichten?
+to underpin | sous-tendre / étayer | onderbouwen / schragen | Data underpin our conclusions. | Les données étayent nos conclusions. | De gegevens onderbouwen onze conclusies.
+ubiquitous | omniprésent | alomtegenwoordig | Smartphones are ubiquitous. | Les smartphones sont omniprésents. | Smartphones zijn alomtegenwoordig.
+ephemeral | éphémère | vergankelijk / kortstondig | Fame is ephemeral. | La gloire est éphémère. | Roem is vergankelijk.
+meticulous | méticuleux | nauwgezet | A meticulous study. | Une étude méticuleuse. | Een nauwgezette studie.
+to scrutinize | examiner minutieusement | nauwkeurig onderzoeken | Scrutinize the contract. | Examinez minutieusement le contrat. | Onderzoek het contract nauwkeurig.
+paramount | primordial / capital | van het grootste belang | Safety is paramount. | La sécurité est primordiale. | Veiligheid is van het grootste belang.
+to mitigate | atténuer | verzachten / beperken | Mitigate the risks. | Atténuer les risques. | De risico's beperken.
+inherent | inhérent | inherent / eigen aan | Risks inherent to the job. | Les risques inhérents au métier. | Risico's eigen aan het beroep.
+to exacerbate | exacerber / aggraver | verergeren | The crisis exacerbated inequality. | La crise a exacerbé les inégalités. | De crisis verergerde de ongelijkheid.
+salient | saillant / marquant | opvallend / markant | The salient points. | Les points saillants. | De opvallende punten.
+quintessential | par excellence / typique | typisch / bij uitstek | The quintessential Belgian dish. | Le plat belge par excellence. | Het Belgische gerecht bij uitstek.
+to juxtapose | juxtaposer | naast elkaar plaatsen | The author juxtaposes past and present. | L'auteur juxtapose passé et présent. | De auteur plaatst verleden en heden naast elkaar.
+dichotomy | la dichotomie | de tweedeling | A false dichotomy. | Une fausse dichotomie. | Een valse tweedeling.
+to corroborate | corroborer | bevestigen / staven | Witnesses corroborated his story. | Les témoins ont corroboré son récit. | Getuigen bevestigden zijn verhaal.
+albeit | bien que / quoique | zij het | A success, albeit a small one. | Un succès, quoique modeste. | Een succes, zij het een klein.
+heretofore | jusqu'ici / jusqu'à présent | tot nu toe / voorheen | An heretofore unknown fact. | Un fait jusqu'ici inconnu. | Een tot nu toe onbekend feit.
+to epitomize | incarner / symboliser | belichamen / het toonbeeld zijn van | She epitomizes elegance. | Elle incarne l'élégance. | Ze is het toonbeeld van elegantie.
+magnanimous | magnanime | grootmoedig | A magnanimous gesture. | Un geste magnanime. | Een grootmoedig gebaar.

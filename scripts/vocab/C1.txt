@@ -1,0 +1,101 @@
+# Format: English | French | Dutch | English example | French example | Dutch example
+## 0 Abstract ideas
+freedom | la liberté | de vrijheid | Freedom of speech is essential. | La liberté d'expression est essentielle. | Vrijheid van meningsuiting is essentieel.
+justice | la justice | de rechtvaardigheid | A sense of justice. | Un sens de la justice. | Een gevoel voor rechtvaardigheid.
+truth | la vérité | de waarheid | Tell me the truth. | Dis-moi la vérité. | Vertel me de waarheid.
+identity | l'identité (f.) | de identiteit | A question of identity. | Une question d'identité. | Een kwestie van identiteit.
+awareness | la prise de conscience / la conscience | het bewustzijn | Raise awareness about climate. | Sensibiliser au climat. | Het bewustzijn over het klimaat vergroten.
+responsibility | la responsabilité | de verantwoordelijkheid | Take responsibility. | Prends tes responsabilités. | Neem je verantwoordelijkheid.
+belief | la croyance / la conviction | de overtuiging / het geloof | Deep beliefs. | Des convictions profondes. | Diepe overtuigingen.
+value | la valeur | de waarde | Shared values. | Des valeurs communes. | Gedeelde waarden.
+purpose | le but / le sens | het doel / de zin | A sense of purpose. | Un sens à sa vie. | Een doel in het leven.
+dignity | la dignité | de waardigheid | Treat people with dignity. | Traite les gens avec dignité. | Behandel mensen met waardigheid.
+ambiguity | l'ambiguïté (f.) | de dubbelzinnigheid | The text is full of ambiguity. | Le texte est plein d'ambiguïté. | De tekst zit vol dubbelzinnigheid.
+paradox | le paradoxe | de paradox | It's a paradox. | C'est un paradoxe. | Het is een paradox.
+perception | la perception | de waarneming / de perceptie | Perception is not reality. | La perception n'est pas la réalité. | Perceptie is geen werkelijkheid.
+assumption | la supposition / le postulat | de veronderstelling | That's a false assumption. | C'est une fausse supposition. | Dat is een verkeerde veronderstelling.
+concept | le concept | het concept / het begrip | A difficult concept. | Un concept difficile. | Een moeilijk begrip.
+essence | l'essence (f.) | de essentie / de kern | The essence of the problem. | L'essence du problème. | De kern van het probleem.
+consciousness | la conscience | het bewustzijn | Human consciousness. | La conscience humaine. | Het menselijk bewustzijn.
+nuance | la nuance | de nuance | A subtle nuance. | Une nuance subtile. | Een subtiele nuance.
+legitimacy | la légitimité | de legitimiteit | The legitimacy of power. | La légitimité du pouvoir. | De legitimiteit van de macht.
+prejudice | le préjugé | het vooroordeel | Fight prejudice. | Combattre les préjugés. | Vooroordelen bestrijden.
+empathy | l'empathie (f.) | de empathie / het inlevingsvermogen | Empathy makes us human. | L'empathie nous rend humains. | Empathie maakt ons menselijk.
+resilience | la résilience | de veerkracht | Resilience in hard times. | La résilience dans les moments difficiles. | Veerkracht in moeilijke tijden.
+ethics | l'éthique (f.) | de ethiek | Medical ethics. | L'éthique médicale. | Medische ethiek.
+wisdom | la sagesse | de wijsheid | Wisdom comes with age. | La sagesse vient avec l'âge. | Wijsheid komt met de jaren.
+## 1 Professional jargon
+stakeholder | la partie prenante | de belanghebbende / de stakeholder | Involve all stakeholders. | Impliquez toutes les parties prenantes. | Betrek alle belanghebbenden.
+benchmark | la référence / l'étalon (m.) | de maatstaf / de benchmark | Industry benchmark. | La référence du secteur. | De maatstaf in de sector.
+leverage | le levier / tirer parti de | de hefboom / benutten | Leverage our strengths. | Tirer parti de nos forces. | Onze sterktes benutten.
+scalable | évolutif / extensible | schaalbaar | A scalable solution. | Une solution évolutive. | Een schaalbare oplossing.
+roadmap | la feuille de route | de routekaart / de roadmap | The product roadmap. | La feuille de route du produit. | De roadmap van het product.
+milestone | le jalon / l'étape clé (f.) | de mijlpaal | We reached a milestone. | Nous avons franchi une étape clé. | We hebben een mijlpaal bereikt.
+workload | la charge de travail | de werkdruk / de werklast | A heavy workload. | Une lourde charge de travail. | Een hoge werkdruk.
+to delegate | déléguer | delegeren | Learn to delegate tasks. | Apprends à déléguer les tâches. | Leer taken te delegeren.
+accountability | la responsabilité / l'obligation de rendre compte (f.) | de verantwoordingsplicht | Clear accountability. | Une responsabilité claire. | Een duidelijke verantwoordingsplicht.
+compliance | la conformité | de naleving / de compliance | Compliance with the rules. | La conformité aux règles. | Naleving van de regels.
+asset | l'atout (m.) / l'actif (m.) | de troef / het actief | Languages are an asset. | Les langues sont un atout. | Talen zijn een troef.
+to streamline | rationaliser / simplifier | stroomlijnen | Streamline the process. | Rationaliser le processus. | Het proces stroomlijnen.
+outcome | le résultat / l'issue (f.) | de uitkomst | A positive outcome. | Une issue positive. | Een positieve uitkomst.
+feasibility | la faisabilité | de haalbaarheid | A feasibility study. | Une étude de faisabilité. | Een haalbaarheidsstudie.
+to outsource | externaliser / sous-traiter | uitbesteden | They outsourced IT. | Ils ont externalisé l'informatique. | Ze hebben de IT uitbesteed.
+headcount | l'effectif (m.) | het personeelsbestand | Headcount is stable. | L'effectif est stable. | Het personeelsbestand is stabiel.
+appraisal | l'évaluation (f.) | de evaluatie / het functioneringsgesprek | Annual appraisal. | L'évaluation annuelle. | Het jaarlijkse functioneringsgesprek.
+key performance indicator | l'indicateur clé de performance (m.) | de kritieke prestatie-indicator (KPI) | Track your KPIs. | Suivez vos indicateurs clés. | Volg je KPI's op.
+to follow up | assurer le suivi | opvolgen | I'll follow up next week. | J'assurerai le suivi la semaine prochaine. | Ik volg het volgende week op.
+in-depth | approfondi | grondig / diepgaand | An in-depth analysis. | Une analyse approfondie. | Een grondige analyse.
+to tackle | s'attaquer à | aanpakken | Tackle the problem. | S'attaquer au problème. | Het probleem aanpakken.
+added value | la valeur ajoutée | de meerwaarde | What is the added value? | Quelle est la valeur ajoutée ? | Wat is de meerwaarde?
+trade-off | le compromis / l'arbitrage (m.) | de afweging | A trade-off between cost and quality. | Un arbitrage entre coût et qualité. | Een afweging tussen kost en kwaliteit.
+sustainable growth | la croissance durable | duurzame groei | We aim for sustainable growth. | Nous visons une croissance durable. | We streven naar duurzame groei.
+## 2 Nuance & connotation
+to imply | sous-entendre / impliquer | impliceren / suggereren | What are you implying? | Qu'est-ce que tu sous-entends ? | Wat wil je daarmee suggereren?
+to infer | déduire | afleiden | What can we infer? | Que peut-on en déduire ? | Wat kunnen we daaruit afleiden?
+subtle | subtil | subtiel | A subtle difference. | Une différence subtile. | Een subtiel verschil.
+blunt | franc / direct / brusque | bot / direct | He's very blunt. | Il est très direct. | Hij is erg bot.
+tactful | plein de tact | tactvol | Be tactful. | Fais preuve de tact. | Wees tactvol.
+ironic | ironique | ironisch | An ironic remark. | Une remarque ironique. | Een ironische opmerking.
+sarcastic | sarcastique | sarcastisch | Don't be sarcastic. | Ne sois pas sarcastique. | Wees niet sarcastisch.
+understatement | l'euphémisme (m.) / la litote | het understatement | That's an understatement. | C'est un euphémisme. | Dat is zacht uitgedrukt.
+to exaggerate | exagérer | overdrijven | Don't exaggerate. | N'exagère pas. | Overdrijf niet.
+thrifty | économe | zuinig | She's thrifty. | Elle est économe. | Ze is zuinig.
+stingy | radin | gierig | He's stingy. | Il est radin. | Hij is gierig.
+assertive | assuré / affirmé | assertief | Be more assertive. | Sois plus affirmé. | Wees assertiever.
+pushy | insistant / envahissant | opdringerig | A pushy salesman. | Un vendeur insistant. | Een opdringerige verkoper.
+determined | déterminé | vastberaden | She's very determined. | Elle est très déterminée. | Ze is erg vastberaden.
+stubborn | têtu / obstiné | koppig | As stubborn as a mule. | Têtu comme une mule. | Zo koppig als een ezel.
+naive | naïf / naïve | naïef | Don't be naive. | Ne sois pas naïf. | Wees niet naïef.
+cunning | rusé | sluw | A cunning plan. | Un plan rusé. | Een sluw plan.
+nostalgic | nostalgique | nostalgisch | I feel nostalgic. | Je suis nostalgique. | Ik voel me nostalgisch.
+bittersweet | doux-amer | bitterzoet | A bittersweet memory. | Un souvenir doux-amer. | Een bitterzoete herinnering.
+to hint | insinuer / faire allusion | een hint geven / laten doorschemeren | She hinted she was leaving. | Elle a laissé entendre qu'elle partait. | Ze liet doorschemeren dat ze vertrok.
+reluctant | réticent | terughoudend / met tegenzin | He was reluctant to help. | Il était réticent à aider. | Hij hielp met tegenzin.
+eager | impatient / avide | gretig / enthousiast | Eager to learn. | Avide d'apprendre. | Leergierig.
+to overlook | négliger / ignorer | over het hoofd zien | Don't overlook the details. | Ne néglige pas les détails. | Zie de details niet over het hoofd.
+connotation | la connotation | de connotatie / de bijbetekenis | A negative connotation. | Une connotation négative. | Een negatieve bijbetekenis.
+## 3 Idioms in context
+to break the ice | briser la glace | het ijs breken | A joke to break the ice. | Une blague pour briser la glace. | Een grap om het ijs te breken.
+to beat around the bush | tourner autour du pot | rond de pot draaien / eromheen draaien | Stop beating around the bush. | Arrête de tourner autour du pot. | Draai er niet omheen.
+to kill two birds with one stone | faire d'une pierre deux coups | twee vliegen in één klap slaan | I killed two birds with one stone. | J'ai fait d'une pierre deux coups. | Ik sloeg twee vliegen in één klap.
+to cost an arm and a leg | coûter les yeux de la tête | een rib uit je lijf kosten | This car cost an arm and a leg. | Cette voiture a coûté les yeux de la tête. | Die auto kostte een rib uit mijn lijf.
+it's raining cats and dogs | il pleut des cordes | het regent pijpenstelen | Take an umbrella, it's raining cats and dogs. | Prends un parapluie, il pleut des cordes. | Neem een paraplu, het regent pijpenstelen.
+when pigs fly | quand les poules auront des dents | als de kalveren op het ijs dansen | He'll be on time when pigs fly. | Il sera à l'heure quand les poules auront des dents. | Hij is op tijd als de kalveren op het ijs dansen.
+to have a frog in one's throat | avoir un chat dans la gorge | een kikker in je keel hebben | Sorry, I have a frog in my throat. | Pardon, j'ai un chat dans la gorge. | Sorry, ik heb een kikker in mijn keel.
+to take the bull by the horns | prendre le taureau par les cornes | de koe bij de horens vatten | It's time to take the bull by the horns. | Il est temps de prendre le taureau par les cornes. | Het is tijd om de koe bij de horens te vatten.
+to be over the moon | être aux anges | in de wolken zijn | She was over the moon. | Elle était aux anges. | Ze was in de wolken.
+to let the cat out of the bag | vendre la mèche | zijn mond voorbijpraten | He let the cat out of the bag. | Il a vendu la mèche. | Hij praatte zijn mond voorbij.
+the last straw | la goutte d'eau qui fait déborder le vase | de druppel die de emmer doet overlopen | That was the last straw. | C'était la goutte d'eau qui fait déborder le vase. | Dat was de druppel die de emmer deed overlopen.
+to have one's head in the clouds | avoir la tête dans les nuages | met zijn hoofd in de wolken lopen | He always has his head in the clouds. | Il a toujours la tête dans les nuages. | Hij loopt altijd met zijn hoofd in de wolken.
+to pull someone's leg | faire marcher quelqu'un | iemand voor de gek houden | I'm just pulling your leg. | Je te fais marcher. | Ik hou je maar voor de gek.
+a piece of cake | un jeu d'enfant / du gâteau | een fluitje van een cent | The exam was a piece of cake. | L'examen était un jeu d'enfant. | Het examen was een fluitje van een cent.
+to hit the nail on the head | mettre le doigt dessus | de spijker op de kop slaan | You hit the nail on the head. | Tu as mis le doigt dessus. | Je slaat de spijker op de kop.
+to bite one's tongue | se mordre la langue | op je tong bijten | I had to bite my tongue. | J'ai dû me mordre la langue. | Ik moest op mijn tong bijten.
+to be in the same boat | être dans le même bateau | in hetzelfde schuitje zitten | We're all in the same boat. | Nous sommes tous dans le même bateau. | We zitten allemaal in hetzelfde schuitje.
+to cry over spilt milk | pleurer sur le lait renversé | over gedane zaken geen berouw hebben | No use crying over spilt milk. | Inutile de pleurer sur le lait renversé. | Gedane zaken nemen geen keer.
+to get cold feet | avoir la frousse / se dégonfler | koudwatervrees krijgen | He got cold feet before the wedding. | Il s'est dégonflé avant le mariage. | Hij kreeg koudwatervrees voor de bruiloft.
+to sleep on it | la nuit porte conseil | er een nachtje over slapen | Let me sleep on it. | La nuit porte conseil, je te réponds demain. | Ik slaap er een nachtje over.
+to burn the midnight oil | travailler tard dans la nuit | tot diep in de nacht werken | I burned the midnight oil. | J'ai travaillé tard dans la nuit. | Ik heb tot diep in de nacht gewerkt.
+to call it a day | s'arrêter là pour aujourd'hui | het voor vandaag voor bekeken houden | Let's call it a day. | Arrêtons-nous là pour aujourd'hui. | Laten we het voor vandaag voor bekeken houden.
+once in a blue moon | tous les trente-six du mois | eens in de zoveel tijd / zelden | We see each other once in a blue moon. | On se voit tous les trente-six du mois. | We zien elkaar maar zelden.
+to speak of the devil | quand on parle du loup | als je van de duivel spreekt | Speak of the devil, here he is! | Quand on parle du loup, le voilà ! | Als je van de duivel spreekt, daar is hij!
