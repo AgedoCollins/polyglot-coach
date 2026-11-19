@@ -25,5 +25,21 @@ for (const f of fs.readdirSync(dir).filter(f => f.endsWith(".txt"))) {
   console.log(lv, themes.map(t => (t || []).length).join(","));
 }
 
+// Extra dictionary words (not in themes): scripts/dictionary/*.txt, sections "## <LEVEL>", same 6 columns
+const ddir = path.join(__dirname, "dictionary"), seen = new Set(dict.map(r => r[0].toLowerCase()));
+if (fs.existsSync(ddir)) for (const f of fs.readdirSync(ddir).filter(f => f.endsWith(".txt")).sort()) {
+  let lv = "B1", dup = 0;
+  for (const raw of fs.readFileSync(path.join(ddir, f), "utf8").split("\n")) {
+    const line = raw.trim();
+    if (!line || line.startsWith("# ")) continue;
+    const h = line.match(/^## (A1|A2|B1|B2|C1|C2)/);
+    if (h) { lv = h[1]; continue; }
+    const p = line.split("|").map(s => s.trim());
+    if (p.length !== 6) { console.error(`${f}: bad line → ${line}`); process.exitCode = 1; continue; }
+    if (seen.has(p[0].toLowerCase())) { dup++; continue; }
+    seen.add(p[0].toLowerCase()); dict.push([...p, lv]);
+  }
+  if (dup) console.log(f, "skipped duplicates:", dup);
+}
 fs.writeFileSync(path.join(out, "dictionary.json"), JSON.stringify(dict));
 console.log("dictionary:", dict.length, "words");

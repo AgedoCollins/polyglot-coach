@@ -1,0 +1,190 @@
+# Batch 01 — common verbs. Format: English | French | Dutch | EN example | FR example | NL example
+## A1
+to be | être | zijn | I am happy. | Je suis heureux. | Ik ben blij.
+to have | avoir | hebben | I have a car. | J'ai une voiture. | Ik heb een auto.
+to do | faire | doen | What are you doing? | Qu'est-ce que tu fais ? | Wat doe je?
+to make | faire / fabriquer | maken | I make bread. | Je fais du pain. | Ik maak brood.
+to go | aller | gaan | We go home. | Nous rentrons à la maison. | We gaan naar huis.
+to come | venir | komen | Come here! | Viens ici ! | Kom hier!
+to see | voir | zien | I see the sea. | Je vois la mer. | Ik zie de zee.
+to look | regarder | kijken | Look at me. | Regarde-moi. | Kijk naar mij.
+to hear | entendre | horen | I hear music. | J'entends de la musique. | Ik hoor muziek.
+to say | dire | zeggen | What did you say? | Qu'as-tu dit ? | Wat zei je?
+to tell | raconter / dire | vertellen | Tell me a story. | Raconte-moi une histoire. | Vertel me een verhaal.
+to give | donner | geven | Give me the key. | Donne-moi la clé. | Geef me de sleutel.
+to take | prendre | nemen | Take a seat. | Prenez place. | Neem plaats.
+to want | vouloir | willen | I want water. | Je veux de l'eau. | Ik wil water.
+can (be able to) | pouvoir | kunnen | I can help. | Je peux aider. | Ik kan helpen.
+must (have to) | devoir | moeten | I must go. | Je dois partir. | Ik moet gaan.
+to know (a fact) | savoir | weten | I know the answer. | Je sais la réponse. | Ik weet het antwoord.
+to know (a person) | connaître | kennen | I know her. | Je la connais. | Ik ken haar.
+to think | penser | denken | I think so. | Je pense que oui. | Ik denk het wel.
+to believe | croire | geloven | I believe you. | Je te crois. | Ik geloof je.
+to like | aimer bien | graag hebben / leuk vinden | I like this song. | J'aime bien cette chanson. | Ik vind dit liedje leuk.
+to find | trouver | vinden | I found my keys. | J'ai trouvé mes clés. | Ik heb mijn sleutels gevonden.
+to put | mettre | zetten / leggen | Put it here. | Mets-le ici. | Leg het hier.
+to open | ouvrir | openen / opendoen | Open the box. | Ouvre la boîte. | Open de doos.
+to close | fermer | sluiten / dichtdoen | Close your eyes. | Ferme les yeux. | Doe je ogen dicht.
+to write | écrire | schrijven | Write your name. | Écris ton nom. | Schrijf je naam.
+to ask | demander | vragen | Ask the teacher. | Demande au professeur. | Vraag het aan de leraar.
+to answer | répondre | antwoorden | Answer the question. | Réponds à la question. | Beantwoord de vraag.
+to help | aider | helpen | Can you help me? | Tu peux m'aider ? | Kun je me helpen?
+to wait | attendre | wachten | Wait for me. | Attends-moi. | Wacht op mij.
+to begin | commencer | beginnen | The film begins at eight. | Le film commence à huit heures. | De film begint om acht uur.
+to stop | arrêter | stoppen | Stop the car. | Arrête la voiture. | Stop de auto.
+to sit | s'asseoir | zitten / gaan zitten | Sit down, please. | Asseyez-vous, s'il vous plaît. | Ga zitten, alstublieft.
+to stand | être debout | staan | Stand up! | Lève-toi ! | Sta op!
+to leave | partir / quitter | vertrekken / verlaten | I leave at six. | Je pars à six heures. | Ik vertrek om zes uur.
+to stay | rester | blijven | Stay with me. | Reste avec moi. | Blijf bij mij.
+to play | jouer | spelen | Kids play outside. | Les enfants jouent dehors. | Kinderen spelen buiten.
+to bring | apporter | brengen / meebrengen | Bring a drink. | Apporte une boisson. | Breng iets te drinken mee.
+to send | envoyer | sturen | Send me a photo. | Envoie-moi une photo. | Stuur me een foto.
+to show | montrer | tonen / laten zien | Show me your hand. | Montre-moi ta main. | Toon me je hand.
+## A2
+to try | essayer | proberen | Try again. | Essaie encore. | Probeer opnieuw.
+to use | utiliser | gebruiken | Use a pen. | Utilise un stylo. | Gebruik een pen.
+to choose | choisir | kiezen | Choose a colour. | Choisis une couleur. | Kies een kleur.
+to decide | décider | beslissen | We decided to stay. | Nous avons décidé de rester. | We besloten te blijven.
+to forget | oublier | vergeten | Don't forget! | N'oublie pas ! | Vergeet het niet!
+to remember | se souvenir de | zich herinneren | I remember that day. | Je me souviens de ce jour. | Ik herinner me die dag.
+to lose | perdre | verliezen | I lost my phone. | J'ai perdu mon téléphone. | Ik ben mijn gsm verloren.
+to win | gagner | winnen | We won the match. | Nous avons gagné le match. | We hebben de match gewonnen.
+to carry | porter | dragen | I carry the bags. | Je porte les sacs. | Ik draag de tassen.
+to fall | tomber | vallen | Careful, don't fall. | Attention, ne tombe pas. | Pas op, val niet.
+to change | changer | veranderen | Things change. | Les choses changent. | Dingen veranderen.
+to follow | suivre | volgen | Follow me. | Suis-moi. | Volg mij.
+to meet | rencontrer / retrouver | ontmoeten / afspreken | Let's meet at noon. | Retrouvons-nous à midi. | Laten we om twaalf uur afspreken.
+to move | bouger | bewegen | Don't move. | Ne bouge pas. | Beweeg niet.
+to turn | tourner | draaien / afslaan | Turn left. | Tourne à gauche. | Sla links af.
+to happen | se passer / arriver | gebeuren | What happened? | Que s'est-il passé ? | Wat is er gebeurd?
+to keep | garder | houden | Keep the change. | Gardez la monnaie. | Hou het wisselgeld.
+to let | laisser | laten | Let me go. | Laisse-moi partir. | Laat me gaan.
+to seem | sembler | lijken | It seems easy. | Ça semble facile. | Het lijkt makkelijk.
+to feel | sentir / ressentir | voelen | I feel the cold. | Je sens le froid. | Ik voel de kou.
+to smell | sentir (odeur) | ruiken | It smells good. | Ça sent bon. | Het ruikt lekker.
+to taste | goûter | proeven | Taste this soup. | Goûte cette soupe. | Proef deze soep.
+to touch | toucher | aanraken | Don't touch! | Ne touche pas ! | Niet aanraken!
+to break | casser | breken | I broke a glass. | J'ai cassé un verre. | Ik heb een glas gebroken.
+to fix / repair | réparer | herstellen / repareren | He fixed the bike. | Il a réparé le vélo. | Hij heeft de fiets hersteld.
+to build | construire | bouwen | They build a house. | Ils construisent une maison. | Ze bouwen een huis.
+to grow | grandir / pousser | groeien | Children grow fast. | Les enfants grandissent vite. | Kinderen groeien snel.
+to fly | voler (en avion) | vliegen | Birds fly. | Les oiseaux volent. | Vogels vliegen.
+to swim | nager | zwemmen | I can't swim. | Je ne sais pas nager. | Ik kan niet zwemmen.
+to jump | sauter | springen | Jump higher! | Saute plus haut ! | Spring hoger!
+to throw | lancer / jeter | gooien | Throw the ball. | Lance la balle. | Gooi de bal.
+to catch | attraper | vangen | Catch it! | Attrape-le ! | Vang hem!
+to hold | tenir | vasthouden | Hold my hand. | Tiens ma main. | Hou mijn hand vast.
+to pull | tirer | trekken | Pull the door. | Tire la porte. | Trek aan de deur.
+to push | pousser | duwen | Push the button. | Appuie sur le bouton. | Duw op de knop.
+to hide | cacher | verstoppen | Hide the gift. | Cache le cadeau. | Verstop het cadeau.
+to look for | chercher | zoeken | I'm looking for a job. | Je cherche un emploi. | Ik zoek werk.
+to explain | expliquer | uitleggen | Explain it to me. | Explique-le-moi. | Leg het me uit.
+to prepare | préparer | voorbereiden / klaarmaken | I prepare dinner. | Je prépare le dîner. | Ik maak het eten klaar.
+to visit (a person) | rendre visite à | bezoeken / op bezoek gaan bij | We visit grandma. | Nous rendons visite à mamie. | We gaan op bezoek bij oma.
+to invite | inviter | uitnodigen | I invited ten friends. | J'ai invité dix amis. | Ik heb tien vrienden uitgenodigd.
+to thank | remercier | bedanken | I thank you. | Je te remercie. | Ik bedank je.
+to agree | être d'accord | akkoord gaan | I agree. | Je suis d'accord. | Ik ga akkoord.
+to marry | épouser | trouwen met | He married Anna. | Il a épousé Anna. | Hij trouwde met Anna.
+to die | mourir | sterven / overlijden | The plant died. | La plante est morte. | De plant is gestorven.
+to be born | naître | geboren worden | I was born in 1990. | Je suis né en 1990. | Ik ben geboren in 1990.
+to live (be alive) | vivre | leven | Live your life! | Vis ta vie ! | Leef je leven!
+to wish | souhaiter | wensen | I wish you luck. | Je te souhaite bonne chance. | Ik wens je succes.
+to allow | permettre | toelaten / toestaan | Smoking is not allowed. | Il n'est pas permis de fumer. | Roken is niet toegestaan.
+to promise | promettre | beloven | I promise. | Je promets. | Ik beloof het.
+## B1
+to achieve | atteindre / réaliser | bereiken | She achieved her goal. | Elle a atteint son objectif. | Ze heeft haar doel bereikt.
+to avoid | éviter | vermijden | Avoid sugar. | Évite le sucre. | Vermijd suiker.
+to improve | améliorer | verbeteren | I want to improve my Dutch. | Je veux améliorer mon néerlandais. | Ik wil mijn Nederlands verbeteren.
+to increase | augmenter | stijgen / verhogen | Prices increase. | Les prix augmentent. | De prijzen stijgen.
+to decrease | diminuer | dalen / verminderen | The noise decreased. | Le bruit a diminué. | Het lawaai is verminderd.
+to develop | développer | ontwikkelen | We develop software. | Nous développons des logiciels. | We ontwikkelen software.
+to manage | gérer / réussir à | beheren / erin slagen | She manages a team. | Elle gère une équipe. | Ze beheert een team.
+to organize | organiser | organiseren | I'll organize a party. | J'organiserai une fête. | Ik organiseer een feestje.
+to compare | comparer | vergelijken | Compare the prices. | Compare les prix. | Vergelijk de prijzen.
+to describe | décrire | beschrijven | Describe the picture. | Décris l'image. | Beschrijf de afbeelding.
+to discuss | discuter de | bespreken | Let's discuss it. | Discutons-en. | Laten we het bespreken.
+to suggest | suggérer / proposer | voorstellen | I suggest a break. | Je propose une pause. | Ik stel een pauze voor.
+to recommend | recommander | aanraden | I recommend this book. | Je recommande ce livre. | Ik raad dit boek aan.
+to expect | s'attendre à | verwachten | I didn't expect that. | Je ne m'y attendais pas. | Dat had ik niet verwacht.
+to depend on | dépendre de | afhangen van | It depends on the weather. | Ça dépend du temps. | Het hangt af van het weer.
+to include | inclure / comprendre | inbegrijpen / bevatten | Breakfast is included. | Le petit-déjeuner est compris. | Het ontbijt is inbegrepen.
+to receive | recevoir | ontvangen / krijgen | I received your email. | J'ai reçu ton e-mail. | Ik heb je mail ontvangen.
+to provide | fournir | voorzien / leveren | We provide training. | Nous fournissons une formation. | Wij voorzien een opleiding.
+to offer | offrir / proposer | aanbieden | They offered me a job. | Ils m'ont proposé un emploi. | Ze boden me een job aan.
+to accept | accepter | aanvaarden / accepteren | I accept your offer. | J'accepte ton offre. | Ik aanvaard je aanbod.
+to refuse | refuser | weigeren | He refused to pay. | Il a refusé de payer. | Hij weigerde te betalen.
+to prefer | préférer | verkiezen / liever hebben | I prefer tea. | Je préfère le thé. | Ik drink liever thee.
+to complain | se plaindre | klagen | Stop complaining. | Arrête de te plaindre. | Stop met klagen.
+to deserve | mériter | verdienen | You deserve a rest. | Tu mérites du repos. | Je verdient rust.
+to warn | avertir / prévenir | waarschuwen | I warned you. | Je t'avais prévenu. | Ik had je gewaarschuwd.
+to protect | protéger | beschermen | Protect your eyes. | Protège tes yeux. | Bescherm je ogen.
+to solve | résoudre | oplossen | We solved the problem. | Nous avons résolu le problème. | We hebben het probleem opgelost.
+to prove | prouver | bewijzen | Prove it! | Prouve-le ! | Bewijs het!
+to notice | remarquer | opmerken | I noticed a change. | J'ai remarqué un changement. | Ik merkte een verandering op.
+to realize | se rendre compte | beseffen | I realized my mistake. | Je me suis rendu compte de mon erreur. | Ik besefte mijn fout.
+to recognize | reconnaître | herkennen | I didn't recognize you. | Je ne t'ai pas reconnu. | Ik herkende je niet.
+to admit | admettre / avouer | toegeven | He admitted it. | Il l'a avoué. | Hij gaf het toe.
+to pretend | faire semblant | doen alsof | She pretends to sleep. | Elle fait semblant de dormir. | Ze doet alsof ze slaapt.
+to imagine | imaginer | zich voorstellen | Imagine a world without war. | Imagine un monde sans guerre. | Stel je een wereld zonder oorlog voor.
+to wonder | se demander | zich afvragen | I wonder why. | Je me demande pourquoi. | Ik vraag me af waarom.
+to doubt | douter | twijfelen | I doubt it. | J'en doute. | Ik twijfel eraan.
+to fear | craindre | vrezen | I fear the worst. | Je crains le pire. | Ik vrees het ergste.
+to hurry | se presser | zich haasten | No need to hurry. | Pas besoin de se presser. | Je hoeft je niet te haasten.
+to rely on | compter sur | rekenen op | You can rely on me. | Tu peux compter sur moi. | Je kunt op mij rekenen.
+to belong to | appartenir à | toebehoren aan / horen bij | This belongs to me. | Ceci m'appartient. | Dit is van mij.
+to consist of | se composer de | bestaan uit | The team consists of five people. | L'équipe se compose de cinq personnes. | Het team bestaat uit vijf mensen.
+to contain | contenir | bevatten | It contains sugar. | Ça contient du sucre. | Het bevat suiker.
+to involve | impliquer | betrekken / inhouden | The job involves travel. | Le poste implique des voyages. | De job houdt reizen in.
+to require | exiger / nécessiter | vereisen | This requires patience. | Cela nécessite de la patience. | Dit vereist geduld.
+to reach | atteindre | bereiken | We reached the top. | Nous avons atteint le sommet. | We bereikten de top.
+to raise | lever / élever | opheffen / grootbrengen | Raise your hand. | Lève la main. | Steek je hand op.
+to lend | prêter | uitlenen | Lend me your pen. | Prête-moi ton stylo. | Leen me je pen.
+to borrow | emprunter | lenen | Can I borrow it? | Je peux l'emprunter ? | Mag ik het lenen?
+to waste | gaspiller / perdre | verspillen | Don't waste time. | Ne perds pas de temps. | Verspil geen tijd.
+to count | compter | tellen | Count to ten. | Compte jusqu'à dix. | Tel tot tien.
+## B2
+to assess | évaluer | beoordelen | Assess the risks. | Évalue les risques. | Beoordeel de risico's.
+to assume | supposer | veronderstellen | I assume you're right. | Je suppose que tu as raison. | Ik veronderstel dat je gelijk hebt.
+to emphasize | souligner | benadrukken | She emphasized safety. | Elle a souligné la sécurité. | Ze benadrukte de veiligheid.
+to estimate | estimer | schatten | Estimate the cost. | Estime le coût. | Schat de kosten.
+to evaluate | évaluer | evalueren | Evaluate the results. | Évalue les résultats. | Evalueer de resultaten.
+to identify | identifier | identificeren | Identify the problem. | Identifie le problème. | Identificeer het probleem.
+to implement | mettre en œuvre | uitvoeren / implementeren | Implement the plan. | Mets le plan en œuvre. | Voer het plan uit.
+to justify | justifier | rechtvaardigen | Justify your answer. | Justifie ta réponse. | Rechtvaardig je antwoord.
+to maintain | maintenir / entretenir | onderhouden / handhaven | Maintain the garden. | Entretiens le jardin. | Onderhoud de tuin.
+to obtain | obtenir | verkrijgen | Obtain a permit. | Obtiens un permis. | Verkrijg een vergunning.
+to occur | se produire | zich voordoen | The error occurred twice. | L'erreur s'est produite deux fois. | De fout deed zich twee keer voor.
+to persuade | persuader | overtuigen / overhalen | Persuade your boss. | Persuade ton patron. | Overtuig je baas.
+to predict | prédire | voorspellen | Nobody can predict the future. | Personne ne peut prédire l'avenir. | Niemand kan de toekomst voorspellen.
+to pursue | poursuivre | nastreven | Pursue your dreams. | Poursuis tes rêves. | Streef je dromen na.
+to reduce | réduire | verminderen | Reduce your speed. | Réduis ta vitesse. | Verminder je snelheid.
+to reflect | réfléchir / refléter | nadenken / weerspiegelen | Reflect on it. | Réfléchis-y. | Denk erover na.
+to reject | rejeter | verwerpen / afwijzen | They rejected the offer. | Ils ont rejeté l'offre. | Ze wezen het aanbod af.
+to replace | remplacer | vervangen | Replace the battery. | Remplace la pile. | Vervang de batterij.
+to represent | représenter | vertegenwoordigen | I represent the company. | Je représente l'entreprise. | Ik vertegenwoordig het bedrijf.
+to resolve | résoudre | oplossen | Resolve the conflict. | Résous le conflit. | Los het conflict op.
+to reveal | révéler | onthullen | The study reveals a trend. | L'étude révèle une tendance. | De studie onthult een trend.
+to struggle | lutter / avoir du mal | worstelen / het moeilijk hebben | I struggle with grammar. | J'ai du mal avec la grammaire. | Ik worstel met grammatica.
+to survive | survivre | overleven | They survived the storm. | Ils ont survécu à la tempête. | Ze overleefden de storm.
+to tend to | avoir tendance à | geneigd zijn om | I tend to forget. | J'ai tendance à oublier. | Ik ben geneigd te vergeten.
+to threaten | menacer | bedreigen | Climate change threatens us. | Le changement climatique nous menace. | De klimaatverandering bedreigt ons.
+to undertake | entreprendre | ondernemen | Undertake a project. | Entreprendre un projet. | Een project ondernemen.
+to acknowledge | reconnaître | erkennen | Acknowledge your mistakes. | Reconnais tes erreurs. | Erken je fouten.
+to adapt | s'adapter | zich aanpassen | Adapt to change. | Adapte-toi au changement. | Pas je aan aan verandering.
+to attempt | tenter | pogen / proberen | Attempt the exam. | Tente l'examen. | Probeer het examen.
+to cope with | faire face à | omgaan met | Cope with stress. | Faire face au stress. | Omgaan met stress.
+to deny | nier | ontkennen | He denied everything. | Il a tout nié. | Hij ontkende alles.
+to enhance | améliorer / renforcer | verbeteren / versterken | Enhance your skills. | Renforce tes compétences. | Versterk je vaardigheden.
+to ensure | garantir / veiller à | ervoor zorgen | Ensure the door is locked. | Veille à ce que la porte soit fermée. | Zorg ervoor dat de deur op slot is.
+to foresee | prévoir | voorzien | I couldn't foresee it. | Je ne pouvais pas le prévoir. | Ik kon het niet voorzien.
+to hesitate | hésiter | aarzelen | Don't hesitate to call. | N'hésite pas à appeler. | Aarzel niet om te bellen.
+to insist | insister | aandringen | He insisted on paying. | Il a insisté pour payer. | Hij drong erop aan te betalen.
+to interfere | s'ingérer / se mêler | zich bemoeien | Don't interfere. | Ne te mêle pas de ça. | Bemoei je er niet mee.
+to overcome | surmonter | overwinnen | Overcome your fear. | Surmonte ta peur. | Overwin je angst.
+to postpone | reporter | uitstellen | Postpone the trip. | Reporte le voyage. | Stel de reis uit.
+to regret | regretter | betreuren / spijt hebben van | I regret nothing. | Je ne regrette rien. | Ik heb nergens spijt van.
+to remind | rappeler | herinneren aan | Remind me later. | Rappelle-le-moi plus tard. | Herinner me er later aan.
+to submit | soumettre | indienen | Submit your report. | Soumets ton rapport. | Dien je verslag in.
+to summarize | résumer | samenvatten | Summarize the text. | Résume le texte. | Vat de tekst samen.
+to tolerate | tolérer | verdragen | I can't tolerate noise. | Je ne supporte pas le bruit. | Ik verdraag geen lawaai.
+to withdraw | retirer | terugtrekken / opnemen | Withdraw cash. | Retire de l'argent. | Neem geld op.

@@ -1,0 +1,129 @@
+# Batch 06 — more verbs. Format: English | French | Dutch | EN example | FR example | NL example
+## A2
+to wash | laver | wassen | Wash the car. | Lave la voiture. | Was de auto.
+to dry | sécher | drogen | Dry your hair. | Sèche tes cheveux. | Droog je haar.
+to cut | couper | snijden / knippen | Cut the bread. | Coupe le pain. | Snij het brood.
+to boil | bouillir / faire bouillir | koken | Boil the water. | Fais bouillir l'eau. | Kook het water.
+to fry | frire / faire frire | bakken / frituren | Fry the eggs. | Fais frire les œufs. | Bak de eieren.
+to mix | mélanger | mengen | Mix the flour and eggs. | Mélange la farine et les œufs. | Meng de bloem en de eieren.
+to fill | remplir | vullen | Fill the glass. | Remplis le verre. | Vul het glas.
+to pour | verser | gieten / inschenken | Pour the wine. | Verse le vin. | Schenk de wijn in.
+to share | partager | delen | Share the cake. | Partage le gâteau. | Deel de taart.
+to order | commander | bestellen | I'd like to order. | Je voudrais commander. | Ik wil graag bestellen.
+to book | réserver | reserveren | Book a table. | Réserve une table. | Reserveer een tafel.
+to rent | louer | huren | Rent a bike. | Loue un vélo. | Huur een fiets.
+to park | se garer | parkeren | Park here. | Gare-toi ici. | Parkeer hier.
+to cross | traverser | oversteken | Cross the street. | Traverse la rue. | Steek de straat over.
+to climb | grimper / monter | klimmen | Climb the stairs. | Monte l'escalier. | Klim de trap op.
+to dance | danser | dansen | Let's dance! | Dansons ! | Laten we dansen!
+to draw | dessiner | tekenen | Draw a house. | Dessine une maison. | Teken een huis.
+to sing | chanter | zingen | Sing with me. | Chante avec moi. | Zing met mij.
+to kiss | embrasser | kussen | Kiss me. | Embrasse-moi. | Kus me.
+to hug | serrer dans ses bras | knuffelen | Hug your mum. | Fais un câlin à ta maman. | Knuffel je mama.
+to smile | sourire | glimlachen | Smile! | Souris ! | Glimlach!
+to cry | pleurer | huilen / wenen | Don't cry. | Ne pleure pas. | Huil niet.
+to laugh | rire | lachen | We laughed a lot. | Nous avons beaucoup ri. | We hebben veel gelachen.
+to shout | crier | roepen / schreeuwen | Don't shout! | Ne crie pas ! | Schreeuw niet!
+to whisper | chuchoter | fluisteren | Whisper it to me. | Chuchote-le-moi. | Fluister het me.
+to worry | s'inquiéter | zich zorgen maken | Don't worry. | Ne t'inquiète pas. | Maak je geen zorgen.
+to enjoy | apprécier / profiter de | genieten van | Enjoy your meal! | Bon appétit ! | Smakelijk!
+to hate | détester | haten | I hate Mondays. | Je déteste les lundis. | Ik haat maandagen.
+to dream | rêver | dromen | I dream of Africa. | Je rêve de l'Afrique. | Ik droom van Afrika.
+to guess | deviner | raden | Guess what! | Devine quoi ! | Raad eens!
+## B1
+to arrange | organiser / arranger | regelen / schikken | I'll arrange a meeting. | J'organiserai une réunion. | Ik regel een vergadering.
+to attend | assister à | bijwonen | Attend the meeting. | Assiste à la réunion. | Woon de vergadering bij.
+to apply (rule) | appliquer | toepassen | Apply the rule. | Applique la règle. | Pas de regel toe.
+to calculate | calculer | berekenen | Calculate the total. | Calcule le total. | Bereken het totaal.
+to celebrate | fêter | vieren | Let's celebrate! | Fêtons ça ! | Laten we vieren!
+to check | vérifier | controleren / nakijken | Check your email. | Vérifie tes e-mails. | Controleer je mail.
+to collect | collectionner / ramasser | verzamelen | I collect stamps. | Je collectionne les timbres. | Ik verzamel postzegels.
+to connect | connecter / relier | verbinden | Connect to the wifi. | Connecte-toi au wifi. | Verbind met de wifi.
+to continue | continuer | doorgaan / verdergaan | Continue reading. | Continue à lire. | Lees verder.
+to create | créer | creëren / maken | Create an account. | Crée un compte. | Maak een account aan.
+to deliver | livrer | leveren | They deliver at home. | Ils livrent à domicile. | Ze leveren aan huis.
+to destroy | détruire | vernietigen | The storm destroyed the roof. | La tempête a détruit le toit. | De storm vernielde het dak.
+to disappear | disparaître | verdwijnen | My keys disappeared. | Mes clés ont disparu. | Mijn sleutels zijn verdwenen.
+to encourage | encourager | aanmoedigen | Encourage your children. | Encourage tes enfants. | Moedig je kinderen aan.
+to enter | entrer | binnengaan | Enter the room. | Entre dans la pièce. | Ga de kamer binnen.
+to exist | exister | bestaan | Ghosts don't exist. | Les fantômes n'existent pas. | Spoken bestaan niet.
+to fail | échouer | mislukken / zakken | Don't be afraid to fail. | N'aie pas peur d'échouer. | Wees niet bang om te mislukken.
+to feed | nourrir | voeden / eten geven | Feed the cat. | Nourris le chat. | Geef de kat eten.
+to fight | se battre | vechten | Don't fight. | Ne vous battez pas. | Vecht niet.
+to hang | accrocher / pendre | hangen / ophangen | Hang your coat. | Accroche ton manteau. | Hang je jas op.
+to hit | frapper | slaan | Don't hit him. | Ne le frappe pas. | Sla hem niet.
+to hurt | blesser / faire mal | pijn doen / kwetsen | You hurt me. | Tu m'as fait mal. | Je deed me pijn.
+to join | rejoindre | zich aansluiten bij | Join us! | Rejoins-nous ! | Doe mee!
+to kill | tuer | doden | Smoking kills. | Fumer tue. | Roken doodt.
+to knock | frapper | kloppen | Knock on the door. | Frappe à la porte. | Klop op de deur.
+to lie (untruth) | mentir | liegen | Don't lie to me. | Ne me mens pas. | Lieg niet tegen mij.
+to lie down | s'allonger | gaan liggen | Lie down and rest. | Allonge-toi et repose-toi. | Ga liggen en rust.
+to mention | mentionner | vermelden | He didn't mention it. | Il ne l'a pas mentionné. | Hij vermeldde het niet.
+to miss (train) | rater / manquer | missen | I missed the bus. | J'ai raté le bus. | Ik heb de bus gemist.
+to own | posséder | bezitten | They own a house. | Ils possèdent une maison. | Ze bezitten een huis.
+to pack | faire ses valises / emballer | inpakken | Pack your bag. | Fais ton sac. | Pak je tas in.
+to pick | cueillir / choisir | plukken / kiezen | Pick a card. | Choisis une carte. | Kies een kaart.
+to plan | planifier / prévoir | plannen | Plan your trip. | Planifie ton voyage. | Plan je reis.
+to print | imprimer | afdrukken / printen | Print the ticket. | Imprime le billet. | Print het ticket.
+to produce | produire | produceren | They produce cheese. | Ils produisent du fromage. | Ze produceren kaas.
+to publish | publier | publiceren | Publish the article. | Publie l'article. | Publiceer het artikel.
+to recognize | reconnaître | herkennen | I recognize this song. | Je reconnais cette chanson. | Ik herken dit liedje.
+to save (rescue) | sauver | redden | He saved my life. | Il m'a sauvé la vie. | Hij heeft mijn leven gered.
+to search | chercher / fouiller | zoeken / doorzoeken | Search the house. | Fouille la maison. | Doorzoek het huis.
+to shake | secouer / serrer (la main) | schudden | Shake hands. | Serrez-vous la main. | Schud elkaar de hand.
+to shine | briller | schijnen / stralen | Her eyes shine. | Ses yeux brillent. | Haar ogen stralen.
+to sign | signer | tekenen / ondertekenen | Sign the form. | Signe le formulaire. | Teken het formulier.
+to spell | épeler | spellen | Spell your name. | Épelle ton nom. | Spel je naam.
+to spend (time) | passer | doorbrengen | Spend time with family. | Passe du temps en famille. | Breng tijd door met je familie.
+to steal | voler | stelen | Someone stole my bike. | Quelqu'un a volé mon vélo. | Iemand heeft mijn fiets gestolen.
+to suffer | souffrir | lijden | He suffers from asthma. | Il souffre d'asthme. | Hij lijdt aan astma.
+to surprise | surprendre | verrassen | Surprise her! | Fais-lui une surprise ! | Verras haar!
+to translate | traduire | vertalen | Translate this sentence. | Traduis cette phrase. | Vertaal deze zin.
+to trust | faire confiance | vertrouwen | Trust me. | Fais-moi confiance. | Vertrouw me.
+to vote | voter | stemmen | Go and vote. | Va voter. | Ga stemmen.
+## B2
+to abandon | abandonner | opgeven / in de steek laten | Never abandon hope. | N'abandonne jamais l'espoir. | Geef de hoop nooit op.
+to accomplish | accomplir | volbrengen | Accomplish your mission. | Accomplis ta mission. | Volbreng je opdracht.
+to accuse | accuser | beschuldigen | Don't accuse him. | Ne l'accuse pas. | Beschuldig hem niet.
+to anticipate | anticiper / prévoir | anticiperen / verwachten | Anticipate problems. | Anticipe les problèmes. | Anticipeer op problemen.
+to appreciate | apprécier | waarderen | I appreciate your help. | J'apprécie ton aide. | Ik waardeer je hulp.
+to blame | reprocher / blâmer | de schuld geven | Don't blame yourself. | Ne te reproche rien. | Geef jezelf niet de schuld.
+to challenge | défier / remettre en question | uitdagen / betwisten | Challenge yourself. | Lance-toi des défis. | Daag jezelf uit.
+to claim | affirmer / réclamer | beweren / opeisen | He claims he's innocent. | Il affirme être innocent. | Hij beweert onschuldig te zijn.
+to commit | s'engager / commettre | zich engageren / plegen | Commit to the plan. | Engage-toi dans le projet. | Engageer je voor het plan.
+to conclude | conclure | besluiten / concluderen | We conclude that… | Nous concluons que… | We besluiten dat…
+to consult | consulter | raadplegen | Consult a doctor. | Consulte un médecin. | Raadpleeg een arts.
+to convince | convaincre | overtuigen | Convince me. | Convaincs-moi. | Overtuig me.
+to dedicate | consacrer / dédier | wijden / opdragen | Dedicate time to learning. | Consacre du temps à apprendre. | Wijd tijd aan leren.
+to determine | déterminer | bepalen | Determine the cause. | Détermine la cause. | Bepaal de oorzaak.
+to distinguish | distinguer | onderscheiden | Distinguish fact from opinion. | Distingue les faits des opinions. | Onderscheid feiten van meningen.
+to emerge | émerger / apparaître | opduiken / naar voren komen | New problems emerged. | De nouveaux problèmes sont apparus. | Er doken nieuwe problemen op.
+to enable | permettre | in staat stellen | This app enables you to learn. | Cette appli te permet d'apprendre. | Deze app stelt je in staat te leren.
+to establish | établir / fonder | vestigen / oprichten | Establish a company. | Fonder une entreprise. | Een bedrijf oprichten.
+to expand | étendre / développer | uitbreiden | Expand your vocabulary. | Étends ton vocabulaire. | Breid je woordenschat uit.
+to exploit | exploiter | uitbuiten / benutten | Exploit the opportunity. | Exploite l'occasion. | Benut de kans.
+to facilitate | faciliter | vergemakkelijken | Facilitate communication. | Faciliter la communication. | De communicatie vergemakkelijken.
+to highlight | souligner / mettre en évidence | benadrukken / markeren | Highlight the key words. | Surligne les mots clés. | Markeer de sleutelwoorden.
+to influence | influencer | beïnvloeden | Media influence us. | Les médias nous influencent. | De media beïnvloeden ons.
+to interpret | interpréter | interpreteren / tolken | Interpret the data. | Interprète les données. | Interpreteer de gegevens.
+to negotiate | négocier | onderhandelen | Negotiate your salary. | Négocie ton salaire. | Onderhandel over je loon.
+to neglect | négliger | verwaarlozen | Don't neglect your health. | Ne néglige pas ta santé. | Verwaarloos je gezondheid niet.
+to oppose | s'opposer à | zich verzetten tegen | They oppose the plan. | Ils s'opposent au plan. | Ze verzetten zich tegen het plan.
+to outline | esquisser / exposer | schetsen | Outline your plan. | Expose ton plan. | Schets je plan.
+to perceive | percevoir | waarnemen | How do you perceive it? | Comment le perçois-tu ? | Hoe neem je het waar?
+to prevail | prévaloir / l'emporter | zegevieren / de overhand hebben | Justice will prevail. | La justice l'emportera. | Gerechtigheid zal zegevieren.
+## C1
+to alleviate | soulager / atténuer | verlichten | Alleviate the pain. | Soulager la douleur. | De pijn verlichten.
+to circumvent | contourner | omzeilen | Circumvent the rules. | Contourner les règles. | De regels omzeilen.
+to deter | dissuader | afschrikken | High fines deter drivers. | Les fortes amendes dissuadent les conducteurs. | Hoge boetes schrikken bestuurders af.
+to discern | discerner | onderscheiden / waarnemen | Discern the truth. | Discerner la vérité. | De waarheid onderscheiden.
+to exacerbate | exacerber / aggraver | verergeren | Don't exacerbate the conflict. | N'aggrave pas le conflit. | Verergert het conflict niet.
+to foster | favoriser / encourager | bevorderen | Foster creativity. | Favoriser la créativité. | Creativiteit bevorderen.
+to hamper | entraver | belemmeren | The rain hampered the work. | La pluie a entravé les travaux. | De regen belemmerde het werk.
+to undermine | saper / compromettre | ondermijnen | Don't undermine my authority. | Ne sape pas mon autorité. | Ondermijn mijn gezag niet.
+to scrutinize | scruter / examiner | nauwkeurig onderzoeken | Scrutinize every detail. | Examine chaque détail. | Onderzoek elk detail nauwkeurig.
+to substantiate | étayer / justifier | staven / onderbouwen | Substantiate your claim. | Étaye ton affirmation. | Staaf je bewering.
+to reconcile | réconcilier / concilier | verzoenen | Reconcile work and family. | Concilier travail et famille. | Werk en gezin verzoenen.
+to relinquish | renoncer à | afstand doen van | Relinquish control. | Renoncer au contrôle. | De controle uit handen geven.
+to thrive | prospérer / s'épanouir | gedijen / floreren | Plants thrive here. | Les plantes prospèrent ici. | Planten gedijen hier.
+to wane | décliner / diminuer | afnemen / tanen | His interest waned. | Son intérêt a décliné. | Zijn interesse taande.

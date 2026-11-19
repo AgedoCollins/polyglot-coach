@@ -1,0 +1,167 @@
+# Batch 02 — adjectives. Format: English | French | Dutch | EN example | FR example | NL example
+## A1
+big | grand | groot | A big house. | Une grande maison. | Een groot huis.
+small | petit | klein | A small dog. | Un petit chien. | Een kleine hond.
+good | bon | goed | A good idea. | Une bonne idée. | Een goed idee.
+bad | mauvais | slecht | Bad weather. | Du mauvais temps. | Slecht weer.
+new | nouveau / neuf | nieuw | A new phone. | Un nouveau téléphone. | Een nieuwe gsm.
+old | vieux / âgé | oud | An old man. | Un vieil homme. | Een oude man.
+young | jeune | jong | A young woman. | Une jeune femme. | Een jonge vrouw.
+long | long | lang | A long day. | Une longue journée. | Een lange dag.
+short | court | kort | A short film. | Un court métrage. | Een korte film.
+tall | grand (taille) | groot / lang | He is tall. | Il est grand. | Hij is lang.
+beautiful | beau / belle | mooi | A beautiful city. | Une belle ville. | Een mooie stad.
+ugly | laid / moche | lelijk | An ugly building. | Un bâtiment laid. | Een lelijk gebouw.
+easy | facile | makkelijk | It's easy. | C'est facile. | Het is makkelijk.
+difficult | difficile | moeilijk | Dutch is difficult. | Le néerlandais est difficile. | Nederlands is moeilijk.
+fast | rapide | snel | A fast car. | Une voiture rapide. | Een snelle auto.
+slow | lent | traag | The internet is slow. | Internet est lent. | Het internet is traag.
+right (correct) | juste / correct | juist | That's right. | C'est juste. | Dat is juist.
+wrong | faux | fout / verkeerd | The wrong answer. | La mauvaise réponse. | Het verkeerde antwoord.
+full | plein | vol | The bus is full. | Le bus est plein. | De bus is vol.
+empty | vide | leeg | An empty glass. | Un verre vide. | Een leeg glas.
+clean | propre | proper / schoon | Clean hands. | Des mains propres. | Propere handen.
+dirty | sale | vuil | Dirty clothes. | Des vêtements sales. | Vuile kleren.
+rich | riche | rijk | A rich man. | Un homme riche. | Een rijke man.
+poor | pauvre | arm | A poor family. | Une famille pauvre. | Een arm gezin.
+nice | gentil / sympa | vriendelijk / leuk | A nice person. | Une personne sympa. | Een vriendelijk persoon.
+funny | drôle | grappig | A funny joke. | Une blague drôle. | Een grappige mop.
+important | important | belangrijk | An important meeting. | Une réunion importante. | Een belangrijke vergadering.
+same | même | zelfde | The same day. | Le même jour. | Dezelfde dag.
+different | différent | verschillend / anders | Different colours. | Des couleurs différentes. | Verschillende kleuren.
+true | vrai | waar | It's true. | C'est vrai. | Het is waar.
+## A2
+quiet | tranquille / silencieux | stil / rustig | A quiet street. | Une rue tranquille. | Een rustige straat.
+loud | fort / bruyant | luid | Loud music. | De la musique forte. | Luide muziek.
+strong | fort | sterk | A strong man. | Un homme fort. | Een sterke man.
+weak | faible | zwak | A weak signal. | Un signal faible. | Een zwak signaal.
+heavy | lourd | zwaar | A heavy bag. | Un sac lourd. | Een zware tas.
+light (weight) | léger | licht | A light jacket. | Une veste légère. | Een lichte jas.
+dark | sombre / foncé | donker | A dark room. | Une pièce sombre. | Een donkere kamer.
+bright | lumineux / vif | helder / fel | A bright colour. | Une couleur vive. | Een felle kleur.
+soft | doux / mou | zacht | A soft pillow. | Un oreiller doux. | Een zacht kussen.
+hard | dur | hard | A hard bed. | Un lit dur. | Een hard bed.
+safe | sûr / en sécurité | veilig | A safe place. | Un endroit sûr. | Een veilige plek.
+dangerous | dangereux | gevaarlijk | A dangerous road. | Une route dangereuse. | Een gevaarlijke weg.
+famous | célèbre | beroemd | A famous singer. | Un chanteur célèbre. | Een beroemde zanger.
+popular | populaire | populair | A popular app. | Une appli populaire. | Een populaire app.
+possible | possible | mogelijk | It's possible. | C'est possible. | Het is mogelijk.
+impossible | impossible | onmogelijk | Nothing is impossible. | Rien n'est impossible. | Niets is onmogelijk.
+ready | prêt | klaar | I'm ready. | Je suis prêt. | Ik ben klaar.
+sure | sûr | zeker | Are you sure? | Tu es sûr ? | Ben je zeker?
+special | spécial | speciaal / bijzonder | A special day. | Un jour spécial. | Een bijzondere dag.
+strange | étrange / bizarre | vreemd | A strange noise. | Un bruit étrange. | Een vreemd geluid.
+normal | normal | normaal | A normal day. | Une journée normale. | Een normale dag.
+modern | moderne | modern | A modern kitchen. | Une cuisine moderne. | Een moderne keuken.
+comfortable | confortable | comfortabel / gezellig | A comfortable chair. | Une chaise confortable. | Een comfortabele stoel.
+delicious | délicieux | heerlijk / lekker | A delicious meal. | Un repas délicieux. | Een heerlijke maaltijd.
+kind | gentil / aimable | vriendelijk / lief | Be kind. | Sois gentil. | Wees lief.
+polite | poli | beleefd | A polite child. | Un enfant poli. | Een beleefd kind.
+rude | impoli / grossier | onbeleefd / grof | Don't be rude. | Ne sois pas impoli. | Wees niet onbeleefd.
+lazy | paresseux | lui | A lazy cat. | Un chat paresseux. | Een luie kat.
+clever | intelligent / malin | slim | A clever idea. | Une idée maligne. | Een slim idee.
+stupid | bête / stupide | dom | A stupid mistake. | Une erreur bête. | Een domme fout.
+honest | honnête | eerlijk | An honest answer. | Une réponse honnête. | Een eerlijk antwoord.
+brave | courageux | moedig / dapper | A brave firefighter. | Un pompier courageux. | Een moedige brandweerman.
+careful | prudent | voorzichtig | Be careful! | Sois prudent ! | Wees voorzichtig!
+patient | patient | geduldig | Be patient. | Sois patient. | Wees geduldig.
+friendly | amical / sympathique | vriendelijk | A friendly neighbour. | Un voisin sympathique. | Een vriendelijke buur.
+## B1
+reliable | fiable | betrouwbaar | A reliable car. | Une voiture fiable. | Een betrouwbare auto.
+available | disponible | beschikbaar | Is he available? | Est-il disponible ? | Is hij beschikbaar?
+necessary | nécessaire | nodig / noodzakelijk | Is it necessary? | Est-ce nécessaire ? | Is het nodig?
+useful | utile | nuttig | A useful tool. | Un outil utile. | Een nuttig hulpmiddel.
+useless | inutile | nutteloos | A useless meeting. | Une réunion inutile. | Een nutteloze vergadering.
+efficient | efficace | efficiënt | An efficient method. | Une méthode efficace. | Een efficiënte methode.
+accurate | précis | nauwkeurig | Accurate data. | Des données précises. | Nauwkeurige gegevens.
+obvious | évident | duidelijk / voor de hand liggend | The obvious solution. | La solution évidente. | De voor de hand liggende oplossing.
+serious | sérieux / grave | ernstig / serieus | A serious problem. | Un problème grave. | Een ernstig probleem.
+huge | énorme | enorm / reusachtig | A huge success. | Un énorme succès. | Een enorm succes.
+tiny | minuscule | piepklein | A tiny room. | Une pièce minuscule. | Een piepkleine kamer.
+whole | entier | heel / gans | The whole day. | La journée entière. | De hele dag.
+various | divers | verschillende / allerlei | Various reasons. | Diverses raisons. | Verschillende redenen.
+similar | semblable / similaire | gelijkaardig | A similar case. | Un cas similaire. | Een gelijkaardig geval.
+recent | récent | recent | A recent study. | Une étude récente. | Een recente studie.
+ancient | ancien / antique | oud / antiek | An ancient city. | Une ville antique. | Een antieke stad.
+current | actuel | huidig | The current situation. | La situation actuelle. | De huidige situatie.
+previous | précédent | vorig | The previous page. | La page précédente. | De vorige pagina.
+following | suivant | volgend | The following day. | Le jour suivant. | De volgende dag.
+local | local | lokaal / plaatselijk | Local products. | Des produits locaux. | Lokale producten.
+foreign | étranger | buitenlands | A foreign language. | Une langue étrangère. | Een vreemde taal.
+public | public | openbaar | A public park. | Un parc public. | Een openbaar park.
+private | privé | privé | Private life. | La vie privée. | Het privéleven.
+proud | fier | trots | I'm proud of you. | Je suis fier de toi. | Ik ben trots op je.
+jealous | jaloux | jaloers | A jealous partner. | Un partenaire jaloux. | Een jaloerse partner.
+anxious | anxieux | angstig / bezorgd | I feel anxious. | Je me sens anxieux. | Ik voel me angstig.
+grateful | reconnaissant | dankbaar | I'm grateful. | Je suis reconnaissant. | Ik ben dankbaar.
+curious | curieux | nieuwsgierig | A curious child. | Un enfant curieux. | Een nieuwsgierig kind.
+generous | généreux | vrijgevig / gul | A generous gift. | Un cadeau généreux. | Een gul cadeau.
+selfish | égoïste | egoïstisch | Don't be selfish. | Ne sois pas égoïste. | Wees niet egoïstisch.
+confident | confiant / sûr de soi | zelfzeker | She's confident. | Elle est sûre d'elle. | Ze is zelfzeker.
+shy | timide | verlegen | A shy boy. | Un garçon timide. | Een verlegen jongen.
+calm | calme | kalm | Stay calm. | Reste calme. | Blijf kalm.
+crazy | fou | gek | A crazy idea. | Une idée folle. | Een gek idee.
+fair | juste / équitable | eerlijk / rechtvaardig | A fair decision. | Une décision juste. | Een eerlijke beslissing.
+## B2
+reluctant | réticent | terughoudend | He was reluctant. | Il était réticent. | Hij was terughoudend.
+thorough | minutieux / approfondi | grondig | A thorough check. | Une vérification minutieuse. | Een grondige controle.
+vague | vague | vaag | A vague answer. | Une réponse vague. | Een vaag antwoord.
+relevant | pertinent | relevant | A relevant question. | Une question pertinente. | Een relevante vraag.
+significant | important / significatif | aanzienlijk / belangrijk | A significant increase. | Une hausse significative. | Een aanzienlijke stijging.
+consistent | cohérent / constant | consequent / constant | Consistent results. | Des résultats constants. | Constante resultaten.
+flexible | flexible | flexibel | Flexible hours. | Des horaires flexibles. | Flexibele uren.
+genuine | authentique / sincère | echt / oprecht | A genuine smile. | Un sourire sincère. | Een oprechte glimlach.
+inevitable | inévitable | onvermijdelijk | Change is inevitable. | Le changement est inévitable. | Verandering is onvermijdelijk.
+mature | mûr / mature | volwassen / rijp | A mature attitude. | Une attitude mature. | Een volwassen houding.
+outstanding | exceptionnel | uitstekend | Outstanding work. | Un travail exceptionnel. | Uitstekend werk.
+overwhelming | écrasant / bouleversant | overweldigend | An overwhelming majority. | Une majorité écrasante. | Een overweldigende meerderheid.
+precise | précis | precies | A precise time. | Une heure précise. | Een precies tijdstip.
+reasonable | raisonnable | redelijk | A reasonable price. | Un prix raisonnable. | Een redelijke prijs.
+remarkable | remarquable | opmerkelijk | A remarkable story. | Une histoire remarquable. | Een opmerkelijk verhaal.
+rough | rugueux / approximatif | ruw / grof | A rough estimate. | Une estimation approximative. | Een ruwe schatting.
+sensitive | sensible | gevoelig | A sensitive topic. | Un sujet sensible. | Een gevoelig onderwerp.
+sensible | raisonnable / sensé | verstandig | A sensible choice. | Un choix sensé. | Een verstandige keuze.
+straightforward | simple / direct | eenvoudig / rechttoe rechtaan | A straightforward process. | Une procédure simple. | Een eenvoudige procedure.
+subtle | subtil | subtiel | A subtle hint. | Un indice subtil. | Een subtiele hint.
+sufficient | suffisant | voldoende | Sufficient time. | Un temps suffisant. | Voldoende tijd.
+temporary | temporaire | tijdelijk | A temporary job. | Un emploi temporaire. | Een tijdelijke job.
+permanent | permanent | permanent / vast | A permanent contract. | Un contrat à durée indéterminée. | Een vast contract.
+tremendous | énorme / formidable | enorm / geweldig | A tremendous effort. | Un effort énorme. | Een enorme inspanning.
+vivid | vif / éclatant | levendig | Vivid memories. | Des souvenirs vifs. | Levendige herinneringen.
+widespread | répandu | wijdverspreid | A widespread belief. | Une croyance répandue. | Een wijdverspreide overtuiging.
+worthwhile | qui vaut la peine | de moeite waard | A worthwhile experience. | Une expérience qui vaut la peine. | Een ervaring die de moeite waard is.
+ambitious | ambitieux | ambitieus | An ambitious plan. | Un plan ambitieux. | Een ambitieus plan.
+cautious | prudent | voorzichtig / behoedzaam | A cautious approach. | Une approche prudente. | Een voorzichtige aanpak.
+eager | désireux / impatient | gretig | Eager to help. | Désireux d'aider. | Gretig om te helpen.
+## C1
+meticulous | méticuleux | nauwgezet | A meticulous worker. | Un travailleur méticuleux. | Een nauwgezette werker.
+ubiquitous | omniprésent | alomtegenwoordig | Ubiquitous cameras. | Des caméras omniprésentes. | Alomtegenwoordige camera's.
+ambiguous | ambigu | dubbelzinnig | An ambiguous statement. | Une déclaration ambiguë. | Een dubbelzinnige verklaring.
+arbitrary | arbitraire | willekeurig | An arbitrary decision. | Une décision arbitraire. | Een willekeurige beslissing.
+coherent | cohérent | samenhangend | A coherent argument. | Un argument cohérent. | Een samenhangend argument.
+comprehensive | complet / exhaustif | uitgebreid / volledig | A comprehensive guide. | Un guide complet. | Een uitgebreide gids.
+conspicuous | voyant / remarquable | opvallend | A conspicuous error. | Une erreur flagrante. | Een opvallende fout.
+diligent | assidu / appliqué | ijverig | A diligent student. | Un étudiant appliqué. | Een ijverige student.
+elusive | insaisissable | ongrijpbaar | An elusive goal. | Un objectif insaisissable. | Een ongrijpbaar doel.
+feasible | faisable | haalbaar | A feasible plan. | Un plan faisable. | Een haalbaar plan.
+indispensable | indispensable | onmisbaar | An indispensable tool. | Un outil indispensable. | Een onmisbaar hulpmiddel.
+plausible | plausible | aannemelijk | A plausible explanation. | Une explication plausible. | Een aannemelijke verklaring.
+resilient | résilient | veerkrachtig | A resilient community. | Une communauté résiliente. | Een veerkrachtige gemeenschap.
+tedious | fastidieux | saai / langdradig | A tedious task. | Une tâche fastidieuse. | Een saaie taak.
+volatile | instable / volatil | wispelturig / volatiel | A volatile market. | Un marché volatil. | Een volatiele markt.
+## C2
+ineffable | ineffable | onuitsprekelijk | Ineffable beauty. | Une beauté ineffable. | Onuitsprekelijke schoonheid.
+perspicacious | perspicace | scherpzinnig | A perspicacious critic. | Un critique perspicace. | Een scherpzinnige criticus.
+magnanimous | magnanime | grootmoedig | A magnanimous leader. | Un dirigeant magnanime. | Een grootmoedige leider.
+obsequious | obséquieux | kruiperig | An obsequious waiter. | Un serveur obséquieux. | Een kruiperige ober.
+pusillanimous | pusillanime | kleinmoedig / laf | A pusillanimous decision. | Une décision pusillanime. | Een kleinmoedige beslissing.
+acrimonious | acrimonieux / acerbe | bitter / venijnig | An acrimonious debate. | Un débat acerbe. | Een venijnig debat.
+recalcitrant | récalcitrant | weerspannig | A recalcitrant pupil. | Un élève récalcitrant. | Een weerspannige leerling.
+sagacious | sagace | wijs / scherpzinnig | A sagacious advisor. | Un conseiller sagace. | Een wijze raadgever.
+fastidious | pointilleux | kieskeurig / pietluttig | A fastidious editor. | Un éditeur pointilleux. | Een pietluttige redacteur.
+gregarious | sociable / grégaire | gezellig / sociaal | A gregarious host. | Un hôte sociable. | Een gezellige gastheer.
+laconic | laconique | laconiek / kortaf | A laconic reply. | Une réponse laconique. | Een laconiek antwoord.
+mellifluous | mélodieux | welluidend | A mellifluous voice. | Une voix mélodieuse. | Een welluidende stem.
+nonchalant | nonchalant | nonchalant | A nonchalant shrug. | Un haussement d'épaules nonchalant. | Een nonchalant schouderophalen.
+quixotic | chimérique / utopique | wereldvreemd / idealistisch | A quixotic quest. | Une quête chimérique. | Een idealistische zoektocht.
+venerable | vénérable | eerbiedwaardig | A venerable institution. | Une institution vénérable. | Een eerbiedwaardige instelling.

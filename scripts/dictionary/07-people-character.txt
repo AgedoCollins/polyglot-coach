@@ -1,0 +1,68 @@
+# Batch 07 — people, character, jobs, body & mind. Format: English | French | Dutch | EN example | FR example | NL example
+## A2
+guest | l'invité(e) | de gast | Welcome, guests! | Bienvenue, chers invités ! | Welkom, gasten!
+host | l'hôte / l'hôtesse | de gastheer / de gastvrouw | Thank the host. | Remercie l'hôte. | Bedank de gastheer.
+stranger | l'inconnu(e) | de vreemde / de onbekende | Don't talk to strangers. | Ne parle pas aux inconnus. | Praat niet met vreemden.
+adult | l'adulte (m./f.) | de volwassene | Adults only. | Réservé aux adultes. | Alleen voor volwassenen.
+teenager | l'adolescent(e) | de tiener | A typical teenager. | Un adolescent typique. | Een typische tiener.
+student (university) | l'étudiant(e) | de student | A law student. | Un étudiant en droit. | Een rechtenstudent.
+farmer | l'agriculteur / l'agricultrice | de boer / de landbouwer | The farmer grows wheat. | L'agriculteur cultive du blé. | De boer teelt tarwe.
+baker | le boulanger / la boulangère | de bakker | The baker opens early. | Le boulanger ouvre tôt. | De bakker gaat vroeg open.
+mechanic | le mécanicien | de mecanicien / de garagist | Take the car to the mechanic. | Amène la voiture au mécanicien. | Breng de auto naar de garagist.
+plumber | le plombier | de loodgieter | Call a plumber. | Appelle un plombier. | Bel een loodgieter.
+electrician | l'électricien(ne) | de elektricien | The electrician fixed it. | L'électricien l'a réparé. | De elektricien heeft het hersteld.
+cleaner | l'agent(e) d'entretien / la femme de ménage | de poetsvrouw / de schoonmaker | The cleaner comes on Friday. | La femme de ménage vient le vendredi. | De poetsvrouw komt op vrijdag.
+soldier | le soldat | de soldaat | A brave soldier. | Un soldat courageux. | Een dappere soldaat.
+journalist | le / la journaliste | de journalist | A young journalist. | Une jeune journaliste. | Een jonge journalist.
+lawyer | l'avocat(e) | de advocaat | Call your lawyer. | Appelle ton avocat. | Bel je advocaat.
+accountant | le / la comptable | de boekhouder | The accountant checks the books. | Le comptable vérifie les comptes. | De boekhouder controleert de boeken.
+manager | le / la directeur(trice), le / la manager | de manager / de directeur | The store manager. | Le directeur du magasin. | De winkelmanager.
+employee | l'employé(e) | de werknemer / de bediende | A new employee. | Un nouvel employé. | Een nieuwe werknemer.
+employer | l'employeur | de werkgever | A good employer. | Un bon employeur. | Een goede werkgever.
+## B1
+personality | la personnalité | de persoonlijkheid | A strong personality. | Une forte personnalité. | Een sterke persoonlijkheid.
+character | le caractère | het karakter | She has character. | Elle a du caractère. | Ze heeft karakter.
+mood swings | les sautes d'humeur | de stemmingswisselingen | He has mood swings. | Il a des sautes d'humeur. | Hij heeft stemmingswisselingen.
+self-confidence | la confiance en soi | het zelfvertrouwen | Build self-confidence. | Développer la confiance en soi. | Zelfvertrouwen opbouwen.
+patience | la patience | het geduld | Patience is a virtue. | La patience est une vertu. | Geduld is een deugd.
+courage | le courage | de moed | It takes courage. | Il faut du courage. | Er is moed voor nodig.
+fear | la peur | de angst | Face your fears. | Affronte tes peurs. | Trotseer je angsten.
+anger | la colère | de woede | Control your anger. | Contrôle ta colère. | Beheers je woede.
+joy | la joie | de vreugde | Tears of joy. | Des larmes de joie. | Tranen van vreugde.
+sadness | la tristesse | het verdriet | Deep sadness. | Une profonde tristesse. | Diep verdriet.
+shame | la honte | de schaamte | No shame in asking. | Pas de honte à demander. | Geen schaamte om te vragen.
+pride | la fierté / l'orgueil (m.) | de trots | A source of pride. | Une source de fierté. | Een bron van trots.
+hope | l'espoir (m.) | de hoop | Never lose hope. | Ne perds jamais espoir. | Verlies nooit de hoop.
+loneliness | la solitude | de eenzaamheid | Loneliness can hurt. | La solitude peut faire mal. | Eenzaamheid kan pijn doen.
+habit | l'habitude (f.) | de gewoonte | A bad habit. | Une mauvaise habitude. | Een slechte gewoonte.
+skill | la compétence | de vaardigheid | Language skills. | Les compétences linguistiques. | Taalvaardigheden.
+talent | le talent | het talent | A natural talent. | Un talent naturel. | Een natuurlijk talent.
+mind | l'esprit (m.) | de geest | Clear your mind. | Vide-toi l'esprit. | Maak je hoofd leeg.
+brain | le cerveau | de hersenen / het brein | Train your brain. | Entraîne ton cerveau. | Train je hersenen.
+## B2
+integrity | l'intégrité (f.) | de integriteit | A man of integrity. | Un homme intègre. | Een man met integriteit.
+humility | l'humilité (f.) | de nederigheid | Humility and respect. | L'humilité et le respect. | Nederigheid en respect.
+arrogance | l'arrogance (f.) | de arrogantie | His arrogance annoys me. | Son arrogance m'agace. | Zijn arrogantie ergert me.
+determination | la détermination | de vastberadenheid | Pure determination. | De la pure détermination. | Pure vastberadenheid.
+compassion | la compassion | het medeleven | Show compassion. | Fais preuve de compassion. | Toon medeleven.
+gratitude | la gratitude | de dankbaarheid | Express your gratitude. | Exprime ta gratitude. | Toon je dankbaarheid.
+envy | l'envie (f.) / la jalousie | de afgunst | Green with envy. | Vert de jalousie. | Groen van afgunst.
+guilt | la culpabilité | het schuldgevoel | A feeling of guilt. | Un sentiment de culpabilité. | Een schuldgevoel.
+relief | le soulagement | de opluchting | What a relief! | Quel soulagement ! | Wat een opluchting!
+frustration | la frustration | de frustratie | I understand your frustration. | Je comprends ta frustration. | Ik begrijp je frustratie.
+enthusiasm | l'enthousiasme (m.) | het enthousiasme | Full of enthusiasm. | Plein d'enthousiasme. | Vol enthousiasme.
+reputation | la réputation | de reputatie / de naam | A good reputation. | Une bonne réputation. | Een goede reputatie.
+temper | le caractère / l'humeur (f.) | het humeur / het temperament | He has a short temper. | Il s'emporte facilement. | Hij is opvliegend.
+willpower | la volonté | de wilskracht | It takes willpower. | Il faut de la volonté. | Er is wilskracht voor nodig.
+wit | l'esprit (m.) / l'humour (m.) | de humor / de geestigheid | A sharp wit. | Un esprit vif. | Een scherpe humor.
+## C1
+candour | la franchise / la sincérité | de openhartigheid | I appreciate your candour. | J'apprécie ta franchise. | Ik waardeer je openhartigheid.
+complacency | l'autosatisfaction (f.) | de zelfgenoegzaamheid | Complacency is dangerous. | L'autosatisfaction est dangereuse. | Zelfgenoegzaamheid is gevaarlijk.
+fortitude | la force d'âme | de standvastigheid | She faced it with fortitude. | Elle l'a affronté avec force d'âme. | Ze droeg het met standvastigheid.
+grudge | la rancune | de wrok | He holds a grudge. | Il garde rancune. | Hij koestert wrok.
+nostalgia | la nostalgie | de nostalgie | A wave of nostalgia. | Une vague de nostalgie. | Een golf van nostalgie.
+remorse | le remords | de wroeging | Full of remorse. | Plein de remords. | Vol wroeging.
+resentment | le ressentiment | de wrevel / de rancune | Deep resentment. | Un profond ressentiment. | Diepe wrevel.
+tenacity | la ténacité | de vasthoudendheid | Tenacity pays off. | La ténacité paie. | Vasthoudendheid loont.
+vanity | la vanité | de ijdelheid | Pure vanity. | Pure vanité. | Pure ijdelheid.
+zeal | le zèle | de ijver | With great zeal. | Avec beaucoup de zèle. | Met veel ijver.

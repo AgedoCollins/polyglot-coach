@@ -1,0 +1,85 @@
+# Batch 05 — everyday life nouns. Format: English | French | Dutch | EN example | FR example | NL example
+## A1
+sandwich | le sandwich | de boterham / het broodje | A cheese sandwich. | Un sandwich au fromage. | Een broodje kaas.
+soup | la soupe | de soep | Hot soup. | Une soupe chaude. | Warme soep.
+cake | le gâteau | de taart / de cake | A chocolate cake. | Un gâteau au chocolat. | Een chocoladetaart.
+chocolate | le chocolat | de chocolade | Belgian chocolate. | Du chocolat belge. | Belgische chocolade.
+orange | l'orange (f.) | de sinaasappel | An orange juice. | Un jus d'orange. | Een sinaasappelsap.
+banana | la banane | de banaan | A ripe banana. | Une banane mûre. | Een rijpe banaan.
+tomato | la tomate | de tomaat | Tomato soup. | La soupe à la tomate. | Tomatensoep.
+onion | l'oignon (m.) | de ui | Chop the onion. | Coupe l'oignon. | Snij de ui.
+carrot | la carotte | de wortel | Carrots are healthy. | Les carottes sont bonnes pour la santé. | Wortelen zijn gezond.
+salad | la salade | de salade / de sla | A green salad. | Une salade verte. | Een groene salade.
+pepper | le poivre | de peper | Salt and pepper. | Sel et poivre. | Zout en peper.
+oil | l'huile (f.) | de olie | Olive oil. | L'huile d'olive. | Olijfolie.
+restaurant | le restaurant | het restaurant | A good restaurant. | Un bon restaurant. | Een goed restaurant.
+menu | la carte / le menu | de menukaart | Can I see the menu? | Je peux voir la carte ? | Mag ik de menukaart zien?
+waiter | le serveur | de ober / de kelner | Call the waiter. | Appelle le serveur. | Roep de ober.
+bill (restaurant) | l'addition (f.) | de rekening | The bill, please. | L'addition, s'il vous plaît. | De rekening, alstublieft.
+tip | le pourboire | de fooi | Leave a tip. | Laisse un pourboire. | Geef een fooi.
+bed sheet | le drap | het laken | Change the sheets. | Change les draps. | Verander de lakens.
+pillow | l'oreiller (m.) | het kussen | A soft pillow. | Un oreiller doux. | Een zacht kussen.
+towel | la serviette | de handdoek | A clean towel. | Une serviette propre. | Een propere handdoek.
+soap | le savon | de zeep | Wash with soap. | Lave-toi avec du savon. | Was je met zeep.
+mirror | le miroir | de spiegel | Look in the mirror. | Regarde dans le miroir. | Kijk in de spiegel.
+clock | l'horloge (f.) | de klok | The clock is slow. | L'horloge retarde. | De klok loopt achter.
+watch | la montre | het horloge | A new watch. | Une nouvelle montre. | Een nieuw horloge.
+glasses | les lunettes | de bril | I need my glasses. | J'ai besoin de mes lunettes. | Ik heb mijn bril nodig.
+television | la télévision | de televisie | Turn off the television. | Éteins la télévision. | Zet de televisie uit.
+radio | la radio | de radio | Listen to the radio. | Écoute la radio. | Luister naar de radio.
+## A2
+hairdresser | le coiffeur / la coiffeuse | de kapper | I'm going to the hairdresser. | Je vais chez le coiffeur. | Ik ga naar de kapper.
+butcher | le boucher | de slager / de beenhouwer | The butcher sells meat. | Le boucher vend de la viande. | De beenhouwer verkoopt vlees.
+factory | l'usine (f.) | de fabriek | He works in a factory. | Il travaille dans une usine. | Hij werkt in een fabriek.
+port / harbour | le port | de haven | The port of Antwerp. | Le port d'Anvers. | De haven van Antwerpen.
+police station | le commissariat | het politiekantoor | Where is the police station? | Où est le commissariat ? | Waar is het politiekantoor?
+fire brigade | les pompiers | de brandweer | Call the fire brigade. | Appelle les pompiers. | Bel de brandweer.
+pharmacist | le / la pharmacien(ne) | de apotheker | Ask the pharmacist. | Demande au pharmacien. | Vraag het aan de apotheker.
+playground | la plaine de jeux / l'aire de jeux (f.) | de speeltuin | Kids at the playground. | Des enfants à la plaine de jeux. | Kinderen in de speeltuin.
+parking space | la place de parking | de parkeerplaats | No parking space. | Pas de place de parking. | Geen parkeerplaats.
+petrol station | la station-service | het tankstation | Stop at the petrol station. | Arrête-toi à la station-service. | Stop aan het tankstation.
+motorway | l'autoroute (f.) | de autosnelweg | The motorway to Antwerp. | L'autoroute vers Anvers. | De autosnelweg naar Antwerpen.
+roundabout | le rond-point | de rotonde | Take the second exit at the roundabout. | Prends la deuxième sortie au rond-point. | Neem de tweede afslag op de rotonde.
+pavement | le trottoir | het voetpad / de stoep | Walk on the pavement. | Marche sur le trottoir. | Loop op het voetpad.
+cycle path | la piste cyclable | het fietspad | Use the cycle path. | Utilise la piste cyclable. | Gebruik het fietspad.
+driving licence | le permis de conduire | het rijbewijs | I have a driving licence. | J'ai le permis de conduire. | Ik heb een rijbewijs.
+seat belt | la ceinture de sécurité | de veiligheidsgordel | Fasten your seat belt. | Attache ta ceinture. | Doe je gordel om.
+washing machine | la machine à laver | de wasmachine | The washing machine is broken. | La machine à laver est en panne. | De wasmachine is kapot.
+dishwasher | le lave-vaisselle | de vaatwasser | Empty the dishwasher. | Vide le lave-vaisselle. | Maak de vaatwasser leeg.
+microwave | le micro-ondes | de microgolfoven | Heat it in the microwave. | Réchauffe-le au micro-ondes. | Warm het op in de microgolfoven.
+vacuum cleaner | l'aspirateur (m.) | de stofzuiger | Use the vacuum cleaner. | Passe l'aspirateur. | Gebruik de stofzuiger.
+rubbish / trash | les ordures / la poubelle | het afval / de vuilnisbak | Take out the rubbish. | Sors la poubelle. | Zet het afval buiten.
+light bulb | l'ampoule (f.) | de lamp / het peertje | Change the light bulb. | Change l'ampoule. | Vervang het peertje.
+socket | la prise | het stopcontact | Plug it into the socket. | Branche-le sur la prise. | Steek het in het stopcontact.
+blanket | la couverture | de deken | A warm blanket. | Une couverture chaude. | Een warme deken.
+curtain | le rideau | het gordijn | Close the curtains. | Ferme les rideaux. | Doe de gordijnen dicht.
+## B1
+appliance | l'appareil électroménager (m.) | het huishoudtoestel | Kitchen appliances. | Les appareils électroménagers. | Keukentoestellen.
+household | le ménage / le foyer | het huishouden | A household of four. | Un ménage de quatre personnes. | Een huishouden van vier.
+chore | la corvée / la tâche ménagère | het huishoudelijk karwei | Share the chores. | Partagez les tâches ménagères. | Verdeel de huishoudelijke taken.
+grocery | l'épicerie (f.) | de kruidenierswinkel | The local grocery. | L'épicerie du coin. | De kruidenier om de hoek.
+groceries | les courses / les provisions | de boodschappen | Carry the groceries. | Porte les courses. | Draag de boodschappen.
+ingredient | l'ingrédient (m.) | het ingrediënt | Fresh ingredients. | Des ingrédients frais. | Verse ingrediënten.
+recipe | la recette | het recept | A family recipe. | Une recette de famille. | Een familierecept.
+flavour | la saveur | de smaak | A rich flavour. | Une saveur riche. | Een rijke smaak.
+portion | la portion | de portie | A small portion. | Une petite portion. | Een kleine portie.
+leftovers | les restes | de restjes | Eat the leftovers. | Mange les restes. | Eet de restjes op.
+diet | le régime / l'alimentation (f.) | het dieet / de voeding | A healthy diet. | Une alimentation saine. | Een gezonde voeding.
+appetite | l'appétit (m.) | de eetlust | Bon appetit! | Bon appétit ! | Smakelijk!
+craving | l'envie (f.) | de trek / de goesting | A craving for chocolate. | Une envie de chocolat. | Goesting in chocolade.
+commute | le trajet domicile-travail | het woon-werkverkeer | A long commute. | Un long trajet domicile-travail. | Een lang woon-werkverkeer.
+rush hour | l'heure de pointe (f.) | het spitsuur | Avoid rush hour. | Évite l'heure de pointe. | Vermijd het spitsuur.
+season ticket | l'abonnement (m.) | het abonnement | A monthly season ticket. | Un abonnement mensuel. | Een maandabonnement.
+fare | le tarif / le prix du billet | het tarief / de ritprijs | The bus fare. | Le prix du billet de bus. | De busprijs.
+delay | le retard | de vertraging | A ten-minute delay. | Un retard de dix minutes. | Tien minuten vertraging.
+## B2
+amenities | les commodités / les équipements | de voorzieningen | Local amenities. | Les équipements locaux. | Lokale voorzieningen.
+outskirts | la périphérie / les environs | de rand / de buitenwijken | On the outskirts of Ghent. | En périphérie de Gand. | Aan de rand van Gent.
+suburb | la banlieue | de voorstad / de buitenwijk | They live in a suburb. | Ils habitent en banlieue. | Ze wonen in een voorstad.
+infrastructure | l'infrastructure (f.) | de infrastructuur | Road infrastructure. | L'infrastructure routière. | De weginfrastructuur.
+utilities | les services publics (eau, gaz, électricité) | de nutsvoorzieningen | Utilities are included. | Les charges sont comprises. | De nutsvoorzieningen zijn inbegrepen.
+maintenance | l'entretien (m.) | het onderhoud | Regular maintenance. | Un entretien régulier. | Regelmatig onderhoud.
+renovation | la rénovation | de renovatie / de verbouwing | A full renovation. | Une rénovation complète. | Een volledige renovatie.
+premises | les locaux | het pand / de gebouwen | No smoking on the premises. | Interdit de fumer dans les locaux. | Niet roken in het gebouw.
+warranty | la garantie | de garantie | A two-year warranty. | Une garantie de deux ans. | Twee jaar garantie.
+refund | le remboursement | de terugbetaling | Ask for a refund. | Demande un remboursement. | Vraag een terugbetaling.

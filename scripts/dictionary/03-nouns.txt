@@ -1,0 +1,147 @@
+# Batch 03 — everyday nouns. Format: English | French | Dutch | EN example | FR example | NL example
+## A1
+man | l'homme (m.) | de man | A tall man. | Un homme grand. | Een grote man.
+woman | la femme | de vrouw | A young woman. | Une jeune femme. | Een jonge vrouw.
+people | les gens | de mensen | Many people. | Beaucoup de gens. | Veel mensen.
+person | la personne | de persoon | A kind person. | Une personne gentille. | Een vriendelijk persoon.
+boy | le garçon | de jongen | The boy runs. | Le garçon court. | De jongen loopt.
+girl | la fille | het meisje | The girl sings. | La fille chante. | Het meisje zingt.
+thing | la chose | het ding | A strange thing. | Une chose étrange. | Een vreemd ding.
+place | l'endroit (m.) / le lieu | de plaats / de plek | A nice place. | Un bel endroit. | Een mooie plek.
+world | le monde | de wereld | Around the world. | Autour du monde. | Rond de wereld.
+country | le pays | het land | Belgium is a small country. | La Belgique est un petit pays. | België is een klein land.
+life | la vie | het leven | Life is beautiful. | La vie est belle. | Het leven is mooi.
+time | le temps | de tijd | I have no time. | Je n'ai pas le temps. | Ik heb geen tijd.
+way | le chemin / la façon | de weg / de manier | The way home. | Le chemin de la maison. | De weg naar huis.
+word | le mot | het woord | A new word. | Un nouveau mot. | Een nieuw woord.
+sentence | la phrase | de zin | Read this sentence. | Lis cette phrase. | Lees deze zin.
+idea | l'idée (f.) | het idee | Good idea! | Bonne idée ! | Goed idee!
+problem | le problème | het probleem | No problem. | Pas de problème. | Geen probleem.
+answer | la réponse | het antwoord | The right answer. | La bonne réponse. | Het juiste antwoord.
+phone | le téléphone | de telefoon / de gsm | My phone is dead. | Mon téléphone est déchargé. | Mijn gsm is leeg.
+picture | l'image (f.) / la photo | de foto / de afbeelding | A nice picture. | Une belle photo. | Een mooie foto.
+colour | la couleur | de kleur | My favourite colour. | Ma couleur préférée. | Mijn lievelingskleur.
+gift / present | le cadeau | het cadeau / het geschenk | A birthday present. | Un cadeau d'anniversaire. | Een verjaardagscadeau.
+party | la fête | het feest | A great party. | Une super fête. | Een geweldig feest.
+song | la chanson | het lied / het liedje | A sad song. | Une chanson triste. | Een droevig liedje.
+glass | le verre | het glas | A glass of milk. | Un verre de lait. | Een glas melk.
+plate | l'assiette (f.) | het bord | A clean plate. | Une assiette propre. | Een proper bord.
+knife | le couteau | het mes | A sharp knife. | Un couteau aiguisé. | Een scherp mes.
+fork | la fourchette | de vork | A fork and a knife. | Une fourchette et un couteau. | Een vork en een mes.
+spoon | la cuillère | de lepel | A spoon of sugar. | Une cuillère de sucre. | Een lepel suiker.
+cup | la tasse | de tas / het kopje | A cup of tea. | Une tasse de thé. | Een kopje thee.
+box | la boîte | de doos | An empty box. | Une boîte vide. | Een lege doos.
+paper | le papier | het papier | A sheet of paper. | Une feuille de papier. | Een blad papier.
+letter (alphabet) | la lettre | de letter | The letter A. | La lettre A. | De letter A.
+city centre | le centre-ville | het stadscentrum | I work in the city centre. | Je travaille au centre-ville. | Ik werk in het stadscentrum.
+school bag | le cartable | de boekentas | A heavy school bag. | Un cartable lourd. | Een zware boekentas.
+## A2
+village | le village | het dorp | A quiet village. | Un village tranquille. | Een rustig dorp.
+building | le bâtiment | het gebouw | A tall building. | Un grand bâtiment. | Een hoog gebouw.
+floor (ground) | le sol | de vloer | The floor is wet. | Le sol est mouillé. | De vloer is nat.
+ceiling | le plafond | het plafond | A high ceiling. | Un plafond haut. | Een hoog plafond.
+corner | le coin | de hoek | In the corner. | Dans le coin. | In de hoek.
+side | le côté | de kant | On the other side. | De l'autre côté. | Aan de andere kant.
+end | la fin | het einde | The end of the film. | La fin du film. | Het einde van de film.
+beginning | le début | het begin | The beginning of the year. | Le début de l'année. | Het begin van het jaar.
+middle | le milieu | het midden | In the middle. | Au milieu. | In het midden.
+part | la partie | het deel | The first part. | La première partie. | Het eerste deel.
+piece | le morceau | het stuk | A piece of cake. | Un morceau de gâteau. | Een stuk taart.
+group | le groupe | de groep | A small group. | Un petit groupe. | Een kleine groep.
+kind / type | la sorte / le genre | de soort | What kind of music? | Quel genre de musique ? | Welke soort muziek?
+reason | la raison | de reden | For that reason. | Pour cette raison. | Om die reden.
+example | l'exemple (m.) | het voorbeeld | For example. | Par exemple. | Bijvoorbeeld.
+fact | le fait | het feit | It's a fact. | C'est un fait. | Het is een feit.
+story | l'histoire (f.) | het verhaal | A true story. | Une histoire vraie. | Een waar gebeurd verhaal.
+history | l'histoire (f.) | de geschiedenis | Belgian history. | L'histoire belge. | De Belgische geschiedenis.
+plan | le plan / le projet | het plan | What's the plan? | Quel est le plan ? | Wat is het plan?
+dream | le rêve | de droom | A beautiful dream. | Un beau rêve. | Een mooie droom.
+voice | la voix | de stem | A soft voice. | Une voix douce. | Een zachte stem.
+noise | le bruit | het lawaai / het geluid | What's that noise? | C'est quoi ce bruit ? | Wat is dat geluid?
+smell | l'odeur (f.) | de geur | A nice smell. | Une bonne odeur. | Een lekkere geur.
+taste | le goût | de smaak | A strange taste. | Un goût étrange. | Een vreemde smaak.
+luck | la chance | het geluk | Good luck! | Bonne chance ! | Veel succes!
+mistake | l'erreur (f.) | de fout | A small mistake. | Une petite erreur. | Een kleine fout.
+help | l'aide (f.) | de hulp | Thanks for your help. | Merci pour ton aide. | Bedankt voor je hulp.
+advice | le conseil | het advies / de raad | Good advice. | Un bon conseil. | Goede raad.
+choice | le choix | de keuze | A difficult choice. | Un choix difficile. | Een moeilijke keuze.
+size | la taille | de grootte / de maat | The right size. | La bonne taille. | De juiste maat.
+shape | la forme | de vorm | A round shape. | Une forme ronde. | Een ronde vorm.
+age | l'âge (m.) | de leeftijd | At my age. | À mon âge. | Op mijn leeftijd.
+future | l'avenir (m.) | de toekomst | Think about the future. | Pense à l'avenir. | Denk aan de toekomst.
+past | le passé | het verleden | Forget the past. | Oublie le passé. | Vergeet het verleden.
+present (time) | le présent | het heden | Live in the present. | Vis dans le présent. | Leef in het heden.
+## B1
+behaviour | le comportement | het gedrag | Good behaviour. | Un bon comportement. | Goed gedrag.
+attitude | l'attitude (f.) | de houding | A positive attitude. | Une attitude positive. | Een positieve houding.
+ability | la capacité | het vermogen / de vaardigheid | The ability to learn. | La capacité d'apprendre. | Het vermogen om te leren.
+knowledge | la connaissance / le savoir | de kennis | Knowledge is power. | Le savoir, c'est le pouvoir. | Kennis is macht.
+memory | la mémoire / le souvenir | het geheugen / de herinnering | A good memory. | Une bonne mémoire. | Een goed geheugen.
+effort | l'effort (m.) | de inspanning / de moeite | Make an effort. | Fais un effort. | Doe moeite.
+success | le succès / la réussite | het succes | A great success. | Un grand succès. | Een groot succes.
+failure | l'échec (m.) | de mislukking | Failure teaches us. | L'échec nous apprend. | Mislukking leert ons iets.
+risk | le risque | het risico | Take a risk. | Prendre un risque. | Een risico nemen.
+chance (opportunity) | l'occasion (f.) | de kans | A second chance. | Une seconde chance. | Een tweede kans.
+situation | la situation | de situatie / de toestand | A difficult situation. | Une situation difficile. | Een moeilijke situatie.
+condition | la condition / l'état (m.) | de voorwaarde / de toestand | In good condition. | En bon état. | In goede staat.
+effect | l'effet (m.) | het effect / de uitwerking | Side effects. | Les effets secondaires. | Bijwerkingen.
+cause | la cause | de oorzaak | The cause of the fire. | La cause de l'incendie. | De oorzaak van de brand.
+solution | la solution | de oplossing | A simple solution. | Une solution simple. | Een eenvoudige oplossing.
+method | la méthode | de methode | A new method. | Une nouvelle méthode. | Een nieuwe methode.
+amount | la quantité / le montant | de hoeveelheid / het bedrag | A large amount. | Une grande quantité. | Een grote hoeveelheid.
+quality | la qualité | de kwaliteit | High quality. | Haute qualité. | Hoge kwaliteit.
+level | le niveau | het niveau | A high level. | Un niveau élevé. | Een hoog niveau.
+rule | la règle | de regel | Follow the rules. | Respecte les règles. | Volg de regels.
+law | la loi | de wet | A new law. | Une nouvelle loi. | Een nieuwe wet.
+society | la société | de samenleving | Modern society. | La société moderne. | De moderne samenleving.
+population | la population | de bevolking | The population grows. | La population augmente. | De bevolking groeit.
+generation | la génération | de generatie | The young generation. | La jeune génération. | De jonge generatie.
+career | la carrière | de loopbaan / de carrière | A long career. | Une longue carrière. | Een lange loopbaan.
+## B2
+approach | l'approche (f.) | de aanpak / de benadering | A new approach. | Une nouvelle approche. | Een nieuwe aanpak.
+aspect | l'aspect (m.) | het aspect | An important aspect. | Un aspect important. | Een belangrijk aspect.
+awareness | la sensibilisation / la conscience | het bewustzijn | Raise awareness. | Sensibiliser. | Bewustzijn creëren.
+consequence | la conséquence | het gevolg | Serious consequences. | De graves conséquences. | Ernstige gevolgen.
+contribution | la contribution | de bijdrage | Thanks for your contribution. | Merci pour ta contribution. | Bedankt voor je bijdrage.
+criticism | la critique | de kritiek | Constructive criticism. | Une critique constructive. | Opbouwende kritiek.
+demand | la demande / l'exigence (f.) | de vraag / de eis | High demand. | Une forte demande. | Een grote vraag.
+emphasis | l'accent (m.) / l'insistance (f.) | de nadruk | Put emphasis on quality. | Mettre l'accent sur la qualité. | De nadruk leggen op kwaliteit.
+feature | la caractéristique | het kenmerk / de functie | A new feature. | Une nouvelle fonctionnalité. | Een nieuwe functie.
+framework | le cadre | het kader | A legal framework. | Un cadre juridique. | Een wettelijk kader.
+impact | l'impact (m.) | de impact / de invloed | A big impact. | Un grand impact. | Een grote impact.
+issue | la question / le problème | het probleem / de kwestie | A key issue. | Une question clé. | Een belangrijke kwestie.
+outcome | le résultat / l'issue (f.) | de uitkomst | The final outcome. | Le résultat final. | De uiteindelijke uitkomst.
+perspective | la perspective | het perspectief | A different perspective. | Une perspective différente. | Een ander perspectief.
+phenomenon | le phénomène | het fenomeen / het verschijnsel | A natural phenomenon. | Un phénomène naturel. | Een natuurverschijnsel.
+range | la gamme / l'éventail (m.) | het assortiment / de reeks | A wide range. | Une large gamme. | Een breed assortiment.
+requirement | l'exigence (f.) | de vereiste | Minimum requirements. | Les exigences minimales. | Minimale vereisten.
+source | la source | de bron | A reliable source. | Une source fiable. | Een betrouwbare bron.
+strength | la force | de kracht / de sterkte | Strengths and weaknesses. | Les forces et les faiblesses. | Sterktes en zwaktes.
+weakness | la faiblesse | de zwakte | My biggest weakness. | Ma plus grande faiblesse. | Mijn grootste zwakte.
+tendency | la tendance | de neiging | A tendency to worry. | Une tendance à s'inquiéter. | Een neiging om te piekeren.
+threat | la menace | de bedreiging | A serious threat. | Une menace sérieuse. | Een ernstige bedreiging.
+trend | la tendance | de trend | A new trend. | Une nouvelle tendance. | Een nieuwe trend.
+value | la valeur | de waarde | Family values. | Les valeurs familiales. | Familiewaarden.
+welfare | le bien-être | het welzijn | Animal welfare. | Le bien-être animal. | Dierenwelzijn.
+## C1
+paradigm | le paradigme | het paradigma | A paradigm shift. | Un changement de paradigme. | Een paradigmaverschuiving.
+discrepancy | l'écart (m.) / la divergence | de discrepantie / het verschil | A discrepancy in the figures. | Un écart dans les chiffres. | Een verschil in de cijfers.
+endeavour | l'effort (m.) / l'entreprise (f.) | de onderneming / het streven | A noble endeavour. | Une noble entreprise. | Een nobel streven.
+foresight | la prévoyance / la clairvoyance | de vooruitziendheid | Lack of foresight. | Un manque de prévoyance. | Gebrek aan vooruitziendheid.
+hindsight | le recul | de terugblik / achteraf bekeken | In hindsight, I was wrong. | Avec le recul, j'avais tort. | Achteraf bekeken had ik ongelijk.
+leeway | la marge de manœuvre | de speelruimte | We have some leeway. | Nous avons une marge de manœuvre. | We hebben wat speelruimte.
+pitfall | le piège / l'écueil (m.) | de valkuil | Common pitfalls. | Les pièges courants. | Veelvoorkomende valkuilen.
+scrutiny | l'examen minutieux (m.) | de nauwkeurige controle | Under public scrutiny. | Sous le regard du public. | Onder publieke controle.
+setback | le revers / le contretemps | de tegenslag | A minor setback. | Un léger contretemps. | Een kleine tegenslag.
+stance | la position | het standpunt | A firm stance. | Une position ferme. | Een vast standpunt.
+## C2
+quintessence | la quintessence | de kern / de quintessens | The quintessence of style. | La quintessence du style. | De quintessens van stijl.
+serendipity | la sérendipité | de serendipiteit | Pure serendipity. | Pure sérendipité. | Pure serendipiteit.
+zeitgeist | l'air du temps (m.) | de tijdgeest | The zeitgeist of the sixties. | L'air du temps des années soixante. | De tijdgeest van de jaren zestig.
+hubris | l'hybris (f.) / l'orgueil démesuré (m.) | de hoogmoed | His hubris led to his fall. | Son orgueil démesuré a causé sa chute. | Zijn hoogmoed leidde tot zijn val.
+panacea | la panacée | het wondermiddel | There is no panacea. | Il n'y a pas de panacée. | Er bestaat geen wondermiddel.
+conundrum | l'énigme (f.) / le casse-tête | het raadsel | A real conundrum. | Un vrai casse-tête. | Een echt raadsel.
+dichotomy | la dichotomie | de tweedeling | A false dichotomy. | Une fausse dichotomie. | Een valse tweedeling.
+equanimity | l'équanimité (f.) | de gelijkmoedigheid | Face it with equanimity. | Affronte-le avec équanimité. | Onderga het met gelijkmoedigheid.
+vicissitudes | les vicissitudes | de wisselvalligheden | The vicissitudes of life. | Les vicissitudes de la vie. | De wisselvalligheden van het leven.
+penchant | le penchant | de voorliefde | A penchant for luxury. | Un penchant pour le luxe. | Een voorliefde voor luxe.
