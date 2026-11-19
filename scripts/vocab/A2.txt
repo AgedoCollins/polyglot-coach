@@ -1,0 +1,311 @@
+# Format: English | French | Dutch | English example | French example | Dutch example
+## 0 Work & jobs
+job | l'emploi (m.) / le boulot | de job / de baan | I'm looking for a job. | Je cherche un emploi. | Ik zoek een job.
+work | le travail | het werk | I like my work. | J'aime mon travail. | Ik hou van mijn werk.
+colleague | le / la collègue | de collega | My colleagues are nice. | Mes collègues sont sympas. | Mijn collega's zijn leuk.
+boss | le / la chef, le patron | de baas | My boss is strict. | Mon chef est strict. | Mijn baas is streng.
+company | l'entreprise (f.) / la société | het bedrijf | She works for a big company. | Elle travaille pour une grande entreprise. | Ze werkt voor een groot bedrijf.
+office | le bureau | het kantoor / het bureau | I work in an office. | Je travaille dans un bureau. | Ik werk op kantoor.
+salary | le salaire | het loon / het salaris | The salary is good. | Le salaire est bon. | Het loon is goed.
+meeting | la réunion | de vergadering | The meeting starts at ten. | La réunion commence à dix heures. | De vergadering begint om tien uur.
+contract | le contrat | het contract | I signed the contract. | J'ai signé le contrat. | Ik heb het contract getekend.
+interview | l'entretien (m.) | het sollicitatiegesprek | I have a job interview tomorrow. | J'ai un entretien d'embauche demain. | Ik heb morgen een sollicitatiegesprek.
+to apply | postuler | solliciteren | I applied for the job. | J'ai postulé pour ce poste. | Ik heb voor die job gesolliciteerd.
+CV / résumé | le CV | het cv | Send your CV by email. | Envoyez votre CV par e-mail. | Stuur uw cv per e-mail.
+experience | l'expérience (f.) | de ervaring | I have five years of experience. | J'ai cinq ans d'expérience. | Ik heb vijf jaar ervaring.
+full-time | à temps plein | voltijds | I work full-time. | Je travaille à temps plein. | Ik werk voltijds.
+part-time | à temps partiel / à mi-temps | deeltijds | She works part-time. | Elle travaille à temps partiel. | Ze werkt deeltijds.
+unemployed | au chômage | werkloos | He is unemployed. | Il est au chômage. | Hij is werkloos.
+teacher | l'enseignant(e) / le professeur | de leraar / de leerkracht | My wife is a teacher. | Ma femme est enseignante. | Mijn vrouw is leerkracht.
+nurse | l'infirmier / l'infirmière | de verpleger / de verpleegster | The nurse is very kind. | L'infirmière est très gentille. | De verpleegster is heel vriendelijk.
+engineer | l'ingénieur(e) | de ingenieur | He's an engineer at the port. | Il est ingénieur au port. | Hij is ingenieur in de haven.
+driver | le chauffeur | de chauffeur / de bestuurder | The bus driver is friendly. | Le chauffeur de bus est sympa. | De buschauffeur is vriendelijk.
+cook | le cuisinier / la cuisinière | de kok | The cook prepares lunch. | Le cuisinier prépare le repas. | De kok maakt het middagmaal klaar.
+shop assistant | le vendeur / la vendeuse | de verkoper / de verkoopster | The shop assistant helped me. | La vendeuse m'a aidé. | De verkoopster heeft me geholpen.
+to earn | gagner | verdienen | He earns a lot. | Il gagne beaucoup. | Hij verdient veel.
+holiday (leave) | le congé | het verlof / de vakantie | I'm on leave next week. | Je suis en congé la semaine prochaine. | Ik heb volgende week verlof.
+task | la tâche | de taak | I have many tasks today. | J'ai beaucoup de tâches aujourd'hui. | Ik heb vandaag veel taken.
+to hire | embaucher / engager | aanwerven | They want to hire you. | Ils veulent t'embaucher. | Ze willen je aanwerven.
+to resign | démissionner | ontslag nemen | She resigned last month. | Elle a démissionné le mois dernier. | Ze heeft vorige maand ontslag genomen.
+to be fired | être licencié / être renvoyé | ontslagen worden | He was fired. | Il a été licencié. | Hij is ontslagen.
+schedule | l'horaire (m.) | het uurrooster | My schedule is flexible. | Mon horaire est flexible. | Mijn uurrooster is flexibel.
+break | la pause | de pauze | Lunch break is at noon. | La pause de midi est à midi. | De middagpauze is om twaalf uur.
+## 1 Housing & renting
+to rent | louer | huren | We rent a flat in Ghent. | Nous louons un appartement à Gand. | We huren een appartement in Gent.
+landlord | le propriétaire | de verhuurder / de eigenaar | The landlord lives upstairs. | Le propriétaire habite au-dessus. | De verhuurder woont boven.
+tenant | le / la locataire | de huurder | The tenant pays on time. | Le locataire paie à temps. | De huurder betaalt op tijd.
+lease | le bail | het huurcontract | The lease is for three years. | Le bail est de trois ans. | Het huurcontract is voor drie jaar.
+deposit | la garantie locative | de huurwaarborg | The deposit is two months' rent. | La garantie locative est de deux mois de loyer. | De huurwaarborg is twee maanden huur.
+charges | les charges | de kosten / de lasten | Are the charges included? | Les charges sont comprises ? | Zijn de kosten inbegrepen?
+furnished | meublé | gemeubeld | A furnished studio. | Un studio meublé. | Een gemeubelde studio.
+to move (house) | déménager | verhuizen | We're moving in June. | Nous déménageons en juin. | We verhuizen in juni.
+to visit (a flat) | visiter | bezichtigen | Can I visit the flat? | Je peux visiter l'appartement ? | Mag ik het appartement bezichtigen?
+available | disponible / libre | beschikbaar / vrij | The flat is available now. | L'appartement est libre maintenant. | Het appartement is nu vrij.
+ground floor | le rez-de-chaussée | het gelijkvloers | I live on the ground floor. | J'habite au rez-de-chaussée. | Ik woon op het gelijkvloers.
+lift | l'ascenseur (m.) | de lift | Is there a lift? | Il y a un ascenseur ? | Is er een lift?
+balcony | le balcon | het balkon / het terras | A flat with a balcony. | Un appartement avec balcon. | Een appartement met terras.
+garage | le garage | de garage | The garage is extra. | Le garage est en plus. | De garage is extra.
+square metre | le mètre carré | de vierkante meter | The flat is 70 square metres. | L'appartement fait 70 mètres carrés. | Het appartement is 70 vierkante meter.
+electricity | l'électricité (f.) | de elektriciteit | Electricity is expensive. | L'électricité est chère. | Elektriciteit is duur.
+gas | le gaz | het gas | Gas heating. | Le chauffage au gaz. | Verwarming op gas.
+bill | la facture | de factuur / de rekening | The water bill arrived. | La facture d'eau est arrivée. | De waterfactuur is aangekomen.
+repair | la réparation | de herstelling | The landlord pays for repairs. | Le propriétaire paie les réparations. | De verhuurder betaalt de herstellingen.
+leak | la fuite | het lek | There's a leak in the kitchen. | Il y a une fuite dans la cuisine. | Er is een lek in de keuken.
+noise | le bruit | het lawaai | The neighbours make noise. | Les voisins font du bruit. | De buren maken lawaai.
+quiet | calme | rustig | A quiet neighbourhood. | Un quartier calme. | Een rustige buurt.
+neighbourhood | le quartier | de buurt / de wijk | I like this neighbourhood. | J'aime ce quartier. | Ik hou van deze buurt.
+estate agency | l'agence immobilière (f.) | het immokantoor | Call the estate agency. | Appelle l'agence immobilière. | Bel het immokantoor.
+for rent | à louer | te huur | House for rent. | Maison à louer. | Huis te huur.
+for sale | à vendre | te koop | Flat for sale. | Appartement à vendre. | Appartement te koop.
+owner | le propriétaire | de eigenaar | I want to become an owner. | Je veux devenir propriétaire. | Ik wil eigenaar worden.
+to sign | signer | tekenen / ondertekenen | Sign here, please. | Signez ici, s'il vous plaît. | Teken hier, alstublieft.
+inventory (of fixtures) | l'état des lieux (m.) | de plaatsbeschrijving | We do the inventory on Monday. | Nous faisons l'état des lieux lundi. | We doen maandag de plaatsbeschrijving.
+to register (address) | se domicilier | zich inschrijven | Register at the commune. | Domicilie-toi à la commune. | Schrijf je in bij de gemeente.
+## 2 At the doctor
+appointment | le rendez-vous | de afspraak | I'd like to make an appointment. | Je voudrais prendre rendez-vous. | Ik wil graag een afspraak maken.
+waiting room | la salle d'attente | de wachtzaal | Please sit in the waiting room. | Asseyez-vous dans la salle d'attente. | Neem plaats in de wachtzaal.
+symptom | le symptôme | het symptoom | What are your symptoms? | Quels sont vos symptômes ? | Wat zijn uw symptomen?
+to feel | se sentir | zich voelen | I don't feel well. | Je ne me sens pas bien. | Ik voel me niet goed.
+headache | le mal de tête | de hoofdpijn | I have a headache. | J'ai mal à la tête. | Ik heb hoofdpijn.
+sore throat | le mal de gorge | de keelpijn | I have a sore throat. | J'ai mal à la gorge. | Ik heb keelpijn.
+flu | la grippe | de griep | She has the flu. | Elle a la grippe. | Ze heeft griep.
+dizzy | avoir des vertiges | duizelig | I feel dizzy. | J'ai des vertiges. | Ik ben duizelig.
+to cough | tousser | hoesten | He coughs a lot. | Il tousse beaucoup. | Hij hoest veel.
+allergy | l'allergie (f.) | de allergie | I have an allergy to nuts. | J'ai une allergie aux noix. | Ik heb een allergie voor noten.
+prescription | l'ordonnance (f.) | het voorschrift | Here is your prescription. | Voici votre ordonnance. | Hier is uw voorschrift.
+pill | le comprimé | de pil / de tablet | Take one pill a day. | Prenez un comprimé par jour. | Neem één tablet per dag.
+injection | la piqûre / l'injection (f.) | de spuit / de injectie | The injection doesn't hurt. | La piqûre ne fait pas mal. | De spuit doet geen pijn.
+to examine | examiner | onderzoeken | The doctor examines the patient. | Le médecin examine le patient. | De dokter onderzoekt de patiënt.
+patient | le patient / la patiente | de patiënt | The patient is waiting. | Le patient attend. | De patiënt wacht.
+blood pressure | la tension | de bloeddruk | Your blood pressure is normal. | Votre tension est normale. | Uw bloeddruk is normaal.
+to breathe | respirer | ademen | Breathe deeply. | Respirez profondément. | Adem diep in.
+sick note | le certificat médical | het doktersattest | I need a sick note for work. | J'ai besoin d'un certificat médical pour le travail. | Ik heb een doktersattest nodig voor het werk.
+health insurance | la mutuelle | het ziekenfonds | Give me your health insurance card. | Donnez-moi votre carte de mutuelle. | Geef me uw ziekenfondskaart.
+specialist | le / la spécialiste | de specialist | You need to see a specialist. | Vous devez voir un spécialiste. | U moet naar een specialist.
+dentist | le / la dentiste | de tandarts | I go to the dentist twice a year. | Je vais chez le dentiste deux fois par an. | Ik ga twee keer per jaar naar de tandarts.
+to heal | guérir | genezen | The wound is healing. | La plaie guérit. | De wonde geneest.
+wound | la blessure / la plaie | de wonde | Clean the wound. | Nettoyez la plaie. | Maak de wonde schoon.
+to vomit | vomir | overgeven | The child vomited. | L'enfant a vomi. | Het kind heeft overgegeven.
+sleep | le sommeil | de slaap | Sleep is important. | Le sommeil est important. | Slaap is belangrijk.
+pregnant | enceinte | zwanger | She is pregnant. | Elle est enceinte. | Ze is zwanger.
+to get better | aller mieux | beter worden | I hope you get better soon. | J'espère que tu iras vite mieux. | Ik hoop dat je snel beter wordt.
+ambulance | l'ambulance (f.) | de ziekenwagen | Call an ambulance! | Appelez une ambulance ! | Bel een ziekenwagen!
+treatment | le traitement | de behandeling | The treatment lasts a week. | Le traitement dure une semaine. | De behandeling duurt een week.
+to swallow | avaler | slikken | It hurts to swallow. | J'ai mal en avalant. | Slikken doet pijn.
+## 3 Free time & hobbies
+free time | le temps libre | de vrije tijd | What do you do in your free time? | Que fais-tu pendant ton temps libre ? | Wat doe je in je vrije tijd?
+hobby | le loisir / le passe-temps | de hobby | My hobby is photography. | Mon passe-temps est la photo. | Mijn hobby is fotografie.
+sport | le sport | de sport | I do sport twice a week. | Je fais du sport deux fois par semaine. | Ik sport twee keer per week.
+football | le football / le foot | het voetbal | Football is popular in Belgium. | Le foot est populaire en Belgique. | Voetbal is populair in België.
+to swim | nager | zwemmen | I swim at the pool. | Je nage à la piscine. | Ik zwem in het zwembad.
+swimming pool | la piscine | het zwembad | The swimming pool is closed. | La piscine est fermée. | Het zwembad is gesloten.
+gym | la salle de sport | de fitness / de sportschool | I go to the gym. | Je vais à la salle de sport. | Ik ga naar de fitness.
+to play | jouer | spelen | The children play football. | Les enfants jouent au foot. | De kinderen spelen voetbal.
+game | le jeu / le match | het spel / de wedstrijd | Did you watch the game? | Tu as regardé le match ? | Heb je de wedstrijd gezien?
+music | la musique | de muziek | I love African music. | J'adore la musique africaine. | Ik hou van Afrikaanse muziek.
+to sing | chanter | zingen | She sings in a choir. | Elle chante dans une chorale. | Ze zingt in een koor.
+to dance | danser | dansen | We danced all night. | Nous avons dansé toute la nuit. | We hebben de hele nacht gedanst.
+concert | le concert | het concert | The concert was amazing. | Le concert était génial. | Het concert was geweldig.
+cinema | le cinéma | de bioscoop / de cinema | Let's go to the cinema. | Allons au cinéma. | Laten we naar de cinema gaan.
+film / movie | le film | de film | This film is funny. | Ce film est drôle. | Deze film is grappig.
+book | le livre | het boek | I'm reading a good book. | Je lis un bon livre. | Ik lees een goed boek.
+to paint | peindre | schilderen | My mother paints. | Ma mère peint. | Mijn moeder schildert.
+photo | la photo | de foto | Take a photo! | Prends une photo ! | Neem een foto!
+to travel | voyager | reizen | I love to travel. | J'adore voyager. | Ik reis graag.
+walk / hike | la promenade / la randonnée | de wandeling | A walk in the Ardennes. | Une randonnée dans les Ardennes. | Een wandeling in de Ardennen.
+to go out | sortir | uitgaan | We go out on Saturday. | Nous sortons le samedi. | We gaan zaterdag uit.
+party | la fête / la soirée | het feest / de fuif | There's a party tonight. | Il y a une fête ce soir. | Er is vanavond een feestje.
+museum | le musée | het museum | The museum is free on Sunday. | Le musée est gratuit le dimanche. | Het museum is gratis op zondag.
+club (association) | le club | de club / de vereniging | I joined a running club. | Je me suis inscrit dans un club de course. | Ik ben lid geworden van een loopclub.
+team | l'équipe (f.) | het team / de ploeg | Our team won. | Notre équipe a gagné. | Onze ploeg heeft gewonnen.
+to win | gagner | winnen | Who won? | Qui a gagné ? | Wie heeft gewonnen?
+to lose | perdre | verliezen | We lost 2–1. | Nous avons perdu 2 à 1. | We hebben met 2–1 verloren.
+fun | amusant / sympa | leuk / plezant | It was really fun. | C'était vraiment sympa. | Het was echt leuk.
+to relax | se détendre | ontspannen | I relax with music. | Je me détends avec de la musique. | Ik ontspan met muziek.
+weekend | le week-end | het weekend | Have a nice weekend! | Bon week-end ! | Fijn weekend!
+## 4 Feelings & emotions
+happy | heureux / heureuse | gelukkig / blij | I'm happy to see you. | Je suis heureux de te voir. | Ik ben blij je te zien.
+sad | triste | verdrietig | Why are you sad? | Pourquoi es-tu triste ? | Waarom ben je verdrietig?
+angry | en colère / fâché | boos / kwaad | My boss is angry. | Mon chef est en colère. | Mijn baas is boos.
+afraid | avoir peur | bang | I'm afraid of dogs. | J'ai peur des chiens. | Ik ben bang voor honden.
+nervous | nerveux / nerveuse | zenuwachtig | I'm nervous before the exam. | Je suis nerveux avant l'examen. | Ik ben zenuwachtig voor het examen.
+calm | calme | kalm / rustig | Stay calm. | Reste calme. | Blijf kalm.
+tired | fatigué | moe | I'm too tired to go out. | Je suis trop fatigué pour sortir. | Ik ben te moe om uit te gaan.
+surprised | surpris | verrast | I was surprised. | J'étais surpris. | Ik was verrast.
+proud | fier / fière | trots | I'm proud of you. | Je suis fier de toi. | Ik ben trots op je.
+bored | s'ennuyer | zich vervelen | I'm bored. | Je m'ennuie. | Ik verveel me.
+worried | inquiet / inquiète | bezorgd / ongerust | Don't be worried. | Ne t'inquiète pas. | Wees niet ongerust.
+lonely | seul / solitaire | eenzaam | She feels lonely. | Elle se sent seule. | Ze voelt zich eenzaam.
+in love | amoureux / amoureuse | verliefd | He is in love. | Il est amoureux. | Hij is verliefd.
+jealous | jaloux / jalouse | jaloers | Don't be jealous. | Ne sois pas jaloux. | Wees niet jaloers.
+disappointed | déçu | teleurgesteld | I'm disappointed. | Je suis déçu. | Ik ben teleurgesteld.
+excited | impatient / enthousiaste | enthousiast | I'm excited about the trip. | J'ai hâte de partir en voyage. | Ik kijk uit naar de reis.
+stressed | stressé | gestrest | Work makes me stressed. | Le travail me stresse. | Het werk maakt me gestrest.
+relieved | soulagé | opgelucht | I'm relieved it's over. | Je suis soulagé que ce soit fini. | Ik ben opgelucht dat het voorbij is.
+shy | timide | verlegen | My son is shy. | Mon fils est timide. | Mijn zoon is verlegen.
+embarrassed | gêné / mal à l'aise | beschaamd | I was embarrassed. | J'étais gêné. | Ik was beschaamd.
+grateful | reconnaissant | dankbaar | I'm grateful for your help. | Je te suis reconnaissant pour ton aide. | Ik ben dankbaar voor je hulp.
+to cry | pleurer | huilen / wenen | The baby is crying. | Le bébé pleure. | De baby huilt.
+to laugh | rire | lachen | We laughed a lot. | Nous avons beaucoup ri. | We hebben veel gelachen.
+to smile | sourire | glimlachen | She always smiles. | Elle sourit toujours. | Ze glimlacht altijd.
+feeling | le sentiment | het gevoel | I have a good feeling. | J'ai un bon pressentiment. | Ik heb een goed gevoel.
+mood | l'humeur (f.) | de stemming / het humeur | He's in a good mood. | Il est de bonne humeur. | Hij is goedgezind.
+to miss (someone) | manquer (à quelqu'un) | missen | I miss you. | Tu me manques. | Ik mis je.
+to hope | espérer | hopen | I hope so. | Je l'espère. | Ik hoop het.
+to hate | détester | haten | I hate waiting. | Je déteste attendre. | Ik haat wachten.
+glad | content | blij / content | I'm glad you came. | Je suis content que tu sois venu. | Ik ben blij dat je gekomen bent.
+## 5 Clothes
+clothes | les vêtements | de kleren | I need new clothes. | J'ai besoin de nouveaux vêtements. | Ik heb nieuwe kleren nodig.
+shirt | la chemise | het hemd | A white shirt for work. | Une chemise blanche pour le travail. | Een wit hemd voor het werk.
+T-shirt | le t-shirt | het T-shirt | A blue T-shirt. | Un t-shirt bleu. | Een blauw T-shirt.
+trousers | le pantalon | de broek | These trousers are too long. | Ce pantalon est trop long. | Deze broek is te lang.
+jeans | le jean | de jeans | I wear jeans every day. | Je porte un jean tous les jours. | Ik draag elke dag een jeans.
+dress | la robe | het kleed / de jurk | She bought a red dress. | Elle a acheté une robe rouge. | Ze kocht een rood kleed.
+skirt | la jupe | de rok | A short skirt. | Une jupe courte. | Een korte rok.
+jacket | la veste | de jas / het vest | Take a jacket. | Prends une veste. | Neem een jas mee.
+coat | le manteau | de mantel / de jas | A warm coat for winter. | Un manteau chaud pour l'hiver. | Een warme jas voor de winter.
+jumper / sweater | le pull | de trui | A wool jumper. | Un pull en laine. | Een wollen trui.
+shoes | les chaussures | de schoenen | New shoes. | Des chaussures neuves. | Nieuwe schoenen.
+boots | les bottes | de laarzen | Rain boots. | Des bottes de pluie. | Regenlaarzen.
+socks | les chaussettes | de kousen / de sokken | Black socks. | Des chaussettes noires. | Zwarte kousen.
+hat | le chapeau / le bonnet | de hoed / de muts | A hat for the sun. | Un chapeau pour le soleil. | Een hoed tegen de zon.
+scarf | l'écharpe (f.) | de sjaal | A warm scarf. | Une écharpe chaude. | Een warme sjaal.
+gloves | les gants | de handschoenen | Put on your gloves. | Mets tes gants. | Doe je handschoenen aan.
+suit | le costume | het pak / het kostuum | He wears a suit to work. | Il porte un costume au travail. | Hij draagt een pak op het werk.
+tie | la cravate | de das | A blue tie. | Une cravate bleue. | Een blauwe das.
+belt | la ceinture | de riem | A leather belt. | Une ceinture en cuir. | Een leren riem.
+pocket | la poche | de zak | My phone is in my pocket. | Mon téléphone est dans ma poche. | Mijn gsm zit in mijn zak.
+to wear | porter | dragen | I'm wearing a coat. | Je porte un manteau. | Ik draag een jas.
+to put on | mettre | aandoen / aantrekken | Put on your shoes. | Mets tes chaussures. | Doe je schoenen aan.
+to take off | enlever | uitdoen / uittrekken | Take off your coat. | Enlève ton manteau. | Doe je jas uit.
+size | la taille | de maat | Do you have a smaller size? | Vous avez une taille plus petite ? | Hebt u een kleinere maat?
+too big | trop grand | te groot | It's too big for me. | C'est trop grand pour moi. | Het is te groot voor mij.
+too small | trop petit | te klein | These shoes are too small. | Ces chaussures sont trop petites. | Deze schoenen zijn te klein.
+fitting room | la cabine d'essayage | de paskamer | Where is the fitting room? | Où est la cabine d'essayage ? | Waar is de paskamer?
+cotton | le coton | het katoen | A cotton shirt. | Une chemise en coton. | Een katoenen hemd.
+fashion | la mode | de mode | She loves fashion. | Elle adore la mode. | Ze houdt van mode.
+elegant | élégant | elegant / chic | You look elegant. | Tu es élégant. | Je ziet er elegant uit.
+## 6 School & studies
+school | l'école (f.) | de school | The school is near our house. | L'école est près de chez nous. | De school is vlak bij ons huis.
+pupil / student | l'élève / l'étudiant(e) | de leerling / de student | She is a good student. | C'est une bonne élève. | Ze is een goede leerling.
+class | la classe / le cours | de klas / de les | The class starts at 8:30. | Le cours commence à 8 h 30. | De les begint om half negen.
+lesson | la leçon | de les | Today's lesson is about verbs. | La leçon d'aujourd'hui porte sur les verbes. | De les van vandaag gaat over werkwoorden.
+homework | les devoirs | het huiswerk | Did you do your homework? | Tu as fait tes devoirs ? | Heb je je huiswerk gemaakt?
+exam | l'examen (m.) | het examen | I passed the exam. | J'ai réussi l'examen. | Ik ben geslaagd voor het examen.
+to learn | apprendre | leren | I'm learning Dutch. | J'apprends le néerlandais. | Ik leer Nederlands.
+to teach | enseigner | lesgeven / onderwijzen | He teaches maths. | Il enseigne les maths. | Hij geeft wiskunde.
+university | l'université (f.) | de universiteit | She studies at the university of Ghent. | Elle étudie à l'université de Gand. | Ze studeert aan de universiteit van Gent.
+degree / diploma | le diplôme | het diploma | I have a master's degree. | J'ai un diplôme de master. | Ik heb een masterdiploma.
+to pass | réussir | slagen | I hope you pass. | J'espère que tu réussiras. | Ik hoop dat je slaagt.
+to fail | échouer / rater | zakken | He failed the test. | Il a raté le test. | Hij is gezakt voor de test.
+mark / grade | la note / les points | het cijfer / de punten | I got a good mark. | J'ai eu une bonne note. | Ik heb goede punten gehaald.
+notebook | le cahier | het schrift | Write it in your notebook. | Écris-le dans ton cahier. | Schrijf het in je schrift.
+pen | le stylo | de pen / de balpen | Can I borrow your pen? | Je peux emprunter ton stylo ? | Mag ik je pen lenen?
+dictionary | le dictionnaire | het woordenboek | Look it up in the dictionary. | Cherche dans le dictionnaire. | Zoek het op in het woordenboek.
+question | la question | de vraag | I have a question. | J'ai une question. | Ik heb een vraag.
+answer | la réponse | het antwoord | The answer is correct. | La réponse est correcte. | Het antwoord is juist.
+mistake | l'erreur (f.) / la faute | de fout | Everyone makes mistakes. | Tout le monde fait des erreurs. | Iedereen maakt fouten.
+to explain | expliquer | uitleggen | Can you explain again? | Tu peux réexpliquer ? | Kun je het nog eens uitleggen?
+to practise | pratiquer / s'entraîner | oefenen | Practise every day. | Entraîne-toi tous les jours. | Oefen elke dag.
+course | le cours / la formation | de cursus / de opleiding | A Dutch course in the evening. | Un cours de néerlandais le soir. | Een cursus Nederlands 's avonds.
+to register | s'inscrire | zich inschrijven | Register before Friday. | Inscris-toi avant vendredi. | Schrijf je in voor vrijdag.
+timetable | l'emploi du temps (m.) | het lessenrooster | Here is your timetable. | Voici ton emploi du temps. | Hier is je lessenrooster.
+break (school) | la récréation | de speeltijd / de pauze | The children play during the break. | Les enfants jouent pendant la récré. | De kinderen spelen tijdens de speeltijd.
+subject | la matière | het vak | My favourite subject is history. | Ma matière préférée est l'histoire. | Mijn favoriete vak is geschiedenis.
+level | le niveau | het niveau | What is your level? | Quel est ton niveau ? | Wat is je niveau?
+to understand | comprendre | begrijpen / verstaan | Do you understand? | Tu comprends ? | Begrijp je het?
+to know | savoir / connaître | weten / kennen | I know the answer. | Je connais la réponse. | Ik weet het antwoord.
+library | la bibliothèque | de bibliotheek | I study at the library. | J'étudie à la bibliothèque. | Ik studeer in de bibliotheek.
+## 7 Services: bank, post, commune
+bank | la banque | de bank | The bank closes at four. | La banque ferme à seize heures. | De bank sluit om vier uur.
+account | le compte | de rekening | I'd like to open an account. | Je voudrais ouvrir un compte. | Ik wil graag een rekening openen.
+bank card | la carte bancaire | de bankkaart | My bank card is blocked. | Ma carte bancaire est bloquée. | Mijn bankkaart is geblokkeerd.
+transfer | le virement | de overschrijving | I made a transfer. | J'ai fait un virement. | Ik heb een overschrijving gedaan.
+to withdraw | retirer | afhalen | I need to withdraw money. | Je dois retirer de l'argent. | Ik moet geld afhalen.
+cash machine / ATM | le distributeur | de bankautomaat / de geldautomaat | Is there a cash machine nearby? | Il y a un distributeur près d'ici ? | Is er een bankautomaat in de buurt?
+loan | le prêt | de lening | We took a loan for the house. | Nous avons pris un prêt pour la maison. | We hebben een lening genomen voor het huis.
+post office | la poste | het postkantoor | The post office is on the square. | La poste est sur la place. | Het postkantoor is op het plein.
+letter | la lettre | de brief | I received a letter. | J'ai reçu une lettre. | Ik heb een brief gekregen.
+parcel | le colis | het pakje / het pakket | Your parcel has arrived. | Votre colis est arrivé. | Uw pakje is aangekomen.
+stamp | le timbre | de postzegel | A stamp for Europe, please. | Un timbre pour l'Europe, s'il vous plaît. | Een postzegel voor Europa, alstublieft.
+to send | envoyer | versturen / sturen | I want to send this letter. | Je veux envoyer cette lettre. | Ik wil deze brief versturen.
+commune / municipality | la commune | de gemeente | I have an appointment at the commune. | J'ai rendez-vous à la commune. | Ik heb een afspraak bij de gemeente.
+identity card | la carte d'identité | de identiteitskaart | Show your identity card. | Montrez votre carte d'identité. | Toon uw identiteitskaart.
+residence permit | le titre de séjour | de verblijfsvergunning | My residence permit expires soon. | Mon titre de séjour expire bientôt. | Mijn verblijfsvergunning verloopt binnenkort.
+form | le formulaire | het formulier | Fill in this form. | Remplissez ce formulaire. | Vul dit formulier in.
+to fill in | remplir | invullen | Fill in your name here. | Remplissez votre nom ici. | Vul hier uw naam in.
+signature | la signature | de handtekening | Your signature, please. | Votre signature, s'il vous plaît. | Uw handtekening, alstublieft.
+document | le document | het document | Bring all the documents. | Apportez tous les documents. | Breng alle documenten mee.
+proof | la preuve / le justificatif | het bewijs | Proof of address. | Un justificatif de domicile. | Een bewijs van adres.
+counter | le guichet | het loket | Go to counter 4. | Allez au guichet 4. | Ga naar loket 4.
+queue | la file | de rij / de wachtrij | There's a long queue. | Il y a une longue file. | Er staat een lange rij.
+ticket number | le numéro d'attente / le ticket | het volgnummer | Take a ticket number. | Prenez un ticket. | Neem een volgnummer.
+opening hours | les heures d'ouverture | de openingsuren | What are the opening hours? | Quelles sont les heures d'ouverture ? | Wat zijn de openingsuren?
+fee | les frais (m. pl.) | de kosten | There's a fee of 20 euros. | Il y a des frais de 20 euros. | Er zijn kosten van 20 euro.
+tax | l'impôt (m.) / la taxe | de belasting | I pay my taxes online. | Je paie mes impôts en ligne. | Ik betaal mijn belastingen online.
+insurance | l'assurance (f.) | de verzekering | Do you have insurance? | Avez-vous une assurance ? | Hebt u een verzekering?
+police | la police | de politie | Call the police. | Appelle la police. | Bel de politie.
+to complain | se plaindre / porter plainte | klagen / klacht indienen | I want to complain. | Je veux me plaindre. | Ik wil een klacht indienen.
+deadline | le délai / la date limite | de termijn / de deadline | The deadline is Friday. | La date limite est vendredi. | De termijn verstrijkt vrijdag.
+## 8 Nature & animals
+nature | la nature | de natuur | I love nature. | J'adore la nature. | Ik hou van de natuur.
+tree | l'arbre (m.) | de boom | An old tree. | Un vieil arbre. | Een oude boom.
+flower | la fleur | de bloem | Beautiful flowers. | De belles fleurs. | Mooie bloemen.
+forest | la forêt | het bos | A walk in the forest. | Une promenade en forêt. | Een wandeling in het bos.
+river | la rivière / le fleuve | de rivier | The river Scheldt. | L'Escaut. | De Schelde.
+lake | le lac | het meer | We swim in the lake. | Nous nageons dans le lac. | We zwemmen in het meer.
+sea | la mer | de zee | The North Sea is cold. | La mer du Nord est froide. | De Noordzee is koud.
+beach | la plage | het strand | Let's go to the beach. | Allons à la plage. | Laten we naar het strand gaan.
+mountain | la montagne | de berg | Belgium has no high mountains. | La Belgique n'a pas de hautes montagnes. | België heeft geen hoge bergen.
+hill | la colline | de heuvel | The house is on a hill. | La maison est sur une colline. | Het huis ligt op een heuvel.
+field | le champ | het veld | Cows in the field. | Des vaches dans le champ. | Koeien in het veld.
+grass | l'herbe (f.) | het gras | Don't walk on the grass. | Ne marchez pas sur l'herbe. | Loop niet op het gras.
+animal | l'animal (m.) | het dier | Do you have animals? | Avez-vous des animaux ? | Hebt u dieren?
+dog | le chien | de hond | My dog is friendly. | Mon chien est gentil. | Mijn hond is lief.
+cat | le chat | de kat | The cat sleeps all day. | Le chat dort toute la journée. | De kat slaapt de hele dag.
+bird | l'oiseau (m.) | de vogel | The birds are singing. | Les oiseaux chantent. | De vogels zingen.
+horse | le cheval | het paard | She rides a horse. | Elle monte à cheval. | Ze rijdt paard.
+cow | la vache | de koe | The cow gives milk. | La vache donne du lait. | De koe geeft melk.
+pig | le cochon | het varken | A pig on the farm. | Un cochon à la ferme. | Een varken op de boerderij.
+sheep | le mouton | het schaap | The sheep are in the field. | Les moutons sont dans le champ. | De schapen staan in de wei.
+fish | le poisson | de vis | Fish in the river. | Des poissons dans la rivière. | Vissen in de rivier.
+insect | l'insecte (m.) | het insect | I'm afraid of insects. | J'ai peur des insectes. | Ik ben bang van insecten.
+farm | la ferme | de boerderij | We visited a farm. | Nous avons visité une ferme. | We bezochten een boerderij.
+garden | le jardin | de tuin | I grow vegetables in my garden. | Je cultive des légumes dans mon jardin. | Ik kweek groenten in mijn tuin.
+leaf | la feuille | het blad | The leaves are falling. | Les feuilles tombent. | De bladeren vallen.
+stone | la pierre | de steen | A stone wall. | Un mur en pierre. | Een stenen muur.
+earth / soil | la terre | de aarde | The earth is wet. | La terre est mouillée. | De aarde is nat.
+to grow | pousser / cultiver | groeien / kweken | The plants grow fast. | Les plantes poussent vite. | De planten groeien snel.
+wild | sauvage | wild | Wild animals. | Des animaux sauvages. | Wilde dieren.
+environment | l'environnement (m.) | het milieu | Protect the environment. | Protège l'environnement. | Bescherm het milieu.
+## 9 Travel & holidays
+holiday / vacation | les vacances | de vakantie | We're going on holiday. | Nous partons en vacances. | We gaan op vakantie.
+trip | le voyage | de reis | A trip to Spain. | Un voyage en Espagne. | Een reis naar Spanje.
+passport | le passeport | het paspoort | Don't forget your passport. | N'oublie pas ton passeport. | Vergeet je paspoort niet.
+suitcase | la valise | de valies / de koffer | My suitcase is heavy. | Ma valise est lourde. | Mijn valies is zwaar.
+luggage | les bagages | de bagage | Where is the luggage? | Où sont les bagages ? | Waar is de bagage?
+airport | l'aéroport (m.) | de luchthaven | The airport is in Zaventem. | L'aéroport est à Zaventem. | De luchthaven ligt in Zaventem.
+plane | l'avion (m.) | het vliegtuig | The plane leaves at noon. | L'avion part à midi. | Het vliegtuig vertrekt om twaalf uur.
+flight | le vol | de vlucht | The flight is delayed. | Le vol est retardé. | De vlucht heeft vertraging.
+hotel | l'hôtel (m.) | het hotel | A hotel by the sea. | Un hôtel au bord de la mer. | Een hotel aan zee.
+reservation | la réservation | de reservatie / de reservering | I have a reservation. | J'ai une réservation. | Ik heb een reservatie.
+to book | réserver | reserveren / boeken | I booked a room. | J'ai réservé une chambre. | Ik heb een kamer geboekt.
+single room | la chambre simple | de eenpersoonskamer | A single room for two nights. | Une chambre simple pour deux nuits. | Een eenpersoonskamer voor twee nachten.
+tourist | le / la touriste | de toerist | Bruges is full of tourists. | Bruges est pleine de touristes. | Brugge zit vol toeristen.
+abroad | à l'étranger | in het buitenland | I work abroad. | Je travaille à l'étranger. | Ik werk in het buitenland.
+to visit | visiter | bezoeken | We visited the old town. | Nous avons visité la vieille ville. | We bezochten de oude stad.
+guide | le guide | de gids | The guide speaks English. | Le guide parle anglais. | De gids spreekt Engels.
+map | la carte | de kaart | Look at the map. | Regarde la carte. | Kijk op de kaart.
+souvenir | le souvenir | het souvenir | I bought a souvenir. | J'ai acheté un souvenir. | Ik heb een souvenir gekocht.
+beach | la plage | het strand | A day at the beach. | Une journée à la plage. | Een dag aan het strand.
+sunscreen | la crème solaire | de zonnecrème | Put on sunscreen. | Mets de la crème solaire. | Smeer zonnecrème.
+to leave | partir | vertrekken | We leave tomorrow. | Nous partons demain. | We vertrekken morgen.
+to arrive | arriver | aankomen | We arrived late. | Nous sommes arrivés tard. | We kwamen laat aan.
+delay | le retard | de vertraging | Sorry for the delay. | Désolé pour le retard. | Sorry voor de vertraging.
+return ticket | l'aller-retour (m.) | het retourticket | A return ticket to Paris. | Un aller-retour pour Paris. | Een retourticket naar Parijs.
+one-way ticket | l'aller simple (m.) | het enkele reis-ticket | A one-way ticket, please. | Un aller simple, s'il vous plaît. | Een enkele reis, alstublieft.
+border | la frontière | de grens | We crossed the border. | Nous avons traversé la frontière. | We staken de grens over.
+camping | le camping | de camping | We go camping in summer. | Nous faisons du camping en été. | We gaan in de zomer kamperen.
+view | la vue | het uitzicht | What a beautiful view! | Quelle belle vue ! | Wat een mooi uitzicht!
+to rest | se reposer | uitrusten | I need to rest. | J'ai besoin de me reposer. | Ik moet uitrusten.
+adventure | l'aventure (f.) | het avontuur | It was a great adventure. | C'était une belle aventure. | Het was een groot avontuur.

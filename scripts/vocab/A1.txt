@@ -1,0 +1,311 @@
+# Format: English | French | Dutch | English example | French example | Dutch example
+## 0 Greetings & introductions
+hello | bonjour | hallo | Hello, how are you? | Bonjour, comment allez-vous ? | Hallo, hoe gaat het?
+goodbye | au revoir | tot ziens | Goodbye, see you soon. | Au revoir, à bientôt. | Tot ziens, tot snel.
+please | s'il vous plaît | alstublieft | A coffee, please. | Un café, s'il vous plaît. | Een koffie, alstublieft.
+thank you | merci | dank u wel | Thank you very much. | Merci beaucoup. | Dank u wel.
+yes | oui | ja | Yes, I understand. | Oui, je comprends. | Ja, ik begrijp het.
+no | non | nee | No, thank you. | Non, merci. | Nee, dank u.
+sorry | pardon | sorry | Sorry, I'm late. | Pardon, je suis en retard. | Sorry, ik ben te laat.
+excuse me | excusez-moi | excuseer | Excuse me, where is the station? | Excusez-moi, où est la gare ? | Excuseer, waar is het station?
+name | le nom | de naam | What is your name? | Quel est votre nom ? | Wat is uw naam?
+to be called | s'appeler | heten | I am called Collins. | Je m'appelle Collins. | Ik heet Collins.
+to meet | rencontrer | ontmoeten | Nice to meet you. | Enchanté de vous rencontrer. | Aangenaam u te ontmoeten.
+nice to meet you | enchanté | aangenaam | Nice to meet you, Anna. | Enchanté, Anna. | Aangenaam, Anna.
+good morning | bonjour (le matin) | goedemorgen | Good morning, everyone! | Bonjour à tous ! | Goedemorgen, iedereen!
+good evening | bonsoir | goedenavond | Good evening, sir. | Bonsoir, monsieur. | Goedenavond, meneer.
+good night | bonne nuit | goedenacht | Good night, sleep well. | Bonne nuit, dors bien. | Goedenacht, slaap lekker.
+sir / Mr | monsieur | meneer | Good morning, sir. | Bonjour, monsieur. | Goedemorgen, meneer.
+madam / Mrs | madame | mevrouw | Thank you, madam. | Merci, madame. | Dank u, mevrouw.
+friend | l'ami (m.) / l'amie (f.) | de vriend / de vriendin | This is my friend. | C'est mon ami. | Dit is mijn vriend.
+to come from | venir de | komen uit | I come from Congo. | Je viens du Congo. | Ik kom uit Congo.
+to live | habiter | wonen | I live in Liège. | J'habite à Liège. | Ik woon in Luik.
+age | l'âge (m.) | de leeftijd | What is your age? | Quel âge avez-vous ? | Wat is uw leeftijd?
+year | l'an (m.) / l'année (f.) | het jaar | I am thirty years old. | J'ai trente ans. | Ik ben dertig jaar.
+language | la langue | de taal | I speak three languages. | Je parle trois langues. | Ik spreek drie talen.
+to speak | parler | spreken | Do you speak English? | Parlez-vous anglais ? | Spreekt u Engels?
+to understand | comprendre | begrijpen | I don't understand. | Je ne comprends pas. | Ik begrijp het niet.
+to repeat | répéter | herhalen | Can you repeat, please? | Pouvez-vous répéter, s'il vous plaît ? | Kunt u dat herhalen, alstublieft?
+slowly | lentement | langzaam | Please speak slowly. | Parlez lentement, s'il vous plaît. | Spreek langzaam, alstublieft.
+how are you? | comment ça va ? | hoe gaat het? | Hi Tom, how are you? | Salut Tom, comment ça va ? | Hoi Tom, hoe gaat het?
+fine / well | bien | goed | I'm fine, thanks. | Je vais bien, merci. | Het gaat goed, dank je.
+see you later | à plus tard | tot later | See you later! | À plus tard ! | Tot later!
+## 1 Family
+family | la famille | de familie | My family is big. | Ma famille est grande. | Mijn familie is groot.
+mother | la mère | de moeder | My mother lives in Kinshasa. | Ma mère habite à Kinshasa. | Mijn moeder woont in Kinshasa.
+father | le père | de vader | My father is a teacher. | Mon père est professeur. | Mijn vader is leraar.
+parents | les parents | de ouders | My parents are retired. | Mes parents sont retraités. | Mijn ouders zijn met pensioen.
+brother | le frère | de broer | I have two brothers. | J'ai deux frères. | Ik heb twee broers.
+sister | la sœur | de zus | My sister is a nurse. | Ma sœur est infirmière. | Mijn zus is verpleegster.
+son | le fils | de zoon | Their son is five. | Leur fils a cinq ans. | Hun zoon is vijf.
+daughter | la fille | de dochter | My daughter goes to school. | Ma fille va à l'école. | Mijn dochter gaat naar school.
+child | l'enfant (m./f.) | het kind | They have one child. | Ils ont un enfant. | Ze hebben één kind.
+baby | le bébé | de baby | The baby is sleeping. | Le bébé dort. | De baby slaapt.
+husband | le mari | de man | Her husband is Belgian. | Son mari est belge. | Haar man is Belg.
+wife | la femme | de vrouw | My wife speaks Dutch. | Ma femme parle néerlandais. | Mijn vrouw spreekt Nederlands.
+grandmother | la grand-mère | de grootmoeder / de oma | My grandmother tells stories. | Ma grand-mère raconte des histoires. | Mijn oma vertelt verhalen.
+grandfather | le grand-père | de grootvader / de opa | My grandfather is 80. | Mon grand-père a 80 ans. | Mijn opa is 80.
+uncle | l'oncle (m.) | de oom | My uncle lives in Paris. | Mon oncle habite à Paris. | Mijn oom woont in Parijs.
+aunt | la tante | de tante | My aunt is very kind. | Ma tante est très gentille. | Mijn tante is heel lief.
+cousin | le cousin / la cousine | de neef / de nicht | My cousin is my age. | Mon cousin a mon âge. | Mijn neef is even oud als ik.
+nephew | le neveu | de neef | My nephew loves football. | Mon neveu adore le foot. | Mijn neef houdt van voetbal.
+niece | la nièce | de nicht | My niece is a student. | Ma nièce est étudiante. | Mijn nicht is student.
+boyfriend | le copain | de vriend | Her boyfriend is funny. | Son copain est drôle. | Haar vriend is grappig.
+girlfriend | la copine | de vriendin | His girlfriend is from Ghent. | Sa copine vient de Gand. | Zijn vriendin komt uit Gent.
+married | marié(e) | getrouwd | Are you married? | Êtes-vous marié ? | Bent u getrouwd?
+single | célibataire | alleenstaand / vrijgezel | I am single. | Je suis célibataire. | Ik ben vrijgezel.
+divorced | divorcé(e) | gescheiden | My parents are divorced. | Mes parents sont divorcés. | Mijn ouders zijn gescheiden.
+twins | les jumeaux | de tweeling | They are twins. | Ce sont des jumeaux. | Ze zijn een tweeling.
+older | aîné(e) / plus âgé(e) | ouder | My older brother is a doctor. | Mon frère aîné est médecin. | Mijn oudere broer is dokter.
+younger | cadet(te) / plus jeune | jonger | My younger sister is 15. | Ma sœur cadette a 15 ans. | Mijn jongere zus is 15.
+to love | aimer | houden van | I love my family. | J'aime ma famille. | Ik hou van mijn familie.
+together | ensemble | samen | We eat together on Sundays. | Nous mangeons ensemble le dimanche. | We eten samen op zondag.
+birthday | l'anniversaire (m.) | de verjaardag | Happy birthday! | Joyeux anniversaire ! | Gelukkige verjaardag!
+## 2 Home
+house | la maison | het huis | Our house is small. | Notre maison est petite. | Ons huis is klein.
+flat / apartment | l'appartement (m.) | het appartement | I rent a flat. | Je loue un appartement. | Ik huur een appartement.
+room | la pièce / la chambre | de kamer | The flat has three rooms. | L'appartement a trois pièces. | Het appartement heeft drie kamers.
+bedroom | la chambre | de slaapkamer | The bedroom is upstairs. | La chambre est à l'étage. | De slaapkamer is boven.
+kitchen | la cuisine | de keuken | I cook in the kitchen. | Je cuisine dans la cuisine. | Ik kook in de keuken.
+living room | le salon | de woonkamer | We watch TV in the living room. | Nous regardons la télé au salon. | We kijken tv in de woonkamer.
+bathroom | la salle de bain | de badkamer | The bathroom is clean. | La salle de bain est propre. | De badkamer is proper.
+toilet | les toilettes | het toilet / de wc | Where is the toilet? | Où sont les toilettes ? | Waar is het toilet?
+door | la porte | de deur | Close the door, please. | Ferme la porte, s'il te plaît. | Doe de deur dicht, alsjeblieft.
+window | la fenêtre | het raam | Open the window. | Ouvre la fenêtre. | Doe het raam open.
+table | la table | de tafel | The keys are on the table. | Les clés sont sur la table. | De sleutels liggen op tafel.
+chair | la chaise | de stoel | Take a chair. | Prends une chaise. | Neem een stoel.
+bed | le lit | het bed | The bed is comfortable. | Le lit est confortable. | Het bed is comfortabel.
+sofa | le canapé | de zetel / de bank | The cat is on the sofa. | Le chat est sur le canapé. | De kat ligt in de zetel.
+fridge | le frigo | de koelkast / de frigo | The milk is in the fridge. | Le lait est dans le frigo. | De melk zit in de koelkast.
+oven | le four | de oven | The bread is in the oven. | Le pain est au four. | Het brood zit in de oven.
+key | la clé | de sleutel | I lost my key. | J'ai perdu ma clé. | Ik ben mijn sleutel kwijt.
+stairs | l'escalier (m.) | de trap | The stairs are steep. | L'escalier est raide. | De trap is steil.
+floor (storey) | l'étage (m.) | de verdieping | I live on the second floor. | J'habite au deuxième étage. | Ik woon op de tweede verdieping.
+garden | le jardin | de tuin | The children play in the garden. | Les enfants jouent dans le jardin. | De kinderen spelen in de tuin.
+wall | le mur | de muur | There is a photo on the wall. | Il y a une photo au mur. | Er hangt een foto aan de muur.
+lamp | la lampe | de lamp | Turn on the lamp. | Allume la lampe. | Doe de lamp aan.
+shower | la douche | de douche | I take a shower every morning. | Je prends une douche chaque matin. | Ik neem elke ochtend een douche.
+to clean | nettoyer | schoonmaken / kuisen | I clean the house on Saturday. | Je nettoie la maison le samedi. | Ik kuis het huis op zaterdag.
+rent | le loyer | de huur | The rent is 800 euros. | Le loyer est de 800 euros. | De huur is 800 euro.
+neighbour | le voisin / la voisine | de buur | My neighbour is friendly. | Mon voisin est sympathique. | Mijn buur is vriendelijk.
+heating | le chauffage | de verwarming | The heating doesn't work. | Le chauffage ne marche pas. | De verwarming werkt niet.
+cupboard | l'armoire (f.) / le placard | de kast | The plates are in the cupboard. | Les assiettes sont dans le placard. | De borden staan in de kast.
+roof | le toit | het dak | The roof is red. | Le toit est rouge. | Het dak is rood.
+address | l'adresse (f.) | het adres | What is your address? | Quelle est votre adresse ? | Wat is uw adres?
+## 3 Food & drinks
+bread | le pain | het brood | I buy bread every day. | J'achète du pain tous les jours. | Ik koop elke dag brood.
+water | l'eau (f.) | het water | A glass of water, please. | Un verre d'eau, s'il vous plaît. | Een glas water, alstublieft.
+coffee | le café | de koffie | I drink coffee in the morning. | Je bois du café le matin. | Ik drink 's ochtends koffie.
+tea | le thé | de thee | Do you want tea? | Tu veux du thé ? | Wil je thee?
+milk | le lait | de melk | The milk is cold. | Le lait est froid. | De melk is koud.
+beer | la bière | het bier | Belgian beer is famous. | La bière belge est célèbre. | Belgisch bier is beroemd.
+wine | le vin | de wijn | A glass of red wine. | Un verre de vin rouge. | Een glas rode wijn.
+juice | le jus | het sap | Orange juice, please. | Un jus d'orange, s'il vous plaît. | Sinaasappelsap, alstublieft.
+meat | la viande | het vlees | I don't eat meat. | Je ne mange pas de viande. | Ik eet geen vlees.
+chicken | le poulet | de kip | We eat chicken tonight. | Nous mangeons du poulet ce soir. | We eten vanavond kip.
+fish | le poisson | de vis | Fish is healthy. | Le poisson est bon pour la santé. | Vis is gezond.
+egg | l'œuf (m.) | het ei | Two eggs, please. | Deux œufs, s'il vous plaît. | Twee eieren, alstublieft.
+cheese | le fromage | de kaas | I love Belgian cheese. | J'adore le fromage belge. | Ik hou van Belgische kaas.
+butter | le beurre | de boter | Bread with butter. | Du pain avec du beurre. | Brood met boter.
+rice | le riz | de rijst | Rice with vegetables. | Du riz avec des légumes. | Rijst met groenten.
+pasta | les pâtes | de pasta | The children love pasta. | Les enfants adorent les pâtes. | De kinderen houden van pasta.
+vegetables | les légumes | de groenten | Eat more vegetables. | Mange plus de légumes. | Eet meer groenten.
+fruit | le fruit | het fruit | I eat fruit every day. | Je mange des fruits tous les jours. | Ik eet elke dag fruit.
+apple | la pomme | de appel | An apple a day. | Une pomme par jour. | Een appel per dag.
+potato | la pomme de terre | de aardappel | Fries are made from potatoes. | Les frites sont faites de pommes de terre. | Frieten zijn gemaakt van aardappelen.
+fries / chips | les frites | de frieten | Belgian fries are the best. | Les frites belges sont les meilleures. | Belgische frieten zijn de beste.
+sugar | le sucre | de suiker | Coffee without sugar. | Un café sans sucre. | Koffie zonder suiker.
+salt | le sel | het zout | Pass me the salt, please. | Passe-moi le sel, s'il te plaît. | Geef me het zout, alsjeblieft.
+breakfast | le petit-déjeuner | het ontbijt | Breakfast is at eight. | Le petit-déjeuner est à huit heures. | Het ontbijt is om acht uur.
+lunch | le déjeuner (le dîner en Belgique) | de lunch / het middagmaal | We have lunch at noon. | Nous déjeunons à midi. | We lunchen om twaalf uur.
+dinner | le dîner (le souper en Belgique) | het avondeten | Dinner is ready! | Le dîner est prêt ! | Het avondeten is klaar!
+to eat | manger | eten | I eat at home. | Je mange à la maison. | Ik eet thuis.
+to drink | boire | drinken | Drink some water. | Bois de l'eau. | Drink wat water.
+hungry | avoir faim | honger hebben | I am hungry. | J'ai faim. | Ik heb honger.
+thirsty | avoir soif | dorst hebben | Are you thirsty? | Tu as soif ? | Heb je dorst?
+## 4 Numbers, days & time
+day | le jour | de dag | It's a beautiful day. | C'est un beau jour. | Het is een mooie dag.
+week | la semaine | de week | I work five days a week. | Je travaille cinq jours par semaine. | Ik werk vijf dagen per week.
+month | le mois | de maand | Next month I'm moving. | Le mois prochain, je déménage. | Volgende maand verhuis ik.
+today | aujourd'hui | vandaag | Today is Monday. | Aujourd'hui, c'est lundi. | Vandaag is het maandag.
+tomorrow | demain | morgen | See you tomorrow. | À demain. | Tot morgen.
+yesterday | hier | gisteren | Yesterday it rained. | Hier, il a plu. | Gisteren regende het.
+Monday | lundi | maandag | The shop is closed on Monday. | Le magasin est fermé le lundi. | De winkel is op maandag gesloten.
+Tuesday | mardi | dinsdag | I have a meeting on Tuesday. | J'ai une réunion mardi. | Ik heb dinsdag een vergadering.
+Wednesday | mercredi | woensdag | On Wednesday afternoon, kids are free. | Le mercredi après-midi, les enfants sont libres. | Op woensdagnamiddag zijn de kinderen vrij.
+Thursday | jeudi | donderdag | Thursday is market day. | Jeudi, c'est jour de marché. | Donderdag is het marktdag.
+Friday | vendredi | vrijdag | Friday evening I go out. | Vendredi soir, je sors. | Vrijdagavond ga ik uit.
+Saturday | samedi | zaterdag | On Saturday I sleep late. | Le samedi, je dors tard. | Op zaterdag slaap ik lang.
+Sunday | dimanche | zondag | Sunday is a quiet day. | Le dimanche est un jour calme. | Zondag is een rustige dag.
+hour | l'heure (f.) | het uur | The film lasts two hours. | Le film dure deux heures. | De film duurt twee uur.
+minute | la minute | de minuut | Wait five minutes. | Attends cinq minutes. | Wacht vijf minuten.
+morning | le matin | de ochtend / de morgen | I run in the morning. | Je cours le matin. | Ik loop 's ochtends.
+afternoon | l'après-midi (m.) | de namiddag | See you this afternoon. | À cet après-midi. | Tot deze namiddag.
+evening | le soir | de avond | What are you doing this evening? | Que fais-tu ce soir ? | Wat doe je vanavond?
+night | la nuit | de nacht | I work at night. | Je travaille la nuit. | Ik werk 's nachts.
+early | tôt | vroeg | I get up early. | Je me lève tôt. | Ik sta vroeg op.
+late | tard / en retard | laat | It's late, let's go. | Il est tard, on y va. | Het is laat, we gaan.
+now | maintenant | nu | I'm busy now. | Je suis occupé maintenant. | Ik ben nu bezig.
+always | toujours | altijd | He is always on time. | Il est toujours à l'heure. | Hij is altijd op tijd.
+never | jamais | nooit | I never smoke. | Je ne fume jamais. | Ik rook nooit.
+often | souvent | vaak | We often eat out. | Nous mangeons souvent dehors. | We eten vaak buitenshuis.
+first | premier / première | eerst / eerste | First, wash your hands. | D'abord, lave-toi les mains. | Eerst je handen wassen.
+number | le numéro / le nombre | het nummer / het getal | What is your phone number? | Quel est ton numéro de téléphone ? | Wat is je telefoonnummer?
+hundred | cent | honderd | It costs a hundred euros. | Ça coûte cent euros. | Het kost honderd euro.
+thousand | mille | duizend | A thousand thanks! | Mille mercis ! | Duizendmaal dank!
+o'clock | heure(s) | uur | It's ten o'clock. | Il est dix heures. | Het is tien uur.
+## 5 Daily routine
+to wake up | se réveiller | wakker worden | I wake up at six. | Je me réveille à six heures. | Ik word om zes uur wakker.
+to get up | se lever | opstaan | I get up immediately. | Je me lève tout de suite. | Ik sta meteen op.
+to wash | se laver | zich wassen | I wash my face. | Je me lave le visage. | Ik was mijn gezicht.
+to brush one's teeth | se brosser les dents | zijn tanden poetsen | Brush your teeth! | Brosse-toi les dents ! | Poets je tanden!
+to get dressed | s'habiller | zich aankleden | I get dressed quickly. | Je m'habille vite. | Ik kleed me snel aan.
+to have breakfast | prendre le petit-déjeuner | ontbijten | We have breakfast together. | Nous prenons le petit-déjeuner ensemble. | We ontbijten samen.
+to go to work | aller au travail | naar het werk gaan | I go to work by bike. | Je vais au travail à vélo. | Ik ga met de fiets naar het werk.
+to work | travailler | werken | I work from nine to five. | Je travaille de neuf à cinq heures. | Ik werk van negen tot vijf.
+to start | commencer | beginnen | Work starts at nine. | Le travail commence à neuf heures. | Het werk begint om negen uur.
+to finish | finir | eindigen / afmaken | I finish at five. | Je finis à cinq heures. | Ik eindig om vijf uur.
+to come home | rentrer | thuiskomen | I come home at six. | Je rentre à six heures. | Ik kom om zes uur thuis.
+to cook | cuisiner | koken | I cook every evening. | Je cuisine tous les soirs. | Ik kook elke avond.
+to do the dishes | faire la vaisselle | afwassen | Who does the dishes? | Qui fait la vaisselle ? | Wie wast er af?
+to watch TV | regarder la télé | tv kijken | We watch TV after dinner. | Nous regardons la télé après le dîner. | We kijken tv na het eten.
+to read | lire | lezen | I read before sleeping. | Je lis avant de dormir. | Ik lees voor het slapen.
+to go to bed | se coucher | gaan slapen | I go to bed at eleven. | Je me couche à onze heures. | Ik ga om elf uur slapen.
+to sleep | dormir | slapen | I sleep eight hours. | Je dors huit heures. | Ik slaap acht uur.
+to rest | se reposer | rusten | Rest a little. | Repose-toi un peu. | Rust wat.
+to shop | faire les courses | boodschappen doen | I do the shopping on Saturday. | Je fais les courses le samedi. | Ik doe zaterdag boodschappen.
+to walk | marcher / se promener | wandelen | We walk in the park. | Nous nous promenons au parc. | We wandelen in het park.
+to run | courir | lopen | I run three times a week. | Je cours trois fois par semaine. | Ik loop drie keer per week.
+to take the bus | prendre le bus | de bus nemen | I take the bus at 8. | Je prends le bus à 8 heures. | Ik neem de bus om 8 uur.
+to call | appeler / téléphoner | bellen | I call my mother on Sundays. | J'appelle ma mère le dimanche. | Ik bel mijn moeder op zondag.
+to study | étudier | studeren | I study Dutch every day. | J'étudie le néerlandais tous les jours. | Ik studeer elke dag Nederlands.
+to listen to music | écouter de la musique | naar muziek luisteren | I listen to music in the car. | J'écoute de la musique dans la voiture. | Ik luister naar muziek in de auto.
+to hurry | se dépêcher | zich haasten | Hurry, we're late! | Dépêche-toi, on est en retard ! | Haast je, we zijn laat!
+busy | occupé(e) | druk / bezig | I'm busy today. | Je suis occupé aujourd'hui. | Ik ben vandaag druk bezig.
+free (time) | libre | vrij | Are you free tonight? | Tu es libre ce soir ? | Ben je vanavond vrij?
+habit | l'habitude (f.) | de gewoonte | It's a good habit. | C'est une bonne habitude. | Het is een goede gewoonte.
+every day | tous les jours | elke dag | I learn a word every day. | J'apprends un mot tous les jours. | Ik leer elke dag een woord.
+## 6 City & transport
+city / town | la ville | de stad | Ghent is a beautiful city. | Gand est une belle ville. | Gent is een mooie stad.
+street | la rue | de straat | I live in this street. | J'habite dans cette rue. | Ik woon in deze straat.
+square | la place | het plein | The market is on the square. | Le marché est sur la place. | De markt is op het plein.
+station | la gare | het station | The station is near. | La gare est proche. | Het station is dichtbij.
+bus | le bus | de bus | The bus is late. | Le bus est en retard. | De bus is te laat.
+train | le train | de trein | I take the train to Brussels. | Je prends le train pour Bruxelles. | Ik neem de trein naar Brussel.
+tram | le tram | de tram | The tram stops here. | Le tram s'arrête ici. | De tram stopt hier.
+car | la voiture | de auto / de wagen | My car is old. | Ma voiture est vieille. | Mijn auto is oud.
+bike | le vélo | de fiets | In Flanders, everyone has a bike. | En Flandre, tout le monde a un vélo. | In Vlaanderen heeft iedereen een fiets.
+ticket | le billet / le ticket | het ticket / het kaartje | A ticket to Antwerp, please. | Un billet pour Anvers, s'il vous plaît. | Een ticket naar Antwerpen, alstublieft.
+stop | l'arrêt (m.) | de halte | The bus stop is over there. | L'arrêt de bus est là-bas. | De bushalte is daar.
+left | à gauche | links | Turn left. | Tournez à gauche. | Sla links af.
+right | à droite | rechts | The bank is on the right. | La banque est à droite. | De bank is rechts.
+straight on | tout droit | rechtdoor | Go straight on. | Allez tout droit. | Ga rechtdoor.
+near | près (de) | dichtbij | Is it near? | C'est près ? | Is het dichtbij?
+far | loin | ver | It's not far. | Ce n'est pas loin. | Het is niet ver.
+map | le plan / la carte | de kaart / het stadsplan | Do you have a map? | Avez-vous un plan ? | Hebt u een stadsplan?
+bridge | le pont | de brug | Cross the bridge. | Traversez le pont. | Steek de brug over.
+traffic light | le feu | het verkeerslicht | Stop at the traffic light. | Arrêtez-vous au feu. | Stop aan het verkeerslicht.
+corner | le coin | de hoek | The café is on the corner. | Le café est au coin. | Het café is op de hoek.
+church | l'église (f.) | de kerk | The church is very old. | L'église est très vieille. | De kerk is heel oud.
+park | le parc | het park | Let's walk in the park. | Allons nous promener au parc. | Laten we in het park wandelen.
+hospital | l'hôpital (m.) | het ziekenhuis | The hospital is downtown. | L'hôpital est au centre-ville. | Het ziekenhuis is in het centrum.
+town hall | la maison communale / la mairie | het gemeentehuis | I have to go to the town hall. | Je dois aller à la maison communale. | Ik moet naar het gemeentehuis.
+to drive | conduire | rijden | I drive to work. | Je vais au travail en voiture. | Ik rijd met de auto naar het werk.
+to get off | descendre | uitstappen | Get off at the next stop. | Descendez au prochain arrêt. | Stap uit aan de volgende halte.
+to get on | monter | instappen | Get on the bus. | Monte dans le bus. | Stap in de bus.
+platform | le quai | het perron | The train leaves from platform 3. | Le train part du quai 3. | De trein vertrekt van perron 3.
+traffic jam | l'embouteillage (m.) / le bouchon | de file | There's a traffic jam on the ring road. | Il y a un bouchon sur le ring. | Er staat file op de ring.
+centre | le centre | het centrum | The hotel is in the centre. | L'hôtel est au centre. | Het hotel ligt in het centrum.
+## 7 Shopping
+shop | le magasin | de winkel | The shop opens at nine. | Le magasin ouvre à neuf heures. | De winkel gaat om negen uur open.
+supermarket | le supermarché | de supermarkt | I go to the supermarket. | Je vais au supermarché. | Ik ga naar de supermarkt.
+bakery | la boulangerie | de bakkerij / de bakker | The bakery sells bread. | La boulangerie vend du pain. | De bakker verkoopt brood.
+market | le marché | de markt | The market is on Saturday. | Le marché a lieu le samedi. | De markt is op zaterdag.
+price | le prix | de prijs | What is the price? | Quel est le prix ? | Wat is de prijs?
+to cost | coûter | kosten | How much does it cost? | Combien ça coûte ? | Hoeveel kost het?
+cheap | bon marché / pas cher | goedkoop | This shirt is cheap. | Cette chemise n'est pas chère. | Dit hemd is goedkoop.
+expensive | cher / chère | duur | Brussels is expensive. | Bruxelles est cher. | Brussel is duur.
+money | l'argent (m.) | het geld | I don't have money. | Je n'ai pas d'argent. | Ik heb geen geld.
+cash | l'argent liquide (m.) / le cash | het cash / contant geld | Can I pay in cash? | Je peux payer en liquide ? | Kan ik cash betalen?
+card | la carte | de kaart | I pay by card. | Je paie par carte. | Ik betaal met de kaart.
+to pay | payer | betalen | Where do I pay? | Où est-ce que je paie ? | Waar moet ik betalen?
+to buy | acheter | kopen | I want to buy shoes. | Je veux acheter des chaussures. | Ik wil schoenen kopen.
+to sell | vendre | verkopen | They sell fruit. | Ils vendent des fruits. | Ze verkopen fruit.
+bag | le sac | de zak / de tas | Do you need a bag? | Vous avez besoin d'un sac ? | Hebt u een zak nodig?
+receipt | le ticket de caisse | het kasticket / het bonnetje | Keep the receipt. | Garde le ticket de caisse. | Houd het kasticket bij.
+size | la taille / la pointure | de maat | What size are you? | Quelle est votre taille ? | Welke maat hebt u?
+to try on | essayer | passen | Can I try this on? | Je peux l'essayer ? | Mag ik dit passen?
+open | ouvert | open | The shop is open. | Le magasin est ouvert. | De winkel is open.
+closed | fermé | gesloten / dicht | Closed on Sundays. | Fermé le dimanche. | Gesloten op zondag.
+sale (discount) | les soldes | de solden / de korting | The sales start in January. | Les soldes commencent en janvier. | De solden beginnen in januari.
+change (money) | la monnaie | het wisselgeld | Here is your change. | Voici votre monnaie. | Hier is uw wisselgeld.
+cashier / checkout | la caisse | de kassa | Pay at the checkout. | Payez à la caisse. | Betaal aan de kassa.
+customer | le client / la cliente | de klant | The customer is always right. | Le client est roi. | De klant is koning.
+kilo | le kilo | de kilo | A kilo of tomatoes. | Un kilo de tomates. | Een kilo tomaten.
+bottle | la bouteille | de fles | A bottle of water. | Une bouteille d'eau. | Een fles water.
+to need | avoir besoin de | nodig hebben | I need milk. | J'ai besoin de lait. | Ik heb melk nodig.
+anything else? | autre chose ? | nog iets? | Anything else, madam? | Autre chose, madame ? | Nog iets, mevrouw?
+that's all | c'est tout | dat is alles | That's all, thank you. | C'est tout, merci. | Dat is alles, dank u.
+clothes | les vêtements | de kleren | I buy clothes online. | J'achète des vêtements en ligne. | Ik koop kleren online.
+## 8 Body & health
+body | le corps | het lichaam | Sport is good for the body. | Le sport est bon pour le corps. | Sport is goed voor het lichaam.
+head | la tête | het hoofd | I have a headache. | J'ai mal à la tête. | Ik heb hoofdpijn.
+eye | l'œil (m.), les yeux | het oog | She has blue eyes. | Elle a les yeux bleus. | Ze heeft blauwe ogen.
+ear | l'oreille (f.) | het oor | My ear hurts. | J'ai mal à l'oreille. | Mijn oor doet pijn.
+nose | le nez | de neus | My nose is running. | J'ai le nez qui coule. | Mijn neus loopt.
+mouth | la bouche | de mond | Open your mouth. | Ouvrez la bouche. | Doe uw mond open.
+tooth | la dent | de tand | I have toothache. | J'ai mal aux dents. | Ik heb tandpijn.
+hand | la main | de hand | Wash your hands. | Lave-toi les mains. | Was je handen.
+arm | le bras | de arm | He broke his arm. | Il s'est cassé le bras. | Hij heeft zijn arm gebroken.
+leg | la jambe | het been | My legs are tired. | J'ai les jambes fatiguées. | Mijn benen zijn moe.
+foot | le pied | de voet | I go on foot. | J'y vais à pied. | Ik ga te voet.
+back | le dos | de rug | I have back pain. | J'ai mal au dos. | Ik heb rugpijn.
+stomach | le ventre / l'estomac (m.) | de buik / de maag | My stomach hurts. | J'ai mal au ventre. | Ik heb buikpijn.
+heart | le cœur | het hart | The heart beats fast. | Le cœur bat vite. | Het hart klopt snel.
+sick / ill | malade | ziek | I am sick today. | Je suis malade aujourd'hui. | Ik ben vandaag ziek.
+pain | la douleur | de pijn | Where is the pain? | Où est la douleur ? | Waar zit de pijn?
+to hurt | faire mal | pijn doen | My back hurts. | Mon dos me fait mal. | Mijn rug doet pijn.
+doctor | le médecin | de dokter / de arts | I need a doctor. | J'ai besoin d'un médecin. | Ik heb een dokter nodig.
+pharmacy | la pharmacie | de apotheek | The pharmacy is open. | La pharmacie est ouverte. | De apotheek is open.
+medicine | le médicament | het geneesmiddel / het medicijn | Take this medicine twice a day. | Prenez ce médicament deux fois par jour. | Neem dit geneesmiddel twee keer per dag.
+fever | la fièvre | de koorts | The child has a fever. | L'enfant a de la fièvre. | Het kind heeft koorts.
+cold (illness) | le rhume | de verkoudheid | I have a cold. | J'ai un rhume. | Ik ben verkouden.
+cough | la toux | de hoest | I have a bad cough. | J'ai une mauvaise toux. | Ik heb een zware hoest.
+appointment | le rendez-vous | de afspraak | I have an appointment at ten. | J'ai rendez-vous à dix heures. | Ik heb om tien uur een afspraak.
+healthy | en bonne santé / sain | gezond | Eat healthy food. | Mange sainement. | Eet gezond.
+tired | fatigué(e) | moe | I'm very tired. | Je suis très fatigué. | Ik ben heel moe.
+hair | les cheveux | het haar | She has long hair. | Elle a les cheveux longs. | Ze heeft lang haar.
+face | le visage | het gezicht | Wash your face. | Lave-toi le visage. | Was je gezicht.
+blood | le sang | het bloed | A blood test. | Une prise de sang. | Een bloedafname.
+emergency | l'urgence (f.) | de noodgeval / de spoed | Call 112 in an emergency. | Appelle le 112 en cas d'urgence. | Bel 112 in geval van nood.
+## 9 Weather & seasons
+weather | le temps / la météo | het weer | What's the weather like? | Quel temps fait-il ? | Hoe is het weer?
+sun | le soleil | de zon | The sun is shining. | Le soleil brille. | De zon schijnt.
+rain | la pluie | de regen | Belgium has a lot of rain. | La Belgique a beaucoup de pluie. | België heeft veel regen.
+to rain | pleuvoir | regenen | It's raining again. | Il pleut encore. | Het regent weer.
+snow | la neige | de sneeuw | There is snow on the roof. | Il y a de la neige sur le toit. | Er ligt sneeuw op het dak.
+wind | le vent | de wind | The wind is strong. | Le vent est fort. | De wind is sterk.
+cloud | le nuage | de wolk | There are many clouds. | Il y a beaucoup de nuages. | Er zijn veel wolken.
+cloudy | nuageux | bewolkt | It's cloudy today. | C'est nuageux aujourd'hui. | Het is vandaag bewolkt.
+storm | l'orage (m.) / la tempête | het onweer / de storm | A storm is coming. | Un orage arrive. | Er komt onweer aan.
+hot | chaud | warm / heet | It's hot in summer. | Il fait chaud en été. | Het is warm in de zomer.
+cold | froid | koud | It's cold outside. | Il fait froid dehors. | Het is koud buiten.
+warm | doux / tiède | warm / zacht | A warm evening. | Une soirée douce. | Een zachte avond.
+temperature | la température | de temperatuur | The temperature is 20 degrees. | La température est de 20 degrés. | De temperatuur is 20 graden.
+degree | le degré | de graad | It's minus five degrees. | Il fait moins cinq degrés. | Het is min vijf graden.
+spring | le printemps | de lente | In spring, the flowers bloom. | Au printemps, les fleurs fleurissent. | In de lente bloeien de bloemen.
+summer | l'été (m.) | de zomer | We go to the sea in summer. | Nous allons à la mer en été. | In de zomer gaan we naar zee.
+autumn | l'automne (m.) | de herfst | Autumn is rainy here. | L'automne est pluvieux ici. | De herfst is hier regenachtig.
+winter | l'hiver (m.) | de winter | Winter is long. | L'hiver est long. | De winter is lang.
+umbrella | le parapluie | de paraplu | Take an umbrella. | Prends un parapluie. | Neem een paraplu mee.
+coat | le manteau | de jas | Put on your coat. | Mets ton manteau. | Doe je jas aan.
+fog | le brouillard | de mist | There's fog on the motorway. | Il y a du brouillard sur l'autoroute. | Er hangt mist op de autosnelweg.
+ice | la glace / le verglas | het ijs / de ijzel | Careful, there's ice on the road. | Attention, il y a du verglas sur la route. | Opgelet, er ligt ijzel op de weg.
+sky | le ciel | de lucht / de hemel | The sky is blue. | Le ciel est bleu. | De lucht is blauw.
+sunny | ensoleillé | zonnig | A sunny day. | Une journée ensoleillée. | Een zonnige dag.
+wet | mouillé(e) | nat | My shoes are wet. | Mes chaussures sont mouillées. | Mijn schoenen zijn nat.
+dry | sec / sèche | droog | The weather is dry. | Le temps est sec. | Het weer is droog.
+forecast | les prévisions météo | de weersvoorspelling | The forecast says rain. | La météo annonce de la pluie. | De weersvoorspelling voorspelt regen.
+season | la saison | het seizoen | My favourite season is spring. | Ma saison préférée est le printemps. | Mijn favoriete seizoen is de lente.
+to shine | briller | schijnen | The sun shines. | Le soleil brille. | De zon schijnt.
+outside | dehors | buiten | The children play outside. | Les enfants jouent dehors. | De kinderen spelen buiten.

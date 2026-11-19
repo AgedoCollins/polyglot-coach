@@ -1,0 +1,209 @@
+# Format: English | French | Dutch | English example | French example | Dutch example
+## 0 Meetings & office life
+agenda | l'ordre du jour (m.) | de agenda | The first point on the agenda is the budget. | Le premier point à l'ordre du jour est le budget. | Het eerste punt op de agenda is het budget.
+minutes (of a meeting) | le procès-verbal / le compte rendu | het verslag | Who is taking the minutes? | Qui rédige le compte rendu ? | Wie maakt het verslag?
+deadline | l'échéance (f.) / la date limite | de deadline / de termijn | We must meet the deadline. | Nous devons respecter l'échéance. | We moeten de deadline halen.
+to postpone | reporter | uitstellen | The meeting was postponed. | La réunion a été reportée. | De vergadering is uitgesteld.
+to cancel | annuler | annuleren / afzeggen | They cancelled the meeting. | Ils ont annulé la réunion. | Ze hebben de vergadering geannuleerd.
+proposal | la proposition | het voorstel | I have a proposal. | J'ai une proposition. | Ik heb een voorstel.
+to agree | être d'accord | akkoord gaan / het eens zijn | I agree with you. | Je suis d'accord avec toi. | Ik ben het met je eens.
+to disagree | ne pas être d'accord | het oneens zijn | I'm afraid I disagree. | Je crains de ne pas être d'accord. | Ik ben het daar helaas niet mee eens.
+decision | la décision | de beslissing | We need to make a decision. | Nous devons prendre une décision. | We moeten een beslissing nemen.
+goal / target | l'objectif (m.) | het doel | Our goal is to grow by 10%. | Notre objectif est de croître de 10 %. | Ons doel is met 10% te groeien.
+project | le projet | het project | The project is on schedule. | Le projet est dans les temps. | Het project ligt op schema.
+report | le rapport | het rapport / het verslag | Please send me the report. | Envoyez-moi le rapport, s'il vous plaît. | Stuur me het rapport, alstublieft.
+presentation | la présentation | de presentatie | She gave a great presentation. | Elle a fait une excellente présentation. | Ze gaf een sterke presentatie.
+feedback | le retour / le feedback | de feedback | Thanks for your feedback. | Merci pour ton retour. | Bedankt voor je feedback.
+team | l'équipe (f.) | het team | Our team works well together. | Notre équipe travaille bien ensemble. | Ons team werkt goed samen.
+manager | le / la responsable, le / la manager | de manager / de leidinggevende | Talk to your manager. | Parle à ton responsable. | Praat met je leidinggevende.
+to be in charge of | être responsable de | verantwoordelijk zijn voor | I'm in charge of sales. | Je suis responsable des ventes. | Ik ben verantwoordelijk voor de verkoop.
+to deal with | s'occuper de / gérer | behandelen / afhandelen | I'll deal with it. | Je m'en occupe. | Ik handel het af.
+priority | la priorité | de prioriteit | Safety is our priority. | La sécurité est notre priorité. | Veiligheid is onze prioriteit.
+to remind | rappeler | herinneren | Remind me tomorrow. | Rappelle-le-moi demain. | Herinner me er morgen aan.
+email | l'e-mail (m.) / le courriel | de e-mail / de mail | I'll send you an email. | Je t'enverrai un e-mail. | Ik stuur je een mail.
+attachment | la pièce jointe | de bijlage | See the attachment. | Voir la pièce jointe. | Zie bijlage.
+to remote work | télétravailler | thuiswerken / telewerken | I work from home on Fridays. | Je télétravaille le vendredi. | Ik werk op vrijdag thuis.
+skill | la compétence | de vaardigheid | Communication is a key skill. | La communication est une compétence clé. | Communicatie is een belangrijke vaardigheid.
+challenge | le défi | de uitdaging | It's a big challenge. | C'est un grand défi. | Het is een grote uitdaging.
+## 1 Administration & paperwork
+application | la demande | de aanvraag | Your application is being processed. | Votre demande est en cours de traitement. | Uw aanvraag wordt behandeld.
+to apply for | demander / faire une demande de | aanvragen | I applied for a residence permit. | J'ai demandé un titre de séjour. | Ik heb een verblijfsvergunning aangevraagd.
+certificate | le certificat / l'attestation (f.) | het attest / het getuigschrift | I need a certificate of residence. | J'ai besoin d'un certificat de résidence. | Ik heb een attest van woonst nodig.
+copy | la copie | de kopie | Bring a copy of your passport. | Apportez une copie de votre passeport. | Breng een kopie van uw paspoort mee.
+official | officiel / le fonctionnaire | officieel / de ambtenaar | Speak to the official at the desk. | Adressez-vous au fonctionnaire au guichet. | Spreek de ambtenaar aan het loket aan.
+procedure | la démarche / la procédure | de procedure | The procedure takes six weeks. | La procédure prend six semaines. | De procedure duurt zes weken.
+registration | l'inscription (f.) | de inschrijving | Registration is compulsory. | L'inscription est obligatoire. | Inschrijving is verplicht.
+compulsory | obligatoire | verplicht | Wearing a seatbelt is compulsory. | Le port de la ceinture est obligatoire. | De gordel dragen is verplicht.
+valid | valable / valide | geldig | Your passport is no longer valid. | Votre passeport n'est plus valable. | Uw paspoort is niet meer geldig.
+to expire | expirer | vervallen / verlopen | My card expires in May. | Ma carte expire en mai. | Mijn kaart vervalt in mei.
+to renew | renouveler | vernieuwen / verlengen | I need to renew my permit. | Je dois renouveler mon permis. | Ik moet mijn vergunning verlengen.
+to submit | soumettre / déposer | indienen | Submit the form before the 15th. | Déposez le formulaire avant le 15. | Dien het formulier in voor de 15e.
+stamp (official) | le cachet | de stempel | It needs an official stamp. | Il faut un cachet officiel. | Er is een officiële stempel nodig.
+appointment | le rendez-vous | de afspraak | Book an appointment online. | Prenez rendez-vous en ligne. | Maak online een afspraak.
+nationality | la nationalité | de nationaliteit | What is your nationality? | Quelle est votre nationalité ? | Wat is uw nationaliteit?
+date of birth | la date de naissance | de geboortedatum | Write your date of birth. | Écrivez votre date de naissance. | Schrijf uw geboortedatum.
+marital status | l'état civil (m.) | de burgerlijke staat | Marital status: married. | État civil : marié. | Burgerlijke staat: gehuwd.
+national register number | le numéro de registre national | het rijksregisternummer | Your national register number is on your card. | Votre numéro de registre national est sur votre carte. | Uw rijksregisternummer staat op uw kaart.
+tax return | la déclaration d'impôts | de belastingaangifte | The tax return is due in June. | La déclaration d'impôts est due en juin. | De belastingaangifte moet in juni ingediend worden.
+refund | le remboursement | de terugbetaling | I'm waiting for a refund. | J'attends un remboursement. | Ik wacht op een terugbetaling.
+fine | l'amende (f.) | de boete | I got a parking fine. | J'ai eu une amende de stationnement. | Ik kreeg een parkeerboete.
+to approve | approuver | goedkeuren | Your request has been approved. | Votre demande a été approuvée. | Uw aanvraag is goedgekeurd.
+to refuse | refuser | weigeren | The request was refused. | La demande a été refusée. | De aanvraag werd geweigerd.
+to confirm | confirmer | bevestigen | Please confirm by email. | Merci de confirmer par e-mail. | Gelieve per mail te bevestigen.
+waiting list | la liste d'attente | de wachtlijst | There's a long waiting list. | Il y a une longue liste d'attente. | Er is een lange wachtlijst.
+## 2 Media & news
+news | les informations / l'actualité (f.) | het nieuws | I watch the news every evening. | Je regarde les informations tous les soirs. | Ik kijk elke avond naar het nieuws.
+newspaper | le journal | de krant | I read the newspaper online. | Je lis le journal en ligne. | Ik lees de krant online.
+article | l'article (m.) | het artikel | An interesting article. | Un article intéressant. | Een interessant artikel.
+headline | le titre / la une | de kop / de krantenkop | Did you see the headline? | Tu as vu le titre ? | Heb je de krantenkop gezien?
+journalist | le / la journaliste | de journalist | The journalist asked a question. | Le journaliste a posé une question. | De journalist stelde een vraag.
+interview | l'interview (f.) | het interview | A live interview. | Une interview en direct. | Een live interview.
+channel | la chaîne | de zender | Which channel? | Quelle chaîne ? | Welke zender?
+broadcast | l'émission (f.) / diffuser | de uitzending / uitzenden | The match is broadcast live. | Le match est diffusé en direct. | De wedstrijd wordt live uitgezonden.
+social media | les réseaux sociaux | de sociale media | I spend too much time on social media. | Je passe trop de temps sur les réseaux sociaux. | Ik zit te veel op sociale media.
+fake news | les fausses informations / les infox | het nepnieuws | Be careful of fake news. | Méfie-toi des fausses informations. | Pas op voor nepnieuws.
+source | la source | de bron | Check your sources. | Vérifie tes sources. | Controleer je bronnen.
+event | l'événement (m.) | de gebeurtenis | An important event. | Un événement important. | Een belangrijke gebeurtenis.
+to report | rapporter / faire état de | berichten / melden | The media reported the accident. | Les médias ont rapporté l'accident. | De media berichtten over het ongeval.
+current affairs | l'actualité (f.) | de actualiteit | I follow current affairs. | Je suis l'actualité. | Ik volg de actualiteit.
+opinion | l'opinion (f.) / l'avis (m.) | de mening | In my opinion, it's wrong. | À mon avis, c'est faux. | Volgens mij is dat fout.
+advertisement | la publicité | de reclame / de advertentie | There are too many ads. | Il y a trop de publicités. | Er is te veel reclame.
+podcast | le podcast | de podcast | I listen to podcasts in Dutch. | J'écoute des podcasts en néerlandais. | Ik luister naar podcasts in het Nederlands.
+audience | le public / l'audience (f.) | het publiek | The audience applauded. | Le public a applaudi. | Het publiek applaudisseerde.
+press | la presse | de pers | Freedom of the press. | La liberté de la presse. | De persvrijheid.
+weather forecast | la météo | het weerbericht | Did you see the weather forecast? | Tu as vu la météo ? | Heb je het weerbericht gezien?
+breaking news | la dernière minute | het laatste nieuws / breaking news | Breaking news: a fire in Antwerp. | Dernière minute : un incendie à Anvers. | Laatste nieuws: een brand in Antwerpen.
+to subscribe | s'abonner | zich abonneren | I subscribed to the magazine. | Je me suis abonné au magazine. | Ik heb me op het tijdschrift geabonneerd.
+magazine | le magazine | het tijdschrift / het magazine | A fashion magazine. | Un magazine de mode. | Een modetijdschrift.
+reliable | fiable | betrouwbaar | Is this source reliable? | Cette source est-elle fiable ? | Is deze bron betrouwbaar?
+to share | partager | delen | Share this article. | Partage cet article. | Deel dit artikel.
+## 3 Relationships
+relationship | la relation | de relatie | They have a good relationship. | Ils ont une bonne relation. | Ze hebben een goede relatie.
+partner | le / la partenaire, le / la conjoint(e) | de partner | My partner is from Antwerp. | Mon conjoint vient d'Anvers. | Mijn partner komt uit Antwerpen.
+to fall in love | tomber amoureux | verliefd worden | They fell in love in Paris. | Ils sont tombés amoureux à Paris. | Ze werden verliefd in Parijs.
+to go out with | sortir avec | uitgaan met / een relatie hebben met | She's going out with Tom. | Elle sort avec Tom. | Ze gaat uit met Tom.
+to get married | se marier | trouwen | They got married last year. | Ils se sont mariés l'an dernier. | Ze zijn vorig jaar getrouwd.
+wedding | le mariage | de bruiloft / het huwelijk | The wedding is in June. | Le mariage est en juin. | De bruiloft is in juni.
+to break up | rompre | uit elkaar gaan / het uitmaken | They broke up after five years. | Ils ont rompu après cinq ans. | Ze zijn na vijf jaar uit elkaar gegaan.
+divorce | le divorce | de scheiding | The divorce was difficult. | Le divorce a été difficile. | De scheiding was moeilijk.
+trust | la confiance | het vertrouwen | Trust is essential. | La confiance est essentielle. | Vertrouwen is essentieel.
+to trust | faire confiance à | vertrouwen | I trust you. | Je te fais confiance. | Ik vertrouw je.
+respect | le respect | het respect | Mutual respect. | Le respect mutuel. | Wederzijds respect.
+to argue | se disputer | ruzie maken | They argue a lot. | Ils se disputent beaucoup. | Ze maken veel ruzie.
+argument / quarrel | la dispute | de ruzie | We had an argument. | Nous avons eu une dispute. | We hebben ruzie gehad.
+to forgive | pardonner | vergeven | Can you forgive me? | Tu peux me pardonner ? | Kun je me vergeven?
+to apologize | s'excuser | zich verontschuldigen / sorry zeggen | I want to apologize. | Je veux m'excuser. | Ik wil me verontschuldigen.
+friendship | l'amitié (f.) | de vriendschap | Our friendship is important. | Notre amitié est importante. | Onze vriendschap is belangrijk.
+acquaintance | la connaissance | de kennis | He's just an acquaintance. | C'est juste une connaissance. | Hij is maar een kennis.
+to get along | bien s'entendre | goed overeenkomen | We get along well. | Nous nous entendons bien. | We komen goed overeen.
+to support | soutenir | steunen | My family supports me. | Ma famille me soutient. | Mijn familie steunt me.
+loyal | fidèle / loyal | trouw | A loyal friend. | Un ami fidèle. | Een trouwe vriend.
+to cheat (on someone) | tromper | bedriegen / vreemdgaan | He cheated on her. | Il l'a trompée. | Hij is vreemdgegaan.
+to share | partager | delen | We share everything. | Nous partageons tout. | We delen alles.
+to take care of | prendre soin de | zorgen voor | Take care of yourself. | Prends soin de toi. | Zorg goed voor jezelf.
+engaged | fiancé(e) | verloofd | They are engaged. | Ils sont fiancés. | Ze zijn verloofd.
+honest | honnête | eerlijk | Be honest with me. | Sois honnête avec moi. | Wees eerlijk met me.
+## 4 Environment
+climate | le climat | het klimaat | Climate change is real. | Le changement climatique est réel. | De klimaatverandering is echt.
+pollution | la pollution | de vervuiling | Air pollution in cities. | La pollution de l'air dans les villes. | Luchtvervuiling in steden.
+to pollute | polluer | vervuilen | Cars pollute the air. | Les voitures polluent l'air. | Auto's vervuilen de lucht.
+waste | les déchets (m. pl.) | het afval | Sort your waste. | Trie tes déchets. | Sorteer je afval.
+to recycle | recycler | recycleren | We recycle plastic and paper. | Nous recyclons le plastique et le papier. | We recycleren plastic en papier.
+energy | l'énergie (f.) | de energie | Save energy. | Économise l'énergie. | Bespaar energie.
+renewable | renouvelable | hernieuwbaar | Renewable energy. | Les énergies renouvelables. | Hernieuwbare energie.
+solar panel | le panneau solaire | het zonnepaneel | We installed solar panels. | Nous avons installé des panneaux solaires. | We hebben zonnepanelen geplaatst.
+wind turbine | l'éolienne (f.) | de windmolen / de windturbine | Wind turbines in the North Sea. | Des éoliennes en mer du Nord. | Windmolens in de Noordzee.
+global warming | le réchauffement climatique | de opwarming van de aarde | Global warming is a threat. | Le réchauffement climatique est une menace. | De opwarming van de aarde is een bedreiging.
+emissions | les émissions | de uitstoot | We must reduce emissions. | Nous devons réduire les émissions. | We moeten de uitstoot verminderen.
+to protect | protéger | beschermen | Protect nature. | Protège la nature. | Bescherm de natuur.
+resource | la ressource | de grondstof / de hulpbron | Water is a precious resource. | L'eau est une ressource précieuse. | Water is een kostbare grondstof.
+drought | la sécheresse | de droogte | A long drought this summer. | Une longue sécheresse cet été. | Een lange droogte deze zomer.
+flood | l'inondation (f.) | de overstroming | The floods in Wallonia were terrible. | Les inondations en Wallonie ont été terribles. | De overstromingen in Wallonië waren verschrikkelijk.
+sustainable | durable | duurzaam | Sustainable development. | Le développement durable. | Duurzame ontwikkeling.
+plastic | le plastique | het plastic | Avoid single-use plastic. | Évite le plastique à usage unique. | Vermijd wegwerpplastic.
+to waste | gaspiller | verspillen | Don't waste food. | Ne gaspille pas la nourriture. | Verspil geen voedsel.
+species | l'espèce (f.) | de soort | Endangered species. | Les espèces menacées. | Bedreigde soorten.
+public transport | les transports en commun | het openbaar vervoer | Take public transport. | Prends les transports en commun. | Neem het openbaar vervoer.
+carbon footprint | l'empreinte carbone (f.) | de ecologische voetafdruk | Reduce your carbon footprint. | Réduis ton empreinte carbone. | Verklein je ecologische voetafdruk.
+organic | bio / biologique | bio / biologisch | Organic vegetables. | Des légumes bio. | Biologische groenten.
+heatwave | la canicule | de hittegolf | A heatwave in July. | Une canicule en juillet. | Een hittegolf in juli.
+to reduce | réduire | verminderen / beperken | Reduce, reuse, recycle. | Réduire, réutiliser, recycler. | Verminderen, hergebruiken, recycleren.
+electric car | la voiture électrique | de elektrische auto | I drive an electric car. | Je conduis une voiture électrique. | Ik rijd met een elektrische auto.
+## 5 Money & budget
+budget | le budget | het budget | We have a tight budget. | Nous avons un budget serré. | We hebben een krap budget.
+to save | économiser / épargner | sparen | I save 200 euros a month. | J'économise 200 euros par mois. | Ik spaar 200 euro per maand.
+savings | les économies / l'épargne (f.) | het spaargeld | I used my savings. | J'ai utilisé mes économies. | Ik heb mijn spaargeld gebruikt.
+to spend | dépenser | uitgeven | I spend too much. | Je dépense trop. | Ik geef te veel uit.
+expenses | les dépenses | de uitgaven | Monthly expenses. | Les dépenses mensuelles. | Maandelijkse uitgaven.
+income | le revenu | het inkomen | A stable income. | Un revenu stable. | Een stabiel inkomen.
+debt | la dette | de schuld | They have debts. | Ils ont des dettes. | Ze hebben schulden.
+to borrow | emprunter | lenen (van) | I borrowed money from my brother. | J'ai emprunté de l'argent à mon frère. | Ik heb geld geleend van mijn broer.
+to lend | prêter | lenen (aan) / uitlenen | Can you lend me 10 euros? | Tu peux me prêter 10 euros ? | Kun je me 10 euro lenen?
+interest (rate) | le taux d'intérêt | de rente / de interest | The interest rate is high. | Le taux d'intérêt est élevé. | De rente is hoog.
+mortgage | le prêt hypothécaire / le crédit hypothécaire | de hypothecaire lening | We have a mortgage for 20 years. | Nous avons un prêt hypothécaire sur 20 ans. | We hebben een hypothecaire lening voor 20 jaar.
+to afford | avoir les moyens de | zich kunnen veroorloven | I can't afford a car. | Je n'ai pas les moyens d'acheter une voiture. | Ik kan me geen auto veroorloven.
+affordable | abordable | betaalbaar | Affordable housing. | Des logements abordables. | Betaalbare woningen.
+discount | la réduction / la remise | de korting | A 20% discount. | Une réduction de 20 %. | Een korting van 20%.
+bargain | la bonne affaire | het koopje | It's a real bargain! | C'est une vraie bonne affaire ! | Het is een echt koopje!
+invoice | la facture | de factuur | Pay the invoice within 30 days. | Payez la facture sous 30 jours. | Betaal de factuur binnen 30 dagen.
+to invest | investir | investeren / beleggen | He invests in shares. | Il investit en actions. | Hij belegt in aandelen.
+cost of living | le coût de la vie | de levensduurte / de kosten van levensonderhoud | The cost of living is rising. | Le coût de la vie augmente. | De levensduurte stijgt.
+inflation | l'inflation (f.) | de inflatie | Inflation is at 3%. | L'inflation est à 3 %. | De inflatie bedraagt 3%.
+gross | brut | bruto | Gross salary. | Le salaire brut. | Brutoloon.
+net | net | netto | Net salary. | Le salaire net. | Nettoloon.
+wallet | le portefeuille | de portefeuille | I lost my wallet. | J'ai perdu mon portefeuille. | Ik ben mijn portefeuille kwijt.
+coin | la pièce | het muntstuk | A two-euro coin. | Une pièce de deux euros. | Een muntstuk van twee euro.
+to owe | devoir (de l'argent) | verschuldigd zijn / schulden | I owe you 20 euros. | Je te dois 20 euros. | Ik ben je 20 euro verschuldigd.
+receipt | le reçu | het ontvangstbewijs / het bonnetje | Can I have a receipt? | Je peux avoir un reçu ? | Mag ik een bonnetje?
+## 6 Technology
+computer | l'ordinateur (m.) | de computer | My computer is slow. | Mon ordinateur est lent. | Mijn computer is traag.
+laptop | l'ordinateur portable (m.) | de laptop | I work on my laptop. | Je travaille sur mon portable. | Ik werk op mijn laptop.
+smartphone | le smartphone | de smartphone / de gsm | My smartphone battery is low. | La batterie de mon smartphone est faible. | De batterij van mijn gsm is bijna leeg.
+screen | l'écran (m.) | het scherm | The screen is broken. | L'écran est cassé. | Het scherm is kapot.
+keyboard | le clavier | het toetsenbord | A Belgian keyboard. | Un clavier belge. | Een Belgisch toetsenbord.
+password | le mot de passe | het wachtwoord | I forgot my password. | J'ai oublié mon mot de passe. | Ik ben mijn wachtwoord vergeten.
+to download | télécharger | downloaden | Download the app. | Télécharge l'appli. | Download de app.
+to upload | téléverser / mettre en ligne | uploaden | Upload the file. | Mets le fichier en ligne. | Upload het bestand.
+file | le fichier | het bestand | Save the file. | Enregistre le fichier. | Sla het bestand op.
+to save (a file) | enregistrer | opslaan | Don't forget to save. | N'oublie pas d'enregistrer. | Vergeet niet op te slaan.
+to delete | supprimer | verwijderen / wissen | Delete this message. | Supprime ce message. | Verwijder dit bericht.
+website | le site web | de website | Visit our website. | Visitez notre site web. | Bezoek onze website.
+internet connection | la connexion internet | de internetverbinding | The internet connection is bad. | La connexion internet est mauvaise. | De internetverbinding is slecht.
+wifi | le wifi | de wifi | What's the wifi password? | Quel est le mot de passe du wifi ? | Wat is het wifi-wachtwoord?
+to charge | recharger | opladen | I need to charge my phone. | Je dois recharger mon téléphone. | Ik moet mijn gsm opladen.
+charger | le chargeur | de oplader | Do you have a charger? | Tu as un chargeur ? | Heb je een oplader?
+app | l'application (f.) / l'appli | de app | A language-learning app. | Une appli pour apprendre les langues. | Een app om talen te leren.
+update | la mise à jour | de update | Install the update. | Installe la mise à jour. | Installeer de update.
+to crash | planter | crashen / vastlopen | My computer crashed. | Mon ordinateur a planté. | Mijn computer is vastgelopen.
+to log in | se connecter | inloggen / aanmelden | Log in with your email. | Connectez-vous avec votre e-mail. | Meld je aan met je e-mail.
+account | le compte | het account | Create an account. | Créez un compte. | Maak een account aan.
+data | les données | de gegevens / de data | Protect your personal data. | Protège tes données personnelles. | Bescherm je persoonsgegevens.
+artificial intelligence | l'intelligence artificielle (f.) | de artificiële intelligentie | Artificial intelligence is changing work. | L'intelligence artificielle change le travail. | Artificiële intelligentie verandert het werk.
+printer | l'imprimante (f.) | de printer | The printer is out of paper. | L'imprimante n'a plus de papier. | De printer heeft geen papier meer.
+link | le lien | de link | Click on the link. | Clique sur le lien. | Klik op de link.
+## 7 Culture & traditions
+culture | la culture | de cultuur | Belgian culture is diverse. | La culture belge est diverse. | De Belgische cultuur is divers.
+tradition | la tradition | de traditie | It's an old tradition. | C'est une vieille tradition. | Het is een oude traditie.
+custom | la coutume | het gebruik / de gewoonte | Local customs. | Les coutumes locales. | Lokale gebruiken.
+festival | le festival / la fête | het festival / het feest | The Ghent Festivities in July. | Les Fêtes de Gand en juillet. | De Gentse Feesten in juli.
+carnival | le carnaval | het carnaval | The carnival of Binche. | Le carnaval de Binche. | Het carnaval van Binche.
+Christmas | Noël | Kerstmis | Merry Christmas! | Joyeux Noël ! | Vrolijk kerstfeest!
+Easter | Pâques | Pasen | Easter eggs. | Les œufs de Pâques. | Paaseieren.
+Saint Nicholas | la Saint-Nicolas | Sinterklaas | Children love Saint Nicholas. | Les enfants adorent la Saint-Nicolas. | Kinderen houden van Sinterklaas.
+public holiday | le jour férié | de feestdag | Monday is a public holiday. | Lundi est un jour férié. | Maandag is een feestdag.
+religion | la religion | de godsdienst / de religie | Freedom of religion. | La liberté de religion. | Godsdienstvrijheid.
+to celebrate | fêter / célébrer | vieren | We celebrate New Year together. | Nous fêtons le Nouvel An ensemble. | We vieren Nieuwjaar samen.
+heritage | le patrimoine | het erfgoed | Cultural heritage. | Le patrimoine culturel. | Cultureel erfgoed.
+art | l'art (m.) | de kunst | Flemish art is famous. | L'art flamand est célèbre. | Vlaamse kunst is beroemd.
+painting | le tableau / la peinture | het schilderij | A painting by Rubens. | Un tableau de Rubens. | Een schilderij van Rubens.
+comic strip | la bande dessinée / la BD | het stripverhaal / de strip | Belgium is the land of comic strips. | La Belgique est le pays de la BD. | België is het land van de strips.
+exhibition | l'exposition (f.) | de tentoonstelling | An exhibition at the museum. | Une exposition au musée. | Een tentoonstelling in het museum.
+theatre | le théâtre | het theater / de schouwburg | We're going to the theatre. | Nous allons au théâtre. | We gaan naar het theater.
+dish (food) | le plat | het gerecht | A typical Belgian dish. | Un plat typiquement belge. | Een typisch Belgisch gerecht.
+stew (carbonnade) | la carbonnade | de stoverij / het stoofvlees | Fries with Flemish stew. | Des frites avec de la carbonnade. | Frieten met stoofvlees.
+dialect | le dialecte | het dialect | They speak a local dialect. | Ils parlent un dialecte local. | Ze spreken een lokaal dialect.
+community | la communauté | de gemeenschap | The Flemish community. | La Communauté flamande. | De Vlaamse Gemeenschap.
+proud of | fier de | trots op | Belgians are proud of their beer. | Les Belges sont fiers de leur bière. | Belgen zijn trots op hun bier.
+customary | habituel / d'usage | gebruikelijk | It's customary to shake hands. | Il est d'usage de se serrer la main. | Het is gebruikelijk om handen te schudden.
+to greet | saluer | begroeten | In Belgium, people greet with a kiss. | En Belgique, on se salue avec une bise. | In België begroet men elkaar met een kus.
+diversity | la diversité | de diversiteit | Diversity enriches society. | La diversité enrichit la société. | Diversiteit verrijkt de samenleving.
