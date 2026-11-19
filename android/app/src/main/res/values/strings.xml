@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Polyglot</string>
+    <string name="title_activity_main">Polyglot</string>
+    <string name="package_name">com.agedocollins.polyglot</string>
+    <string name="custom_url_scheme">com.agedocollins.polyglot</string>
+</resources>

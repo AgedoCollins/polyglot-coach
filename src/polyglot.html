@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Polyglot Coach</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* 60 neutral */ --bg:#F5F6FB; --surface:#FFFFFF; --surface-2:#EEF0F7;
+  /* 30 structure */ --text:#1B1D2A; --text-2:#585D72; --border:#E1E4EE;
+  /* 10 accent */ --accent:#4C3FC8; --accent-2:#6A5AE0; --accent-hover:#3F33AE; --accent-deep:#2F2690; --accent-soft:#ECEAFF; --on-accent:#FFFFFF;
+  --on-accent-2:rgba(255,255,255,.88); --glass:rgba(255,255,255,.18); --glass-2:rgba(255,255,255,.28);
+  /* states */ --ok:#1E8E3E; --ok-deep:#16702F; --err:#C92A2A; --err-deep:#9E1F1F; --ok-soft:#E3F6E8; --err-soft:#FDECEC; --flame:#E8590C;
+  /* categorical language tags */ --en:#3B5BDB; --fr:#C2255C; --nl:#D9480F;
+  /* 8px grid */ --s05:4px; --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s5:40px; --s6:48px; --s7:56px; --s8:64px;
+  /* radii */ --r-md:8px; --r-lg:16px; --r-xl:24px; --r-pill:999px;
+  /* type scale: Major Third 1.25 */ --fs-cap:12.8px; --fs-body:16px; --fs-h3:20px; --fs-h2:25px; --fs-h1:31.25px; --fs-word:39px;
+  --focus:0 0 0 3px var(--accent-deep); --shadow:0 8px 24px rgba(27,29,42,.06); --press:0 4px 0;
+  --t:160ms ease; --nav-h:72px; --max:560px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Nunito,system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:var(--fs-body);line-height:1.5;padding-bottom:calc(var(--nav-h) + var(--s3));-webkit-tap-highlight-color:transparent}
+h1{font-size:var(--fs-h1);font-weight:700}h2{font-size:var(--fs-h2);font-weight:700;line-height:1.25}h3{font-size:var(--fs-h3);font-weight:700}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--s2) var(--s2)}
+header{display:flex;align-items:center;justify-content:space-between;gap:var(--s2);padding:var(--s3) var(--s2) var(--s2);max-width:var(--max);margin:0 auto}
+header h1{font-size:var(--fs-h2);letter-spacing:-.02em}
+header h1 span{color:var(--accent)}
+.row{display:flex;align-items:center;gap:var(--s1);flex-wrap:wrap}
+.between{justify-content:space-between}
+.stack{display:flex;flex-direction:column;gap:var(--s2)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s3);box-shadow:var(--shadow)}
+.muted{color:var(--text-2)}.cap{font-size:var(--fs-cap)}
+button,.btn,select,input,textarea{font:inherit}
+button,.btn{font-weight:500;cursor:pointer;border:2px solid var(--border);background:var(--surface);color:var(--text);border-radius:var(--r-lg);padding:var(--s1) var(--s2);min-height:var(--s6);transition:background var(--t),transform var(--t),box-shadow var(--t);display:inline-flex;align-items:center;justify-content:center;gap:var(--s1);text-decoration:none;box-shadow:var(--press) var(--border)}
+button:hover,.btn:hover{background:var(--surface-2);transform:translateY(-1px)}
+button:active,.btn:active{transform:translateY(4px);box-shadow:0 0 0 var(--border)}
+button:focus-visible,.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible,summary:focus-visible{outline:none;box-shadow:var(--focus)}
+button:disabled{opacity:.45;pointer-events:none}
+.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent);box-shadow:var(--press) var(--accent-deep);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.primary:hover{background:var(--accent-hover)}
+.primary:active{box-shadow:0 0 0 var(--accent-deep)}
+.icon{width:var(--s6);height:var(--s6);padding:0;border-radius:var(--r-pill)}
+.icon.big{width:var(--s7);height:var(--s7);background:var(--accent-soft);border:none;color:var(--accent);box-shadow:none}
+.ghost{border-color:transparent;background:transparent;color:var(--accent);box-shadow:none}
+.ghost:hover{background:var(--accent-soft)}
+svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.chip{border-radius:var(--r-pill);min-height:var(--s5);padding:0 var(--s2);font-size:var(--fs-cap);font-weight:700;box-shadow:none;border-width:2px}
+.chip svg{width:16px;height:16px}
+.chip .dot{width:var(--s1);height:var(--s1);border-radius:var(--r-pill)}
+.chip[aria-pressed=true]{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+.streak{display:inline-flex;align-items:center;gap:var(--s05);font-weight:700;color:var(--flame);background:var(--surface);border:2px solid var(--border);border-radius:var(--r-pill);padding:0 var(--s2);min-height:var(--s5)}
+.streak svg{width:20px;height:20px}
+.word{font-size:var(--fs-word);font-weight:700;line-height:1.15;word-break:break-word;letter-spacing:-.01em}
+.def{font-size:var(--fs-h3);font-weight:500}
+.ex{font-style:italic;color:var(--text-2)}
+.tag{display:inline-block;font-size:var(--fs-cap);font-weight:700;padding:0 var(--s1);border-radius:var(--r-md);background:var(--surface-2);color:var(--text)}
+.lang-bar{height:var(--s05);border-radius:var(--r-pill);width:var(--s6)}
+/* hero (word of the day) */
+.hero{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:var(--on-accent);border:none;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;width:220px;height:220px;border-radius:var(--r-pill);background:var(--glass);right:-80px;top:-80px;pointer-events:none}
+.hero .muted,.hero .ex,.hero i{color:var(--on-accent-2)}
+.hero .icon.big{background:var(--glass);color:var(--on-accent);position:relative;z-index:1}
+.hero .ghost,.hero a.btn{color:var(--on-accent)}
+.hero .ghost:hover,.hero .icon:hover{background:var(--glass-2)}
+.hero .icon{background:var(--glass);border:none;box-shadow:none;color:var(--on-accent)}
+.hero .tag{background:var(--glass);color:var(--on-accent)}
+.hero .trans{background:var(--glass);border-radius:var(--r-lg);padding:var(--s2)}
+.hero .trans .muted{color:var(--on-accent)}
+.eyebrow{font-size:var(--fs-cap);font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+/* daily goal */
+.goal{display:flex;align-items:center;gap:var(--s2)}
+.ring{width:var(--s8);height:var(--s8);flex:none;position:relative}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:var(--fs-cap)}
+.todo{display:flex;flex-direction:column;gap:var(--s05);font-size:var(--fs-cap);font-weight:500}
+.todo span{display:flex;align-items:center;gap:var(--s1)}
+.todo svg{width:16px;height:16px}
+.todo .on{color:var(--ok)}.todo .off{color:var(--text-2)}
+/* nav */
+nav{position:fixed;bottom:0;left:0;right:0;height:var(--nav-h);background:var(--surface);border-top:1px solid var(--border);display:flex;justify-content:space-around;align-items:center;padding:0 var(--s1);z-index:5}
+nav button{flex-direction:column;gap:0;border:none;background:none;font-size:var(--fs-cap);color:var(--text-2);min-height:var(--s7);box-shadow:none;border-radius:var(--r-lg);padding:var(--s05) var(--s2)}
+nav button[aria-current=page]{color:var(--accent);background:var(--accent-soft);font-weight:700}
+nav button:active{transform:scale(.95)}
+.hidden{display:none!important}
+.seg{display:flex;gap:var(--s1);overflow-x:auto;scrollbar-width:none;padding-bottom:var(--s05)}
+.seg::-webkit-scrollbar{display:none}
+.seg button{flex:none;font-size:var(--fs-cap);font-weight:700;border-radius:var(--r-pill);min-height:var(--s5);box-shadow:none}
+.seg button[aria-pressed=true]{background:var(--text);color:var(--surface);border-color:var(--text)}
+.opt{width:100%;justify-content:flex-start;text-align:left;font-weight:500}
+.opt.ok{background:var(--ok-soft);border-color:var(--ok);box-shadow:var(--press) var(--ok)}.opt.bad{background:var(--err-soft);border-color:var(--err);box-shadow:var(--press) var(--err)}
+/* learning path */
+details.card{padding:var(--s2) var(--s3)}
+summary{list-style:none}summary::-webkit-details-marker{display:none}
+.pbar{height:var(--s1);background:var(--surface-2);border-radius:var(--r-pill);overflow:hidden;margin-top:var(--s1)}
+.pbar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:var(--r-pill)}
+.path{border:none;box-shadow:none;background:transparent;padding:var(--s1) 0;min-height:var(--s7)}
+.path:hover{background:transparent}
+.node{width:var(--s6);height:var(--s6);border-radius:var(--r-pill);display:inline-flex;align-items:center;justify-content:center;flex:none;font-weight:700;background:var(--surface-2);color:var(--text-2);border:2px solid var(--border)}
+.node svg{width:20px;height:20px}
+.path.done .node{background:var(--accent);color:var(--on-accent);border-color:var(--accent);box-shadow:var(--press) var(--accent-deep)}
+.path.current .node{background:var(--surface);color:var(--accent);border:3px solid var(--accent);box-shadow:0 0 0 6px var(--accent-soft)}
+.path.current{font-weight:700}
+.path.exam .node{background:var(--flame);border-color:var(--flame);color:var(--on-accent)}
+/* chat */
+.bubble{padding:var(--s2);border-radius:var(--r-xl);max-width:88%}
+.me{background:var(--accent);color:var(--on-accent);align-self:flex-end;border-bottom-right-radius:var(--r-md)}
+.bot{background:var(--surface);border:1px solid var(--border);align-self:flex-start;border-bottom-left-radius:var(--r-md);box-shadow:var(--shadow)}
+.fix{border-left:4px solid var(--err);background:var(--err-soft);padding:var(--s1) var(--s2);border-radius:var(--r-md);margin-top:var(--s1);font-size:var(--fs-cap);color:var(--text)}
+.native{border-left:4px solid var(--ok);background:var(--ok-soft);padding:var(--s1) var(--s2);border-radius:var(--r-md);margin-top:var(--s1);font-size:var(--fs-cap);color:var(--text)}
+input,select,textarea{border:2px solid var(--border);border-radius:var(--r-lg);padding:var(--s1) var(--s2);background:var(--surface);color:var(--text);min-height:var(--s6);width:100%}
+.stat{flex:1;min-width:120px;text-align:center;padding:var(--s2)}
+.stat b{display:block;font-size:var(--fs-h1);color:var(--accent)}
+.overlay{position:fixed;inset:0;background:rgba(27,29,42,.72);display:flex;align-items:center;justify-content:center;padding:var(--s2);z-index:10}
+.overlay .card{width:100%;max-width:var(--max);max-height:100%;overflow:auto}
+.lesson p,.lesson li{margin-bottom:var(--s1)}.lesson ul{padding-left:var(--s3)}
+.lesson table{border-collapse:collapse;width:100%}.lesson td,.lesson th{border:1px solid var(--border);padding:var(--s05) var(--s1);text-align:left}.lesson th{background:var(--surface-2)}
+.bars{display:flex;align-items:flex-end;gap:var(--s1);height:var(--s8)}
+.bars div{flex:1;background:linear-gradient(180deg,var(--accent-2),var(--accent));border-radius:var(--r-md) var(--r-md) 0 0;min-height:2px}
+.bars-l{display:flex;gap:var(--s1)}.bars-l span{flex:1;text-align:center;font-size:var(--fs-cap);color:var(--text-2)}
+.k,.kall{border-radius:var(--r-md);padding:0 2px;transition:background var(--t),color var(--t);cursor:pointer}
+.k.on,.kall.on{background:var(--accent);color:var(--on-accent)}
+.hero .k.on,.hero .kall.on{background:var(--on-accent);color:var(--accent)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--nav-h) + var(--s2));background:var(--accent);color:var(--on-accent);font-weight:700;padding:var(--s1) var(--s3);border-radius:var(--r-pill);box-shadow:var(--shadow);z-index:9;display:flex;align-items:center;gap:var(--s1);max-width:calc(100% - var(--s4))}
+.toast.top{bottom:auto;top:var(--s2);background:var(--text);width:calc(100% - var(--s4));max-width:var(--max);display:block;text-align:center;border-radius:var(--r-lg)}
+.toast.top svg{vertical-align:middle}
+.turnbox{white-space:nowrap}
+.toast svg{color:var(--flame)}
+.badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:var(--s2)}
+.badge{display:flex;flex-direction:column;align-items:center;gap:var(--s1);text-align:center;font-size:var(--fs-cap);color:var(--text-2)}
+.badge.on{color:var(--text);font-weight:700}
+.badge.on .node{background:linear-gradient(135deg,var(--flame),var(--accent-2));color:var(--on-accent);border:none;box-shadow:var(--press) var(--accent-deep)}
+.big-q{font-size:var(--fs-h2);font-weight:700;text-align:center;padding:var(--s3) 0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Polyglot<span>.</span></h1>
+  <div class="row">
+    <span class="streak" id="streak" aria-label="Streak"></span>
+    <button class="chip" id="uiLang" aria-label="UI language">FR</button>
+    <button class="icon" id="btnSettings" aria-label="Settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- TODAY -->
+  <section id="v-today" class="stack">
+    <article class="card goal" id="goal"></article>
+    <div class="row between">
+      <button class="icon" id="prevDay" aria-label="Previous day"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <span id="dayLabel" class="muted"></span>
+      <button class="icon" id="nextDay" aria-label="Next day"><svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button>
+    </div>
+    <div class="row" id="todayLangs"></div>
+    <article class="card stack hero" id="wordCard"></article>
+    <article class="card stack" id="exprCard"></article>
+  </section>
+
+  <!-- LEARN -->
+  <section id="v-learn" class="stack hidden">
+    <div class="seg" id="learnSeg"></div>
+    <div class="row" id="learnLangs"></div>
+    <div id="learnBody" class="stack"></div>
+  </section>
+
+  <!-- SPEAK -->
+  <section id="v-speak" class="stack hidden">
+    <div class="row" id="speakLangs"></div>
+    <select id="scenario"></select>
+    <div id="chat" class="stack"></div>
+    <div class="row" style="flex-wrap:nowrap">
+      <button class="icon" id="mic" aria-label="Dictate"><svg viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg></button>
+      <input id="msg" autocomplete="off">
+      <button class="primary icon" id="send" aria-label="Send"><svg viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></button>
+    </div>
+    <p class="cap muted" id="speakInfo"></p>
+  </section>
+
+  <!-- PROGRESS -->
+  <section id="v-progress" class="stack hidden"></section>
+</main>
+
+<nav id="nav"></nav>
+<div id="turn" class="toast turnbox hidden" role="status"></div>
+<div id="toast" class="toast top hidden" role="status"></div>
+
+<div class="overlay hidden" id="settings"><div class="card stack" id="settingsBody"></div></div>
+<div class="overlay hidden" id="popup"><div class="card stack" id="popupBody"></div></div>
+
+<script>
+/* ---------- ICONS (outline family only) ---------- */
+const I={
+ sound:'<svg viewBox="0 0 24 24"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>',
+ dice:'<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r=".5"/><circle cx="16" cy="8" r=".5"/><circle cx="12" cy="12" r=".5"/><circle cx="8" cy="16" r=".5"/><circle cx="16" cy="16" r=".5"/></svg>',
+ heart:'<svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>',
+ heartOn:'<svg viewBox="0 0 24 24" style="fill:currentColor"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>',
+ copy:'<svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>',
+ search:'<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>',
+ today:'<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
+ learn:'<svg viewBox="0 0 24 24"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2zM22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg>',
+ speak:'<svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+ flame:'<svg viewBox="0 0 24 24"><path d="M12 2c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2 1-4 2-5 0 2 1 3 2 3 0-3-1-6 1-9z"/></svg>',
+ check:'<svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>',
+ circle:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/></svg>',
+ star:'<svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>',
+ prog:'<svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-6"/></svg>'
+};
+
+/* ---------- UI STRINGS FR / EN ---------- */
+const T={
+ fr:{today:"Aujourd'hui",learn:"Apprendre",speak:"Parler",progress:"Progrès",google:"Regarder sur Google",expr:"Expression du jour",lit:"Mot à mot",meaning:"Sens",equiv:"Équivalents",grammar:"Grammaire",articles:"Articles",review:"Révision",start:"Commencer",back:"Retour",next:"Suivant",score:"Score",reveal:"Afficher la définition",noReview:"Les mots vus apparaîtront ici.",streak:"Jours d'affilée",words:"Mots vus",lessons:"Leçons faites",acc:"Précision articles",favs:"Favoris",errors:"Fautes récentes",none:"Rien pour l'instant.",settings:"Réglages",popTime:"Heure du popup",popTime2:"2e rappel (optionnel)",langs:"Langues actives",close:"Fermer",save:"Enregistrer",popTitle:"Mot du jour — à faire",popAsk:"Écris une phrase avec ce mot (ou dicte-la) pour continuer.",popBad:"Utilise le mot dans une phrase d'au moins 3 mots.",validate:"Valider",done:"Fait aujourd'hui ✓",copied:"Copié",scen:"Scénario",typeMsg:"Écris ou dicte ta phrase…",aiOff:"La conversation IA n'est pas disponible : ouvre l'app dans claude.ai, ou ajoute ta clé API dans les réglages.",limit:"Limite quotidienne atteinte (20 messages).",left:"messages restants aujourd'hui",correction:"Correction",nativeSays:"Un natif dirait",thinking:"…",n:"nom",v:"verbe",adj:"adj.",adv:"adv.",m:"masc.",f:"fém.",wotd:"Mot du jour",lvl:"Niveau",newBadge:"Nouveau badge !",badgesT:"Badges",showUI:"Je ne comprends pas : voir en français",hideUI:"Masquer la traduction",regen:"Regénérer cette leçon",slow:"Lent",repeat:"Répète après moi",yourTurn:"À toi ! Répète à voix haute",normal:"Normal",teachHint:"Le mot 2× lentement, puis la phrase. Touche un mot pour l'entendre seul.",noVoice:"Ton téléphone n'a pas de voix % : la prononciation sera fausse. Installe-la : Paramètres › Gestion globale › Synthèse vocale › réglages du moteur › Installer les données vocales › %.",goalT:"Objectif du jour",gW:"Mot du jour",gL:"1 leçon",gR:"Revoir mes fautes",gDone:"Objectif atteint !",vocab:"Vocabulaire",mistakes:"Mes fautes",exam:"Examen",examRule:"20 questions : grammaire, vocabulaire et écoute. Il faut 70 % pour débloquer le niveau suivant.",passedX:"Réussi ✓",failedX:"Il faut au moins % % pour valider.",practice:"S'entraîner (10 questions)",noMist:"Aucune faute à revoir aujourd'hui. Bravo !",mLeft:"À maîtriser",mDone:"Maîtrisées",mDue:"à revoir aujourd'hui",mFix:"Trouve la bonne version (écris-la, puis vérifie) :",reveal2:"Voir la correction",mWrong:"Je me suis trompé",mRight:"J'avais juste",mStreak:"Réussites d'affilée",weekly:"Bilan de la semaine",wActive:"Jours actifs",wLessons:"Leçons validées",wWords:"Mots du jour faits",wVocab:"Mots de vocabulaire appris",wErr:"Fautes faites",wMast:"Fautes maîtrisées",wAI:"Messages IA",wTop:"Tes fautes les plus fréquentes",wGoal:"Objectif semaine prochaine",wGoalTxt:"Valider % leçons, faire le mot du jour 7/7 et revoir toutes tes fautes.",vLearned:"Vocabulaire appris",passed:"Leçon validée ✓ La suivante est débloquée.",failed:"Il faut au moins 60 % pour débloquer la leçon suivante.",retry:"Recommencer",gen:"Préparation de la leçon… (une seule fois, elle sera ensuite disponible hors ligne)",genOff:"Cette partie utilise l'IA : ouvre l'app dans claude.ai, ou ajoute ta clé API dans les réglages.",popNote:"À l'heure choisie, une notification arrive (app Android). En ouvrant l'app, le mot du jour bloque l'écran jusqu'à ce que tu le fasses.",notifB:"Ton mot du jour t'attend. 1 minute, pas plus !",notifB2:"Rappel : as-tu fait ton mot du jour ?",apiKey:"Clé API Anthropic (optionnel)",apiNote:"Seulement en dehors de claude.ai (APK). Active l'IA : conversation, leçons, examens, vocabulaire, mot du jour. Facturé sur ton compte Anthropic, stocké uniquement sur ce téléphone."},
+ en:{today:"Today",learn:"Learn",speak:"Speak",progress:"Progress",google:"Search on Google",expr:"Expression of the day",lit:"Literally",meaning:"Meaning",equiv:"Equivalents",grammar:"Grammar",articles:"Articles",review:"Review",start:"Start",back:"Back",next:"Next",score:"Score",reveal:"Show definition",noReview:"Words you've seen will appear here.",streak:"Day streak",words:"Words seen",lessons:"Lessons done",acc:"Article accuracy",favs:"Favourites",errors:"Recent mistakes",none:"Nothing yet.",settings:"Settings",popTime:"Popup time",popTime2:"2nd reminder (optional)",langs:"Active languages",close:"Close",save:"Save",popTitle:"Word of the day — to do",popAsk:"Write a sentence with this word (or dictate it) to continue.",popBad:"Use the word in a sentence of at least 3 words.",validate:"Validate",done:"Done today ✓",copied:"Copied",scen:"Scenario",typeMsg:"Type or dictate your sentence…",aiOff:"AI conversation isn't available: open the app in claude.ai, or add your API key in Settings.",limit:"Daily limit reached (20 messages).",left:"messages left today",correction:"Correction",nativeSays:"A native would say",thinking:"…",n:"noun",v:"verb",adj:"adj.",adv:"adv.",m:"masc.",f:"fem.",wotd:"Word of the day",lvl:"Level",newBadge:"New badge!",badgesT:"Badges",showUI:"I don't understand: show in English",hideUI:"Hide translation",regen:"Regenerate this lesson",slow:"Slow",repeat:"Repeat after me",yourTurn:"Your turn! Say it out loud",normal:"Normal",teachHint:"The word twice slowly, then the sentence. Tap any word to hear it alone.",noVoice:"Your phone has no % voice, so pronunciation will be wrong. Install it: Settings › General management › Text-to-speech › engine settings › Install voice data › %.",goalT:"Daily goal",gW:"Word of the day",gL:"1 lesson",gR:"Review my mistakes",gDone:"Goal reached!",vocab:"Vocabulary",mistakes:"My mistakes",exam:"Exam",examRule:"20 questions: grammar, vocabulary and listening. You need 70% to unlock the next level.",passedX:"Passed ✓",failedX:"You need at least % % to pass.",practice:"Practise (10 questions)",noMist:"No mistakes to review today. Well done!",mLeft:"To master",mDone:"Mastered",mDue:"to review today",mFix:"Find the correct version (write it, then check):",reveal2:"Show correction",mWrong:"I got it wrong",mRight:"I got it right",mStreak:"Correct in a row",weekly:"Weekly report",wActive:"Active days",wLessons:"Lessons passed",wWords:"Words of the day done",wVocab:"Vocabulary words learned",wErr:"Mistakes made",wMast:"Mistakes mastered",wAI:"AI messages",wTop:"Your most frequent mistakes",wGoal:"Goal for next week",wGoalTxt:"Pass % lessons, do the word of the day 7/7 and review all your mistakes.",vLearned:"Vocabulary learned",passed:"Lesson passed ✓ The next one is unlocked.",failed:"You need at least 60% to unlock the next lesson.",retry:"Retry",gen:"Preparing the lesson… (only once, then it's available offline)",genOff:"This part uses AI: open the app in claude.ai, or add your API key in Settings.",popNote:"At the chosen time a notification arrives (Android app). When you open the app, the word of the day blocks the screen until you do it.",notifB:"Your word of the day is waiting. 1 minute, no more!",notifB2:"Reminder: did you do your word of the day?",apiKey:"Anthropic API key (optional)",apiNote:"Only outside claude.ai (APK). Turns on AI: conversation, lessons, exams, vocabulary, word of the day. Billed to your Anthropic account, stored only on this phone."}
+};
+
+/* ---------- LANGUAGE PACKS (evolutive: add a key to add a language) ---------- */
+const PACKS={
+ en:{name:"English",voice:"en-GB",color:"var(--en)",articles:null},
+ fr:{name:"Français",voice:"fr-BE",color:"var(--fr)",articles:["le","la"]},
+ nl:{name:"Nederlands",voice:"nl-BE",color:"var(--nl)",articles:["de","het"]}
+};
+
+/* Word of the day — one concept, all languages. t:type g:gender d:definition x:example */
+const WORDS=[
+ {en:{w:"ephemeral",t:"adj",d:"Lasting for a very short time.",x:"Fame on social media is often ephemeral."},fr:{w:"éphémère",t:"adj",d:"Qui ne dure que très peu de temps.",x:"La célébrité sur les réseaux sociaux est souvent éphémère."},nl:{w:"kortstondig",t:"adj",d:"Van korte duur.",x:"Roem op sociale media is vaak kortstondig."}},
+ {en:{w:"resilience",t:"n",d:"The ability to recover quickly from difficulties.",x:"Her resilience impressed everyone."},fr:{w:"résilience",t:"n",g:"f",d:"Capacité à surmonter les épreuves.",x:"Sa résilience a impressionné tout le monde."},nl:{w:"veerkracht",t:"n",g:"de",d:"Het vermogen om na tegenslag te herstellen.",x:"Haar veerkracht maakte indruk op iedereen."}},
+ {en:{w:"eloquent",t:"adj",d:"Fluent and persuasive in speaking or writing.",x:"He gave an eloquent speech."},fr:{w:"éloquent",t:"adj",d:"Qui s'exprime avec aisance et force de persuasion.",x:"Il a fait un discours éloquent."},nl:{w:"welsprekend",t:"adj",d:"Vlot en overtuigend in spreken.",x:"Hij hield een welsprekende toespraak."}},
+ {en:{w:"to procrastinate",t:"v",d:"To keep delaying something you should do.",x:"I tend to procrastinate on Mondays."},fr:{w:"procrastiner",t:"v",d:"Remettre à plus tard ce qu'on doit faire.",x:"J'ai tendance à procrastiner le lundi."},nl:{w:"uitstellen",t:"v",d:"Iets naar een later moment schuiven.",x:"Op maandag heb ik de neiging om dingen uit te stellen."}},
+ {en:{w:"serendipity",t:"n",d:"Finding something good by chance.",x:"This invention was born of serendipity."},fr:{w:"sérendipité",t:"n",g:"f",d:"Découverte heureuse due au hasard.",x:"Cette invention est née de la sérendipité."},nl:{w:"serendipiteit",t:"n",g:"de",d:"Een gelukkige, toevallige ontdekking.",x:"Deze uitvinding is ontstaan door serendipiteit."}},
+ {en:{w:"ubiquitous",t:"adj",d:"Present or found everywhere.",x:"Smartphones have become ubiquitous."},fr:{w:"omniprésent",t:"adj",d:"Qui est présent partout, en tout lieu.",x:"Les smartphones sont devenus omniprésents."},nl:{w:"alomtegenwoordig",t:"adj",d:"Overal tegelijk aanwezig.",x:"Smartphones zijn alomtegenwoordig geworden."}},
+ {en:{w:"meticulous",t:"adj",d:"Showing great attention to detail.",x:"He is a meticulous craftsman."},fr:{w:"méticuleux",t:"adj",d:"Qui fait les choses avec un soin extrême.",x:"C'est un artisan méticuleux."},nl:{w:"nauwgezet",t:"adj",d:"Heel zorgvuldig en precies.",x:"Hij is een nauwgezette vakman."}},
+ {en:{w:"magnanimous",t:"adj",d:"Generous and forgiving, especially towards a rival.",x:"She was magnanimous in victory."},fr:{w:"magnanime",t:"adj",d:"Qui fait preuve de grandeur d'âme et de clémence.",x:"Elle s'est montrée magnanime dans la victoire."},nl:{w:"grootmoedig",t:"adj",d:"Edelmoedig en vergevingsgezind.",x:"Ze was grootmoedig in de overwinning."}},
+ {en:{w:"to alleviate",t:"v",d:"To make a problem or suffering less severe.",x:"We must alleviate this shortage."},fr:{w:"pallier",t:"v",d:"Remédier à un manque, atténuer un mal.",x:"Nous devons pallier ce manque."},nl:{w:"verhelpen",t:"v",d:"Een probleem of tekort oplossen of verzachten.",x:"We moeten dit tekort verhelpen."}},
+ {en:{w:"ambiguous",t:"adj",d:"Having more than one possible meaning.",x:"His answer was ambiguous."},fr:{w:"ambigu",t:"adj",d:"Qui peut être compris de plusieurs façons.",x:"Sa réponse était ambiguë."},nl:{w:"dubbelzinnig",t:"adj",d:"Voor meer dan één uitleg vatbaar.",x:"Zijn antwoord was dubbelzinnig."}},
+ {en:{w:"equanimity",t:"n",d:"Calmness and composure, especially in a difficult situation.",x:"He accepted the news with equanimity."},fr:{w:"équanimité",t:"n",g:"f",d:"Égalité d'humeur, sérénité face aux épreuves.",x:"Il accueillit la nouvelle avec équanimité."},nl:{w:"gelijkmoedigheid",t:"n",g:"de",d:"Innerlijke kalmte, ook in moeilijke tijden.",x:"Hij nam het nieuws met gelijkmoedigheid op."}},
+ {en:{w:"to thrive",t:"v",d:"To grow, develop or succeed very well.",x:"She is thriving in her new job."},fr:{w:"s'épanouir",t:"v",d:"Se développer pleinement, être heureux.",x:"Elle s'épanouit dans son nouveau travail."},nl:{w:"floreren",t:"v",d:"Goed groeien en bloeien.",x:"Ze floreert in haar nieuwe job."}},
+ {en:{w:"ineffable",t:"adj",d:"Too great or extreme to be expressed in words.",x:"She felt an ineffable joy."},fr:{w:"ineffable",t:"adj",d:"Qui ne peut être exprimé par des paroles.",x:"Elle ressentit une joie ineffable."},nl:{w:"onuitsprekelijk",t:"adj",d:"Te groot of te diep om in woorden uit te drukken.",x:"Ze voelde een onuitsprekelijke vreugde."}},
+ {en:{w:"perspicacious",t:"adj",d:"Having a quick, sharp insight into things.",x:"She is a perspicacious observer."},fr:{w:"perspicace",t:"adj",d:"Qui a l'esprit pénétrant, qui saisit vite les choses.",x:"C'est une observatrice perspicace."},nl:{w:"scherpzinnig",t:"adj",d:"Met een snel en scherp inzicht.",x:"Ze is een scherpzinnige waarnemer."}}
+];
+
+/* Expression of the day — m: meaning (fr/en), l: literal (fr/en) */
+const EXPR=[
+ {en:{e:"To break the ice"},fr:{e:"Briser la glace",l:{en:"Break the ice",fr:"Briser la glace"}},nl:{e:"Het ijs breken",l:{en:"Break the ice",fr:"Briser la glace"}},m:{en:"To start a conversation in an awkward situation.",fr:"Lancer la conversation quand l'ambiance est tendue."},x:{en:"He told a joke to break the ice.",fr:"Il a raconté une blague pour briser la glace.",nl:"Hij vertelde een grap om het ijs te breken."}},
+ {en:{e:"To beat around the bush"},fr:{e:"Tourner autour du pot",l:{en:"Turn around the pot",fr:"Tourner autour du pot"}},nl:{e:"Om de hete brij heen draaien",l:{en:"Turn around the hot porridge",fr:"Tourner autour de la bouillie chaude"}},m:{en:"To avoid talking about the main subject.",fr:"Éviter de parler directement du sujet."},x:{en:"Stop beating around the bush!",fr:"Arrête de tourner autour du pot !",nl:"Draai er niet omheen!"}},
+ {en:{e:"It's raining cats and dogs"},fr:{e:"Il pleut des cordes",l:{en:"It's raining ropes",fr:"Il pleut des cordes"}},nl:{e:"Het regent pijpenstelen",l:{en:"It's raining pipe stems",fr:"Il pleut des tuyaux de pipe"}},m:{en:"It's raining very heavily.",fr:"Il pleut très fort."},x:{en:"Take an umbrella, it's raining cats and dogs.",fr:"Prends un parapluie, il pleut des cordes.",nl:"Neem een paraplu, het regent pijpenstelen."}},
+ {en:{e:"To cost an arm and a leg"},fr:{e:"Coûter les yeux de la tête",l:{en:"Cost the eyes of the head",fr:"Coûter les yeux de la tête"}},nl:{e:"Een rib uit je lijf kosten",l:{en:"Cost a rib from your body",fr:"Coûter une côte de ton corps"}},m:{en:"To be very expensive.",fr:"Être très cher."},x:{en:"This car cost an arm and a leg.",fr:"Cette voiture m'a coûté les yeux de la tête.",nl:"Die auto kostte een rib uit mijn lijf."}},
+ {en:{e:"To have a frog in one's throat"},fr:{e:"Avoir un chat dans la gorge",l:{en:"Have a cat in the throat",fr:"Avoir un chat dans la gorge"}},nl:{e:"Een kikker in je keel hebben",l:{en:"Have a frog in your throat",fr:"Avoir une grenouille dans la gorge"}},m:{en:"To have a hoarse voice.",fr:"Avoir la voix enrouée."},x:{en:"Sorry, I have a frog in my throat.",fr:"Pardon, j'ai un chat dans la gorge.",nl:"Sorry, ik heb een kikker in mijn keel."}},
+ {en:{e:"When pigs fly"},fr:{e:"Quand les poules auront des dents",l:{en:"When hens have teeth",fr:"Quand les poules auront des dents"}},nl:{e:"Als de kalveren op het ijs dansen",l:{en:"When calves dance on the ice",fr:"Quand les veaux danseront sur la glace"}},m:{en:"Never; something that will never happen.",fr:"Jamais ; une chose qui n'arrivera pas."},x:{en:"He'll be on time when pigs fly.",fr:"Il sera à l'heure quand les poules auront des dents.",nl:"Hij is op tijd als de kalveren op het ijs dansen."}},
+ {en:{e:"To kill two birds with one stone"},fr:{e:"Faire d'une pierre deux coups",l:{en:"Make two hits with one stone",fr:"Faire d'une pierre deux coups"}},nl:{e:"Twee vliegen in één klap slaan",l:{en:"Hit two flies in one blow",fr:"Frapper deux mouches d'un seul coup"}},m:{en:"To achieve two things with one action.",fr:"Obtenir deux résultats avec une seule action."},x:{en:"I'll visit Mum and shop: two birds with one stone.",fr:"Je fais les courses chez maman : d'une pierre deux coups.",nl:"Zo sla ik twee vliegen in één klap."}}
+];
+
+/* Grammar A1 — q: [question, options, answerIndex] */
+const GRAMMAR={
+ fr:[
+  {id:"fr1",title:"Articles: le, la, l', les / un, une, des",body:"<p>Every French noun is <b>masculine</b> or <b>feminine</b>. The article shows it.</p><ul><li><b>Definite</b> (the): <b>le</b> (m), <b>la</b> (f), <b>l'</b> before a vowel/h, <b>les</b> (plural).</li><li><b>Indefinite</b> (a/some): <b>un</b> (m), <b>une</b> (f), <b>des</b> (plural).</li></ul><p>Always learn a noun <b>with its article</b>: <i>la table</i>, <i>le livre</i>.</p>",ex:["le livre","la maison","l'école","un ami","une amie","des enfants"],q:[["___ soleil (m)",["le","la","l'"],0],["___ voiture (f)",["un","une","des"],1],["___ arbre",["le","la","l'"],2],["___ enfants",["les","la","un"],0]]},
+  {id:"fr2",title:"Gender: endings that help",body:"<p>Some endings tell you the gender most of the time:</p><ul><li><b>Masculine</b>: -age (le fromage), -ment (le moment), -eau (le bureau), -isme, -phone.</li><li><b>Feminine</b>: -tion (la nation), -té (la liberté), -ure (la peinture), -ette, -ance/-ence.</li></ul><p>Exceptions exist: <i>la plage, l'image (f), le musée</i>.</p>",ex:["le garage","le gâteau","la question","la beauté","la culture"],q:[["___ communication",["le","la"],1],["___ chapeau",["le","la"],0],["___ voyage",["le","la"],0],["___ liberté",["le","la"],1]]},
+  {id:"fr3",title:"Présent: être & avoir",body:"<p><b>être</b> (to be): je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.</p><p><b>avoir</b> (to have): j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.</p><p>Careful: age uses <b>avoir</b>: <i>J'ai 30 ans</i> (not « je suis 30 »).</p>",ex:["Je suis belge.","Nous avons une voiture.","Elle a 25 ans."],q:[["Nous ___ fatigués.",["sommes","avons","êtes"],0],["Ils ___ deux enfants.",["sont","ont","as"],1],["J'___ 30 ans.",["suis","ai","es"],1],["Vous ___ prêts ?",["êtes","avez","sont"],0]]}
+ ],
+ nl:[
+  {id:"nl1",title:"Lidwoorden: de, het, een",body:"<p>Dutch has two words for 'the': <b>de</b> and <b>het</b>. 'A' is always <b>een</b>.</p><ul><li><b>de</b>: most nouns, people (de man, de vrouw), and <b>all plurals</b> (de huizen).</li><li><b>het</b>: diminutives -je (het meisje), languages (het Frans), and many words starting with be-, ge-, ver-, ont- (het gesprek).</li></ul><p>Learn each noun with its article.</p>",ex:["de stoel","het huis","een boek","de boeken","het meisje"],q:[["___ meisje",["de","het"],1],["___ huizen (plural)",["de","het"],0],["___ man",["de","het"],0],["___ gesprek",["de","het"],1]]},
+  {id:"nl2",title:"Word order: verb in 2nd place",body:"<p>In a main sentence, the conjugated verb is <b>always in 2nd position</b>.</p><ul><li>Ik <b>werk</b> vandaag.</li><li>Vandaag <b>werk</b> ik. (time first → subject moves after the verb)</li></ul><p>In a question without question word, the verb goes first: <i><b>Werk</b> jij vandaag?</i></p>",ex:["Ik woon in Gent.","Morgen ga ik naar Antwerpen.","Spreek jij Nederlands?"],q:[["Vandaag ___ .",["ik werk","werk ik"],1],["Morgen ___ naar school.",["ga ik","ik ga"],0],["___ Nederlands?",["Spreek jij","Jij spreekt"],0]]},
+  {id:"nl3",title:"zijn & hebben",body:"<p><b>zijn</b> (to be): ik ben, jij bent (bent jij → <b>ben jij</b>), hij/zij is, wij zijn, jullie zijn, zij zijn.</p><p><b>hebben</b> (to have): ik heb, jij hebt (<b>heb jij</b>), hij heeft, wij hebben, jullie hebben, zij hebben.</p><p>When jij/je comes after the verb, drop the -t.</p>",ex:["Ik ben moe.","Heb jij tijd?","Zij heeft een fiets."],q:[["Hij ___ een auto.",["heeft","hebt","heb"],0],["___ jij moe?",["Bent","Ben","Is"],1],["Wij ___ Belgen.",["zijn","is","bent"],0]]}
+ ],
+ en:[
+  {id:"en1",title:"Articles: a, an, the",body:"<p><b>a</b> before a consonant sound (a book, a university), <b>an</b> before a vowel sound (an apple, an hour).</p><p><b>the</b> for something specific or already mentioned. No article for general plurals: <i>Dogs are loyal.</i></p>",ex:["a car","an idea","an hour","the sun"],q:[["___ hour",["a","an"],1],["___ university",["a","an"],0],["I love ___ music. (in general)",["the","—"],1],["Close ___ door, please.",["a","the"],1]]},
+  {id:"en2",title:"Present simple vs continuous",body:"<p><b>Present simple</b>: habits and facts — <i>I work in Brussels.</i> (he/she/it + <b>-s</b>)</p><p><b>Present continuous</b> (be + -ing): now / temporary — <i>I'm working right now.</i></p>",ex:["She speaks French.","They're eating now."],q:[["She ___ French every day.",["speaks","is speaking"],0],["Look! It ___ .",["rains","is raining"],1],["He ___ in Ghent.",["live","lives"],1]]},
+  {id:"en3",title:"to be & to have",body:"<p><b>to be</b>: I am, you are, he/she/it is, we/they are. Short: I'm, you're, he's.</p><p><b>to have</b>: I/you/we/they have, he/she/it <b>has</b>.</p><p>Age uses <b>be</b>: <i>I am 30</i> (opposite of French!).</p>",ex:["I'm Belgian.","She has two kids.","I am 30 years old."],q:[["I ___ 30 years old.",["have","am"],1],["He ___ a car.",["have","has"],1],["They ___ tired.",["is","are"],1]]}
+ ]
+};
+
+/* Full school syllabus A1→C2. "@id" = built-in lesson; other titles are generated once by AI, then cached offline */
+const SYLL={
+ fr:{A1:["Alphabet et prononciation","@fr1","@fr2","Pluriel des noms","@fr3","Pronoms personnels sujets","Présent des verbes en -er","Négation : ne… pas","Poser une question (est-ce que, inversion)","Adjectifs : accord et place","Possessifs (mon, ma, mes)","Démonstratifs (ce, cet, cette, ces)","Nombres, date et heure","Prépositions de lieu","Articles contractés (au, du, aux, des)","Verbes aller, faire, venir, prendre"],
+  A2:["Présent des verbes en -ir, -re et irréguliers","Articles partitifs (du, de la, des, de)","Futur proche","Passé récent","Passé composé avec avoir","Passé composé avec être","Accord du participe passé (bases)","Imparfait","Passé composé ou imparfait ?","Pronoms COD (le, la, les)","Pronoms COI (lui, leur)","Verbes pronominaux","Comparatif et superlatif","Impératif","Pronoms toniques (moi, toi…)","Adverbes en -ment","Il y a, depuis, pendant"],
+  B1:["Futur simple","Conditionnel présent","Plus-que-parfait","Pronoms y et en","Ordre des doubles pronoms","Pronoms relatifs qui, que, où, dont","Subjonctif présent : formation","Subjonctif après volonté et sentiment","L'hypothèse avec si","Discours indirect au présent","Gérondif","Cause et conséquence","Négations complexes (jamais, rien, personne, plus)"],
+  B2:["Subjonctif ou indicatif ?","Subjonctif passé","Conditionnel passé","Hypothèses : si + plus-que-parfait","Discours indirect au passé (concordance des temps)","Voix passive","Relatifs composés (lequel, auquel, duquel)","Participe présent et adjectif verbal","But, opposition et concession","Accord du participe passé (avancé)","Mise en relief (c'est… qui / que)"],
+  C1:["Passé simple et passé antérieur","Subjonctif imparfait et plus-que-parfait","Nuances des connecteurs logiques","Nominalisation","Ne explétif","Inversion stylistique","Registres : soutenu, courant, familier"],
+  C2:["Figures de style","Accord des participes des verbes pronominaux","Belgicismes et variantes du français","Argumentation écrite avancée","Ellipse, ironie et sous-entendu"]},
+ nl:{A1:["Uitspraak en alfabet","@nl1","Persoonlijke voornaamwoorden","@nl3","Tegenwoordige tijd: regelmatige werkwoorden","@nl2","Vragen stellen (ja/nee, vraagwoorden)","Ontkenning: niet of geen","Meervoud (-en, -s)","Bezittelijke voornaamwoorden","Bijvoeglijk naamwoord: met of zonder -e","Getallen, tijd en datum","Modale werkwoorden (kunnen, willen, moeten, mogen)","Er is / er zijn","Verkleinwoorden (-je, -tje, -pje)"],
+  A2:["Scheidbare werkwoorden","Perfectum met hebben","Perfectum met zijn","Onregelmatige voltooide deelwoorden","Imperfectum","Toekomst: gaan en zullen","Imperatief","Wederkerende werkwoorden (zich)","Trappen van vergelijking","Aanwijzende voornaamwoorden (deze, die, dit, dat)","Objectpronomen (me, je, hem, haar)","Voorzetsels van plaats en tijd","Te + infinitief"],
+  B1:["Bijzinnen: werkwoord achteraan","Voegwoorden (omdat, want, als, dat, of)","Betrekkelijke voornaamwoorden (die, dat, wie, wat)","Het woord 'er' en zijn functies","Conditionalis (zou, zouden)","Plusquamperfectum","Om … te + infinitief","Passief met worden","Indirecte rede","Werkwoordclusters in bijzinnen"],
+  B2:["Passief perfectum (is/was … geworden)","Irreële zinnen (als ik … had)","Voornaamwoordelijke bijwoorden (daarop, waarmee)","Modale partikels (even, maar, toch, wel)","Formeel en informeel: u, jij, gij","Connectoren voor argumentatie"],
+  C1:["Nominalisaties","Lange zinnen en inversie","Vlaamse varianten en tussentaal","Vaste uitdrukkingen in context"],
+  C2:["Stijl en register in geschreven Nederlands","Retoriek en betoog","Woordvolgorde en nadruk: subtiliteiten"]},
+ en:{A1:["Alphabet and pronunciation","@en1","@en3","Subject and object pronouns","@en2","Questions and negatives with do/does","Plural nouns","Possessives (my, your, 's)","This, that, these, those","There is / there are","Can and can't","Prepositions of time and place","Countable and uncountable (some, any)","Imperative"],
+  A2:["Past simple: regular verbs","Past simple: irregular verbs","Past continuous","Going to and will","Comparatives and superlatives","Adverbs of frequency","Present perfect (ever, never)","Present perfect or past simple?","Much, many, a lot of","Must, have to, should","Possessive pronouns (mine, yours)","Gerund or infinitive (basics)","First conditional"],
+  B1:["Present perfect continuous","Past perfect","Used to and would","Second conditional","Passive voice (present and past)","Reported speech","Relative clauses (who, which, that, where)","Modals of deduction (must, might, can't)","Common phrasal verbs","Question tags","Future continuous"],
+  B2:["Third and mixed conditionals","Wish and if only","Advanced passive","Causative: have something done","Future perfect","Participle clauses","Past modals (should have, might have)","Contrast and concession linkers"],
+  C1:["Cleft sentences","Inversion for emphasis","Subjunctive and formal structures","Ellipsis and substitution","Hedging and nuance","Collocations and register"],
+  C2:["Rhetorical devices","Stylistic word order","Figurative and idiomatic language","British vs American variants"]}
+};
+
+/* Vocabulary themes per level [EN, FR]; words generated once by AI, then cached offline */
+const VTH={
+ A1:[["Greetings & introductions","Salutations et présentations"],["Family","La famille"],["Home","La maison"],["Food & drinks","Nourriture et boissons"],["Numbers, days & time","Nombres, jours et heure"],["Daily routine","La routine quotidienne"],["City & transport","La ville et les transports"],["Shopping","Les courses"],["Body & health","Le corps et la santé"],["Weather & seasons","La météo et les saisons"]],
+ A2:[["Work & jobs","Le travail et les métiers"],["Housing & renting","Logement et location"],["At the doctor","Chez le médecin"],["Free time & hobbies","Loisirs"],["Feelings & emotions","Sentiments et émotions"],["Clothes","Les vêtements"],["School & studies","L'école et les études"],["Services: bank, post, commune","Services : banque, poste, commune"],["Nature & animals","Nature et animaux"],["Travel & holidays","Voyages et vacances"]],
+ B1:[["Meetings & office life","Réunions et vie de bureau"],["Administration & paperwork","Administration et démarches"],["Media & news","Médias et actualité"],["Relationships","Les relations"],["Environment","L'environnement"],["Money & budget","Argent et budget"],["Technology","La technologie"],["Culture & traditions","Culture et traditions"]],
+ B2:[["Politics & society","Politique et société"],["Economy & business","Économie et entreprise"],["Law & justice","Droit et justice"],["Science & research","Science et recherche"],["Debate & opinions","Débat et opinions"],["Arts & literature","Arts et littérature"]],
+ C1:[["Abstract ideas","Idées abstraites"],["Professional jargon","Jargon professionnel"],["Nuance & connotation","Nuance et connotation"],["Idioms in context","Expressions en contexte"]],
+ C2:[["Rhetoric & persuasion","Rhétorique et persuasion"],["Regional words & slang","Régionalismes et argot"],["Formal & literary writing","Écrit soutenu et littéraire"]]
+};
+
+const NOUNS={
+ fr:[["livre","le"],["table","la"],["soleil","le"],["lune","la"],["fromage","le"],["maison","la"],["problème","le"],["voiture","la"],["bureau","le"],["chaise","la"],["travail","le"],["liberté","la"],["garage","le"],["nation","la"],["moment","le"],["peinture","la"],["système","le"],["plage","la"],["musée","le"],["fin","la"]],
+ nl:[["huis","het"],["tafel","de"],["boek","het"],["stoel","de"],["water","het"],["auto","de"],["meisje","het"],["stad","de"],["kind","het"],["man","de"],["werk","het"],["deur","de"],["raam","het"],["kat","de"],["brood","het"],["fiets","de"],["land","het"],["school","de"],["bed","het"],["taal","de"]]
+};
+
+const SCEN={
+ en:["Meeting a new neighbour","At the doctor","Job interview","Ordering at a café","Small talk with a colleague"],
+ fr:["Rencontrer un nouveau voisin","Chez le médecin","Entretien d'embauche","Commander au café","Discussion avec un collègue"],
+ nl:["Een nieuwe buur ontmoeten","Bij de dokter","Sollicitatiegesprek","Bestellen in een café","Babbelen met een collega"]
+};
+
+/* ---------- STATE (local, try/catch) ---------- */
+const DEF={apiKey:"",badges:[],rate:.7,extra:[],dayW:{},ui:"fr",active:["en","fr","nl"],time:"12:00",time2:"12:45",doneDay:"",lastDone:"",streak:0,seen:[],favs:[],lessons:[],art:{ok:0,tot:0},errors:[],ai:{day:"",n:0},exams:[],vocab:[],log:{}};
+let S=DEF;
+try{S=Object.assign({},DEF,JSON.parse(localStorage.getItem("pc")||"{}"))}catch(e){}
+const save=()=>{try{localStorage.setItem("pc",JSON.stringify(S))}catch(e){}};
+const t=k=>T[S.ui][k]||k;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dayKey=d=>d.toISOString().slice(0,10);
+const todayKey=()=>dayKey(new Date());
+const dayIdx=d=>Math.floor(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())/864e5);
+
+let view="today",offset=0,curLang=S.active[0],learnMode="grammar",tts=null,dict=null,sample=null;
+
+/* ---------- AUDIO ---------- */
+var kTimers=[];let sayId=0;
+function stopAudio(){sayId++;kTimers.forEach(clearTimeout);kTimers=[];kClear();try{tts&&tts.stop()}catch(e){}try{speechSynthesis.cancel()}catch(e){}showTurn(false)}
+/* pick a real voice for the language; without it the phone reads Dutch with a French/English voice */
+function voiceFor(lang){try{const v=speechSynthesis.getVoices(),code=PACKS[lang].voice;return v.find(x=>x.lang.replace("_","-")===code)||v.find(x=>x.lang.toLowerCase().startsWith(lang))||null}catch(e){return null}}
+function missingVoice(lang){try{return !tts&&speechSynthesis.getVoices().length>0&&!voiceFor(lang)}catch(e){return false}}
+/* karaoke: each word in a span carrying its char offset */
+function kspans(text){let out="",re=/\S+/g,m,last=0;while((m=re.exec(text))){out+=esc(text.slice(last,m.index))+`<span class="k" data-c="${m.index}">${esc(m[0])}</span>`;last=m.index+m[0].length}return out+esc(text.slice(last))}
+function kClear(){document.querySelectorAll(".k.on,.kall.on").forEach(e=>e.classList.remove("on"))}
+function kAt(el,ci){if(!el)return;const sp=[...el.querySelectorAll(".k")];kClear();if(!sp.length){el.classList.add("on");return}let cur=sp[0];sp.forEach(x=>{if(+x.dataset.c<=ci)cur=x});cur.classList.add("on")}
+function showTurn(on){const e=$("turn");if(e){e.textContent=t("yourTurn");e.classList.toggle("hidden",!on)}}
+function toast(html){const e=$("toast");e.innerHTML=html;e.classList.remove("hidden");clearTimeout(toast.h);toast.h=setTimeout(()=>e.classList.add("hidden"),3500)}
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+/* speak one line; resolves when finished. Highlight is timed (works on every engine), refined by word boundaries when the engine sends them */
+function speakOne(l,lang,id){return new Promise(res=>{
+  const el=l.el?$(l.el):null,rate=l.rate||S.rate,off=l.off||0,st={b:false};let done=false;
+  const fin=()=>{if(done)return;done=true;kTimers.forEach(clearTimeout);kTimers=[];res()};
+  const sp=el?[...el.querySelectorAll(".k")].filter(x=>+x.dataset.c>=off&&+x.dataset.c<off+l.text.length):[];
+  kAt(el,off);const ms=85/rate;
+  sp.forEach(x=>kTimers.push(setTimeout(()=>{if(!st.b&&id===sayId)kAt(el,+x.dataset.c)},(+x.dataset.c-off)*ms)));
+  if(tts){tts.speak(l.text,{rate:tts.native?rate:Math.max(.7,rate),language:lang}).then(fin).catch(e=>{if(e&&e.code==="not_granted")tts=null;fin()});return}
+  try{const u=new SpeechSynthesisUtterance(l.text);u.lang=PACKS[lang].voice;const v=voiceFor(lang);if(v)u.voice=v;u.rate=rate;
+    u.onboundary=e=>{if(e.name&&e.name!=="word")return;st.b=true;if(id===sayId)kAt(el,off+e.charIndex)};
+    u.onend=fin;u.onerror=fin;speechSynthesis.speak(u);
+    setTimeout(fin,l.text.length*140/rate+3000); /* Android sometimes never fires onend */
+  }catch(e){fin()}
+})}
+/* lines: [{text, rate, el, off, turn}] — turn = pause (ms) for the learner to repeat */
+async function sayLines(lines,lang){
+  stopAudio();const id=sayId;await wait(150);
+  for(const l of lines){
+    if(id!==sayId)return;await speakOne(l,lang,id);if(id!==sayId)return;kClear();
+    if(l.turn){if(l.el){const e=$(l.el);l.el&&kAt(e,l.off||0)}showTurn(true);await wait(l.turn);showTurn(false);kClear()}else await wait(400);
+  }
+}
+function say(text,lang,rate){sayLines([{text,rate:rate||S.rate}],lang)}
+/* teaching sequence: word slowly x2, then the example sentence */
+function teach(o,lang){const w=o.w.replace(/^to /,"");sayLines([{text:w,rate:.55,el:"kw"},{text:w,rate:.55,el:"kw"},{text:o.x,rate:S.rate,el:"kx"}],lang)}
+/* repeat after me: word, your turn; sentence in chunks of 3 words, your turn after each; then the full sentence */
+function repeatMode(o,lang){
+  const w=o.w.replace(/^to /,""),x=o.x,lines=[{text:w,rate:.55,el:"kw",turn:2500}];
+  const ws=[...x.matchAll(/\S+/g)];
+  for(let i=0;i<ws.length;i+=3){const a=ws[i].index,z=ws[Math.min(i+2,ws.length-1)];const txt=x.slice(a,z.index+z[0].length);lines.push({text:txt,rate:.6,el:"kx",off:a,turn:txt.length*120+1500})}
+  lines.push({text:x,rate:S.rate,el:"kx",turn:x.length*90+2000});
+  sayLines(lines,lang);
+}
+/* tap any word to hear it alone, slowly */
+document.addEventListener("click",e=>{const k=e.target.closest&&e.target.closest(".k");if(k)say(k.textContent.replace(/[.,!?;:«»"]/g,""),curLang,.6)});
+
+/* ---------- RENDER HELPERS ---------- */
+function langChips(el,cb,list=S.active){
+  el.innerHTML=list.map(l=>`<button class="chip" data-l="${l}" aria-pressed="${l===curLang}"><span class="dot" style="background:${PACKS[l].color}"></span>${PACKS[l].name}</button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{stopAudio();curLang=b.dataset.l;cb()});
+}
+function gram(o,l){
+  const parts=[t(o.t)];
+  if(o.g){parts.push(l==="fr"?t(o.g):o.g)}
+  return parts.join(" · ");
+}
+function displayWord(o,l){
+  if(l==="fr"&&o.g&&o.t==="n"){const art=/^[aeéèiouh]/i.test(o.w)?"l'":(o.g==="m"?"le ":"la ");return art+o.w}
+  if(l==="nl"&&o.g)return o.g+" "+o.w;
+  return o.w;
+}
+
+/* ---------- TODAY ---------- */
+const ALLW=()=>WORDS.concat(S.extra);
+function concept(d){const k=dayKey(d);if(S.dayW[k]!=null&&ALLW()[S.dayW[k]])return ALLW()[S.dayW[k]];return WORDS[((dayIdx(d))%WORDS.length+WORDS.length)%WORDS.length]}
+/* rotating mix so vocabulary grows on every level */
+const LVLW=["useful everyday word that a fluent speaker uses often (e.g. to cope, a mood, reliable, to hesitate)","richer intermediate word that makes speech more precise (e.g. to undermine, a setback, thorough, to cherish)","refined, sophisticated word of elevated register / registre soutenu (e.g. ineffable, magnanimous, perspicacious, to exacerbate, quintessence)","common idiomatic or colloquial word natives use daily (e.g. to bump into, a hassle, handy, to procrastinate)"];
+/* Dictionary-style refined word, generated once per day by AI and kept offline; static list = fallback */
+async function genWord(d){
+  const k=dayKey(d);if(S.dayW[k]!=null||!sample)return false;
+  const used=ALLW().map(c=>c.en.w).join(", ");
+  const r=await aiJSON(`Pick ONE ${LVLW[dayIdx(d)%LVLW.length]} that has a natural equivalent in English, French and Dutch (Belgian usage). Vary word types (noun, verb, adjective, adverb). Do NOT use: ${used}.
+Write dictionary-style definitions in each language and ONE example sentence translated faithfully into the three languages.
+For each language also give "s": the word split in syllables with the stressed syllable in CAPITALS (e.g. "in-EF-fa-ble"), and "p": a short pronunciation tip in ${uiName()} for a learner.
+Return ONLY JSON: {"en":{"w":"word (verbs as 'to ...')","t":"n|v|adj|adv","d":"definition","x":"example","s":"","p":""},"fr":{"w":"","t":"","g":"m|f for nouns only","d":"","x":"","s":"","p":""},"nl":{"w":"","t":"","g":"de|het for nouns only","d":"","x":"","s":"","p":""}}`);
+  if(!["en","fr","nl"].every(l=>r&&r[l]&&r[l].w&&r[l].d&&r[l].x))return false;
+  S.extra.push(r);S.dayW[k]=WORDS.length+S.extra.length-1;save();return true;
+}
+async function ensureWords(){
+  const d=new Date(),n=new Date();n.setDate(n.getDate()+1);
+  try{if(await genWord(d)){if(view==="today"&&offset===0){randomPick=null;renderToday()}if(!$("popup").classList.contains("hidden")){$("popup").classList.add("hidden");checkPopup()}}await genWord(n)}catch(e){}
+}
+function exprOf(d){return EXPR[((dayIdx(d))%EXPR.length+EXPR.length)%EXPR.length]}
+let randomPick=null;
+function renderToday(){
+  if(!S.active.includes(curLang))curLang=S.active[0];
+  const d=new Date();d.setDate(d.getDate()+offset);
+  renderGoal();
+  $("dayLabel").textContent=d.toLocaleDateString(S.ui==="fr"?"fr-BE":"en-GB",{weekday:"long",day:"numeric",month:"long"});
+  $("nextDay").disabled=offset>=0;
+  langChips($("todayLangs"),renderToday);
+  const c=randomPick||concept(d),o=c[curLang],idx=ALLW().indexOf(c);
+  if(!S.seen.includes(idx)&&offset<=0){S.seen.push(idx);save()}
+  const fav=S.favs.includes(idx),shown=displayWord(o,curLang);
+  $("wordCard").innerHTML=`
+   <div class="row between"><span class="eyebrow">${t("wotd")}</span><span class="tag">${PACKS[curLang].name}</span></div>
+   <div class="row between" style="flex-wrap:nowrap"><div><div class="word"><span class="kall" id="kw">${esc(shown)}</span></div><i class="muted">${gram(o,curLang)}</i></div>
+   <button class="icon big" id="wSay" aria-label="Pronounce">${I.sound}</button></div>
+   ${o.s?`<p><span class="tag">${esc(o.s)}</span>${o.p?` <span class="cap">${esc(o.p)}</span>`:""}</p>`:""}
+   <div class="row"><button class="chip" id="wRep">${t("repeat")}</button><button class="chip" id="wRate" aria-pressed="${S.rate<.8}">${S.rate<.8?t("slow"):t("normal")}</button><span class="cap muted">${t("teachHint")}</span></div>
+   ${missingVoice(curLang)?`<p class="fix">${t("noVoice").replaceAll("%",PACKS[curLang].name)}</p>`:""}
+   <p class="def">${esc(o.d)}</p><p class="ex" id="kx">${kspans(o.x)}</p>
+   <div class="stack trans" style="gap:var(--s1)">${S.active.filter(l=>l!==curLang).map(l=>`<span class="cap muted"><span style="display:inline-block;width:8px;height:8px;border-radius:var(--r-pill);background:${PACKS[l].color}"></span> ${esc(c[l].x)}</span>`).join("")}</div>
+   <a class="btn ghost" style="align-self:flex-start;padding-left:0" href="https://www.google.com/search?q=${encodeURIComponent(o.w+" "+(curLang==="fr"?"définition":curLang==="nl"?"betekenis":"meaning"))}" target="_blank" rel="noopener">${I.search}${t("google")}</a>
+   <div class="row between"><button class="icon" id="wRnd" aria-label="Random">${I.dice}</button>
+   <div class="row">${S.doneDay===todayKey()&&offset===0?`<span class="tag">${t("done")}</span>`:""}<button class="icon ghost" id="wFav" aria-label="Favourite">${fav?I.heartOn:I.heart}</button><button class="icon ghost" id="wCopy" aria-label="Copy">${I.copy}</button></div></div>`;
+  $("wSay").onclick=()=>teach(o,curLang);
+  $("wRep").onclick=()=>repeatMode(o,curLang);
+  $("wRate").onclick=()=>{S.rate=S.rate<.8?.9:.7;save();renderToday()};
+  $("wRnd").onclick=()=>{randomPick=ALLW()[Math.floor(Math.random()*ALLW().length)];renderToday()};
+  $("wFav").onclick=()=>{fav?S.favs.splice(S.favs.indexOf(idx),1):S.favs.push(idx);save();renderToday()};
+  $("wCopy").onclick=async e=>{try{await navigator.clipboard.writeText(`${shown} — ${o.d}\n${o.x}`);e.currentTarget.setAttribute("aria-label",t("copied"))}catch(_){}};
+  const x=exprOf(d),ui=S.ui;
+  $("exprCard").innerHTML=`<span class="cap muted">${t("expr")}</span>
+   <div class="row between" style="flex-wrap:nowrap"><h2><span class="kall" id="ke">${esc(x[curLang].e)}</span></h2><button class="icon big" id="eSay" aria-label="Pronounce">${I.sound}</button></div>
+   <p><b>${t("meaning")} :</b> ${esc(x.m[ui])}</p>
+   ${x[curLang].l?`<p class="muted"><b>${t("lit")} :</b> ${esc(x[curLang].l[ui])}</p>`:""}
+   <p class="ex" id="kex">${kspans(x.x[curLang])}</p>
+   <div class="stack" style="gap:var(--s1)"><span class="cap muted">${t("equiv")}</span>${S.active.filter(l=>l!==curLang).map(l=>`<span><span class="dot" style="display:inline-block;width:8px;height:8px;border-radius:var(--r-pill);background:${PACKS[l].color}"></span> ${esc(x[l].e)}</span>`).join("")}</div>`;
+  $("eSay").onclick=()=>sayLines([{text:x[curLang].e,rate:.6,el:"ke"},{text:x.x[curLang],rate:S.rate,el:"kex"}],curLang);
+}
+$("prevDay").onclick=()=>{offset--;randomPick=null;renderToday()};
+$("nextDay").onclick=()=>{if(offset<0){offset++;randomPick=null;renderToday()}};
+/* swipe between languages */
+let sx=null;
+$("wordCard").addEventListener("touchstart",e=>sx=e.touches[0].clientX,{passive:true});
+$("wordCard").addEventListener("touchend",e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx;sx=null;if(Math.abs(dx)<48)return;stopAudio();const i=S.active.indexOf(curLang);curLang=S.active[(i+(dx<0?1:-1)+S.active.length)%S.active.length];renderToday()});
+
+function renderGoal(){
+  const L=S.log[todayKey()]||{},now=todayKey();
+  const noDue=!S.errors.some(e=>(e.k||0)<3&&(e.due||e.d)<=now);
+  const items=[[t("gW"),S.doneDay===now],[t("gL"),(L.l||0)+(L.v?1:0)>=1],[t("gR"),(L.r||0)>0||noDue]];
+  const n=items.filter(x=>x[1]).length,C=2*Math.PI*26,off=C*(1-n/3);
+  $("goal").innerHTML=`<div class="ring"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" stroke="var(--surface-2)" stroke-width="8"/><circle cx="32" cy="32" r="26" stroke="var(--accent)" stroke-width="8" stroke-dasharray="${C}" stroke-dashoffset="${off}"/></svg><b>${n}/3</b></div>
+   <div class="stack" style="gap:var(--s05)"><b>${n===3?t("gDone"):t("goalT")}</b><div class="todo">${items.map(([k,v])=>`<span class="${v?"on":"off"}">${v?I.check:I.circle}${k}</span>`).join("")}</div></div>`;
+}
+/* ---------- LEARN ---------- */
+function renderLearn(){
+  $("learnSeg").innerHTML=["grammar","vocab","mistakes","articles","review"].map(m=>`<button data-m="${m}" aria-pressed="${m===learnMode}">${t(m)}</button>`).join("");
+  $("learnSeg").querySelectorAll("button").forEach(b=>b.onclick=()=>{learnMode=b.dataset.m;renderLearn()});
+  const list=learnMode==="articles"?S.active.filter(l=>PACKS[l].articles):S.active;
+  if(!list.includes(curLang))curLang=list[0];
+  langChips($("learnLangs"),renderLearn,list);
+  ({grammar:lessonList,vocab:vocabList,mistakes:mistakes,articles:artGame,review:reviewCards})[learnMode]();
+}
+const LOCK='<svg viewBox="0 0 24 24" style="width:16px;height:16px"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg> ';
+function syllItems(lv){return SYLL[curLang][lv].map((x,i)=>x[0]==="@"?GRAMMAR[curLang].find(g=>g.id===x.slice(1)):{id:`${curLang}-${lv}-${i}`,title:x,lv})}
+function lessonList(){
+  const B=$("learnBody");
+  /* sequential unlock: a lesson opens only when every previous lesson (all levels) is done */
+  let open=true;
+  B.innerHTML=Object.keys(SYLL[curLang]).map(lv=>{const items=syllItems(lv),done=items.filter(L=>S.lessons.includes(L.id)).length,lvOpen=open;
+   const rows=items.map((L,i)=>{const ok=S.lessons.includes(L.id),avail=open;if(!ok)open=false;
+     return `<button class="opt path ${ok?"done":avail?"current":"locked"}" data-lv="${lv}" data-i="${i}" ${avail?"":"disabled"}><span class="node">${ok?I.check:avail?i+1:LOCK}</span><span>${esc(L.title)}</span></button>`}).join("");
+   const passed=S.exams.includes(curLang+"-"+lv),exAvail=open;if(!passed)open=false;
+   return `<details class="card" ${lvOpen&&!passed?"open":""}><summary class="row between" style="cursor:pointer"><h3>${lvOpen?"":LOCK}${lv}</h3><span class="cap muted">${done}/${items.length}${passed?" · "+t("exam")+" ✓":""}</span></summary><div class="pbar"><i style="width:${Math.round(done/items.length*100)}%"></i></div>
+   <div class="stack" style="margin-top:var(--s2);gap:var(--s1)">${rows}<button class="opt path exam ${passed?"done":exAvail?"current":"locked"}" data-exam="${lv}" ${exAvail?"":"disabled"}><span class="node">${passed?I.check:exAvail?I.star:LOCK}</span><b>${t("exam")} ${lv}</b></button></div></details>`}).join("");
+  B.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>openLesson(syllItems(b.dataset.lv)[b.dataset.i]));
+  B.querySelectorAll("[data-exam]").forEach(b=>b.onclick=()=>exam(b.dataset.exam));
+}
+const clean=h=>String(h).replace(/<(?!\/?(p|ul|ol|li|b|i|br|table|tr|th|td)\b)[^>]*>/gi,"");
+async function openLesson(L){
+  if(L.body)return lesson(L);
+  const key="pcL2_"+L.id+"_"+S.ui;let c=null;
+  try{c=JSON.parse(localStorage.getItem(key)||"null")}catch(e){}
+  if(c)return lesson(Object.assign({},L,c,{key}));
+  const B=$("learnBody");
+  if(!sample){B.innerHTML=`<button class="ghost" id="lBack">← ${t("back")}</button><p class="card">${t("genOff")}</p>`;$("lBack").onclick=renderLearn;return}
+  B.innerHTML=`<p class="card muted">${t("gen")}</p>`;
+  const TL=PACKS[curLang].name;
+  const prompt=`You are a school grammar teacher. Write a complete lesson for a learner of ${TL}${curLang==="en"?"":" (Belgian usage)"} at CEFR level ${L.lv}. Topic: "${L.title}".
+IMMERSION: "body" is written IN ${TL}, with vocabulary and sentences simple enough for a ${L.lv} learner. "bodyUI" is the same lesson faithfully translated into ${uiName()}.
+ALL example sentences, exercise sentences and options must be in ${TL} only (no ${uiName()} in exercises).
+Return ONLY JSON: {"body":"HTML using only <p>,<ul>,<li>,<b>,<i>,<br>,<table>,<tr>,<th>,<td>: the rule explained step by step, a conjugation/forms table when relevant, exceptions, and a common-mistakes section","bodyUI":"same HTML in ${uiName()}","ex":["5 short example sentences in ${TL}"],"q":[["exercise sentence in ${TL} with ___ for the gap",["option","option","option"],correctIndex], ... 8 exercises]}`;
+  try{
+    let r;try{r=await sample.json(prompt)}catch(e){if(e&&e.code)throw e;const raw=await sample(prompt);r=JSON.parse(raw.text.replace(/```json|```/g,""))}
+    r={body:clean(r.body),bodyUI:clean(r.bodyUI||""),ex:(r.ex||[]).slice(0,6),q:(r.q||[]).filter(q=>Array.isArray(q)&&q[1]&&q[1][q[2]]!==undefined)};
+    try{localStorage.setItem(key,JSON.stringify(r))}catch(e){}
+    lesson(Object.assign({},L,r,{key}));
+  }catch(e){B.innerHTML=`<button class="ghost" id="lBack">← ${t("back")}</button><p class="card">⚠️ ${esc(e&&e.message||"error")}</p>`;$("lBack").onclick=renderLearn}
+}
+function lesson(L){
+  const B=$("learnBody");let qi=0,score=0;
+  B.innerHTML=`<button class="ghost" id="lBack" style="align-self:flex-start">← ${t("back")}</button>
+   <article class="card stack lesson"><h3>${esc(L.title)}</h3>${L.body}${L.bodyUI?`<button class="chip" id="lTr" style="align-self:flex-start">${t("showUI")}</button><div id="lUI" class="hidden native lesson">${L.bodyUI}</div>`:""}${L.key?`<button class="ghost cap" id="lRe" style="align-self:flex-start">${t("regen")}</button>`:""}
+   <button class="primary" id="lRep">${t("repeat")}</button><div class="stack" style="gap:var(--s1)">${L.ex.map((e,i)=>`<div class="row" style="flex-wrap:nowrap"><button class="icon ghost" data-s="${esc(e)}" data-i="${i}" aria-label="Listen">${I.sound}</button><span class="ex" id="lx${i}">${kspans(e)}</span></div>`).join("")}</div></article>
+   <article class="card stack" id="quiz"></article>`;
+  $("lBack").onclick=renderLearn;
+  if($("lTr"))$("lTr").onclick=()=>{const h=$("lUI").classList.toggle("hidden");$("lTr").textContent=h?t("showUI"):t("hideUI")};
+  if($("lRe"))$("lRe").onclick=()=>{try{localStorage.removeItem(L.key)}catch(e){}openLesson({id:L.id,title:L.title,lv:L.lv})};
+  B.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>sayLines([{text:b.dataset.s,rate:S.rate,el:"lx"+b.dataset.i}],curLang));
+  $("lRep").onclick=()=>sayLines(L.ex.map((e,i)=>({text:e,rate:.6,el:"lx"+i,turn:e.length*110+1500})),curLang);
+  const Q=$("quiz");
+  function step(){
+    if(qi>=L.q.length){const pass=score/L.q.length>=.6;
+      Q.innerHTML=`<h3>${t("score")} : ${score}/${L.q.length}</h3><p style="color:var(${pass?"--ok":"--err"})">${t(pass?"passed":"failed")}</p><div class="row between"><button id="qRe">${t("retry")}</button><button class="primary" id="qDone">${t("back")}</button></div>`;
+      if(pass&&!S.lessons.includes(L.id)){S.lessons.push(L.id);act("l");save()}
+      $("qDone").onclick=renderLearn;$("qRe").onclick=()=>lesson(L);return}
+    const [q,opts,a]=L.q[qi];
+    Q.innerHTML=`<span class="cap muted">${qi+1}/${L.q.length}</span><p class="big-q">${esc(q)}</p>${opts.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o)}</button>`).join("")}`;
+    Q.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+      const ok=+b.dataset.i===a;b.classList.add(ok?"ok":"bad");Q.querySelectorAll(".opt")[a].classList.add("ok");
+      if(ok)score++;else logErr(curLang,q.replace("___",opts[+b.dataset.i]),q.replace("___",opts[a]),L.title);
+      Q.querySelectorAll(".opt").forEach(x=>x.disabled=true);
+      setTimeout(()=>{qi++;step()},900);
+    });
+  }
+  step();
+}
+function artGame(){
+  const B=$("learnBody"),list=NOUNS[curLang],arts=PACKS[curLang].articles;
+  const [n,a]=list[Math.floor(Math.random()*list.length)];
+  const acc=S.art.tot?Math.round(S.art.ok/S.art.tot*100):0;
+  B.innerHTML=`<article class="card stack"><span class="cap muted">${t("acc")} : ${acc}% (${S.art.tot})</span><p class="big-q">${esc(n)}</p>
+   <div class="row" style="flex-wrap:nowrap">${arts.map(x=>`<button class="opt" style="justify-content:center" data-a="${x}">${x}</button>`).join("")}</div></article>`;
+  B.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+    const ok=b.dataset.a===a;S.art.tot++;if(ok)S.art.ok++;else logErr(curLang,`${b.dataset.a} ${n}`,`${a} ${n}`,t("articles"));save();
+    b.classList.add(ok?"ok":"bad");B.querySelectorAll(".opt").forEach(x=>{if(x.dataset.a===a)x.classList.add("ok");x.disabled=true});
+    say(`${a} ${n}`,curLang);setTimeout(artGame,900);
+  });
+}
+function reviewCards(){
+  const B=$("learnBody");
+  if(!S.seen.length){B.innerHTML=`<p class="muted">${t("noReview")}</p>`;return}
+  const c=ALLW()[S.seen[Math.floor(Math.random()*S.seen.length)]][curLang];
+  B.innerHTML=`<article class="card stack"><p class="big-q">${esc(displayWord(c,curLang))}</p>
+   <button id="rv">${t("reveal")}</button><div id="rvA" class="hidden stack"><p class="def">${esc(c.d)}</p><p class="ex">${esc(c.x)}</p></div>
+   <div class="row between"><button class="icon" id="rvS" aria-label="Pronounce">${I.sound}</button><button class="primary" id="rvN">${t("next")}</button></div></article>`;
+  $("rv").onclick=()=>{$("rvA").classList.remove("hidden");$("rv").classList.add("hidden")};
+  $("rvS").onclick=()=>say(c.w,curLang);$("rvN").onclick=reviewCards;
+}
+function logErr(l,wrong,right,rule){
+  const ex=S.errors.find(e=>e.l===l&&e.right===right);
+  if(ex){ex.k=0;ex.due=todayKey();ex.wrong=wrong}else S.errors.unshift({l,wrong,right,rule,d:todayKey(),k:0,due:todayKey()});
+  S.errors=S.errors.slice(0,300);act("e");save();
+}
+/* activity log (for weekly report) */
+function act(k,n=1){const d=todayKey();S.log[d]=S.log[d]||{};S.log[d][k]=(S.log[d][k]||0)+n;const ks=Object.keys(S.log).sort();while(ks.length>60)delete S.log[ks.shift()]}
+const cget=k=>{try{return JSON.parse(localStorage.getItem(k)||"null")}catch(e){return null}};
+const cset=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const uiName=()=>S.ui==="fr"?"French":"English";
+const variant=()=>curLang==="en"?"":" (Belgian usage)";
+async function aiJSON(p){try{return await sample.json(p)}catch(e){if(e&&e.code)throw e;const raw=await sample(p);return JSON.parse(raw.text.replace(/```json|```/g,""))}}
+function msgBack(txt,back=renderLearn){$("learnBody").innerHTML=`<button class="ghost" id="lBack" style="align-self:flex-start">← ${t("back")}</button><p class="card">${esc(txt)}</p>`;$("lBack").onclick=back}
+const levels=()=>Object.keys(SYLL[curLang]);
+const levelOpen=lv=>{const i=levels().indexOf(lv);return i===0||S.exams.includes(curLang+"-"+levels()[i-1])};
+
+/* generic quiz: q = {q, o:[options], a:index, audio?} */
+function runQuiz(el,qs,pass,onDone,rule,back=renderLearn){
+  let i=0,sc=0;
+  const step=()=>{
+    if(i>=qs.length){const ok=sc/qs.length>=pass;onDone(ok,sc);
+      el.innerHTML=`<h3>${t("score")} : ${sc}/${qs.length}</h3><p style="color:var(${ok?"--ok":"--err"})">${ok?t("passedX"):t("failedX").replace("%",Math.round(pass*100))}</p><div class="row between"><button id="qzRe">${t("retry")}</button><button class="primary" id="qzBack">${t("back")}</button></div>`;
+      $("qzRe").onclick=()=>runQuiz(el,qs,pass,onDone,rule,back);$("qzBack").onclick=back;return}
+    const q=qs[i];
+    el.innerHTML=`<span class="cap muted">${i+1}/${qs.length}</span>${q.audio?`<button class="icon big" id="qzA" style="align-self:center" aria-label="Listen">${I.sound}</button>`:""}<p class="big-q">${esc(q.q)}</p>${q.o.map((o,j)=>`<button class="opt" data-j="${j}">${esc(o)}</button>`).join("")}`;
+    if(q.audio)$("qzA").onclick=()=>say(q.audio,curLang);
+    el.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+      const j=+b.dataset.j,ok=j===q.a,all=el.querySelectorAll(".opt");
+      b.classList.add(ok?"ok":"bad");all[q.a].classList.add("ok");all.forEach(x=>x.disabled=true);
+      const fill=o=>q.q.includes("___")?q.q.replace("___",o):`${q.q} → ${o}`;
+      if(ok)sc++;else logErr(curLang,fill(q.o[j]),fill(q.o[q.a]),rule);
+      setTimeout(()=>{i++;step()},900);
+    });
+  };
+  step();
+}
+
+/* 6. Level exam — generated once, cached; passing unlocks next level */
+async function exam(lv){
+  const B=$("learnBody"),key=`pcX2_${curLang}_${lv}_${S.ui}`;let qs=cget(key);
+  if(!qs){
+    if(!sample)return msgBack(t("genOff"));
+    B.innerHTML=`<p class="card muted">${t("gen")}</p>`;
+    try{const r=await aiJSON(`Write a CEFR ${lv} end-of-level exam for a learner of ${PACKS[curLang].name}${variant()}. Grammar topics: ${syllItems(lv).map(L=>L.title).join("; ")}. ALL questions, sentences and options must be written in ${PACKS[curLang].name} only.
+Return ONLY JSON: {"q":[{"q":"question (use ___ for a gap)","o":["4 options"],"a":correctIndex,"audio":"ONLY for listening items: a ${PACKS[curLang].name} sentence that will be read aloud; the question is about it"}]} with exactly 20 items: 12 grammar, 4 vocabulary, 4 listening.`);
+      qs=(r.q||[]).filter(q=>q&&Array.isArray(q.o)&&q.o[q.a]!==undefined);cset(key,qs);
+    }catch(e){return msgBack("⚠️ "+(e&&e.message||"error"))}
+  }
+  B.innerHTML=`<button class="ghost" id="lBack" style="align-self:flex-start">← ${t("back")}</button><article class="card stack"><h3>${t("exam")} ${lv} · ${PACKS[curLang].name}</h3><p class="cap muted">${t("examRule")}</p><div id="quiz" class="stack"></div></article>`;
+  $("lBack").onclick=renderLearn;
+  runQuiz($("quiz"),qs,.7,ok=>{const id=curLang+"-"+lv;if(ok&&!S.exams.includes(id)){S.exams.push(id);act("x");save()}},`${t("exam")} ${lv}`);
+}
+
+/* 5. Vocabulary by theme — unlocked by level */
+function vocabList(){
+  const B=$("learnBody"),cur=levels().find(lv=>!S.exams.includes(curLang+"-"+lv))||"C2";
+  B.innerHTML=Object.keys(VTH).map(lv=>{const op=levelOpen(lv),n=VTH[lv].filter((_,i)=>S.vocab.includes(`${curLang}-${lv}-${i}`)).length;
+    return `<details class="card" ${lv===cur?"open":""}><summary class="row between" style="cursor:pointer"><h3>${op?"":LOCK}${lv}</h3><span class="cap muted">${n}/${VTH[lv].length}</span></summary>
+    <div class="stack" style="margin-top:var(--s2);gap:var(--s1)">${VTH[lv].map((th,i)=>`<button class="opt" data-vl="${lv}" data-i="${i}" ${op?"":"disabled"}>${op?"":LOCK}${esc(th[S.ui==="fr"?1:0])} ${S.vocab.includes(`${curLang}-${lv}-${i}`)?"✓":""}</button>`).join("")}</div></details>`}).join("");
+  B.querySelectorAll("[data-vl]").forEach(b=>b.onclick=()=>vocabTheme(b.dataset.vl,+b.dataset.i));
+}
+async function vocabTheme(lv,i){
+  const B=$("learnBody"),id=`${curLang}-${lv}-${i}`,key=`pcV_${id}_${S.ui}`,th=VTH[lv][i];let w=cget(key);
+  if(!w){
+    if(!sample)return msgBack(t("genOff"));
+    B.innerHTML=`<p class="card muted">${t("gen")}</p>`;
+    try{const r=await aiJSON(`List the 30 most useful ${PACKS[curLang].name}${variant()} words for the theme "${th[0]}" at CEFR level ${lv}.
+Return ONLY JSON: {"words":[{"w":"the word; nouns WITH their article${curLang==="fr"?" (le/la/l')":curLang==="nl"?" (de/het)":""}","d":"short meaning in ${uiName()}","x":"short example sentence in ${PACKS[curLang].name}"}]}`);
+      w=(r.words||[]).filter(x=>x&&x.w&&x.d);cset(key,w);
+    }catch(e){return msgBack("⚠️ "+(e&&e.message||"error"))}
+  }
+  B.innerHTML=`<button class="ghost" id="lBack" style="align-self:flex-start">← ${t("back")}</button>
+   <article class="card stack"><h3>${esc(th[S.ui==="fr"?1:0])} · ${lv}</h3><button id="vRep">${t("repeat")}</button><button class="primary" id="vQ">${t("practice")}</button></article>
+   ${w.map((x,j)=>`<div class="card row between" style="flex-wrap:nowrap;padding:var(--s2)"><div><b class="kall" id="vw${j}">${esc(x.w)}</b> <span class="muted">— ${esc(x.d)}</span><br><span class="ex cap">${esc(x.x||"")}</span></div><button class="icon ghost" data-j="${j}" aria-label="Pronounce">${I.sound}</button></div>`).join("")}`;
+  $("lBack").onclick=renderLearn;
+  B.querySelectorAll("[data-j]").forEach(b=>b.onclick=()=>{const x=w[+b.dataset.j];sayLines([{text:x.w,rate:.6,el:"vw"+b.dataset.j},{text:x.x||"",rate:S.rate}],curLang)});
+  $("vRep").onclick=()=>sayLines(w.map((x,j)=>({text:x.w,rate:.6,el:"vw"+j,turn:2200})),curLang);
+  $("vQ").onclick=()=>{
+    const mix=a=>[...a].sort(()=>Math.random()-.5);
+    const qs=mix(w).slice(0,10).map(x=>{const o=mix([x.d,...mix(w.filter(y=>y!==x)).slice(0,3).map(y=>y.d)]);return{q:x.w,o,a:o.indexOf(x.d),audio:x.w}});
+    B.innerHTML=`<button class="ghost" id="lBack" style="align-self:flex-start">← ${t("back")}</button><article class="card stack" id="quiz"></article>`;
+    $("lBack").onclick=()=>vocabTheme(lv,i);
+    runQuiz($("quiz"),qs,.8,ok=>{if(ok&&!S.vocab.includes(id)){S.vocab.push(id);act("v",w.length);save()}},th[S.ui==="fr"?1:0],()=>vocabTheme(lv,i));
+  };
+}
+
+/* 2. Mistake review — spaced repetition, mastered after 3 correct in a row (1, 3, 7 days) */
+function mistakes(){
+  const B=$("learnBody"),now=todayKey(),mine=S.errors.filter(e=>e.l===curLang);
+  const due=mine.filter(e=>(e.k||0)<3&&(e.due||e.d)<=now),left=mine.filter(e=>(e.k||0)<3).length,mast=mine.length-left;
+  if(!due.length){B.innerHTML=`<article class="card stack"><p>${t("noMist")}</p><p class="cap muted">${t("mLeft")} : ${left} · ${t("mDone")} : ${mast}</p></article>`;return}
+  const e=due[0];
+  B.innerHTML=`<article class="card stack"><span class="cap muted">${due.length} ${t("mDue")} · ${t("mDone")} : ${mast}</span>
+   <p class="cap muted">${t("mFix")}</p><p class="def"><s>${esc(e.wrong)}</s></p>
+   <input id="mIn" autocomplete="off"><button id="mShow">${t("reveal2")}</button>
+   <div id="mAns" class="hidden stack"><div class="native"><b>${esc(e.right)}</b><br>${esc(e.rule||"")}</div>
+   <div class="row between"><button id="mNo">${t("mWrong")}</button><button class="primary" id="mYes">${t("mRight")}</button></div></div>
+   <p class="cap muted">${t("mStreak")} : ${e.k||0}/3</p></article>`;
+  $("mShow").onclick=()=>{$("mAns").classList.remove("hidden");$("mShow").classList.add("hidden");say(e.right,curLang)};
+  const grade=ok=>{e.k=ok?(e.k||0)+1:0;const d=new Date();d.setDate(d.getDate()+(ok?[1,3,7][Math.min(e.k,3)-1]:1));e.due=dayKey(d);if(e.k>=3)act("m");act("r");save();mistakes()};
+  $("mYes").onclick=()=>grade(true);$("mNo").onclick=()=>grade(false);
+}
+
+/* Badges — computed locally */
+const BADGES=[
+ ["s7",()=>S.streak>=7,{fr:"7 jours d'affilée",en:"7-day streak"}],["s30",()=>S.streak>=30,{fr:"30 jours d'affilée",en:"30-day streak"}],
+ ["s100",()=>S.streak>=100,{fr:"100 jours d'affilée",en:"100-day streak"}],["s365",()=>S.streak>=365,{fr:"1 an d'affilée",en:"1-year streak"}],
+ ["w30",()=>S.seen.length>=30,{fr:"30 mots du jour",en:"30 words of the day"}],["w100",()=>S.seen.length>=100,{fr:"100 mots du jour",en:"100 words of the day"}],
+ ["l10",()=>S.lessons.length>=10,{fr:"10 leçons",en:"10 lessons"}],["l50",()=>S.lessons.length>=50,{fr:"50 leçons",en:"50 lessons"}],["l100",()=>S.lessons.length>=100,{fr:"100 leçons",en:"100 lessons"}],
+ ["v5",()=>S.vocab.length>=5,{fr:"5 thèmes de vocabulaire",en:"5 vocabulary themes"}],["v20",()=>S.vocab.length>=20,{fr:"20 thèmes de vocabulaire",en:"20 vocabulary themes"}],
+ ["m25",()=>S.errors.filter(e=>(e.k||0)>=3).length>=25,{fr:"25 fautes maîtrisées",en:"25 mistakes mastered"}]
+];
+function allBadges(){return BADGES.map(([id,f,l])=>({id,ok:f(),label:l[S.ui]})).concat(S.exams.map(x=>{const [l,lv]=x.split("-");return{id:"x-"+x,ok:true,label:`${t("lvl")} ${lv} · ${PACKS[l].name}`}}))}
+function checkBadges(){
+  const fresh=allBadges().filter(b=>b.ok&&!S.badges.includes(b.id));
+  if(!fresh.length)return;fresh.forEach(b=>S.badges.push(b.id));save();
+  toast(`${I.star}<b>${t("newBadge")}</b> ${fresh.map(b=>esc(b.label)).join(", ")}`);
+}
+function badgesCard(){
+  const all=allBadges();
+  return `<article class="card stack"><div class="row between"><h3>${t("badgesT")}</h3><span class="cap muted">${all.filter(b=>b.ok).length}/${all.length}</span></div>
+   <div class="badges">${all.map(b=>`<div class="badge ${b.ok?"on":""}"><span class="node">${b.ok?I.star:LOCK}</span><span>${esc(b.label)}</span></div>`).join("")}</div></article>`;
+}
+
+/* 10. Weekly report — computed locally */
+function weekly(){
+  const days=[...Array(7)].map((_,i)=>{const d=new Date();d.setDate(d.getDate()-6+i);return dayKey(d)});
+  const sum=k=>days.reduce((s,d)=>s+((S.log[d]||{})[k]||0),0);
+  const tot=d=>Object.values(S.log[d]||{}).reduce((a,b)=>a+b,0),max=Math.max(1,...days.map(tot));
+  const rules={};S.errors.filter(e=>days.includes(e.d)).forEach(e=>rules[e.rule]=(rules[e.rule]||0)+1);
+  const top=Object.entries(rules).sort((a,b)=>b[1]-a[1]).slice(0,3);
+  const loc=S.ui==="fr"?"fr-BE":"en-GB";
+  const line=(k,v)=>`<div class="row between"><span>${t(k)}</span><b>${v}</b></div>`;
+  return `<article class="card stack"><h3>${t("weekly")}</h3>
+   <div><div class="bars">${days.map(d=>`<div style="height:${Math.round(tot(d)/max*100)}%" title="${tot(d)}"></div>`).join("")}</div>
+   <div class="bars-l">${days.map(d=>`<span>${new Date(d+"T12:00").toLocaleDateString(loc,{weekday:"narrow"})}</span>`).join("")}</div></div>
+   ${line("wActive",days.filter(d=>tot(d)>0).length+"/7")}${line("wWords",sum("w"))}${line("wLessons",sum("l"))}${line("wVocab",sum("v"))}${line("wErr",sum("e"))}${line("wMast",sum("m"))}${line("wAI",sum("a"))}
+   <div><b>${t("wTop")}</b>${top.length?top.map(([r,n])=>`<div class="cap">${esc(r)} <span class="muted">×${n}</span></div>`).join(""):`<div class="cap muted">${t("none")}</div>`}</div>
+   <div class="native"><b>${t("wGoal")} :</b> ${t("wGoalTxt").replace("%",Math.max(3,sum("l")+1))}</div></article>`;
+}
+
+/* ---------- SPEAK (AI) ---------- */
+let history=[];
+function renderSpeak(){
+  langChips($("speakLangs"),()=>{history=[];renderSpeak()});
+  $("scenario").innerHTML=SCEN[curLang].map(s=>`<option>${esc(s)}</option>`).join("");
+  $("scenario").setAttribute("aria-label",t("scen"));
+  $("msg").placeholder=t("typeMsg");
+  $("mic").classList.toggle("hidden",!dict);
+  drawChat();
+}
+function drawChat(){
+  if(S.ai.day!==todayKey()){S.ai={day:todayKey(),n:0};save()}
+  $("chat").innerHTML=history.map(m=>m.role==="user"?`<div class="bubble me">${esc(m.text)}</div>`:
+   `<div class="bubble bot"><div class="row between" style="flex-wrap:nowrap"><span>${esc(m.text)}</span><button class="icon ghost" data-say="${esc(m.text)}" aria-label="Listen">${I.sound}</button></div>
+    ${m.fix?`<div class="fix"><b>${t("correction")} :</b> ${esc(m.fix.corrected)}<br><span class="muted">${esc(m.fix.rule)}</span></div>`:""}
+    ${m.native?`<div class="native"><b>${t("nativeSays")} :</b> ${esc(m.native)}</div>`:""}</div>`).join("");
+  $("chat").querySelectorAll("[data-say]").forEach(b=>b.onclick=()=>say(b.dataset.say,curLang));
+  $("speakInfo").textContent=sample?`${20-S.ai.n} ${t("left")}`:t("aiOff");
+  $("send").disabled=!sample||S.ai.n>=20;
+}
+async function send(){
+  const text=$("msg").value.trim();if(!text||!sample)return;
+  if(S.ai.n>=20){$("speakInfo").textContent=t("limit");return}
+  history.push({role:"user",text});$("msg").value="";S.ai.n++;act("a");save();drawChat();
+  history.push({role:"bot",text:t("thinking")});drawChat();
+  const convo=history.slice(0,-1).slice(-10).map(m=>(m.role==="user"?"Learner: ":"Tutor: ")+m.text).join("\n");
+  const prompt=`You are a friendly ${PACKS[curLang].name} conversation partner (Belgian variant for French/Dutch) for a NOVICE (CEFR A1) learner. Scenario: "${$("scenario").value}". Use very simple, short sentences in ${PACKS[curLang].name} only. Keep the conversation going with one question.
+Check the learner's LAST message for errors (grammar, articles/gender, word order, vocabulary).
+Return ONLY JSON: {"reply":"your answer in ${PACKS[curLang].name}","fix":null or {"corrected":"corrected learner sentence","rule":"short rule explanation in ${S.ui==="fr"?"French":"English"}"},"native":"how a native would naturally say the learner's sentence, or null"}
+Conversation:\n${convo}`;
+  try{
+    let r;try{r=await sample.json(prompt,{modelTier:"quick"})}catch(e){if(e&&e.code)throw e;const raw=await sample(prompt,{modelTier:"quick"});r=JSON.parse(raw.text.replace(/```json|```/g,""))}
+    history[history.length-1]={role:"bot",text:r.reply||"…",fix:r.fix,native:r.native};
+    if(r.fix)logErr(curLang,text,r.fix.corrected,r.fix.rule);
+    drawChat();say(r.reply,curLang);
+  }catch(e){history[history.length-1]={role:"bot",text:e&&e.code==="rate_limited"?"⏳":"⚠️ "+(e&&e.message||"error")};drawChat()}
+}
+$("send").onclick=send;
+$("msg").onkeydown=e=>{if(e.key==="Enter")send()};
+let micOn=false;
+function bindDict(target){
+  if(!dict)return;
+  dict.onFinal(({text})=>{const el=document.activeElement&&document.activeElement.tagName==="TEXTAREA"?document.activeElement:$(target());el.value=(el.value+" "+text).trim()});
+  dict.onState(({state})=>{micOn=state==="listening";document.querySelectorAll(".micbtn,#mic").forEach(b=>b.classList.toggle("primary",micOn))});
+}
+let micTarget="msg";
+$("mic").onclick=()=>{micTarget="msg";$("msg").focus();toggleMic()};
+function toggleMic(){if(!dict)return;if(micOn){dict.stop().catch(()=>{})}else{dict.start().catch(()=>{})}}
+
+/* ---------- PROGRESS ---------- */
+function renderProgress(){
+  const acc=S.art.tot?Math.round(S.art.ok/S.art.tot*100)+"%":"—";
+  const vl=Object.values(S.log).reduce((s,d)=>s+(d.v||0),0);
+  $("v-progress").innerHTML=`${weekly()}${badgesCard()}<div class="row">
+   <div class="card stat"><b>${vl}</b><span class="cap muted">${t("vLearned")}</span></div>
+   <div class="card stat"><b>${S.streak}</b><span class="cap muted">${t("streak")}</span></div>
+   <div class="card stat"><b>${S.seen.length}</b><span class="cap muted">${t("words")}</span></div>
+   <div class="card stat"><b>${S.lessons.length}</b><span class="cap muted">${t("lessons")}</span></div>
+   <div class="card stat"><b>${acc}</b><span class="cap muted">${t("acc")}</span></div></div>
+   <article class="card stack"><h3>${t("favs")}</h3>${S.favs.length?S.favs.map(i=>`<div>${S.active.map(l=>`<span class="tag" style="border-left:4px solid ${PACKS[l].color}">${esc(displayWord(ALLW()[i][l],l))}</span>`).join(" ")}</div>`).join(""):`<p class="muted">${t("none")}</p>`}</article>
+   <article class="card stack"><h3>${t("errors")}</h3>${S.errors.length?S.errors.slice(0,15).map(e=>`<div><span class="tag">${e.l.toUpperCase()}</span> <s class="muted">${esc(e.wrong)}</s> → <b>${esc(e.right)}</b><br><span class="cap muted">${esc(e.rule)}</span></div>`).join(""):`<p class="muted">${t("none")}</p>`}</article>`;
+}
+
+/* ---------- SETTINGS ---------- */
+function openSettings(){
+  $("settingsBody").innerHTML=`<h2>${t("settings")}</h2>
+   <label class="stack" style="gap:var(--s1)">${t("popTime")}<input type="time" id="sTime" value="${S.time}"></label>
+   <label class="stack" style="gap:var(--s1)">${t("popTime2")}<input type="time" id="sTime2" value="${S.time2}"></label>
+   <p class="cap muted">${t("popNote")}</p>
+   ${window.claude?"":`<label class="stack" style="gap:var(--s1)">${t("apiKey")}<input type="password" id="sKey" autocomplete="off" placeholder="sk-ant-…" value="${esc(S.apiKey||"")}"></label><p class="cap muted">${t("apiNote")}</p>`}
+   <fieldset class="stack" style="border:none;gap:var(--s1)"><legend>${t("langs")}</legend>${Object.keys(PACKS).map(l=>`<label class="row"><input type="checkbox" style="width:auto;min-height:auto" value="${l}" ${S.active.includes(l)?"checked":""}> ${PACKS[l].name}</label>`).join("")}</fieldset>
+   <div class="row between"><button id="sClose">${t("close")}</button><button class="primary" id="sSave">${t("save")}</button></div>`;
+  $("settings").classList.remove("hidden");
+  $("sClose").onclick=()=>$("settings").classList.add("hidden");
+  $("sSave").onclick=()=>{
+    S.time=$("sTime").value||"12:00";S.time2=$("sTime2").value;
+    if($("sKey")){S.apiKey=$("sKey").value.trim();sample=apiSample();ensureWords()}
+    scheduleNotifs();
+    const a=[...$("settingsBody").querySelectorAll("input[type=checkbox]:checked")].map(x=>x.value);if(a.length)S.active=a;
+    save();$("settings").classList.add("hidden");go(view);checkPopup();
+  };
+}
+$("btnSettings").onclick=openSettings;
+$("uiLang").onclick=()=>{S.ui=S.ui==="fr"?"en":"fr";save();document.documentElement.lang=S.ui;go(view)};
+
+/* ---------- MANDATORY POPUP ---------- */
+function due(){
+  if(S.doneDay===todayKey())return false;
+  const now=new Date(),hm=now.toTimeString().slice(0,5);
+  return hm>=S.time||(S.time2&&hm>=S.time2);
+}
+function checkPopup(){
+  if(!due()||!$("popup").classList.contains("hidden"))return;
+  const c=concept(new Date()),l=S.active[0],o=c[l];
+  $("popupBody").innerHTML=`<span class="cap muted">${t("popTitle")}</span>
+   ${S.active.map(L=>`<div class="row between" style="flex-wrap:nowrap"><div><span class="tag" style="border-left:4px solid ${PACKS[L].color}">${PACKS[L].name}</span><div class="word" style="font-size:var(--fs-h1)">${esc(displayWord(c[L],L))}</div><p>${esc(c[L].d)}</p><p class="ex">${esc(c[L].x)}</p></div><button class="icon big" data-pl="${L}" aria-label="Pronounce">${I.sound}</button></div>`).join("")}
+   <p><b>${t("popAsk")}</b></p>
+   <textarea id="pTxt" rows="3"></textarea>
+   <p class="cap" id="pMsg" style="color:var(--err)"></p>
+   <div class="row between">${dict?`<button class="icon micbtn" id="pMic" aria-label="Dictate"><svg viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg></button>`:"<span></span>"}<button class="primary" id="pOk">${t("validate")}</button></div>`;
+  $("popup").classList.remove("hidden");
+  $("popupBody").querySelectorAll("[data-pl]").forEach(b=>b.onclick=()=>say(c[b.dataset.pl].w.replace(/^to /,""),b.dataset.pl));
+  if($("pMic"))$("pMic").onclick=()=>{$("pTxt").focus();toggleMic()};
+  $("pOk").onclick=()=>{
+    const v=$("pTxt").value.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+    const stems=S.active.map(L=>c[L].w.toLowerCase().replace(/^to |^s'/,"").normalize("NFD").replace(/[̀-ͯ]/g,"").slice(0,4));
+    if(v.split(/\s+/).filter(Boolean).length<3||!stems.some(s=>v.includes(s))){$("pMsg").textContent=t("popBad");return}
+    const y=new Date();y.setDate(y.getDate()-1);
+    S.streak=S.lastDone===dayKey(y)?S.streak+1:(S.lastDone===todayKey()?S.streak:1);
+    S.lastDone=S.doneDay=todayKey();act("w");save();
+    $("popup").classList.add("hidden");go(view);
+  };
+}
+
+/* ---------- ANTHROPIC API (APK / browser) — same shape as the artifact "sample" capability ---------- */
+function apiSample(){
+  if(!S.apiKey)return null;
+  const call=async p=>{
+    const r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":S.apiKey,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+      body:JSON.stringify({model:"claude-haiku-5-5",max_tokens:8000,messages:typeof p==="string"?[{role:"user",content:p}]:p})});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok)throw{code:r.status===429?"rate_limited":"api_error",message:(j.error&&j.error.message)||("HTTP "+r.status)};
+    return{text:(j.content||[]).map(c=>c.text||"").join("")};
+  };
+  const f=p=>call(p);
+  f.json=async p=>{const{text}=await call(p);return JSON.parse(text.replace(/```json|```/g,"").trim())};
+  return f;
+}
+
+/* ---------- ANDROID (Capacitor plugins) ---------- */
+function nativeInit(){
+  const P=Capacitor.Plugins;
+  /* native text-to-speech: real fr-BE / nl-BE / en-GB voices, resolves when finished */
+  if(P.TextToSpeech)tts={native:true,speak:(text,o)=>P.TextToSpeech.speak({text,lang:PACKS[o.language].voice,rate:o.rate||1,category:"playback"}),stop:()=>P.TextToSpeech.stop()};
+  if(P.App){
+    P.App.addListener("appStateChange",st=>{if(st.isActive){checkPopup();if(view==="today")renderToday()}});
+    P.App.addListener("backButton",()=>{
+      if(!$("popup").classList.contains("hidden"))return; /* the word of the day cannot be skipped */
+      if(!$("settings").classList.contains("hidden")){$("settings").classList.add("hidden");return}
+      if(view!=="today")go("today");else P.App.minimizeApp();
+    });
+  }
+  scheduleNotifs();
+}
+/* daily notifications at the popup times; tapping opens the app, where the mandatory popup appears */
+async function scheduleNotifs(){
+  const N=window.Capacitor&&Capacitor.Plugins&&Capacitor.Plugins.LocalNotifications;if(!N)return;
+  try{
+    await N.requestPermissions();
+    await N.createChannel({id:"daily",name:t("wotd"),importance:5,visibility:1,vibration:true});
+    const pend=await N.getPending();
+    if(pend.notifications.length)await N.cancel({notifications:pend.notifications.map(n=>({id:n.id}))});
+    const list=[[1,S.time,"notifB"],[2,S.time2,"notifB2"]].filter(x=>x[1]).map(([id,tm,k])=>{const[h,m]=tm.split(":").map(Number);
+      return{id,title:"Polyglot",body:t(k),channelId:"daily",schedule:{on:{hour:h,minute:m},allowWhileIdle:true}}});
+    if(list.length)await N.schedule({notifications:list});
+  }catch(e){console.log("notifications",e)}
+}
+
+/* ---------- NAV ---------- */
+const VIEWS=[["today",I.today],["learn",I.learn],["speak",I.speak],["progress",I.prog]];
+function go(v){
+  stopAudio();view=v;checkBadges();
+  $("uiLang").textContent=S.ui.toUpperCase();
+  $("streak").innerHTML=I.flame+S.streak;
+  $("nav").innerHTML=VIEWS.map(([k,ic])=>`<button data-v="${k}" ${k===v?'aria-current="page"':""}>${ic}${t(k)}</button>`).join("");
+  $("nav").querySelectorAll("button").forEach(b=>b.onclick=()=>go(b.dataset.v));
+  VIEWS.forEach(([k])=>$("v-"+k).classList.toggle("hidden",k!==v));
+  ({today:renderToday,learn:renderLearn,speak:renderSpeak,progress:renderProgress})[v]();
+}
+
+/* ---------- BOOT ---------- */
+document.documentElement.lang=S.ui;
+go("today");checkPopup();
+try{speechSynthesis.onvoiceschanged=()=>{if(view==="today")renderToday()}}catch(e){}setInterval(checkPopup,30000);
+/* ---------- ENVIRONMENT: claude.ai artifact, Android app (Capacitor) or plain browser ---------- */
+const NATIVE=!!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform());
+if(window.claude&&claude.use){
+  claude.use("tts").then(x=>{tts=x}).catch(()=>{});
+  claude.use("dictation").then(x=>{dict=x;bindDict(()=>micTarget);if(view==="speak")renderSpeak()}).catch(()=>{});
+  claude.use("sample").then(x=>{sample=x;if(view==="speak")drawChat();ensureWords()}).catch(()=>{});
+}else{
+  /* outside claude.ai: AI only with the user's own Anthropic API key (Settings) */
+  sample=apiSample();
+  if(NATIVE)nativeInit();
+  setTimeout(ensureWords,300);
+}
+</script>
+</body>
+</html>
