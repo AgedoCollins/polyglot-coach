@@ -22,5 +22,7 @@ for (const w of [400, 500, 700]) {
 html = html.replace("<style>", `<script src="capacitor.js"></script>\n<style>${faces.join("")}\n`);
 
 fs.copyFileSync(path.join(root, "node_modules/@capacitor/core/dist/capacitor.js"), path.join(www, "capacitor.js"));
+// built-in lessons, vocabulary and exams
+fs.cpSync(path.join(root, "src/content"), path.join(www, "content"), { recursive: true });
 fs.writeFileSync(path.join(www, "index.html"), html);
 console.log("www built:", faces.length, "font files,", Math.round(html.length / 1024), "KB");
