@@ -349,6 +349,8 @@ function kAt(el,ci){if(!el)return;const sp=[...el.querySelectorAll(".k")];kClear
 function showTurn(on){const e=$("turn");if(e){e.textContent=t("yourTurn");e.classList.toggle("hidden",!on)}}
 function toast(html){const e=$("toast");e.innerHTML=html;e.classList.remove("hidden");clearTimeout(toast.h);toast.h=setTimeout(()=>e.classList.add("hidden"),3500)}
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
+/* text for the voice: no "/", brackets or grammar notes, which voices read aloud ("schuine streep", "slash") or stumble on */
+const speakable=t=>String(t).replace(/\((m|f|m\.|f\.|m\.\/f\.|BE|NL-BE|[^)]{0,40})\)/g," ").replace(/\s*\/\s*/g,", ").replace(/[«»"“”…]/g," ").replace(/\s+/g," ").replace(/\s+([,.!?])/g,"$1").trim();
 /* speak one line; resolves when finished. Highlight is timed (works on every engine), refined by word boundaries when the engine sends them */
 function speakOne(l,lang,id){return new Promise(res=>{
   const el=l.el?$(l.el):null,rate=l.rate||S.rate,off=l.off||0,st={b:false};let done=false;
@@ -356,8 +358,8 @@ function speakOne(l,lang,id){return new Promise(res=>{
   const sp=el?[...el.querySelectorAll(".k")].filter(x=>+x.dataset.c>=off&&+x.dataset.c<off+l.text.length):[];
   kAt(el,off);const ms=85/rate;
   sp.forEach(x=>kTimers.push(setTimeout(()=>{if(!st.b&&id===sayId)kAt(el,+x.dataset.c)},(+x.dataset.c-off)*ms)));
-  if(tts){tts.speak(l.text,{rate:tts.native?rate:Math.max(.7,rate),language:lang}).then(fin).catch(e=>{if(e&&e.code==="not_granted")tts=null;fin()});return}
-  try{const u=new SpeechSynthesisUtterance(l.text);u.lang=PACKS[lang].voice;const v=voiceFor(lang);if(v)u.voice=v;u.rate=rate;
+  if(tts){tts.speak(speakable(l.text),{rate:tts.native?rate:Math.max(.7,rate),language:lang}).then(fin).catch(e=>{if(e&&e.code==="not_granted")tts=null;fin()});return}
+  try{const u=new SpeechSynthesisUtterance(speakable(l.text));u.lang=PACKS[lang].voice;const v=voiceFor(lang);if(v)u.voice=v;u.rate=rate;
     u.onboundary=e=>{if(e.name&&e.name!=="word")return;st.b=true;if(id===sayId)kAt(el,off+e.charIndex)};
     u.onend=fin;u.onerror=fin;speechSynthesis.speak(u);
     setTimeout(fin,l.text.length*140/rate+3000); /* Android sometimes never fires onend */
