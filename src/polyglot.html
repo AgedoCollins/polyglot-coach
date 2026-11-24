@@ -332,6 +332,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const dayKey=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; /* local date, not UTC */
 const todayKey=()=>dayKey(new Date());
+const curStreak=()=>{const y=new Date();y.setDate(y.getDate()-1);return S.lastDone===todayKey()||S.lastDone===dayKey(y)?S.streak:0};
 const dayIdx=d=>Math.floor(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())/864e5);
 
 let view="today",offset=0,curLang=S.active[0],learnMode="grammar",tts=null,dict=null,sample=null;
@@ -420,8 +421,9 @@ const wordByKey=k=>typeof k==="string"&&k[0]==="d"?DICT[+k.slice(1)]:ALLW()[k];
 /* day → word: AI word if one was made for that day, else a built-in word spread over the whole dictionary (mixed levels) */
 function concept(d){
   const k=dayKey(d);if(S.dayW[k]!=null&&ALLW()[S.dayW[k]])return ALLW()[S.dayW[k]];
-  const n=dayIdx(d);
-  const P=DICT.filter(c=>c.def);if(P.length){const i=((n*7919)%P.length+P.length)%P.length;return P[i]}
+  const n=dayIdx(d);S.dayD=S.dayD||{};
+  if(S.dayD[k]!=null&&DICT[S.dayD[k]])return DICT[S.dayD[k]];
+  const P=DICT.filter(c=>c.def);if(P.length){const i=((n*7919)%P.length+P.length)%P.length;if(k<=todayKey()){S.dayD[k]=P[i]._d;save()}return P[i]}
   return WORDS[(n%WORDS.length+WORDS.length)%WORDS.length];
 }
 /* rotating mix so vocabulary grows on every level */
@@ -850,7 +852,7 @@ function renderProgress(){
   const vl=Object.values(S.log).reduce((s,d)=>s+(d.v||0),0);
   $("v-progress").innerHTML=`${weekly()}${badgesCard()}<div class="row">
    <div class="card stat"><b>${vl}</b><span class="cap muted">${t("vLearned")}</span></div>
-   <div class="card stat"><b>${S.streak}</b><span class="cap muted">${t("streak")}</span></div>
+   <div class="card stat"><b>${curStreak()}</b><span class="cap muted">${t("streak")}</span></div>
    <div class="card stat"><b>${S.seen.length}</b><span class="cap muted">${t("words")}</span></div>
    <div class="card stat"><b>${S.lessons.length}</b><span class="cap muted">${t("lessons")}</span></div>
    <div class="card stat"><b>${acc}</b><span class="cap muted">${t("acc")}</span></div></div>
@@ -900,11 +902,11 @@ function checkPopup(){
   if($("pMic"))$("pMic").onclick=()=>{$("pTxt").focus();toggleMic()};
   $("pOk").onclick=()=>{
     const v=$("pTxt").value.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
-    const stems=S.active.map(L=>c[L].w.toLowerCase().replace(/^to |^s'/,"").normalize("NFD").replace(/[̀-ͯ]/g,"").slice(0,4));
+    const stems=S.active.map(L=>c[L].w.toLowerCase().split(/[\/(]/)[0].trim().replace(/^(to|se|s'|le|la|les|l'|un|une|de|het|een|the|a|an)\s*/,"").normalize("NFD").replace(/[̀-ͯ]/g,"").slice(0,4)).filter(s=>s.length>=2);
     if(v.split(/\s+/).filter(Boolean).length<3||!stems.some(s=>v.includes(s))){$("pMsg").textContent=t("popBad");return}
     const y=new Date();y.setDate(y.getDate()-1);
     S.streak=S.lastDone===dayKey(y)?S.streak+1:(S.lastDone===todayKey()?S.streak:1);
-    S.lastDone=S.doneDay=todayKey();act("w");save();
+    S.lastDone=S.doneDay=todayKey();act("w");save();scheduleNotifs();
     $("popup").classList.add("hidden");go(view);
   };
 }
@@ -934,7 +936,7 @@ function nativeInit(){
     S.active.forEach(resolveNativeLang);
   }
   if(P.App){
-    P.App.addListener("appStateChange",st=>{if(st.isActive){checkPopup();if(view==="today")renderToday()}});
+    P.App.addListener("appStateChange",st=>{if(st.isActive){Object.keys(nativeLang).forEach(k=>{if(nativeLang[k]===null)delete nativeLang[k]});scheduleNotifs();checkPopup();if(view==="today")renderToday()}});
     P.App.addListener("backButton",()=>{
       if(!$("popup").classList.contains("hidden"))return; /* the word of the day cannot be skipped */
       if(!$("settings").classList.contains("hidden")){$("settings").classList.add("hidden");return}
@@ -959,8 +961,11 @@ async function scheduleNotifs(){
     await N.createChannel({id:"daily",name:t("wotd"),importance:5,visibility:1,vibration:true});
     const pend=await N.getPending();
     if(pend.notifications.length)await N.cancel({notifications:pend.notifications.map(n=>({id:n.id}))});
-    const list=[[1,S.time,"notifB"],[2,S.time2,"notifB2"]].filter(x=>x[1]).map(([id,tm,k])=>{const[h,m]=tm.split(":").map(Number);
-      return{id,title:"Polyglot",body:t(k),channelId:"daily",schedule:{on:{hour:h,minute:m},allowWhileIdle:true}}});
+    const list=[],now=new Date();
+    for(let i=0;i<14;i++)[[1,S.time,"notifB"],[2,S.time2,"notifB2"]].forEach(([n,tm,k])=>{if(!tm)return;const[h,m]=tm.split(":").map(Number);
+      const at=new Date(now.getFullYear(),now.getMonth(),now.getDate()+i,h,m);
+      if(at<=now||(i===0&&S.doneDay===todayKey()))return;
+      list.push({id:i*2+n,title:"Polyglot",body:t(k),channelId:"daily",schedule:{at,allowWhileIdle:true}})});
     if(list.length)await N.schedule({notifications:list});
   }catch(e){console.log("notifications",e)}
 }
@@ -970,7 +975,7 @@ const VIEWS=[["today",I.today],["dico",I.dico],["learn",I.learn],["speak",I.spea
 function go(v){
   stopAudio();view=v;checkBadges();
   $("uiLang").textContent=S.ui.toUpperCase();
-  $("streak").innerHTML=I.flame+S.streak;
+  $("streak").innerHTML=I.flame+curStreak();
   $("nav").innerHTML=VIEWS.map(([k,ic])=>`<button data-v="${k}" ${k===v?'aria-current="page"':""}>${ic}${t(k)}</button>`).join("");
   $("nav").querySelectorAll("button").forEach(b=>b.onclick=()=>go(b.dataset.v));
   VIEWS.forEach(([k])=>$("v-"+k).classList.toggle("hidden",k!==v));
