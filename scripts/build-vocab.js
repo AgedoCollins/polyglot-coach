@@ -41,5 +41,16 @@ if (fs.existsSync(ddir)) for (const f of fs.readdirSync(ddir).filter(f => f.ends
   }
   if (dup) console.log(f, "skipped duplicates:", dup);
 }
+// Definitions in each language: scripts/definitions/*.txt → "English headword | EN def | FR def | NL def"
+const defs = {}, fdir = path.join(__dirname, "definitions");
+if (fs.existsSync(fdir)) for (const f of fs.readdirSync(fdir).filter(f => f.endsWith(".txt")))
+  for (const raw of fs.readFileSync(path.join(fdir, f), "utf8").split("\n")) {
+    const line = raw.trim(); if (!line || line.startsWith("#")) continue;
+    const p = line.split("|").map(s => s.trim());
+    if (p.length !== 4) { console.error(`${f}: bad line → ${line}`); process.exitCode = 1; continue; }
+    defs[p[0].toLowerCase()] = p.slice(1);
+  }
+let nd = 0; for (const r of dict) { const d = defs[r[0].toLowerCase()]; if (d) { r.push(...d); nd++; } }
+console.log("definitions:", nd, "/", dict.length);
 fs.writeFileSync(path.join(out, "dictionary.json"), JSON.stringify(dict));
 console.log("dictionary:", dict.length, "words");

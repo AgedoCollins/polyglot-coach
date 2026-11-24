@@ -1,0 +1,457 @@
+# English headword | English definition | French definition | Dutch definition
+hello | A word you say when you meet someone. | Mot qu'on dit pour saluer quelqu'un. | Woord dat je zegt als je iemand begroet.
+goodbye | A word you say when you leave someone. | Formule de politesse quand on quitte quelqu'un. | Woord dat je zegt als je weggaat.
+please | A polite word used when asking for something. | Formule de politesse pour demander quelque chose. | Beleefd woord om iets te vragen.
+thank you | Words used to show you are grateful. | Formule pour exprimer sa reconnaissance. | Woorden om dankbaarheid te tonen.
+yes | A word used to agree or say something is true. | Mot qui exprime l'accord ou l'affirmation. | Woord om in te stemmen of te bevestigen.
+no | A word used to refuse or disagree. | Mot qui exprime le refus ou la négation. | Woord om te weigeren of te ontkennen.
+sorry | A word used to apologize. | Mot pour s'excuser. | Woord om je te verontschuldigen.
+excuse me | Polite words to get attention or pass someone. | Formule polie pour attirer l'attention ou passer. | Beleefde woorden om aandacht te vragen of te passeren.
+name | The word that someone or something is called. | Mot qui désigne une personne ou une chose. | Het woord waarmee iemand of iets genoemd wordt.
+to be called | To have a particular name. | Porter un certain nom. | Een bepaalde naam hebben.
+to meet | To see and talk to someone for the first time or by arrangement. | Voir une personne pour la première fois ou à un rendez-vous. | Iemand voor het eerst of op afspraak zien.
+nice to meet you | Polite words when you meet someone new. | Formule polie lors d'une première rencontre. | Beleefde woorden bij een eerste kennismaking.
+good morning | A greeting used in the morning. | Salutation du matin. | Begroeting in de ochtend.
+good evening | A greeting used in the evening. | Salutation du soir. | Begroeting in de avond.
+good night | Words said before going to sleep. | Formule dite avant d'aller dormir. | Woorden die je zegt voor het slapengaan.
+sir / Mr | A polite way to address or name a man. | Titre de politesse pour un homme. | Beleefde aanspreektitel voor een man.
+madam / Mrs | A polite way to address or name a woman. | Titre de politesse pour une femme. | Beleefde aanspreektitel voor een vrouw.
+friend | A person you know well and like. | Personne qu'on connaît bien et qu'on aime. | Iemand die je goed kent en graag hebt.
+to come from | To be born in or live originally in a place. | Être originaire d'un lieu. | Afkomstig zijn van een plaats.
+to live | To have your home somewhere. | Avoir son domicile quelque part. | Ergens je woning hebben.
+age | How old a person or thing is. | Nombre d'années depuis la naissance. | Hoe oud iemand of iets is.
+year | A period of twelve months. | Période de douze mois. | Periode van twaalf maanden.
+language | The system of words people use to communicate. | Système de mots qu'un peuple utilise pour communiquer. | Systeem van woorden waarmee mensen communiceren.
+to speak | To say words aloud. | Prononcer des mots, s'exprimer oralement. | Woorden uitspreken, praten.
+to understand | To know what something means. | Saisir le sens de quelque chose. | Weten wat iets betekent.
+to repeat | To say or do something again. | Dire ou faire de nouveau. | Iets opnieuw zeggen of doen.
+slowly | At a low speed; not quickly. | À vitesse réduite, sans se presser. | Met een lage snelheid, niet snel.
+how are you? | A question to ask about someone's health or mood. | Question pour demander des nouvelles de quelqu'un. | Vraag naar iemands gezondheid of humeur.
+fine / well | In good health or in a good way. | En bonne santé, de bonne manière. | In goede gezondheid, op een goede manier.
+see you later | Words said when you will meet again soon. | Formule d'adieu quand on se revoit bientôt. | Afscheidsgroet als je elkaar snel terugziet.
+family | Parents, children and other relatives. | Ensemble des parents, enfants et proches. | Ouders, kinderen en andere verwanten.
+mother | A female parent. | Femme qui a un ou plusieurs enfants. | Vrouwelijke ouder.
+father | A male parent. | Homme qui a un ou plusieurs enfants. | Mannelijke ouder.
+parents | A person's mother and father. | Le père et la mère. | Vader en moeder.
+brother | A boy or man with the same parents as you. | Garçon ou homme né des mêmes parents. | Jongen of man met dezelfde ouders als jij.
+sister | A girl or woman with the same parents as you. | Fille ou femme née des mêmes parents. | Meisje of vrouw met dezelfde ouders als jij.
+son | A male child of a parent. | Enfant de sexe masculin. | Mannelijk kind van een ouder.
+daughter | A female child of a parent. | Enfant de sexe féminin. | Vrouwelijk kind van een ouder.
+child | A young person; a son or daughter. | Jeune être humain ; fils ou fille. | Jong mens; zoon of dochter.
+baby | A very young child. | Très jeune enfant. | Heel jong kind.
+husband | The man a woman or man is married to. | Homme avec qui on est marié. | De man met wie iemand getrouwd is.
+wife | The woman someone is married to. | Femme avec qui on est marié. | De vrouw met wie iemand getrouwd is.
+grandmother | The mother of your father or mother. | Mère du père ou de la mère. | Moeder van je vader of moeder.
+grandfather | The father of your father or mother. | Père du père ou de la mère. | Vader van je vader of moeder.
+uncle | The brother of your father or mother. | Frère du père ou de la mère. | Broer van je vader of moeder.
+aunt | The sister of your father or mother. | Sœur du père ou de la mère. | Zus van je vader of moeder.
+cousin | The child of your uncle or aunt. | Enfant de l'oncle ou de la tante. | Kind van je oom of tante.
+nephew | The son of your brother or sister. | Fils du frère ou de la sœur. | Zoon van je broer of zus.
+niece | The daughter of your brother or sister. | Fille du frère ou de la sœur. | Dochter van je broer of zus.
+boyfriend | A man or boy someone has a romantic relationship with. | Garçon avec qui on a une relation amoureuse. | Jongen of man met wie je een relatie hebt.
+girlfriend | A woman or girl someone has a romantic relationship with. | Fille avec qui on a une relation amoureuse. | Meisje of vrouw met wie je een relatie hebt.
+married | Having a husband or wife. | Uni par le mariage. | Met iemand gehuwd.
+single | Not married and without a partner. | Qui n'est pas marié ni en couple. | Niet getrouwd en zonder partner.
+divorced | No longer married by law. | Dont le mariage a été légalement dissous. | Niet langer wettelijk getrouwd.
+twins | Two children born at the same time to the same mother. | Deux enfants nés en même temps de la même mère. | Twee kinderen die tegelijk geboren zijn.
+older | Having lived more years than someone else. | Qui a plus d'années qu'un autre. | Meer jaren tellend dan iemand anders.
+younger | Having lived fewer years than someone else. | Qui a moins d'années qu'un autre. | Minder jaren tellend dan iemand anders.
+to love | To feel very strong affection for someone or something. | Éprouver une très forte affection. | Heel veel van iemand of iets houden.
+together | With each other; in a group. | L'un avec l'autre, en groupe. | Met elkaar, in groep.
+birthday | The day each year when you were born. | Jour où l'on fête sa naissance chaque année. | De dag waarop je elk jaar je geboorte viert.
+house | A building where people live. | Bâtiment où l'on habite. | Gebouw waarin mensen wonen.
+flat / apartment | A set of rooms to live in, inside a larger building. | Logement de plusieurs pièces dans un immeuble. | Woning met kamers in een groter gebouw.
+room | A part of a building with walls, a floor and a ceiling. | Partie d'un logement entourée de murs. | Ruimte in een gebouw met muren.
+bedroom | A room for sleeping in. | Pièce où l'on dort. | Kamer waarin je slaapt.
+kitchen | A room where food is prepared and cooked. | Pièce où l'on prépare les repas. | Ruimte waar je eten klaarmaakt.
+living room | The room where people relax and spend time together. | Pièce de séjour où l'on se détend. | Kamer waar je samen ontspant.
+bathroom | A room with a bath or shower and a washbasin. | Pièce pour se laver. | Ruimte om je te wassen.
+toilet | A bowl you use to get rid of body waste; the room with it. | Cuvette où l'on fait ses besoins ; la pièce. | Pot voor je behoefte; de ruimte ervan.
+door | A moving panel used to enter or leave a room or building. | Panneau mobile qui ferme une entrée. | Beweegbaar paneel om binnen of buiten te gaan.
+window | An opening in a wall, with glass, to let in light. | Ouverture vitrée dans un mur. | Opening met glas in een muur.
+table | Furniture with a flat top and legs. | Meuble formé d'un plateau sur des pieds. | Meubel met een plat blad op poten.
+chair | A seat for one person, with a back. | Siège à dossier pour une personne. | Zitmeubel met rugleuning voor één persoon.
+bed | Furniture you sleep on. | Meuble sur lequel on dort. | Meubel waarop je slaapt.
+sofa | A long soft seat for two or more people. | Long siège rembourré pour plusieurs personnes. | Lang zacht zitmeubel voor meerdere mensen.
+fridge | An electric cupboard that keeps food cold. | Appareil qui garde les aliments au froid. | Toestel dat voedsel koel houdt.
+oven | A closed box that heats food to cook it. | Appareil fermé pour cuire les aliments. | Gesloten toestel om eten te bakken.
+key | A small metal object that opens a lock. | Petit objet métallique qui ouvre une serrure. | Klein metalen voorwerp om een slot te openen.
+stairs | A set of steps going from one floor to another. | Suite de marches entre deux étages. | Reeks treden tussen verdiepingen.
+floor (storey) | A level of a building. | Niveau d'un bâtiment. | Niveau van een gebouw.
+garden | Land next to a house where plants grow. | Terrain près d'une maison où poussent des plantes. | Grond bij een huis met planten.
+wall | A vertical structure that divides or surrounds a space. | Construction verticale qui sépare ou entoure. | Verticale constructie die een ruimte afsluit.
+lamp | A device that gives light. | Appareil qui donne de la lumière. | Toestel dat licht geeft.
+shower | A device that sprays water to wash your body. | Installation qui projette de l'eau pour se laver. | Toestel dat water sproeit om je te wassen.
+to clean | To remove dirt from something. | Enlever la saleté. | Vuil verwijderen.
+rent | Money paid regularly to live in a place. | Somme payée régulièrement pour un logement. | Geld dat je regelmatig betaalt om te wonen.
+neighbour | A person who lives near you. | Personne qui habite à côté. | Iemand die naast of dicht bij je woont.
+heating | A system that keeps a building warm. | Système qui chauffe un bâtiment. | Systeem dat een gebouw warm houdt.
+cupboard | Furniture with doors and shelves for storing things. | Meuble à portes et étagères pour ranger. | Meubel met deuren en planken om op te bergen.
+roof | The top covering of a building. | Partie supérieure qui couvre un bâtiment. | Bovenste bedekking van een gebouw.
+address | The details of where someone lives. | Indication du lieu où l'on habite. | Gegevens van waar iemand woont.
+bread | A food made from flour, water and yeast, then baked. | Aliment de farine, d'eau et de levure cuit au four. | Gebakken voedsel van meel, water en gist.
+water | The clear liquid that falls as rain and that we drink. | Liquide transparent qu'on boit. | Heldere vloeistof die we drinken.
+coffee | A hot drink made from roasted beans. | Boisson chaude faite de grains torréfiés. | Warme drank van gebrande bonen.
+tea | A hot drink made from dried leaves. | Boisson chaude faite de feuilles séchées. | Warme drank van gedroogde blaadjes.
+milk | The white liquid produced by cows and other animals. | Liquide blanc produit par la vache. | Witte vloeistof van koeien.
+beer | An alcoholic drink made from grain. | Boisson alcoolisée à base de céréales. | Alcoholische drank van graan.
+wine | An alcoholic drink made from grapes. | Boisson alcoolisée faite de raisin. | Alcoholische drank van druiven.
+juice | The liquid from fruit or vegetables. | Liquide extrait des fruits ou légumes. | Vocht uit fruit of groenten.
+meat | The flesh of animals eaten as food. | Chair des animaux qu'on mange. | Vlees van dieren als voedsel.
+chicken | A farm bird, or its meat. | Volaille ; sa viande. | Boerderijvogel of het vlees ervan.
+fish | An animal that lives in water; its meat. | Animal qui vit dans l'eau ; sa chair. | Dier dat in het water leeft; het vlees ervan.
+egg | An oval object laid by birds, often eaten. | Objet ovale pondu par les oiseaux. | Ovaal voorwerp dat vogels leggen.
+cheese | A food made from milk. | Aliment fabriqué à partir du lait. | Voedsel gemaakt van melk.
+butter | A yellow fat made from cream. | Matière grasse jaune tirée de la crème. | Geel vet gemaakt van room.
+rice | Small white or brown grains cooked as food. | Petits grains cuits comme aliment. | Kleine korrels die je kookt.
+pasta | Food made from flour and water, like spaghetti. | Aliment de farine et d'eau, comme les spaghettis. | Voedsel van meel en water, zoals spaghetti.
+vegetables | Plants or parts of plants eaten as food. | Plantes ou parties de plantes qu'on mange. | Planten of delen ervan die je eet.
+fruit | The sweet part of a plant that contains seeds. | Partie sucrée d'une plante qui contient les graines. | Zoet deel van een plant met zaden.
+apple | A round fruit with red, green or yellow skin. | Fruit rond à peau rouge, verte ou jaune. | Rond fruit met rode, groene of gele schil.
+potato | A vegetable that grows under the ground. | Légume qui pousse sous la terre. | Groente die onder de grond groeit.
+fries / chips | Long pieces of potato fried in oil. | Bâtonnets de pomme de terre frits. | Lange stukjes gefrituurde aardappel.
+sugar | A sweet substance used in food and drinks. | Substance sucrée ajoutée aux aliments. | Zoete stof voor eten en drinken.
+salt | A white substance used to flavour food. | Substance blanche qui assaisonne les aliments. | Witte stof om eten op smaak te brengen.
+breakfast | The first meal of the day. | Premier repas de la journée. | Eerste maaltijd van de dag.
+lunch | The meal eaten in the middle of the day. | Repas pris au milieu de la journée. | Maaltijd midden op de dag.
+dinner | The main meal, usually eaten in the evening. | Repas principal, souvent le soir. | Hoofdmaaltijd, meestal 's avonds.
+to eat | To put food in your mouth and swallow it. | Prendre de la nourriture et l'avaler. | Voedsel in je mond nemen en doorslikken.
+to drink | To swallow a liquid. | Avaler un liquide. | Een vloeistof doorslikken.
+hungry | Needing or wanting food. | Qui a besoin de manger. | Behoefte hebbend aan eten.
+thirsty | Needing or wanting to drink. | Qui a besoin de boire. | Behoefte hebbend aan drinken.
+day | A period of 24 hours. | Période de vingt-quatre heures. | Periode van vierentwintig uur.
+week | A period of seven days. | Période de sept jours. | Periode van zeven dagen.
+month | One of the twelve periods of a year. | Une des douze divisions de l'année. | Een van de twaalf delen van het jaar.
+today | On this day. | Ce jour-ci. | Op deze dag.
+tomorrow | On the day after today. | Le jour qui suit aujourd'hui. | De dag na vandaag.
+yesterday | On the day before today. | Le jour qui précède aujourd'hui. | De dag voor vandaag.
+Monday | The first day of the working week. | Premier jour de la semaine. | Eerste dag van de week.
+Tuesday | The day after Monday. | Jour qui suit le lundi. | De dag na maandag.
+Wednesday | The day after Tuesday. | Jour qui suit le mardi. | De dag na dinsdag.
+Thursday | The day after Wednesday. | Jour qui suit le mercredi. | De dag na woensdag.
+Friday | The day after Thursday. | Jour qui suit le jeudi. | De dag na donderdag.
+Saturday | The day after Friday. | Jour qui suit le vendredi. | De dag na vrijdag.
+Sunday | The day after Saturday, often a rest day. | Jour qui suit le samedi, souvent de repos. | De dag na zaterdag, vaak een rustdag.
+hour | A period of sixty minutes. | Durée de soixante minutes. | Periode van zestig minuten.
+minute | A period of sixty seconds. | Durée de soixante secondes. | Periode van zestig seconden.
+morning | The early part of the day. | Début de la journée. | Het begin van de dag.
+afternoon | The part of the day between noon and evening. | Partie de la journée entre midi et le soir. | Deel van de dag tussen middag en avond.
+evening | The end of the day, before night. | Fin de la journée, avant la nuit. | Einde van de dag, voor de nacht.
+night | The dark time when most people sleep. | Période d'obscurité où l'on dort. | Donkere tijd waarin men slaapt.
+early | Before the usual or expected time. | Avant l'heure habituelle. | Voor het gewone tijdstip.
+late | After the usual or expected time. | Après l'heure prévue. | Na het verwachte tijdstip.
+now | At this moment. | En ce moment. | Op dit moment.
+always | At all times; every time. | En tout temps, chaque fois. | Op elk moment, elke keer.
+never | At no time. | À aucun moment. | Op geen enkel moment.
+often | Many times. | De nombreuses fois. | Vele keren.
+first | Before all others. | Avant tous les autres. | Voor alle anderen.
+number | A word or symbol that shows a quantity. | Symbole qui exprime une quantité. | Teken dat een hoeveelheid uitdrukt.
+hundred | The number 100. | Le nombre 100. | Het getal 100.
+thousand | The number 1,000. | Le nombre 1 000. | Het getal 1000.
+o'clock | Used to say the exact hour. | Sert à indiquer l'heure exacte. | Gebruikt om het exacte uur te zeggen.
+to wake up | To stop sleeping. | Sortir du sommeil. | Ophouden met slapen.
+to get up | To get out of bed. | Sortir du lit. | Uit bed komen.
+to wash | To clean with water and soap. | Nettoyer avec de l'eau et du savon. | Schoonmaken met water en zeep.
+to brush one's teeth | To clean your teeth with a brush. | Nettoyer ses dents avec une brosse. | Je tanden reinigen met een borstel.
+to get dressed | To put on your clothes. | Mettre ses vêtements. | Je kleren aantrekken.
+to have breakfast | To eat the first meal of the day. | Prendre le premier repas du jour. | De eerste maaltijd van de dag eten.
+to go to work | To travel to your job. | Se rendre à son travail. | Naar je werk gaan.
+to work | To do a job, usually for money. | Exercer une activité, souvent payée. | Een job doen, meestal voor geld.
+to start | To begin to do something. | Commencer à faire quelque chose. | Met iets beginnen.
+to finish | To come or bring to an end. | Mener à son terme. | Tot een einde brengen.
+to come home | To return to your house. | Revenir chez soi. | Naar huis terugkeren.
+to cook | To prepare food by heating it. | Préparer des aliments en les chauffant. | Eten klaarmaken door het te verwarmen.
+to do the dishes | To wash plates, cups and pans. | Laver les assiettes, verres et casseroles. | Borden, kopjes en pannen afwassen.
+to watch TV | To look at programmes on television. | Regarder des émissions à la télévision. | Naar programma's op tv kijken.
+to read | To look at and understand written words. | Parcourir des yeux et comprendre un texte. | Geschreven woorden bekijken en begrijpen.
+to go to bed | To lie down in bed to sleep. | Aller dans son lit pour dormir. | In bed gaan liggen om te slapen.
+to sleep | To rest with your eyes closed and mind unconscious. | Être dans un état de repos, les yeux fermés. | Rusten met je ogen dicht, onbewust.
+to rest | To relax or stop working. | Se détendre, cesser de travailler. | Ontspannen of stoppen met werken.
+to shop | To buy things in shops. | Acheter des choses dans les magasins. | Dingen kopen in winkels.
+to walk | To move by putting one foot in front of the other. | Avancer en posant un pied devant l'autre. | Je voortbewegen door je voeten te verplaatsen.
+to run | To move very fast on foot. | Se déplacer très vite à pied. | Je heel snel te voet verplaatsen.
+to take the bus | To travel by bus. | Se déplacer en bus. | Met de bus reizen.
+to call | To telephone someone. | Téléphoner à quelqu'un. | Iemand opbellen.
+to study | To spend time learning about a subject. | Consacrer du temps à apprendre. | Tijd besteden aan het leren van iets.
+to listen to music | To pay attention to music. | Écouter de la musique avec attention. | Aandachtig naar muziek luisteren.
+to hurry | To do something or go quickly. | Faire ou aller vite. | Iets snel doen of gaan.
+busy | Having a lot to do. | Qui a beaucoup à faire. | Veel te doen hebbend.
+free (time) | Not busy; available. | Non occupé, disponible. | Niet bezig, beschikbaar.
+habit | Something you do regularly, often without thinking. | Chose qu'on fait régulièrement, sans y penser. | Iets wat je regelmatig doet, vaak onbewust.
+every day | Each day, without exception. | Chaque jour, sans exception. | Elke dag, zonder uitzondering.
+city / town | A large place where many people live and work. | Grande agglomération où vivent beaucoup de gens. | Grote plaats waar veel mensen wonen.
+street | A road in a town with buildings along it. | Voie bordée de maisons dans une ville. | Weg in een stad met gebouwen erlangs.
+square | An open area in a town, with buildings around it. | Espace ouvert entouré de bâtiments. | Open ruimte in een stad met gebouwen eromheen.
+station | A place where trains or buses stop. | Lieu d'arrêt des trains ou des bus. | Plaats waar treinen of bussen stoppen.
+bus | A large road vehicle that carries passengers. | Grand véhicule qui transporte des passagers. | Groot voertuig dat passagiers vervoert.
+train | Connected carriages that travel on rails. | Wagons reliés qui roulent sur des rails. | Verbonden wagons die op sporen rijden.
+tram | A vehicle that runs on rails in city streets. | Véhicule sur rails dans les rues d'une ville. | Voertuig op sporen in de straten.
+car | A road vehicle with four wheels and an engine. | Véhicule à moteur à quatre roues. | Voertuig met vier wielen en een motor.
+bike | A vehicle with two wheels that you pedal. | Véhicule à deux roues qu'on pédale. | Voertuig met twee wielen waarop je trapt.
+ticket | A paper or card that lets you travel or enter. | Document qui permet de voyager ou d'entrer. | Papier of kaart om te reizen of binnen te gaan.
+stop | A place where buses or trams stop. | Endroit où s'arrêtent bus ou trams. | Plaats waar bussen of trams stoppen.
+left | On or towards the left side. | Du côté gauche. | Aan of naar de linkerkant.
+right | On or towards the right side. | Du côté droit. | Aan of naar de rechterkant.
+straight on | Forward, without turning. | En avançant sans tourner. | Vooruit, zonder af te slaan.
+near | A short distance away. | À une petite distance. | Op korte afstand.
+far | A long distance away. | À une grande distance. | Op grote afstand.
+map | A drawing of an area showing roads and places. | Représentation d'un lieu avec routes et endroits. | Tekening van een gebied met wegen en plaatsen.
+bridge | A structure built over a river or road. | Construction qui passe au-dessus d'une rivière ou d'une route. | Constructie over een rivier of weg.
+traffic light | A set of coloured lights that control traffic. | Signal lumineux qui règle la circulation. | Gekleurde lichten die het verkeer regelen.
+corner | The place where two streets or walls meet. | Endroit où deux rues ou murs se rencontrent. | Plaats waar twee straten of muren samenkomen.
+church | A building for Christian worship. | Bâtiment de culte chrétien. | Gebouw voor christelijke eredienst.
+park | A public area with grass and trees. | Espace public avec pelouses et arbres. | Openbare ruimte met gras en bomen.
+hospital | A place where sick or injured people are treated. | Établissement où l'on soigne les malades. | Plaats waar zieken verzorgd worden.
+town hall | The building of the local government. | Bâtiment de l'administration communale. | Gebouw van het gemeentebestuur.
+to drive | To control a car or other vehicle. | Diriger une voiture ou un véhicule. | Een auto of voertuig besturen.
+to get off | To leave a bus, train or tram. | Sortir d'un bus, d'un train ou d'un tram. | Een bus, trein of tram verlaten.
+to get on | To enter a bus, train or tram. | Entrer dans un bus, un train ou un tram. | Een bus, trein of tram instappen.
+platform | The area beside the rails where you wait for a train. | Quai où l'on attend le train. | Plaats naast het spoor waar je op de trein wacht.
+traffic jam | A long line of vehicles that cannot move. | Longue file de véhicules bloqués. | Lange rij voertuigen die niet vooruit kan.
+centre | The middle part of a town or thing. | Partie centrale d'une ville ou d'une chose. | Middelste deel van een stad of iets.
+shop | A place where you buy things. | Lieu où l'on achète des marchandises. | Plaats waar je dingen koopt.
+supermarket | A large shop selling food and household goods. | Grand magasin d'alimentation en libre-service. | Grote winkel voor voeding en huishoudartikelen.
+bakery | A shop where bread and cakes are made and sold. | Commerce où l'on fait et vend du pain. | Winkel waar brood en gebak gemaakt worden.
+market | A place, often outdoors, where people sell goods. | Lieu, souvent en plein air, où l'on vend des produits. | Plaats, vaak buiten, waar goederen verkocht worden.
+price | The amount of money something costs. | Somme d'argent que coûte une chose. | Bedrag dat iets kost.
+to cost | To have a certain price. | Avoir un certain prix. | Een bepaalde prijs hebben.
+cheap | Low in price. | Qui coûte peu. | Met een lage prijs.
+expensive | High in price. | Qui coûte cher. | Met een hoge prijs.
+money | Coins and notes used to buy things. | Pièces et billets pour acheter. | Munten en biljetten om te kopen.
+cash | Money in coins or notes. | Argent en pièces ou billets. | Geld in munten of biljetten.
+card | A plastic card used to pay. | Carte en plastique pour payer. | Plastic kaart om mee te betalen.
+to pay | To give money for something. | Donner de l'argent en échange de quelque chose. | Geld geven voor iets.
+to buy | To get something by paying for it. | Obtenir quelque chose en payant. | Iets krijgen door ervoor te betalen.
+to sell | To give something in exchange for money. | Céder quelque chose contre de l'argent. | Iets geven in ruil voor geld.
+bag | A container made of cloth, paper or plastic. | Contenant en tissu, papier ou plastique. | Houder van stof, papier of plastic.
+receipt | A piece of paper that proves you paid. | Papier qui prouve un paiement. | Papiertje dat bewijst dat je betaald hebt.
+size | How big or small something is. | Dimension d'une chose. | Hoe groot of klein iets is.
+to try on | To put on clothes to see if they fit. | Mettre un vêtement pour voir s'il va. | Kleren aandoen om te zien of ze passen.
+open | Not closed; ready for customers. | Non fermé ; accessible au public. | Niet gesloten; toegankelijk.
+closed | Not open. | Qui n'est pas ouvert. | Niet open.
+sale (discount) | A period when goods are sold at lower prices. | Période où les prix sont réduits. | Periode met verlaagde prijzen.
+change (money) | Money you get back when you pay too much. | Argent rendu quand on paie trop. | Geld dat je terugkrijgt als je te veel betaalt.
+cashier / checkout | The place in a shop where you pay. | Endroit où l'on paie dans un magasin. | Plaats in een winkel waar je betaalt.
+customer | A person who buys things from a shop. | Personne qui achète dans un magasin. | Iemand die in een winkel koopt.
+kilo | A thousand grams. | Mille grammes. | Duizend gram.
+bottle | A glass or plastic container for liquids. | Récipient pour les liquides. | Houder van glas of plastic voor vloeistoffen.
+to need | To have to have something. | Ne pas pouvoir se passer de quelque chose. | Iets moeten hebben.
+anything else? | A question asked to see if you want more. | Question pour savoir si on veut autre chose. | Vraag of je nog iets wilt.
+that's all | Words meaning there is nothing more. | Formule qui signifie qu'il n'y a rien d'autre. | Woorden die zeggen dat er niets meer is.
+clothes | Things you wear, like shirts and trousers. | Ce qu'on porte sur le corps. | Dingen die je draagt, zoals hemden en broeken.
+body | The whole physical structure of a person. | Ensemble physique d'une personne. | De hele fysieke gestalte van een mens.
+head | The top part of the body with the face and brain. | Partie supérieure du corps avec le visage. | Bovenste deel van het lichaam met het gezicht.
+eye | The part of the body you see with. | Organe de la vue. | Orgaan waarmee je ziet.
+ear | The part of the body you hear with. | Organe de l'ouïe. | Orgaan waarmee je hoort.
+nose | The part of the face you breathe and smell with. | Partie du visage qui sert à respirer et sentir. | Deel van het gezicht om te ademen en te ruiken.
+mouth | The opening in the face used for eating and speaking. | Ouverture du visage pour manger et parler. | Opening in het gezicht om te eten en te praten.
+tooth | One of the hard white things in your mouth for biting. | Petit os blanc de la bouche qui sert à mordre. | Hard wit ding in je mond om te bijten.
+hand | The part at the end of the arm with fingers. | Extrémité du bras avec les doigts. | Uiteinde van de arm met vingers.
+arm | The body part between the shoulder and the hand. | Membre entre l'épaule et la main. | Lichaamsdeel tussen schouder en hand.
+leg | The body part you stand and walk on. | Membre qui sert à marcher. | Lichaamsdeel waarop je staat en loopt.
+foot | The part at the end of the leg that you stand on. | Extrémité de la jambe sur laquelle on se tient. | Uiteinde van het been waarop je staat.
+back | The rear part of the body from neck to hips. | Partie arrière du corps, du cou aux hanches. | Achterkant van het lichaam van nek tot heupen.
+stomach | The organ where food goes; the belly. | Organe de la digestion ; le ventre. | Orgaan waar voedsel naartoe gaat; de buik.
+heart | The organ that pumps blood. | Organe qui fait circuler le sang. | Orgaan dat het bloed rondpompt.
+sick / ill | Not healthy; having a disease. | Qui n'est pas en bonne santé. | Niet gezond; een ziekte hebbend.
+pain | The feeling you have when part of your body hurts. | Sensation désagréable quand on a mal. | Het gevoel als iets in je lichaam zeer doet.
+to hurt | To cause pain or feel pain. | Causer ou ressentir de la douleur. | Pijn veroorzaken of voelen.
+doctor | A person trained to treat sick people. | Personne qui soigne les malades. | Iemand die zieken behandelt.
+pharmacy | A shop that sells medicines. | Commerce où l'on vend des médicaments. | Winkel die geneesmiddelen verkoopt.
+medicine | A substance taken to treat illness. | Substance qui soigne une maladie. | Stof die je neemt om een ziekte te behandelen.
+fever | A body temperature higher than normal. | Température du corps trop élevée. | Lichaamstemperatuur hoger dan normaal.
+cold (illness) | A mild illness with a runny nose and cough. | Légère maladie avec nez qui coule et toux. | Lichte ziekte met loopneus en hoest.
+cough | A noisy push of air out of the lungs. | Expulsion bruyante d'air des poumons. | Luidruchtig uitstoten van lucht uit de longen.
+appointment | An arranged time to meet someone. | Moment fixé pour voir quelqu'un. | Afgesproken tijdstip om iemand te zien.
+healthy | In good physical condition; good for you. | En bonne santé ; bon pour la santé. | In goede conditie; goed voor je.
+tired | Needing rest or sleep. | Qui a besoin de repos. | Rust of slaap nodig hebbend.
+hair | The thin threads that grow on the head. | Ensemble des poils qui poussent sur la tête. | Dunne draden die op het hoofd groeien.
+face | The front of the head with eyes, nose and mouth. | Partie avant de la tête. | Voorkant van het hoofd met ogen, neus en mond.
+blood | The red liquid that flows through the body. | Liquide rouge qui circule dans le corps. | Rode vloeistof die door het lichaam stroomt.
+emergency | A sudden dangerous situation needing quick action. | Situation grave qui demande d'agir vite. | Plotse gevaarlijke situatie die snel handelen vraagt.
+weather | The condition of the air: sun, rain, wind, etc. | État de l'atmosphère : soleil, pluie, vent. | Toestand van de lucht: zon, regen, wind.
+sun | The star that gives Earth light and heat. | Astre qui donne lumière et chaleur à la Terre. | Ster die de aarde licht en warmte geeft.
+rain | Water that falls from clouds in drops. | Eau qui tombe des nuages en gouttes. | Water dat in druppels uit de wolken valt.
+to rain | When water falls from the clouds. | Quand l'eau tombe des nuages. | Als er water uit de wolken valt.
+snow | Soft white frozen water that falls from the sky. | Eau gelée en flocons blancs. | Zachte witte bevroren neerslag.
+wind | Air that moves quickly outside. | Air qui se déplace. | Lucht die buiten snel beweegt.
+cloud | A grey or white mass in the sky made of water drops. | Masse de gouttelettes dans le ciel. | Grijze of witte massa waterdruppels in de lucht.
+cloudy | With many clouds. | Couvert de nuages. | Met veel wolken.
+storm | Very bad weather with strong wind and rain. | Mauvais temps violent avec vent et pluie. | Zeer slecht weer met sterke wind en regen.
+hot | Having a high temperature. | Dont la température est élevée. | Met een hoge temperatuur.
+cold | Having a low temperature. | Dont la température est basse. | Met een lage temperatuur.
+warm | Pleasantly hot. | Agréablement chaud. | Aangenaam warm.
+temperature | How hot or cold something is. | Degré de chaleur ou de froid. | Hoe warm of koud iets is.
+degree | A unit for measuring temperature. | Unité de mesure de la température. | Eenheid om temperatuur te meten.
+spring | The season after winter. | Saison qui suit l'hiver. | Seizoen na de winter.
+summer | The warmest season of the year. | Saison la plus chaude. | Warmste seizoen van het jaar.
+autumn | The season after summer, when leaves fall. | Saison où tombent les feuilles. | Seizoen na de zomer, als de bladeren vallen.
+winter | The coldest season of the year. | Saison la plus froide. | Koudste seizoen van het jaar.
+umbrella | An object you hold over you against the rain. | Objet qui protège de la pluie. | Voorwerp dat je beschermt tegen de regen.
+coat | A warm piece of clothing worn over others. | Vêtement chaud porté par-dessus les autres. | Warm kledingstuk over andere kleren.
+fog | A thick cloud near the ground that is hard to see through. | Nuage épais près du sol qui gêne la vue. | Dikke wolk bij de grond die het zicht belemmert.
+ice | Frozen water. | Eau gelée. | Bevroren water.
+sky | The space above the earth where clouds are. | Espace au-dessus de la terre. | De ruimte boven de aarde.
+sunny | With a lot of sunshine. | Où le soleil brille. | Met veel zon.
+wet | Covered with water. | Couvert d'eau, humide. | Bedekt met water.
+dry | Without water. | Sans eau, sans humidité. | Zonder water.
+forecast | A statement about what the weather will be. | Annonce du temps qu'il fera. | Voorspelling van het weer.
+season | One of the four periods of the year. | Une des quatre périodes de l'année. | Een van de vier periodes van het jaar.
+to shine | To give out bright light. | Émettre une lumière vive. | Fel licht geven.
+outside | Not inside a building. | Hors d'un bâtiment. | Niet binnen een gebouw.
+to be | To exist or have a quality. | Exister, avoir une qualité. | Bestaan of een eigenschap hebben.
+to have | To own or possess. | Posséder. | Bezitten.
+to do | To perform an action. | Accomplir une action. | Een handeling uitvoeren.
+to make | To create or produce something. | Créer ou fabriquer. | Iets maken of voortbrengen.
+to go | To move from one place to another. | Se déplacer d'un lieu à un autre. | Van de ene plaats naar de andere bewegen.
+to come | To move towards the speaker. | Se déplacer vers celui qui parle. | Naar de spreker toe bewegen.
+to see | To notice with your eyes. | Percevoir par les yeux. | Met je ogen waarnemen.
+to look | To turn your eyes towards something. | Diriger les yeux vers quelque chose. | Je ogen ergens op richten.
+to hear | To notice sounds with your ears. | Percevoir les sons. | Geluiden waarnemen met je oren.
+to say | To speak words. | Prononcer des paroles. | Woorden uitspreken.
+to tell | To give information to someone. | Communiquer une information à quelqu'un. | Iemand iets meedelen.
+to give | To hand something to someone. | Remettre quelque chose à quelqu'un. | Iets aan iemand overhandigen.
+to take | To get hold of something and carry it. | Saisir et emporter. | Iets vastpakken en meenemen.
+to want | To wish to have or do something. | Désirer avoir ou faire. | Iets graag hebben of doen.
+can (be able to) | To have the ability to do something. | Avoir la capacité de faire. | In staat zijn iets te doen.
+must (have to) | To be obliged to do something. | Être obligé de faire. | Verplicht zijn iets te doen.
+to know (a fact) | To have information in your mind. | Avoir une information en tête. | Informatie in je hoofd hebben.
+to know (a person) | To be familiar with someone. | Avoir fait la connaissance de quelqu'un. | Iemand kennen.
+to think | To use your mind; to have an opinion. | Utiliser son esprit ; avoir une opinion. | Je verstand gebruiken; een mening hebben.
+to believe | To think that something is true. | Tenir pour vrai. | Denken dat iets waar is.
+to like | To find something pleasant. | Trouver quelque chose agréable. | Iets prettig vinden.
+to find | To discover something you were looking for. | Découvrir ce qu'on cherchait. | Iets ontdekken dat je zocht.
+to put | To place something somewhere. | Placer quelque part. | Ergens neerzetten.
+to open | To make something not closed. | Rendre accessible ce qui était fermé. | Iets niet langer gesloten maken.
+to close | To shut something. | Fermer. | Iets dichtdoen.
+to write | To put words on paper or a screen. | Tracer des mots sur papier ou à l'écran. | Woorden op papier of een scherm zetten.
+to ask | To say something to get an answer or help. | Poser une question, solliciter. | Iets zeggen om een antwoord of hulp te krijgen.
+to answer | To reply to a question. | Donner une réponse. | Op een vraag reageren.
+to help | To make it easier for someone to do something. | Apporter son soutien. | Het iemand makkelijker maken.
+to wait | To stay until something happens. | Rester jusqu'à ce que quelque chose arrive. | Blijven tot er iets gebeurt.
+to begin | To start. | Commencer. | Starten.
+to stop | To end an action or movement. | Mettre fin à une action. | Een handeling beëindigen.
+to sit | To rest on a chair or seat. | Être sur un siège. | Op een stoel rusten.
+to stand | To be upright on your feet. | Être debout sur ses pieds. | Rechtop op je voeten staan.
+to stay | To remain in a place. | Demeurer quelque part. | Op een plaats blijven.
+to bring | To come with something or someone. | Venir avec quelque chose ou quelqu'un. | Iets of iemand meebrengen.
+to show | To let someone see something. | Faire voir. | Iemand iets laten zien.
+big | Large in size. | De grande taille. | Groot van afmeting.
+small | Little in size. | De petite taille. | Klein van afmeting.
+good | Of high quality; pleasant. | De bonne qualité, agréable. | Van goede kwaliteit; aangenaam.
+bad | Of low quality; unpleasant. | De mauvaise qualité, désagréable. | Van slechte kwaliteit; onaangenaam.
+new | Recently made or bought. | Récemment fait ou acheté. | Pas gemaakt of gekocht.
+old | Having existed for a long time. | Qui existe depuis longtemps. | Al lang bestaand.
+young | Having lived a short time. | Qui a peu d'années. | Nog niet lang levend.
+long | Measuring a great distance or time. | De grande longueur ou durée. | Van grote lengte of duur.
+short | Small in length or time. | De petite longueur ou durée. | Van kleine lengte of duur.
+tall | Of great height. | De grande hauteur. | Groot in hoogte.
+beautiful | Very pleasant to look at. | Très agréable à regarder. | Heel mooi om te zien.
+ugly | Unpleasant to look at. | Désagréable à regarder. | Onaangenaam om te zien.
+easy | Not difficult. | Qui n'est pas difficile. | Niet moeilijk.
+difficult | Not easy; needing effort. | Qui demande des efforts. | Niet makkelijk; inspanning vragend.
+fast | Moving quickly. | Qui va vite. | Snel bewegend.
+slow | Not moving quickly. | Qui ne va pas vite. | Niet snel bewegend.
+right (correct) | Correct; true. | Exact, correct. | Correct, juist.
+wrong | Not correct. | Qui n'est pas correct. | Niet juist.
+full | Holding as much as possible. | Qui contient tout ce qu'il peut. | Zoveel mogelijk bevattend.
+empty | Containing nothing. | Qui ne contient rien. | Niets bevattend.
+clean | Without dirt. | Sans saleté. | Zonder vuil.
+dirty | Covered with dirt. | Couvert de saleté. | Bedekt met vuil.
+rich | Having a lot of money. | Qui a beaucoup d'argent. | Veel geld hebbend.
+poor | Having little money. | Qui a peu d'argent. | Weinig geld hebbend.
+nice | Pleasant; kind. | Agréable, gentil. | Aangenaam, vriendelijk.
+funny | Making you laugh. | Qui fait rire. | Waarmee je moet lachen.
+important | Having great value or effect. | Qui a beaucoup de valeur ou d'effet. | Van grote waarde of betekenis.
+same | Not different; identical. | Identique, pareil. | Niet verschillend, identiek.
+different | Not the same. | Qui n'est pas pareil. | Niet hetzelfde.
+true | Correct and real. | Conforme à la réalité. | Juist en werkelijk.
+man | An adult male person. | Être humain adulte de sexe masculin. | Volwassen mannelijk persoon.
+woman | An adult female person. | Être humain adulte de sexe féminin. | Volwassen vrouwelijk persoon.
+people | Men, women and children. | Les personnes en général. | Mannen, vrouwen en kinderen.
+person | A human being. | Un être humain. | Een mens.
+boy | A male child. | Enfant de sexe masculin. | Mannelijk kind.
+girl | A female child. | Enfant de sexe féminin. | Vrouwelijk kind.
+thing | An object, idea or matter. | Objet, idée ou affaire. | Voorwerp, idee of zaak.
+place | A particular area or position. | Endroit précis. | Bepaalde plek of positie.
+world | The earth and all the people on it. | La Terre et ses habitants. | De aarde en alle mensen erop.
+country | A nation with its own land and government. | Nation avec son territoire et son gouvernement. | Natie met eigen grondgebied en regering.
+life | The time a person is alive. | Temps pendant lequel on vit. | De tijd dat iemand leeft.
+time | What is measured in minutes, hours, days. | Ce qui se mesure en minutes, heures, jours. | Wat gemeten wordt in minuten, uren, dagen.
+way | A road or path; a method. | Chemin ; manière de faire. | Weg; manier om iets te doen.
+word | A unit of language with a meaning. | Unité de la langue qui a un sens. | Taaleenheid met een betekenis.
+idea | A thought or plan. | Pensée, projet. | Gedachte of plan.
+problem | A difficult situation to solve. | Situation difficile à résoudre. | Moeilijke situatie om op te lossen.
+phone | A device used to talk to people far away. | Appareil pour parler à distance. | Toestel om op afstand te praten.
+picture | A painting, drawing or photo. | Peinture, dessin ou photo. | Schilderij, tekening of foto.
+colour | Red, blue, green, etc. | Rouge, bleu, vert, etc. | Rood, blauw, groen, enzovoort.
+gift / present | Something you give to someone. | Objet qu'on offre. | Iets wat je aan iemand geeft.
+song | A short piece of music with words. | Morceau de musique avec des paroles. | Kort muziekstuk met tekst.
+glass | A container for drinks, made of glass. | Récipient pour boire. | Drinkbeker van glas.
+plate | A flat dish you eat from. | Récipient plat où l'on mange. | Plat vaatwerk waarvan je eet.
+knife | A tool with a blade for cutting. | Instrument à lame pour couper. | Werktuig met een lemmet om te snijden.
+fork | A tool with points for eating. | Ustensile à dents pour manger. | Eetgerei met tanden.
+spoon | A tool with a small bowl for eating liquids. | Ustensile creux pour manger les liquides. | Eetgerei met een kommetje voor vloeibaar eten.
+cup | A small container with a handle for hot drinks. | Petit récipient à anse pour les boissons chaudes. | Klein drinkgerei met oor voor warme dranken.
+box | A container with straight sides. | Contenant à côtés droits. | Houder met rechte zijkanten.
+paper | Thin material for writing or printing on. | Matière mince pour écrire ou imprimer. | Dun materiaal om op te schrijven.
+letter (alphabet) | A sign that represents a sound in writing. | Signe de l'alphabet. | Teken van het alfabet.
+city centre | The main central part of a city. | Partie centrale d'une ville. | Centrale deel van een stad.
+school bag | A bag for carrying school books. | Sac pour porter les livres d'école. | Tas om schoolboeken te dragen.
+here | In or at this place. | À cet endroit-ci. | Op deze plaats.
+there | In or at that place. | À cet endroit-là. | Op die plaats.
+very | To a high degree. | À un haut degré. | In hoge mate.
+too (excess) | More than needed or wanted. | Plus que nécessaire. | Meer dan nodig.
+also / too | In addition. | En plus, également. | Daarenboven, eveneens.
+again | One more time. | Une fois de plus. | Nog een keer.
+already | Before now or sooner than expected. | Avant maintenant, plus tôt que prévu. | Voor nu, vroeger dan verwacht.
+still | Continuing until now. | Jusqu'à présent, toujours. | Tot nu toe voortdurend.
+soon | In a short time. | Dans peu de temps. | Binnen korte tijd.
+later | At a time after now. | Plus tard que maintenant. | Op een later tijdstip.
+then | After that; at that time. | Ensuite ; à ce moment-là. | Daarna; op dat moment.
+with | Together with someone or something. | En compagnie de, au moyen de. | Samen met iemand of iets.
+without | Not having or not with. | En l'absence de. | Niet hebbend, niet met.
+for | Intended for someone or a purpose. | Destiné à quelqu'un, dans un but. | Bestemd voor iemand of een doel.
+in | Inside something. | À l'intérieur de. | Binnen iets.
+on | Touching the top surface of something. | À la surface de. | Bovenop iets.
+under | Below something. | Plus bas que, au-dessous de. | Lager dan iets.
+between | In the space separating two things. | Dans l'espace qui sépare deux choses. | In de ruimte tussen twee dingen.
+before | Earlier than. | Plus tôt que. | Vroeger dan.
+after | Later than. | Plus tard que. | Later dan.
+and | Used to join words or ideas. | Mot qui relie des mots ou des idées. | Woord dat woorden of ideeën verbindt.
+or | Used to show a choice. | Mot qui marque un choix. | Woord dat een keuze aangeeft.
+but | Used to show a contrast. | Mot qui marque une opposition. | Woord dat een tegenstelling aangeeft.
+because | For the reason that. | Pour la raison que. | Om de reden dat.
+if | On the condition that. | À condition que. | Op voorwaarde dat.
+so (therefore) | For this reason. | Pour cette raison. | Om die reden.
+all | The whole of; every one. | La totalité, chacun. | Het geheel; ieder.
+some | A certain amount or number of. | Une certaine quantité de. | Een bepaalde hoeveelheid.
+nothing | Not anything. | Aucune chose. | Geen enkel ding.
+everything | All things. | Toutes les choses. | Alle dingen.
+sandwich | Two slices of bread with food between them. | Deux tranches de pain garnies. | Twee sneden brood met beleg.
+soup | A liquid food made by boiling vegetables or meat. | Aliment liquide de légumes ou viande bouillis. | Vloeibaar voedsel van gekookte groenten of vlees.
+cake | A sweet baked food made from flour, eggs and sugar. | Pâtisserie sucrée cuite au four. | Zoet gebak van meel, eieren en suiker.
+chocolate | A sweet brown food made from cocoa. | Aliment sucré à base de cacao. | Zoete bruine lekkernij van cacao.
+orange | A round juicy orange fruit. | Fruit rond et juteux de couleur orange. | Rond sappig oranje fruit.
+banana | A long curved yellow fruit. | Fruit long, courbé et jaune. | Lange gebogen gele vrucht.
+tomato | A soft red fruit eaten as a vegetable. | Fruit rouge et tendre mangé comme légume. | Zachte rode vrucht die als groente wordt gegeten.
+onion | A round vegetable with a strong smell. | Légume rond au goût fort. | Ronde groente met een sterke geur.
+carrot | A long orange root vegetable. | Légume racine long et orange. | Lange oranje wortelgroente.
+salad | A mix of raw vegetables. | Mélange de légumes crus. | Mengeling van rauwe groenten.
+pepper | A spice with a hot taste. | Épice au goût piquant. | Specerij met een scherpe smaak.
+oil | A thick liquid used for cooking. | Liquide gras utilisé en cuisine. | Vette vloeistof om mee te koken.
+restaurant | A place where you buy and eat meals. | Établissement où l'on mange des repas. | Plaats waar je maaltijden koopt en eet.
+menu | A list of food in a restaurant. | Liste des plats proposés. | Lijst van gerechten in een restaurant.
+waiter | A person who serves food in a restaurant. | Personne qui sert au restaurant. | Iemand die in een restaurant bedient.
+bill (restaurant) | The paper showing how much you must pay. | Note indiquant la somme à payer. | Papier met het bedrag dat je moet betalen.
+tip | Extra money given to a waiter for good service. | Argent laissé en plus pour le service. | Extra geld voor goede bediening.
+bed sheet | A large piece of cloth on a bed. | Grande pièce de tissu sur un lit. | Groot stuk stof op een bed.
+pillow | A soft cushion for your head in bed. | Coussin pour la tête au lit. | Zacht kussen voor je hoofd in bed.
+towel | A cloth for drying your body. | Linge pour s'essuyer. | Doek om je af te drogen.
+soap | A substance used with water to wash. | Produit utilisé avec de l'eau pour se laver. | Middel dat je met water gebruikt om te wassen.
+mirror | Glass that reflects images. | Surface qui reflète les images. | Glas dat beelden weerspiegelt.
+clock | A device that shows the time, on a wall or table. | Appareil qui indique l'heure. | Toestel dat de tijd aangeeft.
+watch | A small clock worn on the wrist. | Petite horloge portée au poignet. | Klein uurwerk aan de pols.
+glasses | Two lenses in a frame to help you see. | Verres dans une monture pour mieux voir. | Twee glazen in een montuur om beter te zien.
+television | A device that shows programmes with images and sound. | Appareil qui diffuse des émissions. | Toestel dat programma's met beeld en geluid toont.
+radio | A device for listening to broadcasts. | Appareil pour écouter des émissions. | Toestel om naar uitzendingen te luisteren.

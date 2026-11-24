@@ -79,7 +79,7 @@ svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-l
 .todo .on{color:var(--ok)}.todo .off{color:var(--text-2)}
 /* nav */
 nav{position:fixed;bottom:0;left:0;right:0;height:var(--nav-h);background:var(--surface);border-top:1px solid var(--border);display:flex;justify-content:space-around;align-items:center;padding:0 var(--s1);z-index:5}
-nav button{flex-direction:column;gap:0;border:none;background:none;font-size:var(--fs-cap);color:var(--text-2);min-height:var(--s7);box-shadow:none;border-radius:var(--r-lg);padding:var(--s05) var(--s2)}
+nav button{flex:1 1 0;min-width:0;padding:var(--s05) 0!important;flex-direction:column;gap:0;border:none;background:none;font-size:var(--fs-cap);color:var(--text-2);min-height:var(--s7);box-shadow:none;border-radius:var(--r-lg);padding:var(--s05) var(--s2)}
 nav button[aria-current=page]{color:var(--accent);background:var(--accent-soft);font-weight:700}
 nav button:active{transform:scale(.95)}
 .hidden{display:none!important}
@@ -410,8 +410,9 @@ let DICT=[];
 const LVL_ORDER=["A1","A2","B1","B2","C1","C2"];
 async function loadDict(){
   try{const r=await fetch("content/dictionary.json");if(!r.ok)return;
-    DICT=(await r.json()).map(([en,fr,nl,xe,xf,xn,lv],i)=>({_d:i,lv,
-      en:{w:en,d:`${fr} · ${nl}`,x:xe},fr:{w:fr,d:`${en} · ${nl}`,x:xf},nl:{w:nl,d:`${fr} · ${en}`,x:xn}}));
+    /* d = real definition in that language (when written), tr = translations shown separately */
+    DICT=(await r.json()).map(([en,fr,nl,xe,xf,xn,lv,de,df,dn],i)=>({_d:i,lv,def:!!(de&&df&&dn),
+      en:{w:en,d:de||"",tr:`FR ${fr} · NL ${nl}`,x:xe},fr:{w:fr,d:df||"",tr:`EN ${en} · NL ${nl}`,x:xf},nl:{w:nl,d:dn||"",tr:`FR ${fr} · EN ${en}`,x:xn}}));
   }catch(e){}
 }
 const wordKey=c=>c&&c._d!=null?"d"+c._d:ALLW().indexOf(c);
@@ -420,7 +421,7 @@ const wordByKey=k=>typeof k==="string"&&k[0]==="d"?DICT[+k.slice(1)]:ALLW()[k];
 function concept(d){
   const k=dayKey(d);if(S.dayW[k]!=null&&ALLW()[S.dayW[k]])return ALLW()[S.dayW[k]];
   const n=dayIdx(d);
-  if(DICT.length){const i=((n*7919)%DICT.length+DICT.length)%DICT.length;return DICT[i]}
+  const P=DICT.filter(c=>c.def);if(P.length){const i=((n*7919)%P.length+P.length)%P.length;return P[i]}
   return WORDS[(n%WORDS.length+WORDS.length)%WORDS.length];
 }
 /* rotating mix so vocabulary grows on every level */
@@ -459,7 +460,7 @@ function renderToday(){
    ${o.s?`<p><span class="tag">${esc(o.s)}</span>${o.p?` <span class="cap">${esc(o.p)}</span>`:""}</p>`:""}
    <div class="row"><button class="chip" id="wRep">${t("repeat")}</button><button class="chip" id="wRate" aria-pressed="${S.rate<.8}">${S.rate<.8?t("slow"):t("normal")}</button><span class="cap muted">${t("teachHint")}</span></div>
    ${missingVoice(curLang)?`<div class="fix stack" style="gap:var(--s1)"><span>${t("noVoice").replaceAll("%",PACKS[curLang].name)}</span>${tts&&tts.native?`<button class="chip" id="wInst" style="align-self:flex-start">${t("instVoice")}</button>`:""}</div>`:""}
-   <p class="def">${esc(o.d)}</p><p class="ex" id="kx">${kspans(o.x)}</p>
+   ${o.d?`<p class="def">${esc(o.d)}</p>`:""}${o.tr?`<p class="cap" style="opacity:.85">${esc(o.tr)}</p>`:""}<p class="ex" id="kx">${kspans(o.x)}</p>
    <div class="stack trans" style="gap:var(--s1)">${S.active.filter(l=>l!==curLang).map(l=>`<span class="cap muted"><span style="display:inline-block;width:8px;height:8px;border-radius:var(--r-pill);background:${PACKS[l].color}"></span> ${esc(c[l].x)}</span>`).join("")}</div>
    <a class="btn ghost" style="align-self:flex-start;padding-left:0" href="https://www.google.com/search?q=${encodeURIComponent(o.w+" "+(curLang==="fr"?"définition":curLang==="nl"?"betekenis":"meaning"))}" target="_blank" rel="noopener">${I.search}${t("google")}</a>
    <div class="row between"><button class="icon" id="wRnd" aria-label="Random">${I.dice}</button>
@@ -594,7 +595,7 @@ function reviewCards(){
   if(!S.seen.length){B.innerHTML=`<p class="muted">${t("noReview")}</p>`;return}
   const c=(wordByKey(S.seen[Math.floor(Math.random()*S.seen.length)])||WORDS[0])[curLang];
   B.innerHTML=`<article class="card stack"><p class="big-q">${esc(displayWord(c,curLang))}</p>
-   <button id="rv">${t("reveal")}</button><div id="rvA" class="hidden stack"><p class="def">${esc(c.d)}</p><p class="ex">${esc(c.x)}</p></div>
+   <button id="rv">${t("reveal")}</button><div id="rvA" class="hidden stack">${c.d?`<p class="def">${esc(c.d)}</p>`:""}${c.tr?`<p class="cap muted">${esc(c.tr)}</p>`:""}<p class="ex">${esc(c.x)}</p></div>
    <div class="row between"><button class="icon" id="rvS" aria-label="Pronounce">${I.sound}</button><button class="primary" id="rvN">${t("next")}</button></div></article>`;
   $("rv").onclick=()=>{$("rvA").classList.remove("hidden");$("rv").classList.add("hidden")};
   $("rvS").onclick=()=>say(c.w,curLang);$("rvN").onclick=reviewCards;
@@ -809,13 +810,13 @@ function renderDico(){
   const draw=()=>{
     const q=dicoQ.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
     const norm=w=>w.toLowerCase().replace(/^(to |le |la |les |l'|de |het |s'|se )/,"").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
-    const rows=list.filter(x=>x.c[curLang]&&(!q||norm(x.c[curLang].w).includes(q)||norm(x.c[curLang].d||"").includes(q)))
+    const rows=list.filter(x=>x.c[curLang]&&(!q||norm(x.c[curLang].w).includes(q)||norm((x.c[curLang].d||"")+" "+(x.c[curLang].tr||"")).includes(q)))
       .sort((a,b)=>norm(a.c[curLang].w).localeCompare(norm(b.c[curLang].w)));
     $("dn").textContent=`${rows.length} ${t("wordsN")}`;
     let last="",html="";
     rows.slice(0,400).forEach(x=>{const w=x.c[curLang],L=norm(w.w)[0]||"#";
       if(L!==last){last=L;html+=`<h3 style="padding:var(--s2) 0 var(--s1)">${esc(L.toUpperCase())}</h3>`}
-      html+=`<button class="opt dw" data-k="${x.k}" style="border:none;box-shadow:none;border-bottom:1px solid var(--border);border-radius:0;justify-content:space-between"><span><b>${esc(displayWord(w,curLang))}</b><br><span class="cap muted">${esc((w.d||"").slice(0,70))}</span></span><span class="row">${x.c.lv?`<span class="tag">${x.c.lv}</span>`:""}${S.favs.includes(x.k)?I.heartOn:""}</span></button>`});
+      html+=`<button class="opt dw" data-k="${x.k}" style="border:none;box-shadow:none;border-bottom:1px solid var(--border);border-radius:0;justify-content:space-between"><span><b>${esc(displayWord(w,curLang))}</b><br><span class="cap muted">${esc((w.d||w.tr||"").slice(0,70))}</span></span><span class="row">${x.c.lv?`<span class="tag">${x.c.lv}</span>`:""}${S.favs.includes(x.k)?I.heartOn:""}</span></button>`});
     if(rows.length>400)html+=`<p class="cap muted" style="padding:var(--s2) 0">${t("refine")}</p>`;
     $("dl").innerHTML=html||`<p class="muted">${t("none")}</p>`;
     $("dl").querySelectorAll(".dw").forEach(b=>b.onclick=()=>openWord(wordByKey(isNaN(b.dataset.k)?b.dataset.k:+b.dataset.k)));
