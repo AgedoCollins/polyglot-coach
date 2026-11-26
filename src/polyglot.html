@@ -416,11 +416,14 @@ async function loadDict(){
       en:{w:en,d:de||"",tr:`FR ${fr} · NL ${nl}`,x:xe},fr:{w:fr,d:df||"",tr:`EN ${en} · NL ${nl}`,x:xf},nl:{w:nl,d:dn||"",tr:`FR ${fr} · EN ${en}`,x:xn}}));
   }catch(e){}
 }
-const wordKey=c=>c&&c._d!=null?"d"+c._d:ALLW().indexOf(c);
-const wordByKey=k=>typeof k==="string"&&k[0]==="d"?DICT[+k.slice(1)]:ALLW()[k];
+const wordKey=c=>{if(!c)return -1;if(c._d!=null)return "d"+c._d;const x=S.extra.indexOf(c);return x>=0?"x"+x:WORDS.indexOf(c)};
+const wordByKey=k=>typeof k==="string"?(k[0]==="d"?DICT[+k.slice(1)]:k[0]==="x"?S.extra[+k.slice(1)]:undefined):WORDS[k];
+/* one-time migration: old saves stored AI words as WORDS.length+n */
+if(!S.kv2){const W0=S.wl||WORDS.length,fix=k=>typeof k==="number"&&k>=W0?"x"+(k-W0):k;
+  S.seen=S.seen.map(fix);S.favs=S.favs.map(fix);Object.keys(S.dayW).forEach(d=>S.dayW[d]=fix(S.dayW[d]));S.kv2=1;save()}
 /* day → word: AI word if one was made for that day, else a built-in word spread over the whole dictionary (mixed levels) */
 function concept(d){
-  const k=dayKey(d);if(S.dayW[k]!=null&&ALLW()[S.dayW[k]])return ALLW()[S.dayW[k]];
+  const k=dayKey(d);if(S.dayW[k]!=null&&wordByKey(S.dayW[k]))return wordByKey(S.dayW[k]);
   const n=dayIdx(d);S.dayD=S.dayD||{};
   if(S.dayD[k]!=null&&DICT[S.dayD[k]])return DICT[S.dayD[k]];
   const P=DICT.filter(c=>c.def);if(P.length){const i=((n*7919)%P.length+P.length)%P.length;if(k<=todayKey()){S.dayD[k]=P[i]._d;save()}return P[i]}
@@ -437,7 +440,7 @@ Write dictionary-style definitions in each language and ONE example sentence tra
 For each language also give "s": the word split in syllables with the stressed syllable in CAPITALS (e.g. "in-EF-fa-ble"), and "p": a short pronunciation tip in ${uiName()} for a learner.
 Return ONLY JSON: {"en":{"w":"word (verbs as 'to ...')","t":"n|v|adj|adv","d":"definition","x":"example","s":"","p":""},"fr":{"w":"","t":"","g":"m|f for nouns only","d":"","x":"","s":"","p":""},"nl":{"w":"","t":"","g":"de|het for nouns only","d":"","x":"","s":"","p":""}}`);
   if(!["en","fr","nl"].every(l=>r&&r[l]&&r[l].w&&r[l].d&&r[l].x))return false;
-  S.extra.push(r);S.dayW[k]=WORDS.length+S.extra.length-1;save();return true;
+  S.extra.push(r);S.dayW[k]="x"+(S.extra.length-1);save();return true;
 }
 async function ensureWords(){
   const d=new Date(),n=new Date();n.setDate(n.getDate()+1);
@@ -986,7 +989,8 @@ function go(v){
 document.documentElement.lang=S.ui;
 loadDict().then(()=>{go(view);checkPopup()});
 go("today");
-try{speechSynthesis.onvoiceschanged=()=>{if(view==="today")renderToday()}}catch(e){}setInterval(checkPopup,30000);
+try{speechSynthesis.onvoiceschanged=()=>{if(view==="today")renderToday()}}catch(e){}let shownDay=todayKey();
+setInterval(()=>{if(todayKey()!==shownDay){shownDay=todayKey();offset=0;randomPick=null;$("popup").classList.add("hidden");scheduleNotifs();go(view)}checkPopup()},30000);
 /* ---------- ENVIRONMENT: claude.ai artifact, Android app (Capacitor) or plain browser ---------- */
 const NATIVE=!!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform());
 if(window.claude&&claude.use){
