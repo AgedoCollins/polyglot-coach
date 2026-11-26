@@ -471,7 +471,7 @@ function renderToday(){
    <div class="row between"><button class="icon" id="wRnd" aria-label="Random">${I.dice}</button>
    <div class="row">${S.doneDay===todayKey()&&offset===0?`<span class="tag">${t("done")}</span>`:""}<button class="icon ghost" id="wFav" aria-label="Favourite">${fav?I.heartOn:I.heart}</button><button class="icon ghost" id="wCopy" aria-label="Copy">${I.copy}</button></div></div>`;
   $("wSay").onclick=()=>teach(o,curLang);
-  if($("wInst"))$("wInst").onclick=()=>{try{Capacitor.Plugins.TextToSpeech.openInstall()}catch(e){}};
+  if($("wInst"))$("wInst").onclick=()=>{try{(Capacitor.Plugins.Voice||Capacitor.Plugins.TextToSpeech).openInstall()}catch(e){}};
   $("wRep").onclick=()=>repeatMode(o,curLang);
   $("wRate").onclick=()=>{S.rate=S.rate<.8?.9:.7;save();renderToday()};
   $("wRnd").onclick=()=>{const pool=ALLW().concat(DICT);randomPick=pool[Math.floor(Math.random()*pool.length)];renderToday()};
@@ -933,13 +933,15 @@ function apiSample(){
 function nativeInit(){
   const P=Capacitor.Plugins;
   /* native text-to-speech: real fr-BE / nl-BE / en-GB voices, resolves when finished */
-  if(P.TextToSpeech){
-    tts={native:true,stop:()=>P.TextToSpeech.stop(),
-      speak:async(text,o)=>{const l=await resolveNativeLang(o.language);if(!l)throw{code:"no_voice"};return P.TextToSpeech.speak({text,lang:l,rate:o.rate||1,category:"playback"})}};
+  /* Voice = our own plugin (android/.../VoicePlugin.java): uses Google's engine for Dutch even when Samsung TTS is the default */
+  const V=P.Voice||P.TextToSpeech;
+  if(V){
+    tts={native:true,stop:()=>V.stop(),
+      speak:async(text,o)=>{const l=await resolveNativeLang(o.language);if(!l)throw{code:"no_voice"};return V.speak({text,lang:l,rate:o.rate||1,category:"playback"})}};
     S.active.forEach(resolveNativeLang);
   }
   if(P.App){
-    P.App.addListener("appStateChange",st=>{if(st.isActive){Object.keys(nativeLang).forEach(k=>{if(nativeLang[k]===null)delete nativeLang[k]});scheduleNotifs();checkPopup();if(view==="today")renderToday()}});
+    P.App.addListener("appStateChange",st=>{if(st.isActive){if(Object.values(nativeLang).includes(null)){try{P.Voice&&P.Voice.refresh()}catch(e){}Object.keys(nativeLang).forEach(k=>{if(nativeLang[k]===null)delete nativeLang[k]})}scheduleNotifs();checkPopup();if(view==="today")renderToday()}});
     P.App.addListener("backButton",()=>{
       if(!$("popup").classList.contains("hidden"))return; /* the word of the day cannot be skipped */
       if(!$("settings").classList.contains("hidden")){$("settings").classList.add("hidden");return}
@@ -952,7 +954,7 @@ function nativeInit(){
 const nativeLang={};
 async function resolveNativeLang(lang){
   if(nativeLang[lang]!==undefined)return nativeLang[lang];
-  const P=Capacitor.Plugins.TextToSpeech,alt={nl:"nl-NL",fr:"fr-FR",en:"en-US"}[lang];
+  const P=Capacitor.Plugins.Voice||Capacitor.Plugins.TextToSpeech,alt={nl:"nl-NL",fr:"fr-FR",en:"en-US"}[lang];
   for(const l of [PACKS[lang].voice,alt,lang].filter(Boolean)){try{const r=await P.isLanguageSupported({lang:l});if(r&&r.supported){nativeLang[lang]=l;return l}}catch(e){}}
   nativeLang[lang]=null;if(view==="today")renderToday();return null;
 }
